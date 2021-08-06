@@ -1,0 +1,54 @@
+{
+    "name": "Map_20031",
+    "asset_group_name": "map_20031",
+    "texture": [
+        {
+            "name": "Map_20031",
+            "asset": "Map_20031"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20031_1",
+            "tilemap": "Map_20031_1/tilemap",
+            "collision": "Map_20031_1/collision",
+            "entity_default": "Map_20031_1/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0007",
+                    "asset": "Map_20031_1/ev_e_0007"
+                },
+                {
+                    "name": "ev_e_0008",
+                    "asset": "Map_20031_1/ev_e_0008"
+                },
+                {
+                    "name": "ev_e_0012",
+                    "asset": "Map_20031_1/ev_e_0012"
+                },
+                {
+                    "name": "ev_e_0013",
+                    "asset": "Map_20031_1/ev_e_0013"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0007",
+                    "asset": "Map_20031_1/sc_e_0007"
+                },
+                {
+                    "name": "sc_e_0012",
+                    "asset": "Map_20031_1/sc_e_0012"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_20031_1/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_20031_1",
+                    "asset": "Map_20031_1/sc_map_20031_1"
+                }
+            ]
+        }
+    ]
+}

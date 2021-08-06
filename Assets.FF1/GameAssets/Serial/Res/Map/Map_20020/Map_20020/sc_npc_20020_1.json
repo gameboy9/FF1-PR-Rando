@@ -1,0 +1,2178 @@
+{
+    "SystemFlag": {
+        "SkipInitialize": 0
+    },
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 61
+        },
+        {
+            "Label": "対象を向く",
+            "EntryPoint": 61,
+            "Count": 7
+        }
+    ],
+    "ScriptLocal": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Call",
+            "operands": {
+                "iValues": [
+                    61,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_02",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    5,
+                    1,
+                    5,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐1",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    7,
+                    1,
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "ScenarioFlag1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_03",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐2",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    9,
+                    1,
+                    47,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    8,
+                    1,
+                    15,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_04",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_05",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐3",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    9,
+                    1,
+                    20,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_04",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_06",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐4",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    10,
+                    1,
+                    24,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_06",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐5",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    11,
+                    1,
+                    28,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_07",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐6",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    12,
+                    1,
+                    32,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_08",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐7",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    13,
+                    1,
+                    36,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_09",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐8",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    14,
+                    1,
+                    40,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_10",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐9",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    15,
+                    1,
+                    44,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_11",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐10",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_12",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐11",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    8,
+                    1,
+                    15,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    10,
+                    1,
+                    52,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_05",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐12",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    8,
+                    1,
+                    15,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    11,
+                    1,
+                    57,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_05",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "分岐13",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    8,
+                    1,
+                    15,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Msg",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MSG_KON_CTY_05",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "対象を向く",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetPuppet",
+            "operands": {
+                "iValues": [
+                    0,
+                    35,
+                    65,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "ExecPuppet",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Return",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "対象を向く_00",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Orient",
+            "operands": {
+                "iValues": [
+                    -1001,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        }
+    ],
+    "Animations": [],
+    "Name": "sc_e_10000",
+    "Title": {
+        "main": "エクスポートのテストの巻",
+        "sub": "オンラクのデモ"
+    }
+}

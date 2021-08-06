@@ -1,0 +1,143 @@
+{
+    "SystemFlag": {
+        "SkipInitialize": 0
+    },
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 3
+        }
+    ],
+    "ScriptLocal": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SysCall",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MapEntryRoofControl",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        }
+    ],
+    "Animations": [
+        {
+            "name": "hand_updown",
+            "frames": [
+                {
+                    "sprite_name": "RightHandUp_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.699999988079071,
+            "play_mode": 0,
+            "is_reverse": false
+        }
+    ],
+    "Name": "sc_e_10000",
+    "Title": {
+        "main": "エクスポートのテストの巻",
+        "sub": "オンラクのデモ"
+    }
+}

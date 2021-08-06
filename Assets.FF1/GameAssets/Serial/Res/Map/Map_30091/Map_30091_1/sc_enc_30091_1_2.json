@@ -1,0 +1,404 @@
+{
+    "SystemFlag": {
+        "SkipInitialize": 0,
+        "KeepPlayerPuppet": 0,
+        "KeepBadStatusVisual": 0
+    },
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 5
+        },
+        {
+            "Label": "強制エンカウント消去",
+            "EntryPoint": 5,
+            "Count": 7
+        }
+    ],
+    "ScriptLocal": [],
+    "ScriptLocalValue": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Call",
+            "operands": {
+                "iValues": [
+                    5,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Calc",
+            "operands": {
+                "iValues": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MapLocalVariable",
+                    "←",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "FadeIn",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    255,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.7,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "強制エンカウント消去",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetPuppet",
+            "operands": {
+                "iValues": [
+                    0,
+                    40,
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "ExecPuppet",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Return",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "強制エンカウント消去_00",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Hide",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 2,
+            "comment": ""
+        }
+    ],
+    "Animations": [],
+    "Name": "sc_enc_30091_1_2",
+    "Title": {
+        "main": "汎用スクリプト",
+        "sub": "オンラクのデモ"
+    }
+}

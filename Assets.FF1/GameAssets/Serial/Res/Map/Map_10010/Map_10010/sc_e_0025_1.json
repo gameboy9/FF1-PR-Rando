@@ -1,0 +1,15 @@
+{
+  "Name" : "",
+  "Title": {
+    "main": "",
+    "sub": ""
+  },
+  "Segments": [
+	{"Label" : "Main", "EntryPoint" : 0, "Count" : 2 }
+  ],
+  "ScriptLocal" : [],
+  "Mnemonics" : [
+    {"label" : "Main",	"mnemonic" : "Nop", "type": 1 },
+    {"label" : "",		"mnemonic" : "Exit", "type": 1 }
+  ]
+}

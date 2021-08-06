@@ -1,0 +1,70 @@
+{
+    "name": "Map_20071",
+    "asset_group_name": "map_20071",
+    "texture": [
+        {
+            "name": "Map_20071",
+            "asset": "Map_20071"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20071_1",
+            "tilemap": "Map_20071_1/tilemap",
+            "collision": "Map_20071_1/collision",
+            "entity_default": "Map_20071_1/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0010",
+                    "asset": "Map_20071_1/ev_e_0010"
+                },
+                {
+                    "name": "ev_e_0013",
+                    "asset": "Map_20071_1/ev_e_0013"
+                },
+                {
+                    "name": "ev_e_0014",
+                    "asset": "Map_20071_1/ev_e_0014"
+                },
+                {
+                    "name": "ev_e_0015",
+                    "asset": "Map_20071_1/ev_e_0015"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0013",
+                    "asset": "Map_20071_1/sc_e_0013"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_20071_1/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_20071_1",
+                    "asset": "Map_20071_1/sc_map_20071_1"
+                },
+                {
+                    "name": "sc_npc_20070_1",
+                    "asset": "Map_20071_1/sc_npc_20070_1"
+                },
+                {
+                    "name": "sc_npc_20070_2",
+                    "asset": "Map_20071_1/sc_npc_20070_2"
+                },
+                {
+                    "name": "sc_npc_20070_3",
+                    "asset": "Map_20071_1/sc_npc_20070_3"
+                },
+                {
+                    "name": "sc_npc_20070_4",
+                    "asset": "Map_20071_1/sc_npc_20070_4"
+                },
+                {
+                    "name": "sc_npc_20070_6",
+                    "asset": "Map_20071_1/sc_npc_20070_6"
+                }
+            ]
+        }
+    ]
+}

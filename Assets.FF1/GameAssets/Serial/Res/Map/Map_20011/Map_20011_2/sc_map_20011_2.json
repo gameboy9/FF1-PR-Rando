@@ -1,0 +1,522 @@
+{
+    "SystemFlag": {
+        "SkipInitialize": 0
+    },
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 16
+        }
+    ],
+    "ScriptLocal": [],
+    "ScriptLocalValue": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SysCall",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "MapEntryRoofControl",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    1,
+                    1,
+                    5,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetEntities",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ev_e_0002",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "ev_e_0003",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    3,
+                    1,
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetEntities",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ev_e_0003",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "ev_e_0004",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Branch",
+            "operands": {
+                "iValues": [
+                    5,
+                    1,
+                    13,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ScenarioFlag1",
+                    "＝",
+                    "imm",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetEntities",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ev_e_0004",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "ev_e_0005",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "SetEntities",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "ev_e_0005",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        }
+    ],
+    "Animations": [],
+    "Name": "sc_Map_20011_2",
+    "Title": {
+        "main": "汎用スクリプト",
+        "sub": "オンラクのデモ"
+    }
+}

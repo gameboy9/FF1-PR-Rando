@@ -1,0 +1,24 @@
+{
+  "id":13,
+  "layers":[
+    {
+      "draworder":"topdown",
+      "id":16,
+      "name":"UpperObject",
+      "objects":[],
+      "opacity":1,
+      "type":"objectgroup",
+      "visible":true,
+      "x":0,
+      "y":0
+    }
+  ],
+  "name":"ev_e_0038",
+  "opacity":1,
+  "type":"group",
+  "visible":true,
+  "x":0,
+  "y":0,
+  "width":61,
+  "height":67
+}

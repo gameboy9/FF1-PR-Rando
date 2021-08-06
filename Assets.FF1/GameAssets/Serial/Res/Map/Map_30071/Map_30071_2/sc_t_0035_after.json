@@ -1,0 +1,150 @@
+{
+    "SystemFlag": {
+        "SkipInitialize": 0,
+        "KeepPlayerPuppet": 0,
+        "KeepBadStatusVisual": 0,
+        "RidingVehicle": 0
+    },
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 4
+        }
+    ],
+    "ScriptLocal": [],
+    "ScriptLocalValue": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "FadeIn",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    255,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.5,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "TreasureBox",
+            "operands": {
+                "iValues": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        },
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rValues": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sValues": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "type": 1,
+            "comment": ""
+        }
+    ],
+    "Animations": [],
+    "Name": "sc_t_0035_after",
+    "Title": {
+        "main": "汎用スクリプト",
+        "sub": "宝箱の中にモンスターが居る場合（モンスターを倒したあと）"
+    }
+}

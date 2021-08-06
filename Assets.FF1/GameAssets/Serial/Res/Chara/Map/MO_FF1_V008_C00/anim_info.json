@@ -1,0 +1,285 @@
+{
+    "animation": [
+        {
+            "name": "Default",
+            "frames": [
+                {
+                    "sprite_name": "Default_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 1,
+            "is_reverse": false,
+            "next_anim_name": ""
+        },
+        {
+            "name": "WalkB",
+            "frames": [
+                {
+                    "sprite_name": "WalkB_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkB_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 1,
+            "is_reverse": false,
+            "next_anim_name": ""
+        },
+        {
+            "name": "WalkL",
+            "frames": [
+                {
+                    "sprite_name": "WalkL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 1,
+            "is_reverse": false,
+            "next_anim_name": ""
+        },
+        {
+            "name": "WalkR",
+            "frames": [
+                {
+                    "sprite_name": "WalkL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 1,
+            "is_reverse": true,
+            "next_anim_name": ""
+        },
+        {
+            "name": "IdleB",
+            "frames": [
+                {
+                    "sprite_name": "IdleB_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "IdleB_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 0,
+            "is_reverse": false,
+            "next_anim_name": ""
+        },
+        {
+            "name": "IdleL",
+            "frames": [
+                {
+                    "sprite_name": "IdleL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "IdleL_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 0,
+            "is_reverse": false,
+            "next_anim_name": ""
+        },
+        {
+            "name": "IdleR",
+            "frames": [
+                {
+                    "sprite_name": "IdleL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "IdleL_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 0,
+            "is_reverse": true,
+            "next_anim_name": ""
+        },
+        {
+            "name": "Idle",
+            "frames": [
+                {
+                    "sprite_name": "Idle_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Idle_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 0,
+            "is_reverse": false,
+            "next_anim_name": ""
+        }
+    ],
+    "shader_type": 0
+}

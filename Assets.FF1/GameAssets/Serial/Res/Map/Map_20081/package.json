@@ -1,0 +1,78 @@
+{
+    "name": "Map_20081",
+    "asset_group_name": "map_20081",
+    "texture": [
+        {
+            "name": "Map_20081",
+            "asset": "Map_20081"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20081_1",
+            "tilemap": "Map_20081_1/tilemap",
+            "collision": "Map_20081_1/collision",
+            "entity_default": "Map_20081_1/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0010",
+                    "asset": "Map_20081_1/ev_e_0010"
+                },
+                {
+                    "name": "ev_e_0011",
+                    "asset": "Map_20081_1/ev_e_0011"
+                },
+                {
+                    "name": "ev_e_0012",
+                    "asset": "Map_20081_1/ev_e_0012"
+                },
+                {
+                    "name": "ev_e_0014",
+                    "asset": "Map_20081_1/ev_e_0014"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0011",
+                    "asset": "Map_20081_1/sc_e_0011"
+                },
+                {
+                    "name": "sc_e_0011_2",
+                    "asset": "Map_20081_1/sc_e_0011_2"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_20081_1/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_20081_1",
+                    "asset": "Map_20081_1/sc_map_20081_1"
+                },
+                {
+                    "name": "sc_t_0040",
+                    "asset": "Map_20081_1/sc_t_0040"
+                },
+                {
+                    "name": "sc_t_0040_after",
+                    "asset": "Map_20081_1/sc_t_0040_after"
+                },
+                {
+                    "name": "sc_t_0041",
+                    "asset": "Map_20081_1/sc_t_0041"
+                },
+                {
+                    "name": "sc_t_0041_after",
+                    "asset": "Map_20081_1/sc_t_0041_after"
+                },
+                {
+                    "name": "sc_t_0042",
+                    "asset": "Map_20081_1/sc_t_0042"
+                },
+                {
+                    "name": "sc_t_0042_after",
+                    "asset": "Map_20081_1/sc_t_0042_after"
+                }
+            ]
+        }
+    ]
+}

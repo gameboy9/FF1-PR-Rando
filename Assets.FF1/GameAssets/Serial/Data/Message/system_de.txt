@@ -1,0 +1,1004 @@
+MSG_JOB_NAME_01	Krieger
+MSG_JOB_NAME_02	Dieb
+MSG_JOB_NAME_03	Novize
+MSG_JOB_NAME_04	Rotmagier
+MSG_JOB_NAME_05	Heiler
+MSG_JOB_NAME_06	Schwarzmagier
+MSG_JOB_NAME_07	Ritter
+MSG_JOB_NAME_08	Ninja
+MSG_JOB_NAME_09	Adept
+MSG_JOB_NAME_10	Rotmagus
+MSG_JOB_NAME_11	Priester
+MSG_JOB_NAME_12	Schwarzmagus
+MSG_JOB_INF_01	Ein erfahrener Kämpfer, der gekonnt mit Schilden und Waffen umgeht.
+MSG_JOB_INF_02	Leichtfüßig und flink verwirrt der Dieb jeden Gegner.
+MSG_JOB_INF_03	Der waffenlose Kampf ist sein Metier.
+MSG_JOB_INF_04	Der Rotmagier beherrscht die schwarze und auch die weiße Magie.
+MSG_JOB_INF_05	Mit Weißmagie unterstützt der Heiler seine Gefährten.
+MSG_JOB_INF_06	Die Zauber des Schwarzmagiers richten großen Schaden an.
+MSG_MAGIC_NAME_01	<IC_WMGC>Vita
+MSG_MAGIC_NAME_02	<IC_WMGC>Dialux
+MSG_MAGIC_NAME_03	<IC_WMGC>Protes
+MSG_MAGIC_NAME_04	<IC_WMGC>Blink
+MSG_MAGIC_NAME_05	<IC_WMGC>Licht
+MSG_MAGIC_NAME_06	<IC_WMGC>Silentium
+MSG_MAGIC_NAME_07	<IC_WMGC>Exblitz
+MSG_MAGIC_NAME_08	<IC_WMGC>Invis
+MSG_MAGIC_NAME_09	<IC_WMGC>Vitra
+MSG_MAGIC_NAME_10	<IC_WMGC>Adia
+MSG_MAGIC_NAME_11	<IC_WMGC>Exfeu
+MSG_MAGIC_NAME_12	<IC_WMGC>Heilung
+MSG_MAGIC_NAME_13	<IC_WMGC>Antidot
+MSG_MAGIC_NAME_14	<IC_WMGC>Angst
+MSG_MAGIC_NAME_15	<IC_WMGC>Exeis
+MSG_MAGIC_NAME_16	<IC_WMGC>Exsilent
+MSG_MAGIC_NAME_17	<IC_WMGC>Vitra
+MSG_MAGIC_NAME_18	<IC_WMGC>Engel
+MSG_MAGIC_NAME_19	<IC_WMGC>Dadia
+MSG_MAGIC_NAME_20	<IC_WMGC>Heilra
+MSG_MAGIC_NAME_21	<IC_WMGC>Perseus
+MSG_MAGIC_NAME_22	<IC_WMGC>Beamo
+MSG_MAGIC_NAME_23	<IC_WMGC>Protega
+MSG_MAGIC_NAME_24	<IC_WMGC>Invisra
+MSG_MAGIC_NAME_25	<IC_WMGC>Vigra
+MSG_MAGIC_NAME_26	<IC_WMGC>Gadia
+MSG_MAGIC_NAME_27	<IC_WMGC>Extot
+MSG_MAGIC_NAME_28	<IC_WMGC>Heilga
+MSG_MAGIC_NAME_29	<IC_WMGC>Erzengel
+MSG_MAGIC_NAME_30	<IC_WMGC>Sanctus
+MSG_MAGIC_NAME_31	<IC_WMGC>Exall
+MSG_MAGIC_NAME_32	<IC_WMGC>Anti-Z
+MSG_MAGIC_NAME_33	<IC_BMGC>Feuer
+MSG_MAGIC_NAME_34	<IC_BMGC>Schlaf
+MSG_MAGIC_NAME_35	<IC_BMGC>Fokus
+MSG_MAGIC_NAME_36	<IC_BMGC>Blitz
+MSG_MAGIC_NAME_37	<IC_BMGC>Eis
+MSG_MAGIC_NAME_38	<IC_BMGC>Nacht
+MSG_MAGIC_NAME_39	<IC_BMGC>Mumm
+MSG_MAGIC_NAME_40	<IC_BMGC>Gemach
+MSG_MAGIC_NAME_41	<IC_BMGC>Feura
+MSG_MAGIC_NAME_42	<IC_BMGC>Fessel
+MSG_MAGIC_NAME_43	<IC_BMGC>Blitzra
+MSG_MAGIC_NAME_44	<IC_BMGC>Fokura
+MSG_MAGIC_NAME_45	<IC_BMGC>Schlafra
+MSG_MAGIC_NAME_46	<IC_BMGC>Hast
+MSG_MAGIC_NAME_47	<IC_BMGC>Irrsinn
+MSG_MAGIC_NAME_48	<IC_BMGC>Eisra
+MSG_MAGIC_NAME_49	<IC_BMGC>Feuga
+MSG_MAGIC_NAME_50	<IC_BMGC>Toxikum
+MSG_MAGIC_NAME_51	<IC_BMGC>Beam
+MSG_MAGIC_NAME_52	<IC_BMGC>Faul
+MSG_MAGIC_NAME_53	<IC_BMGC>Blitzga
+MSG_MAGIC_NAME_54	<IC_BMGC>Exitus
+MSG_MAGIC_NAME_55	<IC_BMGC>Beben
+MSG_MAGIC_NAME_56	<IC_BMGC>Starr
+MSG_MAGIC_NAME_57	<IC_BMGC>Eisga
+MSG_MAGIC_NAME_58	<IC_BMGC>Steinern
+MSG_MAGIC_NAME_59	<IC_BMGC>Stärken
+MSG_MAGIC_NAME_60	<IC_BMGC>Blind
+MSG_MAGIC_NAME_61	<IC_BMGC>Flare
+MSG_MAGIC_NAME_62	<IC_BMGC>Stopp
+MSG_MAGIC_NAME_63	<IC_BMGC>Bann
+MSG_MAGIC_NAME_64	<IC_BMGC>Blitztod
+MSG_MAG_INF_01	Heilt die LP eines Gefährten geringfügig.
+MSG_MAG_INF_02	Führt einen Flächenangriff gegen Untote aus.
+MSG_MAG_INF_03	Steigert die Abwehr eines Gefährten.
+MSG_MAG_INF_04	Steigert die eigene Ausweichfähigkeit.
+MSG_MAG_INF_05	Kuriert »Dunkel«.
+MSG_MAG_INF_06	Hindert alle Gegner daran, Magie zu benutzen.
+MSG_MAG_INF_07	Halbiert der erlittenen Blitzschaden aller Gefährten.
+MSG_MAG_INF_08	Steigert die Ausweichfähigkeit eines Gefährten.
+MSG_MAG_INF_09	Heilt die LP eines Gefährten.
+MSG_MAG_INF_10	Führt einen Flächenangriff gegen Untote aus.
+MSG_MAG_INF_11	Halbiert den erlittenen Feuerschaden aller Gefährten.
+MSG_MAG_INF_12	Heilt die LP der ganzen Gruppe.
+MSG_MAG_INF_13	Kuriert »Gift«.
+MSG_MAG_INF_14	Lehrt alle Gegner das Fürchten.
+MSG_MAG_INF_15	Halbiert den erlittenen Eisschaden aller Gefährten.
+MSG_MAG_INF_16	Kuriert »Stumm«.
+MSG_MAG_INF_17	Heilt die LP eines Gefährten.
+MSG_MAG_INF_18	Kuriert »K. o.«.
+MSG_MAG_INF_19	Führt einen Flächenangriff gegen Untote aus.
+MSG_MAG_INF_20	Heilt die LP der ganzen Gruppe.
+MSG_MAG_INF_21	Kuriert »Stein«.
+MSG_MAG_INF_22	Teleportiert auf die Oberwelt.
+MSG_MAG_INF_23	Steigert die Abwehr der Gruppe.
+MSG_MAG_INF_24	Steigert die Ausweichfähigkeit der Gruppe.
+MSG_MAG_INF_25	Heilt die LP eines Gefährten vollständig und kuriert einige Zustandsveränderungen.
+MSG_MAG_INF_26	Führt einen Flächenangriff gegen Untote aus.
+MSG_MAG_INF_27	Erschwert bei allen Gefährten sofortige Kampfunfähigkeit.
+MSG_MAG_INF_28	Heilt die LP der ganzen Gruppe vollständig.
+MSG_MAG_INF_29	Belebt einen kampfunfähigen Gefährten wieder und heilt sein LP vollständig.
+MSG_MAG_INF_30	Strahlt heiliges Licht aus, das allen Gegnern Schaden erteilt.
+MSG_MAG_INF_31	Halbiert den erlittenen magischen Schaden eines Gefährten.
+MSG_MAG_INF_32	Reduziert die Magieabwehr eines Gegners.
+MSG_MAG_INF_33	Erteilt einem Gegner Feuerschaden.
+MSG_MAG_INF_34	Schickt alle Gegner in den Schlaf.
+MSG_MAG_INF_35	Senkt die Ausweichfähigkeit eines Gegners.
+MSG_MAG_INF_36	Erteilt einem Gegner Blitzschaden.
+MSG_MAG_INF_37	Erteilt einem Gegner Eisschaden.
+MSG_MAG_INF_38	Versetzt alle Gegner in den Zustand »Dunkel«.
+MSG_MAG_INF_39	Steigert die Attacke eines Gefährten.
+MSG_MAG_INF_40	Senkt die Angriffsanzahl aller Gegner.
+MSG_MAG_INF_41	Erteilt allen Gegnern Feuerschaden.
+MSG_MAG_INF_42	Lähmt einen Gegner.
+MSG_MAG_INF_43	Erteilt allen Gegnern Blitzschaden.
+MSG_MAG_INF_44	Senkt die Ausweichfähigkeit aller Gegner.
+MSG_MAG_INF_45	Schickt einen Gegner in den Schlaf.
+MSG_MAG_INF_46	Steigert die Anzahl der Angriffe eines Gefährten.
+MSG_MAG_INF_47	Bewirkt bei allen Gegnern »Konfus«.
+MSG_MAG_INF_48	Erteilt allen Gegnern Eisschaden.
+MSG_MAG_INF_49	Erteilt allen Gegnern Feuerschaden.
+MSG_MAG_INF_50	Vernichtet alle Gegner mit Giftnebeln.
+MSG_MAG_INF_51	Teleportiert die Gruppe zurück zur vorangegangenen Ebene.
+MSG_MAG_INF_52	Senkt die Angriffsanzahl eines Gegners.
+MSG_MAG_INF_53	Erteilt allen Gegnern Blitzschaden.
+MSG_MAG_INF_54	Vernichtet instantan einen Gegner.
+MSG_MAG_INF_55	Lässt alle Gegner in eine Erdspalte fallen.
+MSG_MAG_INF_56	Lähmt einen Gegner.
+MSG_MAG_INF_57	Erteilt allen Gegnern Eisschaden.
+MSG_MAG_INF_58	Versteinert einen Gegner.
+MSG_MAG_INF_59	Steigert die eigene Attacke und Präzision.
+MSG_MAG_INF_60	Versetzt einen Gegner in den Zustand »Dunkel«.
+MSG_MAG_INF_61	Führt einen Flächenangriff aus Licht und Feuer aus.
+MSG_MAG_INF_62	Stoppt die Zeit und lähmt alle Gegner.
+MSG_MAG_INF_63	Erzeugt einen Dimensionsriss, der alle Gegner verschluckt.
+MSG_MAG_INF_64	Vernichtet instantan einen Gegner.
+MSG_ITEM_NAME_01	<IC_DRAG>Potion
+MSG_ITEM_NAME_02	<IC_BAG>Antidot
+MSG_ITEM_NAME_03	<IC_BAG>Goldnadel
+MSG_ITEM_NAME_04	<IC_TENTO>Schlafsack
+MSG_ITEM_NAME_05	<IC_TENTO>Zelt
+MSG_ITEM_NAME_06	<IC_TENTO>Hütte
+MSG_ITEM_NAME_07	<IC_DRAG>Hi-Potion
+MSG_ITEM_NAME_08	<IC_DRAG>X-Potion
+MSG_ITEM_NAME_09	<IC_DRAG>Äther
+MSG_ITEM_NAME_11	<IC_DRAG>Super-Äther
+MSG_ITEM_NAME_12	<IC_DRAG>Elixier
+MSG_ITEM_NAME_14	<IC_BAG>Phönixfeder
+MSG_ITEM_NAME_15	<IC_BAG>Allheilmittel
+MSG_ITEM_NAME_16	<IC_BAG>Augentropfen
+MSG_ITEM_NAME_17	<IC_BAG>Echokraut
+MSG_ITEM_NAME_39	<IC_BAG>Krafttrunk
+MSG_ITEM_NAME_40	<IC_BAG>Riesentropfen
+MSG_ITEM_NAME_42	<IC_BAG>Protes-Trunk
+MSG_ITEM_NAME_43	<IC_BAG>Koffeintrunk
+MSG_ITEM_INF_01	Heilt 50 LP.
+MSG_ITEM_INF_02	Kuriert »Gift«.
+MSG_ITEM_INF_03	Kuriert »Stein«.
+MSG_ITEM_INF_04	Heilt einen Teil der LP der Gruppe. Wird auf der Oberwelt benutzt.
+MSG_ITEM_INF_05	Heilt einen Teil der LP und MP der Gruppe. Wird auf der Oberwelt benutzt.
+MSG_ITEM_INF_06	Heilt alle LP und MP der Gruppe. Wird auf der Oberwelt benutzt.
+MSG_ITEM_INF_07	Heilt 150 LP.
+MSG_ITEM_INF_08	Heilt alle LP.
+MSG_ITEM_INF_09	Heilt pro Magiestufe 1 MP.
+MSG_ITEM_INF_11	Heilt pro Magiestufe 5 MP.
+MSG_ITEM_INF_12	Heilt alle LP und MP.
+MSG_ITEM_INF_14	Kuriert »K. o.«.
+MSG_ITEM_INF_15	Kuriert alle Zuständsveränderungen außer »Stein« und »K. o.«.
+MSG_ITEM_INF_16	Kuriert »Dunkel«.
+MSG_ITEM_INF_17	Kuriert »Stumm«.
+MSG_ITEM_INF_39	Steigert im Kampf vorübergehend die Attacke.
+MSG_ITEM_INF_40	Steigern im Kampf vorübergehend das LP-Maximum.
+MSG_ITEM_INF_42	Steigert im Kampf vorübergehend die Abwehr.
+MSG_ITEM_INF_43	Steigert im Kampf vorübergehend die Agilität.
+MSG_WEAPON_NAME_01	<IC_NIF>Messer
+MSG_WEAPON_NAME_02	<IC_WND>Stab
+MSG_WEAPON_NAME_03	<IC_WND>Heilerstab
+MSG_WEAPON_NAME_04	<IC_NIF>Dolch
+MSG_WEAPON_NAME_05	<IC_HMR>Hammer
+MSG_WEAPON_NAME_06	<IC_SRD>Rapier
+MSG_WEAPON_NAME_07	<IC_KTN>Krummsäbel
+MSG_WEAPON_NAME_08	<IC_NIF>Mithril-Messer
+MSG_WEAPON_NAME_09	<IC_NCK>Nunchaku
+MSG_WEAPON_NAME_10	<IC_WND>Kraftstab
+MSG_WEAPON_NAME_11	<IC_HMR>Mithril-Hammer
+MSG_WEAPON_NAME_12	<IC_WND>Magierstab
+MSG_WEAPON_NAME_13	<IC_SRD>Säbel
+MSG_WEAPON_NAME_14	<IC_WND>Priesterstab
+MSG_WEAPON_NAME_15	<IC_KTN>Falchion
+MSG_WEAPON_NAME_16	<IC_SRD>Breitschwert
+MSG_WEAPON_NAME_17	<IC_WND>Magusstab
+MSG_WEAPON_NAME_18	<IC_NCK>Eisen-Nunchaku
+MSG_WEAPON_NAME_19	<IC_AX>Kampfaxt
+MSG_WEAPON_NAME_20	<IC_SRD>Runenschwert
+MSG_WEAPON_NAME_21	<IC_SRD>Wolftöter
+MSG_WEAPON_NAME_22	<IC_HMR>Thors Hammer
+MSG_WEAPON_NAME_23	<IC_SRD>Drachentöter
+MSG_WEAPON_NAME_24	<IC_SRD>Korallschwert
+MSG_WEAPON_NAME_25	<IC_SRD>Langschwert
+MSG_WEAPON_NAME_26	<IC_SRD>Riesenschwert
+MSG_WEAPON_NAME_27	<IC_AX>Streitaxt
+MSG_WEAPON_NAME_28	<IC_SRD>Giftklinge
+MSG_WEAPON_NAME_29	<IC_CLW>Katzenkralle
+MSG_WEAPON_NAME_30	<IC_SRD>Mithril-Schwert
+MSG_WEAPON_NAME_31	<IC_SRD>Mondschwert
+MSG_WEAPON_NAME_32	<IC_AX>Mithril-Axt
+MSG_WEAPON_NAME_33	<IC_SRD>Flammenschwert
+MSG_WEAPON_NAME_34	<IC_AX>Leichtaxt
+MSG_WEAPON_NAME_35	<IC_SRD>Frostschwert
+MSG_WEAPON_NAME_36	<IC_SRD>Defendor
+MSG_WEAPON_NAME_37	<IC_SRD>Lichtklinge
+MSG_WEAPON_NAME_38	<IC_KTN>Sasuke
+MSG_WEAPON_NAME_39	<IC_SRD>Exkalibur
+MSG_WEAPON_NAME_40	<IC_KTN>Masamune
+MSG_WEAPON_INF_01	Ein kleines Messer.
+MSG_WEAPON_INF_02	Ein robuster Holzstab.
+MSG_WEAPON_INF_03	Ein Stab, der als Item im Kampf »Heilung« wirkt.
+MSG_WEAPON_INF_04	Ein scharfes Messer.
+MSG_WEAPON_INF_05	Ein Hammer für den Kampf.
+MSG_WEAPON_INF_06	Ein Schwert mit schmaler Klinge.
+MSG_WEAPON_INF_07	Ein Schwert mit gekrümmter Schneide.
+MSG_WEAPON_INF_08	Ein Messer aus Mithril.
+MSG_WEAPON_INF_09	Ein Kriegsflegel aus Holz.
+MSG_WEAPON_INF_10	Ein Stab mit hoher Durchschlagskraft.
+MSG_WEAPON_INF_11	Ein Hammer aus Mithril.
+MSG_WEAPON_INF_12	Ein Stab, der als Item im Kampf »Feura« wirkt.
+MSG_WEAPON_INF_13	Eine Klingenwaffe mit langer Schneide zum Stoßen.
+MSG_WEAPON_INF_14	Ein Stab mit heiligen Ringen.
+MSG_WEAPON_INF_15	Eine Hiebwaffe mit nach unten verbreiterter Klinge.
+MSG_WEAPON_INF_16	Ein zweischneidiges Schwert.
+MSG_WEAPON_INF_17	Ein Stab, der als Item im Kampf »Konfus« wirkt.
+MSG_WEAPON_INF_18	Ein Kriegsflegel aus Eisen.
+MSG_WEAPON_INF_19	Eine Axt für den Kampf.
+MSG_WEAPON_INF_20	Ein Schwert, das effektiv gegen magisch Versierte ist.
+MSG_WEAPON_INF_21	Ein Schwert, das effektiv gegen Bestien ist.
+MSG_WEAPON_INF_22	Ein Hammer, der als Item im Kampf »Blitzra« wirkt.
+MSG_WEAPON_INF_23	Ein Schwert, das effektiv gegen Drachen ist.
+MSG_WEAPON_INF_24	Ein Schwert, das effektiv gegen marine Gegner ist.
+MSG_WEAPON_INF_25	Ein großes, zweischneidiges Schwert.
+MSG_WEAPON_INF_26	Ein Schwert, das effektiv gegen riesige Gegner ist.
+MSG_WEAPON_INF_27	Eine große Axt für den Kampf.
+MSG_WEAPON_INF_28	Eine Klingenwaffe, die als Item im Kampf »Toxikum« wirkt.
+MSG_WEAPON_INF_29	Ein Handaufsatz mit messerscharfen Klingen.
+MSG_WEAPON_INF_30	Ein Schwert aus Mithril.
+MSG_WEAPON_INF_31	Ein scharfes Krummschwert.
+MSG_WEAPON_INF_32	Eine Axt aus Mithril.
+MSG_WEAPON_INF_33	Ein Schwert, das von einem Flammengeist beseelt ist.
+MSG_WEAPON_INF_34	Eine Axt, die effektiv gegen Untote ist. Wirkt als Item im Kampf »Adia«.
+MSG_WEAPON_INF_35	Ein Schwert, dem die Kraft des Eises innewohnt.
+MSG_WEAPON_INF_36	Eine Klingenwaffe, die als Item im Kampf »Blink« wirkt.
+MSG_WEAPON_INF_37	Ein Schwert, das effektiv gegen untote Gegner ist.
+MSG_WEAPON_INF_38	Ein handliches Schwert für Ninjas.
+MSG_WEAPON_INF_39	Ein Schwert, das mit einem legendären Metall bearbeitet wurde. Effektiv gegen Gegnertypen aller Elemente.
+MSG_WEAPON_INF_40	Das stärkste aller Schwerter.
+MSG_ARMOR_NAME_01	<IC_CLTH>Reisekluft
+MSG_ARMOR_NAME_02	<IC_ARMOR>Lederharnisch
+MSG_ARMOR_NAME_03	<IC_RING>Bronzearmreif
+MSG_ARMOR_NAME_04	<IC_ARMOR>Kettenhemd
+MSG_ARMOR_NAME_05	<IC_RING>Silberarmreif
+MSG_ARMOR_NAME_06	<IC_ARMOR>Mithril-Panzer
+MSG_ARMOR_NAME_07	<IC_ARMOR>Eisenrüstung
+MSG_ARMOR_NAME_08	<IC_CLTH>Weiße Robe
+MSG_ARMOR_NAME_09	<IC_CLTH>Schwarze Robe
+MSG_ARMOR_NAME_10	<IC_RING>Rubinreif
+MSG_ARMOR_NAME_11	<IC_ARMOR>Ritterrüstung
+MSG_ARMOR_NAME_12	<IC_ARMOR>Flammenpanzer
+MSG_ARMOR_NAME_13	<IC_ARMOR>Frostpanzer
+MSG_ARMOR_NAME_14	<IC_RING>Diamantreif
+MSG_ARMOR_NAME_15	<IC_ARMOR>Diamantpanzer
+MSG_ARMOR_NAME_16	<IC_ARMOR>Drachenpanzer
+MSG_ARMOR_NAME_17	<IC_SHIELD>Lederschild
+MSG_ARMOR_NAME_18	<IC_SHIELD>Rundschild
+MSG_ARMOR_NAME_19	<IC_SHIELD>Eisenschild
+MSG_ARMOR_NAME_20	<IC_SHIELD>Schutzrobe
+MSG_ARMOR_NAME_21	<IC_SHIELD>Mithril-Schild
+MSG_ARMOR_NAME_22	<IC_SHIELD>Flammenschild
+MSG_ARMOR_NAME_23	<IC_SHIELD>Frostschild
+MSG_ARMOR_NAME_24	<IC_SHIELD>Diamantschild
+MSG_ARMOR_NAME_25	<IC_SHIELD>Aegis-Schild
+MSG_ARMOR_NAME_26	<IC_GLOV>Lederhandschuhe
+MSG_ARMOR_NAME_27	<IC_GLOV>Bronzehandschuhe
+MSG_ARMOR_NAME_28	<IC_GLOV>Stahlhandschuhe
+MSG_ARMOR_NAME_29	<IC_GLOV>Mithril-Handschuhe
+MSG_ARMOR_NAME_30	<IC_GLOV>Gauntlets
+MSG_ARMOR_NAME_31	<IC_GLOV>Riesenhandschuhe
+MSG_ARMOR_NAME_32	<IC_GLOV>Diamanthandschuhe
+MSG_ARMOR_NAME_33	<IC_GLOV>Protektring
+MSG_ARMOR_NAME_34	<IC_HEAD>Lederhut
+MSG_ARMOR_NAME_35	<IC_HEAD>Schleife
+MSG_ARMOR_NAME_36	<IC_HEAD>Helm
+MSG_ARMOR_NAME_37	<IC_HEAD>Kübelhelm
+MSG_ARMOR_NAME_38	<IC_HEAD>Mithril-Helm
+MSG_ARMOR_NAME_39	<IC_HEAD>Heilerhelm
+MSG_ARMOR_NAME_40	<IC_HEAD>Diamanthelm
+MSG_ARMOR_INF_01	Eine Reisekluft aus Stoff.
+MSG_ARMOR_INF_02	Ein Harnisch aus Leder.
+MSG_ARMOR_INF_03	Ein Armreif aus Bronze.
+MSG_ARMOR_INF_04	Ein Hemd aus geflochtenem Eisendraht.
+MSG_ARMOR_INF_05	Ein Armreif aus Silber.
+MSG_ARMOR_INF_06	Ein aus Mithril geschmiedeter Brustpanzer.
+MSG_ARMOR_INF_07	Eine aus Eisen geschmiedete Rüstung.
+MSG_ARMOR_INF_08	Handschuhe, die resistent gegen Feuer und sofortigen Tod machen. Wirken als Item im Kampf »Invisra«.
+MSG_ARMOR_INF_09	Eine Robe, die resistent gegen Eis und Zeitmagie macht. Wirkt als Item im Kampf »Eisra«.
+MSG_ARMOR_INF_10	Ein Armreif aus Rubin.
+MSG_ARMOR_INF_11	Eine stählerne Rüstung.
+MSG_ARMOR_INF_12	Ein Panzer, der von einem feurigen Schleier umgeben wird. Macht resistent gegen Eis.
+MSG_ARMOR_INF_13	Eine Rüstung, die von einem eisigen Schleier umgeben wird. Macht resistent gegen Feuer.
+MSG_ARMOR_INF_14	Ein mit Diamanten verzierter Armreif.
+MSG_ARMOR_INF_15	Ein aus Diamant hergestellter Panzer. Macht resistent gegen Blitze.
+MSG_ARMOR_INF_16	Ein Panzer aus Drachenschuppen. Macht resistent gegen Feuer, Eis und Blitze.
+MSG_ARMOR_INF_17	Ein Schild aus Wildleder.
+MSG_ARMOR_INF_18	Ein kleiner handlicher Schild.
+MSG_ARMOR_INF_19	Ein Schild aus Eisen.
+MSG_ARMOR_INF_20	Eine Robe zum Umhängen.
+MSG_ARMOR_INF_21	Ein aus Mithril geschmiedeter Schild.
+MSG_ARMOR_INF_22	Ein Schild, in dem feurige Energie züngelt. Macht resistent gegen Eis.
+MSG_ARMOR_INF_23	Ein Schild, dem die Kraft des Eises innewohnt. Macht resistent gegen Feuer.
+MSG_ARMOR_INF_24	Ein aus Diamant hergestellter Schild. Macht resistent gegen Blitze.
+MSG_ARMOR_INF_25	Ein Schild, der resistent gegen »Stein« und »Gift« macht.
+MSG_ARMOR_INF_26	Ein Paar Handschuhe aus Leder.
+MSG_ARMOR_INF_27	Ein Paar Handschuhe aus Bronze.
+MSG_ARMOR_INF_28	Ein Paar Handschuhe aus Stahl.
+MSG_ARMOR_INF_29	Ein Paar Handschuhe aus Mithril.
+MSG_ARMOR_INF_30	Handschuhe, die als Item im Kampf »Blitzra« wirken.
+MSG_ARMOR_INF_31	Handschuhe, die als Item im Kampf »Stärken« wirken.
+MSG_ARMOR_INF_32	Ein Paar Handschuhe aus Diamant.
+MSG_ARMOR_INF_33	Ein Ring, der resistent gegen sofortigen Tod macht.
+MSG_ARMOR_INF_34	Ein Hut aus Leder.
+MSG_ARMOR_INF_35	Eine Schleife, die resistent gegen Angriffe aller Elemente und sämtliche Zustandsveränderungen macht.
+MSG_ARMOR_INF_36	Ein kompakter Helm.
+MSG_ARMOR_INF_37	Ein Helm, der den gesamten Kopf schützt.
+MSG_ARMOR_INF_38	Ein aus Mithril geschmiedeter Helm.
+MSG_ARMOR_INF_39	Ein Helm, der als Item im Kampf »Heilung« wirkt.
+MSG_ARMOR_INF_40	Ein aus Diamant hergestellter Helm.
+MSG_KEY_NAME_01	<IC_IOBJ>Laute
+MSG_KEY_NAME_02	<IC_IOBJ>Krone
+MSG_KEY_NAME_03	<IC_IOBJ>Kristallauge
+MSG_KEY_NAME_04	<IC_IOBJ>Wecktrunk
+MSG_KEY_NAME_05	<IC_IOBJ>Zauberschlüssel
+MSG_KEY_NAME_06	<IC_IOBJ>Schwarzpulver
+MSG_KEY_NAME_07	<IC_IOBJ>Adamantite
+MSG_KEY_NAME_08	<IC_IOBJ>Rosetta-Stein
+MSG_KEY_NAME_09	<IC_IOBJ>Sternrubin
+MSG_KEY_NAME_10	<IC_IOBJ>Terra-Stab
+MSG_KEY_NAME_11	<IC_IOBJ>Levitanith
+MSG_KEY_NAME_12	<IC_IOBJ>Glocke
+MSG_KEY_NAME_13	<IC_IOBJ>Rattenschwanz
+MSG_KEY_NAME_14	<IC_IOBJ>Teleportal
+MSG_KEY_NAME_15	<IC_IOBJ>Flaschenfee
+MSG_KEY_NAME_16	<IC_IOBJ>Luftwasser
+MSG_KEY_NAME_17	<IC_IOBJ>Kanu
+MSG_KEY_INF_01	Ein Instrument, dem beim Spielen ein zarter Klang entweicht.
+MSG_KEY_INF_02	Eine Krone, die geheimnisvoll im Licht funkelt.
+MSG_KEY_INF_03	Eine mystische Kristallkugel.
+MSG_KEY_INF_04	Ein Trank, dessen magische Wirkung jeden aus dem Tiefschlaf zurückholt.
+MSG_KEY_INF_05	Ein Schlüssel, der magisch versiegelte Türen öffnet.
+MSG_KEY_INF_06	Ein Explosivstoff, der zur Sprengung von Gestein benötigt wird.
+MSG_KEY_INF_07	Ein legendäres Edelmetall, dessen Härte und Dichte unübertrefflich sind.
+MSG_KEY_INF_08	Eine antike Schrift ist in diesen Stein gemeißelt.
+MSG_KEY_INF_09	Ein gigantischer Edelstein.
+MSG_KEY_INF_10	Ein Stab, dem die Naturgeister der Erde seine Kraft verleihen.
+MSG_KEY_INF_11	Ein rätselhafter Stein, der stets Richtung Himmel schwebt.
+MSG_KEY_INF_12	Eine unter den Himmelmenschen legendäre Glocke.
+MSG_KEY_INF_13	Ein Zeichen für Mut und Tapferkeit.
+MSG_KEY_INF_14	Ein farbenfrohes Gebilde, dessen Baumaterial unbekannt ist.
+MSG_KEY_INF_15	Eine Fee, die in einer Flasche gefangen ist.
+MSG_KEY_INF_16	Ein wahrlich wundersames Wasser, aus dem unaufhörlich Luft quillt.
+MSG_KEY_INF_17	Ein Gefährt, mit dem Flüsse und Seen überquert werden können.
+MSG_MON_NAME_01	Goblin
+MSG_MON_NAME_02	Goblin-Wächter
+MSG_MON_NAME_03	Wolf
+MSG_MON_NAME_04	Isegrim
+MSG_MON_NAME_05	Werwolf
+MSG_MON_NAME_06	Schneewolf
+MSG_MON_NAME_07	Echse
+MSG_MON_NAME_08	Feuerechse
+MSG_MON_NAME_09	Basilisk
+MSG_MON_NAME_10	Hill-Gigas
+MSG_MON_NAME_11	Eis-Gigas
+MSG_MON_NAME_12	Feuer-Gigas
+MSG_MON_NAME_13	Sahagin
+MSG_MON_NAME_14	Sahagin-König
+MSG_MON_NAME_15	Sahagin-Prinz
+MSG_MON_NAME_16	Seeräuber
+MSG_MON_NAME_17	Pirat
+MSG_MON_NAME_18	Hai
+MSG_MON_NAME_19	Weißhai
+MSG_MON_NAME_20	Gaffer
+MSG_MON_NAME_21	Glotzauge
+MSG_MON_NAME_22	Skeleton
+MSG_MON_NAME_23	Blutknochen
+MSG_MON_NAME_24	Gigas-Wurm
+MSG_MON_NAME_25	Egelkriecher
+MSG_MON_NAME_26	Hyäne
+MSG_MON_NAME_27	Höllenhund
+MSG_MON_NAME_28	Oger
+MSG_MON_NAME_29	Oger-Häuptling
+MSG_MON_NAME_30	Oger-Magus
+MSG_MON_NAME_31	Kobra
+MSG_MON_NAME_32	Anakonda
+MSG_MON_NAME_33	Seeschlange
+MSG_MON_NAME_34	Skorpion
+MSG_MON_NAME_35	Seeskorpion
+MSG_MON_NAME_36	Minotaurus
+MSG_MON_NAME_37	Minotaur-Zombie
+MSG_MON_NAME_38	Troll
+MSG_MON_NAME_39	See-Troll
+MSG_MON_NAME_40	Schatten
+MSG_MON_NAME_41	Todesabt
+MSG_MON_NAME_42	Gespenst
+MSG_MON_NAME_43	Geist
+MSG_MON_NAME_44	Zombie
+MSG_MON_NAME_45	Ghul
+MSG_MON_NAME_46	Schreck
+MSG_MON_NAME_47	Alb
+MSG_MON_NAME_48	Lilawurm
+MSG_MON_NAME_49	Sandwurm
+MSG_MON_NAME_50	Lavawurm
+MSG_MON_NAME_51	Teufelsauge
+MSG_MON_NAME_52	Todesauge
+MSG_MON_NAME_53	Medusa
+MSG_MON_NAME_54	Erd-Medusa
+MSG_MON_NAME_55	Wertiger
+MSG_MON_NAME_56	Rakshasa
+MSG_MON_NAME_57	Tausendfüßler
+MSG_MON_NAME_58	Remora
+MSG_MON_NAME_59	Zwergtiger
+MSG_MON_NAME_60	Säbelzahntiger
+MSG_MON_NAME_61	Vampir
+MSG_MON_NAME_62	Nosferatu
+MSG_MON_NAME_63	Gargoyle
+MSG_MON_NAME_64	Dämon
+MSG_MON_NAME_65	Erdelementar
+MSG_MON_NAME_66	Feuerelementar
+MSG_MON_NAME_67	Weißdrache
+MSG_MON_NAME_68	Rotdrache
+MSG_MON_NAME_69	Drachenzombie
+MSG_MON_NAME_70	Grünschleim
+MSG_MON_NAME_71	Blauschleim
+MSG_MON_NAME_72	Eiterschleim
+MSG_MON_NAME_73	Dunkelpudding
+MSG_MON_NAME_74	Schwarze Witwe
+MSG_MON_NAME_75	Tarantel
+MSG_MON_NAME_76	Gorgo
+MSG_MON_NAME_77	Sphinx
+MSG_MON_NAME_78	Baretaurus
+MSG_MON_NAME_79	Wüstenbaret
+MSG_MON_NAME_80	Mumie
+MSG_MON_NAME_81	Königsmumie
+MSG_MON_NAME_82	Cockatrice
+MSG_MON_NAME_83	Pyrolisk
+MSG_MON_NAME_84	Wyvern
+MSG_MON_NAME_85	Wyrm
+MSG_MON_NAME_86	Allosaurus
+MSG_MON_NAME_87	Tyrannosaurus
+MSG_MON_NAME_88	Piranha
+MSG_MON_NAME_89	Rotpiranha
+MSG_MON_NAME_90	Krokodil
+MSG_MON_NAME_91	Alligator
+MSG_MON_NAME_92	Küsschen
+MSG_MON_NAME_93	Schmatzer
+MSG_MON_NAME_94	Hydra
+MSG_MON_NAME_95	Feuerhydra
+MSG_MON_NAME_96	Wächter
+MSG_MON_NAME_97	Söldner
+MSG_MON_NAME_98	Wasserelementar
+MSG_MON_NAME_99	Luftelementar
+MSG_MON_NAME_100	Lindwurm
+MSG_MON_NAME_101	Tatzelwurm
+MSG_MON_NAME_102	Chimära
+MSG_MON_NAME_103	Gorgimera
+MSG_MON_NAME_104	Pisco-Dämon
+MSG_MON_NAME_105	Seelenschinder
+MSG_MON_NAME_106	Garland
+MSG_MON_NAME_107	Gründrache
+MSG_MON_NAME_108	Blaudrache
+MSG_MON_NAME_109	Ton-Golem
+MSG_MON_NAME_110	Stein-Golem
+MSG_MON_NAME_111	Eisen-Golem
+MSG_MON_NAME_112	Dunkelritter
+MSG_MON_NAME_113	Todesritter
+MSG_MON_NAME_114	Astos
+MSG_MON_NAME_115	Dunkelmagier
+MSG_MON_NAME_116	Dunkelkrieger
+MSG_MON_NAME_117	Teufelsross
+MSG_MON_NAME_118	Höllenross
+MSG_MON_NAME_119	Todesmaschine
+MSG_MON_NAME_120	Lich
+MSG_MON_NAME_121	Kali
+MSG_MON_NAME_122	Aquadon
+MSG_MON_NAME_123	Tiamat
+MSG_MON_NAME_124	Chaos
+MSG_MON_ATK_01	Schneesturm
+MSG_MON_ATK_02	Feuerbrunst
+MSG_MON_ATK_03	Böser Blick
+MSG_MON_ATK_04	Böser Blick
+MSG_MON_ATK_05	Blitzlicht
+MSG_MON_ATK_07	Erdbeben
+MSG_MON_ATK_08	Böser Blick
+MSG_MON_ATK_09	Böser Blick
+MSG_MON_ATK_10	Böser Blick
+MSG_MON_ATK_15	Lapisgas
+MSG_MON_ATK_16	Geistesmarter
+MSG_MON_ATK_17	Giftgas
+MSG_MON_ATK_18	Blitzschlag
+MSG_MON_ATK_19	Todesgas
+MSG_MON_ATK_20	Schnauben
+MSG_MON_ATK_21	Nuklearangriff
+MSG_MON_ATK_22	Tinte
+MSG_MON_ATK_23	Giftnadel
+MSG_MON_ATK_24	Böser Blick
+MSG_MON_ATK_25	Flutwelle
+MSG_MON_ATK_26	Tornado
+MSG_LOCATION_STICK	(AREA_NAME) – (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	Oberwelt
+MSG_MAP_NAME_02	Elfen-Schloss
+MSG_MAP_NAME_03	Elfen-Stadt
+MSG_MAP_NAME_04	Stadt Onlak
+MSG_MAP_NAME_05	Stadt Gaia
+MSG_MAP_NAME_06	Karawane
+MSG_MAP_NAME_07	Stadt Crescent
+MSG_MAP_NAME_08	Schloss Cornelia
+MSG_MAP_NAME_09	Stadt Cornelia
+MSG_MAP_NAME_10	Westschloss
+MSG_MAP_NAME_11	Stadt Pravoca
+MSG_MAP_NAME_12	Stadt Melmond
+MSG_MAP_NAME_13	Stadt Lufenia
+MSG_MAP_NAME_14	Terra-Höhle
+MSG_MAP_NAME_15	Chaos-Tempel
+MSG_MAP_NAME_16	Höhle des Riesen
+MSG_MAP_NAME_17	Vulkan Gurug
+MSG_MAP_NAME_18	Höhle des Weisen
+MSG_MAP_NAME_19	Eishöhle
+MSG_MAP_NAME_20	Palais der Probe
+MSG_MAP_NAME_21	Wasserfallhöhle
+MSG_MAP_NAME_22	Drachenhöhle
+MSG_MAP_NAME_23	Zwergenhöhle
+MSG_MAP_NAME_24	Sumpfgrotte
+MSG_MAP_NAME_25	Matoyas Höhle
+MSG_MAP_NAME_26	Turm Mirage
+MSG_MAP_NAME_27	Meerestempel
+MSG_MAP_NAME_28	Luftschloss
+MSGARA_NAME_01	1. UG
+MSGARA_NAME_02	2. UG
+MSGARA_NAME_03	3. UG
+MSGARA_NAME_04	4. UG
+MSGARA_NAME_05	5. UG
+MSGARA_NAME_06	EG
+MSGARA_NAME_07	1. Stock
+MSGARA_NAME_08	2. Stock
+MSGARA_NAME_09	3. Stock
+MSGARA_NAME_10	4. Stock
+MSGARA_NAME_11	Herberge
+MSGARA_NAME_12	Waffenhändler
+MSGARA_NAME_13	Rüstungshändler
+MSGARA_NAME_14	Krämer
+MSGARA_NAME_15	Weißmagiehändler
+MSGARA_NAME_16	Schwarzmagiehändler
+MSG_NAME_LIST_01	Aeneas
+MSG_NAME_LIST_02	Andi
+MSG_NAME_LIST_03	Eidan
+MSG_NAME_LIST_04	Erial
+MSG_NAME_LIST_05	Glantz
+MSG_NAME_LIST_06	Clair
+MSG_NAME_LIST_07	Kaili
+MSG_NAME_LIST_08	Corrad
+MSG_NAME_LIST_09	Seren
+MSG_NAME_LIST_10	Franc
+MSG_NAME_LIST_11	Morrgan
+MSG_NAME_LIST_12	Yubert
+MSG_NAME_LIST_13	Laily
+MSG_NAME_LIST_14	Ryco
+MSG_NAME_LIST_15	Rukus
+MSG_NAME_LIST_16	Luuk
+MSG_NAME_LIST_17	Rae
+MSG_NAME_LIST_18	Rion
+MSG_NAME_LIST_19	Robin
+MSG_NAME_LIST_20	Lorenz
+MSG_SYSTEM_001	Schließen
+MSG_SYSTEM_002	Zurück
+MSG_SYSTEM_003	Ja
+MSG_SYSTEM_004	Nein
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	×
+MSG_SYSTEM_017	Keine Wirkung.
+MSG_SYSTEM_018	Geflohen.
+MSG_SYSTEM_019	Fliehen nicht möglich!
+MSG_SYSTEM_020	Im Angriffsvorteil!
+MSG_SYSTEM_021	Ein Hinterhalt!!
+MSG_SYSTEM_022	Eine Reise geht zu Ende ...
+MSG_SYSTEM_023	Gil
+MSG_SYSTEM_024	EP
+MSG_SYSTEM_025	Items
+MSG_SYSTEM_026	Weiter
+MSG_SYSTEM_027	Schließen
+MSG_SYSTEM_028	Aufgestiegen
+MSG_SYSTEM_029	Angriff
+MSG_SYSTEM_030	Verteidigen
+MSG_SYSTEM_031	Ausrüstung
+MSG_SYSTEM_032	Fliehen
+MSG_SYSTEM_033	Stein
+MSG_SYSTEM_034	Gift
+MSG_SYSTEM_035	Dunkel
+MSG_SYSTEM_036	Lähmung
+MSG_SYSTEM_037	Schlaf
+MSG_SYSTEM_038	Stumm
+MSG_SYSTEM_039	K. o.
+MSG_SYSTEM_040	VERFEHLT
+MSG_SYSTEM_041	TREFFER
+MSG_SYSTEM_288	TREFFER
+MSG_SYSTEM_042	Items
+MSG_SYSTEM_043	Magie
+MSG_SYSTEM_044	Ausrüstung
+MSG_SYSTEM_045	Status
+MSG_SYSTEM_046	Formation
+MSG_SYSTEM_047	Einstellungen
+MSG_SYSTEM_048	Schnellspeichern
+MSG_SYSTEM_049	Speichern
+MSG_SYSTEM_050	Gil
+MSG_SYSTEM_051	Zeit
+MSG_SYSTEM_052	ST
+MSG_SYSTEM_053	LP
+MSG_SYSTEM_283	MP
+MSG_SYSTEM_054	Wertvolles
+MSG_SYSTEM_055	Sortieren
+MSG_SYSTEM_056	Benutzen
+MSG_SYSTEM_057	(STATUS_NAME): +(VALUE_NUM)
+MSG_SYSTEM_058	(STATUS_NAME): -(VALUE_NUM)
+MSG_SYSTEM_059	(HALF_SPACE)
+MSG_SYSTEM_060	Keine Items vorhanden.
+MSG_SYSTEM_061	Nichts Wertvolles vorhanden.
+MSG_SYSTEM_293	Keine Items zum Einsatz im Kampf vorhanden.
+MSG_SYSTEM_279	Kann von keinem Charakter angelegt werden.
+MSG_SYSTEM_063	Vergessen
+MSG_SYSTEM_064	Den gewählten Zauber vergessen?
+MSG_SYSTEM_065	Keine Zauber gelernt.
+MSG_SYSTEM_066	Optimieren
+MSG_SYSTEM_067	Ablegen
+MSG_SYSTEM_068	Alles ablegen
+MSG_SYSTEM_069	Unbewaffnet
+MSG_SYSTEM_070	---
+MSG_SYSTEM_071	Waffe
+MSG_SYSTEM_072	Schild
+MSG_SYSTEM_073	Kopf
+MSG_SYSTEM_074	Brust
+MSG_SYSTEM_075	Arme
+MSG_SYSTEM_077	EP
+MSG_SYSTEM_078	Bis Stufenaufstieg
+MSG_SYSTEM_079	Stärke
+MSG_SYSTEM_080	Agilität
+MSG_SYSTEM_081	Intelligenz
+MSG_SYSTEM_082	Konstitution
+MSG_SYSTEM_083	Glück
+MSG_SYSTEM_084	Attacke
+MSG_SYSTEM_085	Präzision
+MSG_SYSTEM_086	Abwehr
+MSG_SYSTEM_087	Ausweichen
+MSG_SYSTEM_088	Kommandos
+MSG_SYSTEM_089	Spielstand
+MSG_SYSTEM_091	Frei
+MSG_SYSTEM_298	dd/MM/yyyy　H:mm
+MSG_SYSTEM_093	Auf wen anwenden?
+MSG_SYSTEM_094	Alle Gefährten
+MSG_SYSTEM_095	Einen Gefährten
+MSG_SYSTEM_096	Alle Gegner
+MSG_SYSTEM_097	Einen Gegner
+MSG_SYSTEM_098	Alle
+MSG_SYSTEM_099	Steuerung
+MSG_SYSTEM_100	Kommandos
+MSG_SYSTEM_101	Ausrüstung
+MSG_SYSTEM_102	Items
+MSG_SYSTEM_103	Auswählen
+MSG_SYSTEM_104	Seite hoch/runter
+MSG_SYSTEM_105	Menü schließen
+MSG_SYSTEM_106	Abbrechen
+MSG_SYSTEM_107	Hilfstext umschalten
+MSG_SYSTEM_362	Landen
+MSG_SYSTEM_285	Vergrößern
+MSG_SYSTEM_286	Verkleinern
+MSG_SYSTEM_287	Bewegen
+MSG_SYSTEM_108	Manuell
+MSG_SYSTEM_299	Waffen
+MSG_SYSTEM_109	Rüstzeug
+MSG_SYSTEM_110	Name
+MSG_SYSTEM_111	Sortiere dein Inventar manuell.
+MSG_SYSTEM_112	Sortiere dein Inventar mit Items an oberster Stelle.
+MSG_SYSTEM_113	Sortiere dein Inventar mit Waffen an oberster Stelle.
+MSG_SYSTEM_114	Sortiere dein Inventar mit Rüstzeug an oberster Stelle.
+MSG_SYSTEM_115	Sortiere dein Inventar in alphabetischer Reihenfolge.
+MSG_SYSTEM_116	Pausieren/Weiter
+MSG_SYSTEM_118	Gegner anvisieren: Alle/Einen
+MSG_SYSTEM_119	Gefährten anvisieren: Alle/Einen
+MSG_SYSTEM_120	Listen hochblättern
+MSG_SYSTEM_121	Listen runterblättern
+MSG_SYSTEM_123	Auto-Kampf an/aus
+MSG_SYSTEM_124	Pausieren/Weiter
+MSG_SYSTEM_126	Zurück/Abbrechen
+MSG_SYSTEM_127	Von Items zu Ausrüstung wechseln
+MSG_SYSTEM_128	Von Ausrüstung zu Items wechseln
+MSG_SYSTEM_129	Auf alle Ziele umschalten
+MSG_SYSTEM_130	Auf ein Ziel umschalten
+MSG_SYSTEM_131	Standard wiederherstellen
+MSG_SYSTEM_133	Ändern
+MSG_SYSTEM_134	Hereinspaziert!
+MSG_SYSTEM_139	Wie viele?
+MSG_SYSTEM_142	Wie viele?
+MSG_SYSTEM_143	Besten Dank!
+MSG_SYSTEM_144	Was wollt Ihr lernen?
+MSG_SYSTEM_150	Schönen Dank!
+MSG_SYSTEM_155	(FG_MAGC_N) vergessen und dafür (LE_MAGC_N) lernen?
+MSG_SYSTEM_156	(MAGC_N) lernen?
+MSG_SYSTEM_157	Dieser Zauber soll es sein?
+MSG_SYSTEM_158	Waffenhändler
+MSG_SYSTEM_159	Rüstungshändler
+MSG_SYSTEM_160	Krämer
+MSG_SYSTEM_161	Weißmagiehändler
+MSG_SYSTEM_162	Schwarzmagiehändler
+MSG_SYSTEM_337	Karawane
+MSG_SYSTEM_163	Preis
+MSG_SYSTEM_164	Menge
+MSG_SYSTEM_165	Menge
+MSG_SYSTEM_166	Summe
+MSG_SYSTEM_167	ST-(MAGC_L)-Zauber
+MSG_SYSTEM_168	Nicht lernbar
+MSG_SYSTEM_169	Gelernt
+MSG_SYSTEM_171	Kaufen
+MSG_SYSTEM_172	Verkaufen
+MSG_SYSTEM_173	Verlassen
+MSG_SYSTEM_174	Inventar
+MSG_SYSTEM_175	Angelegt
+MSG_SYSTEM_176	Gewicht
+MSG_SYSTEM_177	Neues Spiel
+MSG_SYSTEM_178	Spiel laden
+MSG_SYSTEM_179	ZUM STARTEN ANTIPPEN
+MSG_SYSTEM_180	BELIEBIGE TASTE DRÜCKEN
+MSG_SYSTEM_181	© SQUARE ENIX CO., LTD. Alle Rechte vorbehalten.\nLOGO & TITELBILD: © YOSHITAKA AMANO
+MSG_SYSTEM_183	Bestimme die Namen und Berufe deiner Charaktere.
+MSG_SYSTEM_184	Bestätigen
+MSG_SYSTEM_185	O. K.
+MSG_SYSTEM_187	Jeder Charakter benötigt einen Namen.
+MSG_SYSTEM_188	Möchtest du mit dieser Gruppe auf Reisen gehen?
+MSG_SYSTEM_190	Wähle einen Beruf.
+MSG_SYSTEM_191	Bitte einen Namen eingeben.
+MSG_SYSTEM_281	(Bis zu 12 Zeichen)
+MSG_SYSTEM_192	Diesen Namen benutzen?
+MSG_SYSTEM_193	Namensvorschläge
+MSG_SYSTEM_195	(Einige Sonderzeichen und Zeichen werden eventuell nicht richtig angezeigt)
+MSG_SYSTEM_196	Zum Titelbildschirm zurückkehren, ohne die Änderungen zu speichern?
+MSG_SYSTEM_197	Beruf
+MSG_SYSTEM_198	Bestimme einen Beruf.
+MSG_SYSTEM_199	Bestimme einen Charakternamen.
+MSG_SYSTEM_200	Extras
+MSG_SYSTEM_201	Optionen
+MSG_SYSTEM_202	Monsterfibel
+MSG_SYSTEM_203	Musikbox
+MSG_SYSTEM_206	Privatsphäre
+MSG_SYSTEM_207	Lizenz
+MSG_SYSTEM_282	Galerie
+MSG_SYSTEM_208	Schatztruhen
+MSG_SYSTEM_209	Items
+MSG_SYSTEM_210	Mitteilungen
+MSG_SYSTEM_284	Antipp-Bewegungsmodus
+MSG_SYSTEM_212	Spielstand gespeichert.
+MSG_SYSTEM_213	Diesen Spielstand überschreiben?
+MSG_SYSTEM_289	Der Spielstand ist beschädigt.
+MSG_SYSTEM_290	Das Speichern ist fehlgeschlagen.
+MSG_SYSTEM_215	Automatischer Spielstand
+MSG_SYSTEM_216	Schnellspeicherstand
+MSG_SYSTEM_295	Komplettierter Spielstand
+MSG_SYSTEM_217	Den aktuellen Fortschritt speichern?
+MSG_SYSTEM_218	Schnellspeicherstand angelegt.
+MSG_SYSTEM_291	Der Schnellspeicherstand ist beschädigt.
+MSG_SYSTEM_292	Das Schnellspeichern ist fehlgeschlagen.
+MSG_SYSTEM_370	Es ist nicht genug freier Speicherplatz vorhanden, um das Spiel zu spielen. Lösche überflüssige Daten, um Speicherplatz freizugeben.
+MSG_SYSTEM_219	Diesen Spielstand laden?
+MSG_SYSTEM_220	Komplettiertes Spiel speichern?
+MSG_SYSTEM_221	(Speichert den Fortschritt bis zum letzten Endgegner)
+MSG_SYSTEM_222	Spielstand wurde gespeichert. Zurück zum Titelbildschirm?
+MSG_SYSTEM_223	Der komplettierte Spielstand wurde nicht gespeichert!\nZurück zum Titelbildschirm, ohne zu speichern?
+MSG_SYSTEM_228	Aktueller Standort
+MSG_SYSTEM_229	Schiff
+MSG_SYSTEM_230	Luftschiff
+MSG_SYSTEM_335	Vom letzten Spielstand aus fortsetzen?
+MSG_CFG_INF_01	System
+MSG_CFG_INF_02	Letzte Zeigerposition merken
+MSG_CFG_INF_03	Auto-Kampf fortsetzen
+MSG_CFG_INF_05	Sprache
+MSG_CFG_INF_06	Titelbildschirm
+MSG_CFG_INF_07	Beenden
+MSG_CFG_INF_93	Grafik
+MSG_CFG_INF_09	Bildmodus
+MSG_CFG_INF_94	Auflösung
+MSG_CFG_INF_153	Anzeige
+MSG_CFG_INF_10	Sättigung
+MSG_CFG_INF_11	Helligkeit
+MSG_CFG_INF_12	Sound
+MSG_CFG_INF_13	Gesamtlautstärke
+MSG_CFG_INF_14	Musiklautstärke
+MSG_CFG_INF_15	Effektlautstärke
+MSG_CFG_INF_95	Lege fest, ob der Zeiger sich die letzte Position merken soll.
+MSG_CFG_INF_96	Übernimm die Einstellung »Auto-Kampf« für folgende Kämpfe.
+MSG_CFG_INF_98	Lege die Farbsättigung fest.
+MSG_CFG_INF_99	Lege die Bildschirmhelligkeit fest.
+MSG_CFG_INF_100	Ändere die Gesamtlautstärke.
+MSG_CFG_INF_101	Ändere die Lautstärke der Musik.
+MSG_CFG_INF_102	Ändere die Lautstärke der Soundeffekte.
+MSG_CFG_INF_104	Konfiguriere die Tastenbelegung des Gamepads.
+MSG_CFG_INF_105	Konfiguriere die Tastenbelegung der Tastatur.
+MSG_CFG_INF_106	Kehre zum Titelbildschirm zurück. Nicht gespeicherter Fortschritt geht verloren.
+MSG_CFG_INF_107	Beende das Spiel. Nicht gespeicherter Fortschritt geht verloren.
+MSG_CFG_INF_108	Die Tastenbelegung für das Gamepad auf den Standard zurücksetzen?
+MSG_CFG_INF_109	Die Tastenbelegung für die Tastatur auf den Standard zurücksetzen?
+MSG_CFG_INF_158	Ändere die grafische Darstellung.
+MSG_CFG_INF_18	Gamepad
+MSG_CFG_INF_19	Bestätigen
+MSG_CFG_INF_21	Menü öffnen/schließen
+MSG_CFG_INF_23	Seite hoch
+MSG_CFG_INF_24	Seite runter
+MSG_CFG_INF_25	Charakterwechsel (nach links)
+MSG_CFG_INF_26	Charakterwechsel (nach rechts)
+MSG_CFG_INF_28	Tastatur
+MSG_CFG_INF_29	Nach oben bewegen
+MSG_CFG_INF_30	Nach unten bewegen
+MSG_CFG_INF_31	Nach links bewegen
+MSG_CFG_INF_32	Nach rechts bewegen
+MSG_CFG_INF_135	Tastatur
+MSG_CFG_INF_136	Maus
+MSG_CFG_INF_33	Tastenübersicht
+MSG_CFG_INF_110	Rennen (im Gehen gedrückt halten)
+MSG_CFG_INF_113	Auto-Kampf an/aus
+MSG_CFG_INF_114	Karte öffnen/schließen
+MSG_CFG_INF_115	Minikarte ein-/ausblenden
+MSG_CFG_INF_148	Kampf pausieren
+MSG_CFG_INF_34	Tastenübersicht
+MSG_CFG_INF_116	Scrollen
+MSG_CFG_INF_117	Weltmodus
+MSG_CFG_INF_118	Menü öffnen
+MSG_CFG_INF_119	Karte öffnen
+MSG_CFG_INF_120	Bewegungsart ändern
+MSG_CFG_INF_121	Reden
+MSG_CFG_INF_137	Untersuchen
+MSG_CFG_INF_123	Kampfbildschirm
+MSG_CFG_INF_35	UI-Layout im Weltmodus
+MSG_CFG_INF_37	Bewegungspad-Position
+MSG_CFG_INF_38	UI-Layout im Menü
+MSG_CFG_INF_39	Menükommando-Position
+MSG_CFG_INF_40	UI-Layout im Kampf
+MSG_CFG_INF_41	Kampfkommando-Position
+MSG_CFG_INF_154	Grafik
+MSG_CFG_INF_42	Tastenlegende
+MSG_CFG_INF_43	An
+MSG_CFG_INF_44	Aus
+MSG_CFG_INF_45	Links
+MSG_CFG_INF_46	Rechts
+MSG_CFG_INF_156	Standard
+MSG_CFG_INF_157	Analog
+MSG_CFG_INF_48	Sehr langsam
+MSG_CFG_INF_49	Langsam
+MSG_CFG_INF_50	Normal
+MSG_CFG_INF_51	Schnell
+MSG_CFG_INF_52	Sehr schnell
+MSG_CFG_INF_129	Sprache
+MSG_CFG_INF_53	日本語 (Japanisch)
+MSG_CFG_INF_54	English (Englisch)
+MSG_CFG_INF_55	Français (Französisch)
+MSG_CFG_INF_56	Italiano (Italienisch)
+MSG_CFG_INF_57	Deutsch
+MSG_CFG_INF_58	Español (Spanisch)
+MSG_CFG_INF_59	한국어 (Koreanisch)
+MSG_CFG_INF_60	繁體中文 (Traditionelles Chinesisch)
+MSG_CFG_INF_61	简体中文 (Vereinfachtes Chinesisch)
+MSG_CFG_INF_62	русский (Russisch)
+MSG_CFG_INF_63	ภาษาไทย (Thailändisch)
+MSG_CFG_INF_64	Português brasileiro (Brasilianisches Portugiesisch)
+MSG_CFG_INF_66	Vollbild
+MSG_CFG_INF_67	Fenster
+MSG_CFG_INF_68	Rahmenloses Fenster
+MSG_CFG_INF_69	Aus
+MSG_CFG_INF_70	Typ 1
+MSG_CFG_INF_71	Typ 2
+MSG_CFG_INF_72	Typ 3
+MSG_CFG_INF_76	Zur gewählten Sprache wechseln?
+MSG_CFG_INF_130	(Nach dem Wechsel wird das Spiel neu gestartet)
+MSG_CFG_INF_78	Zum ausgewählten Bildmodus wechseln?
+MSG_CFG_INF_89	Das Spiel kehrt zum Titelbildschirm zurück.
+MSG_CFG_INF_131	Nicht gespeicherte Änderungen gehen verloren.
+MSG_CFG_INF_132	Fortfahren?
+MSG_CFG_INF_155	Wähle eine Sprache.
+MSG_SYSTEM_231	Das Spiel wird beendet.
+MSG_SYSTEM_232	Das Spiel beenden? Dein Fortschritt wird automatisch gespeichert.
+MSG_SYSTEM_234	??????
+MSG_SYSTEM_235	Magieabwehr
+MSG_SYSTEM_238	Schwächen
+MSG_SYSTEM_239	Keine
+MSG_SYSTEM_240	Feuer
+MSG_SYSTEM_241	Eis
+MSG_SYSTEM_242	Blitz
+MSG_SYSTEM_243	Dialux
+MSG_SYSTEM_245	Seele
+MSG_SYSTEM_247	Boden
+MSG_SYSTEM_248	Raumzeit
+MSG_SYSTEM_301	Tod
+MSG_SYSTEM_302	Gift
+MSG_SYSTEM_336	Konfus
+MSG_SYSTEM_249	Besiegt
+MSG_SYSTEM_250	Entdeckte Monster
+MSG_SYSTEM_304	Weltansicht
+MSG_SYSTEM_305	Schnelles Scrollen
+MSG_SYSTEM_357	Scrollen
+MSG_SYSTEM_306	Umschalten
+MSG_SYSTEM_358	Karte wechseln
+MSG_SYSTEM_307	Bestätigen
+MSG_SYSTEM_308	Habitat
+MSG_SYSTEM_309	Resistenzen
+MSG_SYSTEM_310	Gattung
+MSG_SYSTEM_311	Regeneratives Wesen
+MSG_SYSTEM_312	Magier
+MSG_SYSTEM_313	Wasserwesen
+MSG_SYSTEM_314	Bestie
+MSG_SYSTEM_315	Untoter
+MSG_SYSTEM_316	Riese
+MSG_SYSTEM_317	Drache
+MSG_SYSTEM_318	Magiewesen
+MSG_SYSTEM_319	Wähle ein Bild zum Betrachten.
+MSG_SYSTEM_320	Fenster ausblenden
+MSG_SYSTEM_321	AR-Kampf
+MSG_SYSTEM_361	AR-Modus
+MSG_SYSTEM_322	Kamera ein
+MSG_SYSTEM_323	Kamera aus
+MSG_SYSTEM_324	Gegner anordnen
+MSG_SYSTEM_325	Kämpfen
+MSG_SYSTEM_326	UI ausblenden
+MSG_SYSTEM_327	FINAL FANTASY Zugriff auf die Kamera gewähren?
+MSG_SYSTEM_328	Erlauben
+MSG_SYSTEM_329	Ablehnen
+MSG_SYSTEM_355	Den AR-Kampf beenden?
+MSG_SYSTEM_367	Um die AR-Funktion dieser App zu nutzen, musst du den Zugriff auf die Kamera erlauben.
+MSG_SYSTEM_368	Dieser App hat momentan keinen Zugriff auf die Kamera. Um die AR-Funktion zu nutzen, musst du den Zugriff erlauben.
+MSG_SYSTEM_369	Wenn du den Zugriff auf die Kamera zu einem späteren Zeitpunkt erlauben möchtest, kannst du dies über die Einstellungen deines Geräts vornehmen.
+MSG_SYSTEM_371	Das Kamerabild wird als Hintergrund im Kampf verwendet.
+MSG_SYSTEM_330	Wähle einen Titel zum Abpspielen.
+MSG_SYSTEM_331	Abspielen
+MSG_SYSTEM_332	Anhalten
+MSG_SYSTEM_333	Alle Titel spielen
+MSG_SYSTEM_334	Aktuellen Titel spielen
+MSG_SYSTEM_359	Alle Titel spielen
+MSG_SYSTEM_251	Das Puzzle spielen?
+MSG_SYSTEM_252	Abbrechen
+MSG_SYSTEM_266	Das Puzzle beenden?
+MSG_SYSTEM_300	Das Puzzle weiterspielen?
+MSG_PC_KEY_CONFIG_01	Rücktaste
+MSG_PC_KEY_CONFIG_02	Eingabe
+MSG_PC_KEY_CONFIG_03	Umschalttaste (L)
+MSG_PC_KEY_CONFIG_04	Umschalttaste (R)
+MSG_PC_KEY_CONFIG_05	Alt (L)
+MSG_PC_KEY_CONFIG_06	Alt (R)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Feststelltaste
+MSG_PC_KEY_CONFIG_09	Leertaste
+MSG_PC_KEY_CONFIG_10	Einfügen
+MSG_PC_KEY_CONFIG_11	Position 1
+MSG_PC_KEY_CONFIG_12	Entfernen
+MSG_PC_KEY_CONFIG_13	Pause
+MSG_PC_KEY_CONFIG_14	Rollen
+MSG_PC_KEY_CONFIG_15	Eingabe (Num)
+MSG_SYSTEM_338	Cloud-Spielstände
+MSG_SYSTEM_339	Hochladen
+MSG_SYSTEM_340	Herunterladen
+MSG_SYSTEM_341	Lokale Spielstände
+MSG_SYSTEM_342	Cloud-Spielstände
+MSG_SYSTEM_356	Details
+MSG_SYSTEM_343	Sichere deine Spielstände in der Cloud.
+MSG_SYSTEM_344	Überschreibe alle Spielstände in der Cloud mit deinen lokalen Spielständen.
+MSG_SYSTEM_345	Überschreibe alle lokalen Spielstände mit den Spielständen aus der Cloud.
+MSG_SYSTEM_346	Spielstände werden in die Cloud hochgeladen.
+MSG_SYSTEM_347	Alle bestehenden Spielstände in der Cloud werden überschrieben.
+MSG_SYSTEM_348	Spielstände wurden in die Cloud hochgeladen.
+MSG_SYSTEM_349	Hochladen in die Cloud gescheitert.
+MSG_SYSTEM_350	Überprüfe bitte deine Internetverbindung.
+MSG_SYSTEM_351	Spielstände werden aus der Cloud heruntergeladen.
+MSG_SYSTEM_352	Alle lokale Spielstände werden überschrieben.
+MSG_SYSTEM_353	Spielstände wurde aus der Cloud heruntergeladen.
+MSG_SYSTEM_354	Herunterladen aus der Cloud gescheitert.
+MSG_SYSTEM_363	Synchronisierung ...
+MSG_SYSTEM_364	Synchronisierung fehlgeschlagen.
+MSG_SYSTEM_365	Übertragung fehlgeschlagen.
+MSG_SYSTEM_366	Erneut versuchen
+MSG_SYSTEM_360	Lädt ...
+MSG_SYSTEM_372	Lizenzbestätigung fehlgeschlagen.\nDie App wird geschlossen.
+MSG_SYSTEM_373	Überprüfe deine Internetverbindung sowie dein Gerät und starte die App dann erneut.
+

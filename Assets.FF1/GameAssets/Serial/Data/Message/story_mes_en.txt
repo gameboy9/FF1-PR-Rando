@@ -1,0 +1,454 @@
+SPEAKER_01	???
+SPEAKER_02	Astos
+SPEAKER_03	Unne
+SPEAKER_04	Garland
+SPEAKER_05	Koppe
+SPEAKER_06	Sadda
+SPEAKER_07	Jayne
+SPEAKER_08	Smyth
+SPEAKER_09	Sarah
+SPEAKER_10	Healer
+SPEAKER_11	Nerrick
+SPEAKER_12	Bahamut
+SPEAKER_13	Vampire
+SPEAKER_14	Bikke
+SPEAKER_15	Matoya
+SPEAKER_16	Lukahn
+SPEAKER_17	Watts
+SPEAKER_18	The Prince
+SPEAKER_19	The King
+SPEAKER_20	Chancellor
+MSG_OP_01	The world lies shrouded in darkness.
+MSG_OP_02	The winds die...
+MSG_OP_07	The seas rage...
+MSG_OP_08	The earth decays...
+MSG_OP_03	But the people believe in a prophecy, patiently awaiting its fulfillment.
+MSG_OP_04	"When darkness veils the world, four Warriors of Light shall come."
+MSG_OP_05	After a long journey, four young travelers did at last appear...
+MSG_OP_06	...and in the hand of each was clutched a crystal.
+MSG_KON_CTY_01	This is Cornelia, the city of dreams.
+MSG_KON_CTY_02	Hi there! I'm a dancer! What's that? You wanna dance with me? Hee hee!
+MSG_KON_CTY_03	So why are you still here?<P>\nWeren't you supposed to be crossing that bridge to the north? You must really wanna dance with me. Hee hee!
+MSG_KON_CTY_04	Pravoka is a port town. The pirates there just might have a ship.
+MSG_KON_CTY_05	Have you met Matoya yet? She's been having a lot of trouble ever since she lost her eyesight.<P>\nThey say she lives across the bridge, far, far to the north.
+MSG_KON_CTY_06	Have you been to the Western Keep?<P>\nThey say the crown from the Marsh Cave can restore the fallen keep...
+MSG_KON_CTY_07	Hey! Shouldn't you be taking that crown to the king of the Western Keep?<P>\nThough, come to mention it, there does seem to be something strange going on there...
+MSG_KON_CTY_08	Matoya's crystal eye was stolen and she STILL hasn't gotten it back.
+MSG_KON_CTY_09	I bet you could use the jolt tonic to awaken the elf prince.
+MSG_KON_CTY_10	Rumor has it you can get into the locked rooms in Castle Cornelia if you have the mystic key.
+MSG_KON_CTY_11	Nerrick the dwarf has been looking for powerful explosives. I wonder what he's gonna use them for?
+MSG_KON_CTY_12	I don't know what else to tell ya... How 'bout we have that dance? Whaddaya say?
+MSG_KON_CTY_13	Restore the Crystals to grace...
+MSG_KON_CTY_14	Oh, please... You must rescue the princess.
+MSG_KON_CTY_15	A witch named Matoya lives to the north of Cornelia.
+MSG_KON_CTY_16	Sage Lukahn said something about finding the crescent moon, then he just up and left town...
+MSG_KON_CTY_17	You'll be needing a ship if you want to be able to move about more freely.<P>\nIf you have trouble obtaining one through normal means, you could always "borrow" a pirate ship...
+MSG_KON_CTY_18	You could cross rivers if you had something like a canoe.<P>\nYes, I believe I heard the sages of Crescent Lake say something about that.
+MSG_KON_CTY_19	By the by, have you ever heard of a ship that can sail through the air?<P>\nThe levistone, spoken of by the elven sages, has something to do with that...
+MSG_KON_CTY_20	There's just one thing holding you back from being truly exalted Warriors of Light...<P>\nYou need more dignified titles. Have you given any thought to that? There's a dragon in Onrac who's very up on his titles.
+MSG_KON_CTY_21	So you've been to the Citadel of Trials, but you still don't have your token of courage?
+MSG_KON_CTY_22	Carrying around a rat's tail, are we? Well, I suppose it's better than nothing.<P>\nMaybe it's time to go pay a visit to the Dragon King.
+MSG_KON_CTY_23	By the by, I've been thinking that "crescent" may not be referring to the moon after all.<P>\nI have a hunch that it might be describing the body of water around the town of Crescent Lake... Just a hunch, mind you.
+MSG_KON_CTY_24	I'm afraid there's nothing more I can tell you at the moment.<P>\nRestoring light to one of the Crystals just might make something happen—but who knows?
+MSG_KON_CTY_25	The king truly believes in Lukahn's prophecy...<P>\n...that the Warriors of Light will come to save the princess.
+MSG_KON_CTY_27	Please rescue Lady Sarah!
+MSG_KON_CTY_28	They say Matoya's peepers aren't too sharp. She can't see a thing without her crystal eye.
+MSG_KON_CTY_29	I once lived far to the east of here in the harbor city of Pravoka.<P>\nThese days I hear it's turned into a pirates' den.
+MSG_KON_CTY_30	It's a well. It looks like you could climb inside, but you can't. Really.
+MSG_KON_CTY_31	Let's take a peek at your reflection in the water...<P>\nUgh! You're filthy! Use this to wash up!
+MSG_MAP0A01_10	The king is searching for the prophesied Warriors of Light.<P>\nTh-those crystals! You must see the king at once!
+MSG_KON_INN_01	I would be most happy to teach you about equipment. Would you care to listen?
+MSG_KON_INN_02	Equipment can be split into two categories: weapons and armor.<P>\nEquipping a weapon will increase your Attack rating.<P>\nThere are four types of armor: shields, helms, gloves, and body armor.<P>\nAny armor you wear on your body, including armlets, is classified as body armor.<P>\nShields are held in one hand, while helms are worn on the head.<P>\nRemember that the weapons and armor you find won't do you any good unless you equip them from the main menu.<P>\nSelecting "Optimal" will automatically equip the strongest weapons and armor in your inventory.
+MSG_KON_INN_03	I've been known to give quite the lecture on the use of magic. Interested?
+MSG_KON_INN_04	There are two schools of magic: black and white.<P>\nWhite magic is comprised of healing and defensive spells, while black magic spells are of the offensive variety.<P>\nEach level of black and white magic contains four distinct spells.<P>\nHowever, any given character can only learn three of the four spells of a particular magic level.<P>\nYou can use the "Forget" command to wipe your memory of any spell you've previously learned.<P>\nIf you want to relearn a spell you've previously forgotten, you can do that, too.<P>\nTry to choose a combination of spells that works well with your fighting style.
+MSG_KON_INN_05	If you need to know about items, you've certainly come to the right person! As long as you're here, why not hear, eh?
+MSG_KON_INN_06	It never hurts to carry a lot of potions, antidotes, and the like with you.<P>\nStocking up on items in advance will help you conserve your magic for the times you need it most.<P>\nNow let's move on to sleeping bags, tents, and cottages, shall we?<P>\nThese three splendid items allow you to restore your HP and MP. You can only use them outdoors, though.<P>\nIn addition to these traditional items, certain pieces of equipment may be used as items as well.<P>\nThe only way to know if a given piece of equipment has a use is to try it out, so experimentation is key.<P>\nIn the course of your travels, you will come across unique items that are known as "key items."<P>\nSome key items have an effect when used in a specific location.
+MSG_KON_INN_07	Would you like to tarry for just a moment to hear about monsters?
+MSG_KON_INN_08	There are many types of monsters, and different types have different weaknesses.<P>\nFinding a monster's weakness will help you gain the upper hand in battle.<P>\nFor example, aquatic monsters are susceptible to lightning.<P>\nCasting Thunder on these monsters will deal particularly heavy damage.<P>\nSome weapons are also more effective against certain monsters.
+MSG_KON_CAS_01	I am Jayne, Queen of Cornelia. Please...please bring my daughter...my Sarah...back to me safely.
+MSG_KON_CAS_02	I don't know how I could ever thank you for rescuing Sarah.
+MSG_KON_CAS_03	My s-s-sister... I w-want my s-sister!
+MSG_KON_CAS_04	My sister's back! And it's thanks to you all! I could just kiss you!<P>\nMwah!
+MSG_KON_CAS_05	The king is searching for the prophesied Warriors of Light.<P>\nTh-those crystals! Could it be...?
+MSG_KON_CAS_06	I've been assigned the important task of defending Castle Cornelia!<P>\nTo be honest, I'm a little nervous.
+MSG_KON_CAS_07	Her Majesty's overcome with grief—she's shut herself inside her chambers. Please try not to upset her.
+MSG_KON_CAS_08	Th-the Warriors of Light! I can't thank you enough for saving Lady Sarah!
+MSG_KON_CAS_09	Please, please save Lady Sarah!
+MSG_KON_CAS_10	Are you the...Warriors of Light? The ones from Lukahn's prophecy?
+MSG_KON_CAS_11	Garland was once the greatest knight in the kingdom.<P>\nBut power consumed him, and he lost sight of who he really was.
+MSG_KON_CAS_12	The beautiful lute handed down for generations to the princesses of Cornelia is said to have a unique power. It can shatter the gateway of evil.
+MSG_KON_CAS_13	Our ancestors sealed weapons within this treasure room four hundred years ago...<P>\nThey then gave the key to the elf king to hold until the coming of the Warriors of Light.
+MSG_KON_CAS_14	The treasure room has been secured with the mystic key.
+MSG_KON_CAS_16	The time has come to use the key to open the doors!<P>\nThe equipment within is sure to help you!
+MSG_KON_CAS_17	The Warriors of Light have come at last! How long we have waited for this day to come!<P>\nGarland is no longer the man I once knew...<P>\nI beg of you. Please return my daughter to me quickly!
+MSG_KON_CAS_18	Sarah's thoughts are always with you.
+MSG_KON_CAS_20	If you wanted, you could...I mean, here in Cornelia...<P>\nN-no. It's nothing.<P>\nYou should make preparations for your journey. Restore light to the Crystals!
+MSG_KON_CAS_23	Our reports say that Garland fled north with the princess! To the Chaos Shrine!
+MSG_KON_CAS_25	The dancing girl in town knows many odd bits of information.<P>\nIf you find yourself astray, try talking to her. She may know something that can put you back on course.
+MSG_KON_CAS_26	You obtain nitro powder.
+MSG_EKKEN_01	The king is searching for the prophesied Warriors of Light.<P>\nTh-those crystals! You must see the king at once!
+MSG_EKKEN_02	Welcome, travelers. I am told you carry crystals. Is this true?
+MSG_EKKEN_03	It's just as Lukahn's prophecy foretold: "When darkness veils the world, four Warriors of Light shall come."
+MSG_EKKEN_04	Your Majesty, we cannot be certain that these are the warriors foretold by the prophecy.
+MSG_EKKEN_05	Yet they stand before us with the crystals. I cannot dismiss this as mere coincidence.<P>\nCrystal bearers, there is a task I would ask of you.<P>\nWill you rescue my daughter, Sarah?
+MSG_EKKEN_06	Garland, a knight once in His Majesty's service, has abducted Princess Sarah.<P>\nI ask for your aid in the name of His Majesty, the king of Cornelia.<P>\nGarland has taken refuge in the Chaos Shrine, which lies to our north.<P>\nOf course, we did attempt to save the princess ourselves...<P>\nBut Garland is the finest swordsman in the kingdom. We have none who can match him.
+MSG_EKKEN_07	I have heard that you wish to journey to the continent to our north.<P>\nThe bridge leading north was lost long ago, making passage impossible.<P>\nIf you can rescue Sarah, I will have the bridge rebuilt as a token of my gratitude.<P>\nGo now, Warriors of Light, and do not fail me!
+MSG_HELPSERA_04	Thank you for returning my daughter to my side.<P>\nThere can be no doubt that you are the Warriors of Light from Lukahn's prophecy!<P>\nYou should hear the prophecy in its entirety. Ahem. If I may...<P>\n"When darkness veils the world, four Warriors of Light shall come.<P>\n"If they cannot gather the shards of light, the darkness will consume all.<P>\n"The four Crystals will never shine again..."<P>\nNow, I hear that a Crystal can be found on the continent to our north.<P>\nRestoring light to the Crystals is our only hope of ridding the world of the monsters which plague it!
+MSG_HELPSERA_05	I will have the bridge to the north rebuilt, as I promised.<P>\nI pray that you succeed in restoring light to the four Crystals—and to the world.
+MSG_LUTE_01	Wait just a moment!
+MSG_LUTE_02	This lute has been entrusted to the princesses of Cornelia for many generations.<P>\nWhen he abducted me, Garland took this lute as well.<P>\nI want you to have it. It may aid you on your journey.
+MSG_LUTE_03	You obtain the lute.
+MSG_CHS_01	Kee! Kee!
+MSG_CHS_02	The power the four Fiends absorbed from the Crystals was being fed into the past by the Black Crystal.<P>\nThe one distorting the beautiful light of the Crystals is the one we've been looking for all along.<P>\nThe true root of all evil lies just ahead...
+MSG_CHS_03	The Black Crystal shines ominously. The air hanging in the room seems slightly...distorted.
+MSG_CHS_04	The door is locked.
+MSG_CHS_06	The light...the light of the four we've been seeking all this time!<P>\nThat light will open the time portal!<P>\nThe portal will transport you two thousand years into the past to the beginning of the time loop.
+MSG_CHS_08	Shine the light of the four Crystals on the Black Crystal in the center of the chamber!<P>\nDoing so will open a time portal to this shrine as it existed two thousand years ago.
+MSG_CHS_10	We are Sky People.<P>\nWe came to this shrine in our attempt to locate the source of the world's ruin.<P>\nThat was four hundred years ago...
+MSG_CHS_12	The curse of the Fiends changed us into these forms and prevented us from speaking.<P>\nThe light of the Crystals has enabled us to speak again!
+MSG_CHS_14	This door has been secured with the mystic key.
+MSG_FUSION_01	You focus the light of the four shining Crystals—fire, earth, water, and wind—on the Black Crystal.<P>\nThe flow of time surges and space begins to warp!<P>\nJust one step forward, and you will travel back two thousand years in time!
+MSG_HELPSERA_01	The king will have no choice but to exchange the kingdom for his daughter's life. Cornelia will be mine!
+MSG_HELPSERA_02	Who's there!?<P>\nHmph. The king's lapdogs. Do you have any idea who you're messing with?<P>\nYou really think you have what it takes to cross swords with ME? Very well... I, Garland, will knock you all down!!!
+MSG_HELPSERA_03	You...you've come to rescue me?<P>\nI am Sarah, princess of Cornelia. Words could never be enough to thank you...<P>\nThat's the first time anyone's ever defeated Garland.<P>\nYou must allow me to show my gratitude. Please, accompany me to Castle Cornelia.
+MSG_LAST_01	Do you remember me? I was once the most renowned knight of Cornelia.
+MSG_LAST_02	Two thousand years from now...you killed me. I am Garland.
+MSG_LAST_03	Oh, you did defeat me then.<P>\nBut the four great forces saved me by sending me back through time!
+MSG_LAST_04	Once here, I sent the four Fiends into the future...
+MSG_LAST_05	...where they shall once again use the four great forces to send me into the past!
+MSG_LAST_06	In two thousand years, I will remember none of this.
+MSG_LAST_07	But I will be reborn again here.<P>\nSo even as you die again and again, I shall return!<P>\nBorn again into this endless cycle that I have created!
+MSG_BRIDGE_01	Orders from His Majesty. We're to do our part to fulfill Lukahn's prophecy!
+MSG_BRIDGE_02	What does this bridge have to do with the prophecy?
+MSG_BRIDGE_03	The four Warriors of Light are here... They're here in Cornelia!
+MSG_PRL_01	And so their quest began.\n\nAs the four Warriors of Light, they felt overwhelmed by the great task destiny had placed before them.\n\nThey did not even know the true significance of the four crystals they held in their hands...\n\nThe crystals that once, long ago, held a light that shone so brilliantly.\n\nThe time for their journey had come.\n\nThe time to cast off the veil of darkness and bring the world once more into light...
+MSG_SHIP_01	Ye've got cannon balls of steel to be takin' on the great pirate Bikke! Keelhaul 'em, boys!
+MSG_SHIP_02	Aye-aye, Cap'n! We'll make their bones go crunch!
+MSG_SHIP_03	I be most sorry, young masters. I'll be makin' no more fuss, I swear.<P>\nI want ye to take me ship fer yer troubles. Can ye find it in yer heart to fergive an old pirate?
+MSG_SHIP_04	You obtain a ship.
+MSG_PBK_01	Please help us!
+MSG_PBK_02	There are many monsters in the Aldean Sea. Best be careful!
+MSG_PBK_03	Those blasted pirates! They're running around looting and pillaging like they own the place!
+MSG_PBK_04	I don't think there are any ports to the north. A ship can only dock at a port, you know.
+MSG_PBK_05	I've had meself a change of heart.<P>\nI plan to buckle down and be the hardest worker in town.<P>\nYe believe me...don't ye?
+MSG_PBK_06	Because of you, we needn't fear the pirates anymore!<P>\nThank you so much!
+MSG_PBK_07	They say there are elves living across the sea!<P>\nBut the elf prince has fallen into a deep sleep and hasn't woken up...
+MSG_PBK_08	I fled here from Melmond, a town far to the west.<P>\nIt is a truly pitiable sight... The earth rots, and monsters attack in the night.<P>\nIs there nothing you can do to help?
+MSG_PBK_09	And just what be ye doing 'ere? Ye wouldn't be lookin' to make trouble with Bikke's Bikkeneers, would ye?
+MSG_ELF_CAS_01	Astos's curse has put our prince into a deep sleep from which he cannot awake.<P>\nPlease, will you not aid our slumbering prince?
+MSG_ELF_CAS_02	A foul creature lives in the cave to the west.<P>\nThe rotting of the earth is its doing, I just know it.
+MSG_ELF_CAS_04	We elves are the keepers of the key. When the Warriors of Light come, we shall entrust it to them.
+MSG_ELF_CAS_05	I've heard rumors of a witch who can brew any potion you could imagine.<P>\nLet's see... I think her name was Matoya.
+MSG_ELF_CAS_06	You have some jolt tonic? That should be able to rouse the prince!
+MSG_ELF_CAS_07	The dark elf king, Astos, stole into the castle and placed a curse on our prince.<P>\nThen Astos carted away the castle's treasures!
+MSG_ELF_CAS_08	The prince has awoken! Thank you!
+MSG_ELF_CAS_09	The dwarves live in a cave on the western edge of the Aldean Sea.<P>\nThey're a friendly bunch!
+MSG_ELF_CAS_10	The treasure room has been secured with the mystic key.
+MSG_ELF_CAS_11	The prince has slept under Astos's curse for five years now.<P>\nThere must be a concoction that can rouse one who sleeps so...but where?
+MSG_ELF_CAS_12	Thanks to you, the prince has finally awoken. You have my undying gratitude.<P>\nYou've brought peace back to Elfheim.
+MSG_ELF_CAS_13	Zzz...
+MSG_ELF_CAS_14	I am awake and strong again—all because of you. Thank you, Warriors of Light!
+MSG_AWAKEELF_01	This jolt tonic...<P>\n...may be just what we need to break the curse and awaken the prince!<P>\nI will try it at once!
+MSG_AWAKEELF_02	Your Highness? Your Highness!
+MSG_AWAKEELF_03	I was having...a terrible nightmare... Am I still...dreaming?
+MSG_AWAKEELF_04	You...you're the legendary warriors! Something tells me I'm not dreaming...<P>\nI shall heed the legend as it was told to me and my forefathers.<P>\nThe time for me to pass on the mystic key to its rightful owners has come at last.
+MSG_AWAKEELF_05	You obtain the mystic key.
+MSG_ELF_CTY_01	I just don't know what we can do... Please help our prince!
+MSG_ELF_CTY_02	The prince has awoken! Thank you!
+MSG_ELF_CTY_03	If the prince does not awaken, there will be no elf king.<P>\nWe will be at the mercy of the dark elf's evil power.
+MSG_ELF_CTY_04	Legend has it that an airship, a vessel that can sail the skies, is buried somewhere.
+MSG_ELF_CTY_05	No one knows where Astos, king of the dark elves, has gone.
+MSG_ELF_CTY_07	On a journey I once took to the west, I wandered into an ancient castle.<P>\nNot a soul could be found inside—and the whole place gave me the creeps—so I got out as fast as I could.
+MSG_ELF_CTY_08	You've defeated Astos and brought peace to Elfheim!
+MSG_ELF_CTY_09	Our prince was meant to become the elf king, but what will happen now?
+MSG_ELF_CTY_11	Weapons and armor made of mythril are sturdy and powerful. You should give them a try. You'll be surprised!
+MSG_ELF_CTY_12	I am a sage. When the time is right, the future is revealed to me.<P>\nI shall wait patiently until then.
+MSG_ELF_CTY_13	By the power of the levistone, a great sail rises into the sky from the sand sea below the crescent!
+MSG_ELF_CTY_15	In the dark abyss above the crescent, to the north beyond the smoldering mountain, the levistone sleeps.<P>\nSomething awaits you there...
+MSG_ELF_CTY_16	Here lies Link.
+MSG_ELF_CTY_17	It's a gravestone.
+MSG_WST_CAS_01	I was tricked by Astos, king of the dark elves, and now my castle has fallen into ruin.<P>\nIf I could only retrieve the crown from the Marsh Cave, I would be able to restore my castle.<P>\nMight you bring me the crown?
+MSG_WST_CAS_02	Kee! Kee!
+MSG_WST_CAS_03	This door has been secured with the mystic key.
+MSG_ASTOS_01	Muwahaha!<P>\nYou fools fell right into my trap!<P>\nI AM Astos, king of the dark elves!
+MSG_ASTOS_02	With the combined power of the crown you now hold and the crystal eye I already possess...<P>\nI will become the TRUE elf king!
+MSG_ASTOS_03	It is useless to resist me! I can take what is mine by sheer force!
+MSG_ASTOS_04	You obtain the crystal eye.
+MSG_PND_01	Kee! Kee!
+MSG_PND_02	This door has been secured with the mystic key.
+MSG_GET_CROWN_01	You obtain the crown.
+MSG_AWAKEPOT_01	Oh, what's this? My crystal eye? Give it here!<P>\nDon't worry, I have something to give you in exchange. Take this potion. It's the most amazing potion in my entire collection!
+MSG_AWAKEPOT_02	Ahh! I can see! I can see again!
+MSG_AWAKEPOT_03	You obtain jolt tonic.
+MSG_MATOYA_01	*thump* Ouch!
+MSG_MATOYA_02	My eye...my eye!
+MSG_MATOYA_03	I can't see a blasted thing without my crystal eye!
+MSG_MATOYA_04	Who could have stolen it from me?
+MSG_MAT_02	You're still here? I don't need you anymore, so be on your way!<P>\nHmph! You're not as attractive as I thought you'd be...
+MSG_MAT_03	Front-words, back-wards, any way you see! Such a strange spell to swish-swish-aree!<P>\nEno Ldna Lecnac. Swish-swish-aroo!
+MSG_MAT_04	Front-words, back-wards, any way you see! Such a strange spell to swish-swish-aree!<P>\nPam Dloh Dna Sserp. Swish-swish-aroo!
+MSG_DWF_CAV_01	If only I could hae some o' the legendary metal adamantite! I'd be able tae craft such a magical sword...
+MSG_DWF_CAV_02	I'm sure ye'll put Excalibur tae good use.
+MSG_DWF_CAV_03	Wi' a crystal eye, even the blind can see.<P>\nI hear that the dark elf Astos nicked the one belongin' tae Matoya.
+MSG_DWF_CAV_04	The earth has started tae rot. It began in the west, and noo the decay spreads...
+MSG_DWF_CAV_05	The earth is back tae hoo it was afore! I thank ye, Warriors o' Light!
+MSG_DWF_CAV_06	Hae ye gabbed wi' oor smith, Smyth? In the smithy he is.
+MSG_DWF_CAV_07	That soond? Ay, that's Nerrick. He's smashin' rocks in the back o' the cave.
+MSG_DWF_CAV_08	That Nerrick, he's a fine dwarf—the kind ye can really look up tae.
+MSG_DWF_CAV_09	Lali-ho!
+MSG_DWF_CAV_10	Mind that when it comes tae defense, a good armlet can be every bit as vital as body armor. Ye should try one oot sometime.
+MSG_DWF_CAV_12	Hae ye seen the canal yet? Och, I tell ye, that Nerrick's one leesome dwarf!
+MSG_DWF_CAV_13	I'm lookin' for some levistone.<P>\nIt's supposed tae be an amazin' material that makes things float in the air!
+MSG_DWF_CAV_14	There might hae been some nitro powder in the castle treasure room when they sealed it up.
+MSG_DWF_CAV_16	Gads!!! There's a giant rock in ma path!<P>\nAn' I'm so close tae openin' up ma canal, too!<P>\nIf only I had a wee bit o' nitro powder, I could knap that rock in one pluff...
+MSG_DWF_CAV_17	Nae so fast! Those are just for display! Ye cannae fight wi' them!
+MSG_DWF_CAV_18	This door has been secured with the mystic key.
+MSG_CANAL_01	Nitro powder!<P>\nThe explosive force in this powder will hae ma canal open in no time flat!<P>\nI owe ye, bairns!
+MSG_CANAL_02	There we go!
+MSG_CANAL_03	Noo we can blast this rock tae smithereens!
+MSG_CANAL_04	Whit are ye standin' aroond for?<P>\nThat powder's set tae bloo! Unless ye plan on goin' with it, ye'd best get oot while ye still can!
+MSG_CANAL_05	I cannae wait tae see what lies oot there beyond that canal!
+MSG_GET_EXCALIBER_01	Is this...adamantite!?
+MSG_GET_EXCALIBAR_02	Hoots! I'll use this tae make ye the finest sword ye'll ever wield!
+MSG_GET_EXCALIBAR_03	Done! In all ma years I've never crafted a finer sword!
+MSG_GET_EXCALIBAR_04	Go on, take her. She's yers!
+MSG_GET_EXCALIBAR_05	You obtain Excalibur.
+MSG_LEARN_01	Just a moment. Let me see that tablet...
+MSG_LEARN_02	This... this is the Rosetta Stone!
+MSG_LEARN_03	This makes it possible to decipher Lufenian!
+MSG_LEARN_04	Hmm... Yes, of course! THAT'S what that was! It all makes sense!
+MSG_LEARN_05	Here, allow me to express my gratitude by teaching you Lufenian.
+MSG_LEARN_06	There! Now you can speak Lufenian, too!
+MSG_MMD_CTY_01	The earth is decaying, and it's all the doing of the vampire that lives in the Cavern of Earth.<P>\nOur town is in such rotten shape because he's blocking the flow of the power of earth.<P>\nWill you stop him for us?
+MSG_MMD_CTY_02	Long ago, Melmond was a beautiful town, blessed by the richness of the earth.
+MSG_MMD_CTY_03	The vampire attacked, destroying our church and leaving our city in shambles.<P>\nIs there nothing we can do to stop the ruination of the earth?
+MSG_MMD_CTY_04	You aren't the Warriors of Light, are you?
+MSG_MMD_CTY_05	Restore the Crystals to grace...
+MSG_MMD_CTY_06	The vampire is dead, yet the earth is still decaying. What's going on?
+MSG_MMD_CTY_07	The Cavern of Earth is to the south of Melmond, on a peninsula called the Devil's Tail.<P>\nIt used to be the closer you got to that cave, the more fertile the soil. Now...now it's a barren waste.
+MSG_MMD_CTY_08	The Earth Crystal must be shining again!
+MSG_MMD_CTY_09	The giant living in the cave eats rocks.<P>\nHe'll eat just about any kind of rock, but I hear he especially likes gems. He can't get enough of them!
+MSG_MMD_CTY_10	There is nothing I, the great genius Dr. Unne, do not know!<P>\nWhat!? You've never heard of me!? Inconceivable!
+MSG_MMD_CTY_12	Long ago, a prosperous civilization thrived in the northland.<P>\nNow it's fallen into ruin.
+MSG_MMD_CTY_14	Well, you're certainly looking a lot spiffier than before!
+MSG_MMD_CTY_15	I've heard that the ancients possessed something with the power to make ships float in the sky.
+MSG_MMD_CTY_16	An airship! So they really DO exist!
+MSG_MMD_CTY_17	Watts is ma name.<P>\nI've come all the way from Duergar tae find oot the springheid of the earth's decay.
+MSG_MMD_CTY_18	Warriors o' Light...this couldnae happened wi'oot ye! The earth's smeddum and virr is comin' back!
+MSG_MMD_CTY_19	In the cave on the southern tip of this continent lives a man named Sadda. He is a wise man who knows much.
+MSG_MMD_CTY_20	I'm just a farmer.
+MSG_MMD_CTY_21	The vampire is dead, yet the earth is still decaying.<P>\nWhat's going on? Could something else be causing it?
+MSG_MMD_CTY_22	Stop by my father's shop, okay?
+MSG_MMD_CTY_23	If the Earth Crystal regains its glow, life will return to the earth. The hills and valleys will again be green.
+MSG_MMD_CTY_24	Warriors of Light...to you we owe our thanks. The earth is returning to normal!
+MSG_MMD_CTY_25	It's a gravestone.
+MSG_MMD_CTY_26	Restore the Crystals to grace...
+MSG_MAP01_01	You obtain the Star Ruby.
+MSG_LICH_01	Who speaks to me?
+MSG_LICH_02	I am he who feeds on the power of earth.
+MSG_LICH_03	I will not be disturbed by mortal men. I am the lich...Fiend of Earth!
+MSG_VAMPIRE_01	All things in this vorld are destined to end in death...<P>\nThe seal cannot be broken, and so the earth shall rot.
+MSG_VAMPIRE_02	You cannot alter destiny.<P>\nMere mortals cannot kill the undying!
+MSG_ERH_CAV_01	Kee! Kee!
+MSG_ERH_CAV_02	A stone slab is set in the floor. An evil force seems to emanate from within.
+MSG_ERH_CAV_03	This is the Altar of Earth, from which the power of earth flows forth.
+MSG_GIANT_RUBYEAT_01	You have star ruby!?<P>\nGive me star ruby and I let you pass!
+MSG_GIANT_RUBYEAT_02	*crunch* *munch*<P>\nMmm! Nothing tastier than rubies!
+MSG_GIA_CAV_01	You shall not pass!
+MSG_SAG_CAV_01	Restore the Crystals to grace...
+MSG_GET_STICK_01	So you are the ones who defeated the vampire, eh?<P>\nHe was but a servant... The beast corrupting the Earth Crystal lurks much deeper within the cavern.<P>\nHere. Take this staff with you and use it behind the vampire's chamber!
+MSG_GET_STICK_02	You obtain the earth rod.
+MSG_GET_CANOE_01	Well done, Warriors of Light. You have defeated the Fiend of Earth and restored the Crystal's light.<P>\nSadly, this has drawn the notice of the Fiend of Fire, who was not to have stirred for another two hundred years.<P>\nTake this canoe, and go face the Fiend in Mount Gulg!
+MSG_GET_CANOE_02	You obtain a canoe.
+MSG_CLK_CTY_01	My husband is always traveling, and in the little time he IS home, he sleeps all day!<P>\nI think he needs to get his priorities straight.
+MSG_CLK_CTY_02	Zzz...
+MSG_CLK_CTY_03	I've been after the levistone for ten years...<P>\nThe cave to the north looks promising, but I can't go...<P>\nI'd never hear the end of it from my wife.
+MSG_CLK_CTY_04	Twelve sages are we, guided to this land by the stars and prophecy.
+MSG_CLK_CTY_05	Four Great Crystals exist in this world.<P>\nThe light that once shone within them is now lost... The four Fiends of Chaos block the power of the Crystals, claiming it as their own.
+MSG_CLK_CTY_06	The four forces gather in the Chaos Shrine, the geographic center of the four altars.<P>\nWith the forces again flowing freely, the time to go to the Chaos Shrine and strike at the root of darkness has come!
+MSG_CLK_CTY_07	Fire, earth, water, and wind... These are the four forces that compose our world.
+MSG_CLK_CTY_08	The four Crystals shine once again!<P>\nThe combined power of that light is the only means of breaking through the wall of time.<P>\nThe architect of this disaster is beyond that wall, two thousand years in the past!
+MSG_CLK_CTY_09	The source of the four forces are the altars scattered throughout the world.<P>\nDefeat the Fiends that have taken root there and lift up the crystal you carry to the altar.<P>\nThe crystal should regain its brilliance.
+MSG_CLK_CTY_10	You would have no memory of this, but before you wandered into this land, time flowed properly for you.<P>\nBut that flow of time has become warped for you now, in this time.
+MSG_CLK_CTY_11	The four Fiends plot to rule the world both past and present.<P>\nThe Fiend of Wind appeared four hundred years ago, followed two hundred years later by the Fiend of Water. Together they laid waste to the civilization in the north.
+MSG_CLK_CTY_12	The chain of time has become looped back upon itself...<P>\nYou must travel back in time to the link in that chain that gave birth to this cycle of wrath—and destroy it!
+MSG_CLK_CTY_13	The Fiend of Earth rots the land...
+MSG_CLK_CTY_14	The sequence of disasters that began four hundred years ago...<P>\nIt was triggered by events that happened only a scant few days in our past.<P>\nBut whoever set this in motion has now fled two thousand years into the past.
+MSG_CLK_CTY_15	Where the Fiend of Fire passes, all is engulfed in flame...
+MSG_CLK_CTY_16	I see time spiraling...<P>\nWhatever went back two thousand years in the past has brought the world to the brink of destruction.<P>\nAnd now, two thousand years later, it travels into the past again...<P>\nA cycle of wrath without end...
+MSG_CLK_CTY_17	When all four Crystals shine once more, return here.<P>\nAll will be revealed...
+MSG_CLK_CTY_18	An ever-repeating, two-thousand-year cycle... The warped destiny that gives birth and rebirth to wrath...<P>\nBut it's no more than an illusion...a fantasy! And only the Warriors of Light can break the cycle!
+MSG_CLK_CTY_19	Bring the light of the four Crystals to us! Warriors of Light, only you can do this!
+MSG_CLK_CTY_20	Power must be directed toward its proper end.
+MSG_CLK_CTY_21	The volcano Mount Gulg rises to the west of this town. The Fiend of Fire long slept within its passages, but she has awoken two hundred years before her time.<P>\nVanquish her before the world is consumed in flame!
+MSG_CLK_CTY_22	Four hundred years ago it was wind... Two hundred years ago it was water... Then came earth and fire...<P>\nThe four forces that make up the world...
+MSG_CLK_CTY_23	I am Lukahn.<P>\nI see...a cycle of wrath... A dim light...guided by destiny...about which our entire future revolves...
+MSG_CLK_CTY_24	It's a gravestone.
+MSG_GRG_MNT_01	This is the Altar of Fire, from which the power of fire flows forth.
+MSG_MARILITH_01	So you are the ones who defeated the Fiend of Earth and roused Marilith from her slumber...
+MSG_MARILITH_02	So you are the ones who defeated the Fiends of Earth and Water and roused Marilith from her slumber...
+MSG_MARILITH_03	So you are the ones who defeated the Fiends of Earth and Wind and roused Marilith from her slumber...
+MSG_MARILITH_04	So you are the ones who defeated the Fiends of Earth, Water, and Wind and roused Marilith from her slumber...
+MSG_MARILITH_05	The power of the burning flame is mine and mine alone!<P>\nThose who would oppose me shall burn in hellfire!
+MSG_GET_FLOAT_01	You obtain a levistone.
+MSG_MAP1B_01	You obtain an airship.
+MSG_GET_MOUSE_01	You obtain a rat's tail.
+MSG_TRIAL_CAS_01	You come bearing the crown, I see.<P>\nYour fortitude cannot be questioned, indeed not...<P>\nVery well, I shall grant you the right to undergo the trials. Go now. Sit upon the throne.<P>\nYour courage will be put to the test. If true courage dwells within you, you will find proof of it here.
+MSG_TRIAL_CAS_02	Only they who have been granted permission may undergo the trials.
+MSG_CLASS_CHG_01	Long has it been since men of courage stood before me.<P>\nYour bravery seems worthy of consideration.
+MSG_CLASS_CHG_02	The rat's tail you carry is a fitting token of courage and strength...
+MSG_CLASS_CHG_03	So be it... I shall honor you with titles befitting your valor.
+MSG_DRG_CAV_01	I am the Dragon King, Bahamut.<P>\nI confer honor upon those whose strength and courage are true. Return to me with a token of your courage.
+MSG_DRG_CAV_02	Restore the Crystals to grace...
+MSG_DRG_CAV_03	You do not fear me... You have some spine in you, human.
+MSG_DRG_CAV_04	Have you spoken with our king, Bahamut?<P>\nThe Dragon King confers a great honor upon the brave.
+MSG_DRG_CAV_05	It is customary for dragons to venture northeast to the Citadel of Trials.<P>\nThere, we must test our mettle by claiming a token of courage from within.
+MSG_DRG_CAV_06	The form of the token of courage changes with the times. Do not let its appearance deceive you.
+MSG_DRG_CAV_07	Once, long ago, the northland was filled with beautiful shrines and towering mechanical castles.<P>\nSo very long ago...
+MSG_DRG_CAV_08	It is a rare thing to have humans visit us here.<P>\nIf you are valiant warriors, you should speak with Bahamut, our king.
+MSG_DRG_CAV_09	The dragons of the Cardian Islands have no love of senseless killing.
+MSG_DRG_CAV_10	Once, long ago, there was an age when man and dragon lived together.
+MSG_DRG_CAV_11	Only the truly brave can obtain a token of their courage.
+MSG_DRG_CAV_12	This is the chamber of Bahamut, the Dragon King. Mind your tongue.
+MSG_DRG_CAV_13	The Dragon King looks within to measure a person's true courage.
+MSG_OXYALE_01	You're the ones who rescued me from that bottle!<P>\nI'm sorry about running away, but I was just so scared...<P>\nI'll get you some oxyale from the bottom of the spring to make up for it, okay?
+MSG_OXYALE_02	Air will flow out of that water for as long as you have it!
+MSG_OXYALE_03	You obtain oxyale.
+MSG_GAI_CTY_01	I caught the faerie, so I figure she's mine to do with as I please. What's the big deal?<P>\nSo I sold her to the caravan. So what?
+MSG_GAI_CTY_02	There was a scholar studying the Lufenian language, but I can't seem to recall his name.
+MSG_GAI_CTY_03	A faerie was living at our spring, but I haven't seen her lately. I wonder what's happened to her.
+MSG_GAI_CTY_04	My dad was always telling me how the castle to the west was a place to test your courage.
+MSG_GAI_CTY_05	They say a special water called oxyale gushes from the bottom of our spring. But only faeries can draw it out.
+MSG_GAI_CTY_06	Legends say the Sky People could soar through the sky and built castles above the clouds.
+MSG_GAI_CTY_07	There's a tower in the Yahnikurm Desert that no one can enter.<P>\nSome people think it's nothing but a mirage, so it's called the Mirage Tower.<P>\nNo one can say for sure, though.
+MSG_GAI_CTY_08	That broom's always trying to weasel its way out of its chores. I don't know what to do with it!
+MSG_GAI_CTY_09	Busy, busy, busy...Swish-swish-aree!
+MSG_GAI_CTY_10	Have you visited the Wing of the Hawk? I can't understand a word they say there.
+MSG_GAI_CTY_11	What!? You understand the language they speak in the Wing of the Hawk?
+MSG_GAI_CTY_12	This is Gaia. Outsiders often call our town the Eye of the Hawk.<P>\nTo our south is an ancient city known as the Wing of the Hawk.
+MSG_GAI_CTY_13	Thanks for saving me! Has the oxyale helped you out?<P>\nIt'll never run out of air, so you can use it to stay underwater as long as you like!
+MSG_GAI_CTY_14	I don't believe it! You're outsiders, aren't you!? How did you make it up this high in the mountains?<P>\nCan you fly or something? Nah, that's impossible...right?
+MSG_GAI_CTY_15	I saw a shining light fly off to the west in the night sky! I KNOW I saw it!
+MSG_SUBMARINE_01	You...you have oxyale.
+MSG_SUBMARINE_02	You are the ones we've been waiting for.
+MSG_SUBMARINE_03	Please save the mermaids!
+MSG_ORK_CTY_01	You ever hear of something called oxyale?
+MSG_ORK_CTY_02	They say that the shrine sank into the sea two hundred years ago.<P>\nNow there are mermaids living there—or so the story goes.
+MSG_ORK_CTY_03	They say this used to be a beautiful village until about two hundred years ago.
+MSG_ORK_CTY_04	Look at my legs! Aren't they wonderful?<P>\nI love having legs! Look! Look! Did you see that move I just did?
+MSG_ORK_CTY_05	That Underhill fella from the caravan had something very weird for sale.
+MSG_ORK_CTY_06	Long ago, an ancient race known as the Sky People used a language called Lufenian.<P>\nMy brother, Unne, would always tell me how he'd figure out how to speak it if he only had the Rosetta Stone.
+MSG_ORK_CTY_07	You have the Rosetta Stone!?<P>\nYou must take it to my brother, Unne, immediately!
+MSG_ORK_CTY_08	The Sunken Shrine is said to be filled with riches.<P>\nSilver, gold, diamonds...even tablets describing lost languages and civilizations, if you believe the legends.
+MSG_ORK_CTY_09	Koppe's been spreading some nonsense story about how he saw a shining thing fall out of the sky.
+MSG_ORK_CTY_10	Out of me way! Blast it! I haven't been able to catch me a single fish!<P>\nHow'm I supposed to keep food on me plate and *hic* in me belly?
+MSG_ORK_CTY_11	Are those legs REALLY yours?
+MSG_ORK_CTY_12	Two hundred years ago, the Shrine of Onrac flourished. It brimmed with the power of water.<P>\nI ask but one thing of you. Please, restore that power to its former grace.
+MSG_ORK_CTY_13	The mystic power of the water has been revived! Now our kingdom will once again flourish!
+MSG_ORK_CTY_14	I wanted to save the mermaids living on the seafloor, so I made this submarine out of a barrel.<P>\nBut when I went underwater, I started running out of air. I couldn't breathe.<P>\nIt's totally useless. Even worse, it's dangerous. You'd better keep away.
+MSG_ORK_CTY_15	You have the look of a warrior about you. I'm a warrior myself, on a pilgrimage to the Citadel of Trials to earn the recognition of the Dragon King.<P>\nI must return with a token proving my strength and courage.
+MSG_ORK_CTY_16	Amazing! Humans have been honored by the Dragon King!
+MSG_ORK_CTY_17	My father's with the caravan. Right now they're over in the desert to the west.<P>\nThey usually pitch camp by the forest near the north of the desert. I hope he comes home soon.
+MSG_ORK_CTY_18	Hi, my name's Koppe. Hm?<P>\nYou want to hear about the shining object I saw? I think it fell somewhere near the waterfall to the north.<P>\nNo one believes me, but I think it was some kind of mechanical creature!
+MSG_ORK_CTY_19	Do you want to get in the barrel?
+MSG_ORK_CTY_20	Let's take a peek at your reflection in the water...<P>\nUgh! You're filthy! Use this to wash up!
+MSG_ORK_CTY_21	It's a gravestone.
+MSG_ORK_CTY_22	It's a well. It looks like you could climb inside, but you can't. Really.
+MSG_MAP04_01	You obtain the Rosetta Stone.
+MSG_KRAKEN_01	Hmph. You humans do impress... I would not have thought to see you here.
+MSG_KRAKEN_02	But do you really think you can defeat the Fiend of Water here in my own domain?<P>\nFools! These dark depths shall be your tomb!
+MSG_SEA_DAN_01	This is the Altar of Water, from which the power of water flows forth.
+MSG_SEA_DAN_02	Oh! My prayers have been answered!
+MSG_SEA_DAN_03	If the light of the sea is lost, we will turn into sea foam and vanish forever...
+MSG_SEA_DAN_04	One of our friends went to see the world above and hasn't returned.<P>\nI wonder what she's doing now? I do hope she's alright...
+MSG_SEA_DAN_05	You can breathe underwater? How? HOW!?
+MSG_SEA_DAN_06	Save the sea. Restore light to the Water Crystal.
+MSG_SEA_DAN_07	Thank you so much! Now the beauty this stretch of sea once knew will surely return!
+MSG_SEA_DAN_08	If the light of the sea is not restored, we will vanish as foam on the waves...
+MSG_SEA_DAN_09	Are those the Crystals the legends speak of? Just who are you?
+MSG_SEA_DAN_10	This is the uppermost level of the shrine.<P>\nThe kraken, the Fiend of Water, nests on its lowest level.
+MSG_SEA_DAN_11	The Mirage Tower stands in the desert to the east of the continent, right?<P>\nWell, I saw someone go INTO the tower! I heard the most lovely chiming sound...
+MSG_SEA_DAN_12	While the Fiend of Water lives, the light of the sea grows ever darker.
+MSG_SEA_DAN_13	Do you want to get in the barrel?
+MSG_GET_CHIME_01	Before you leave, legendary warriors, take this chime with you.<P>\nIt will grant you passage into the Mirage Tower.
+MSG_GET_CHIME_02	You obtain the chime.
+MSG_RFE_CTY_01	Lu...pa...gamhi...dho?
+MSG_RFE_CTY_02	We have a legend that has been passed down through many generations.<P>\nAccording to this legend, four hundred years after the fall of the civilization in the sky, warriors bearing light will come forth to save our people.
+MSG_RFE_CTY_03	The Light Bearers! Then the legend is true!
+MSG_RFE_CTY_04	We placed our last hope in the five warriors we sent out...<P>\nIt's been said they fell victim to the curse of the Fiends and were turned into bats.
+MSG_RFE_CTY_05	The castle that floats high above the clouds was once the home of our ancestors.<P>\nThe Mirage Tower is the gateway to that castle.
+MSG_RFE_CTY_06	We came to believe there was another entity controlling the four Fiends.<P>\nTo ascertain its location, we sent out five warriors. But much time has passed since we heard from them.<P>\nI hope no harm has befallen them...
+MSG_RFE_CTY_07	This world is composed of four forces: fire, earth, water, and wind.<P>\nOf these, we showed greatest prowess with the power of wind. High in the sky, we set a castle afloat in that azure sea of stars.
+MSG_RFE_CTY_08	Four hundred years ago, we built a civilization of the highest order.<P>\nEven beyond the skies we reached... However, that is naught but history now.
+MSG_RFE_CTY_09	The flying castle floats on a blue sea of stars beyond the sky.
+MSG_RFE_CTY_10	The Sky People would pass on their memories from one generation to the next through rituals.<P>\nBut four hundred years is a very long time, and those memories have begun to fade.
+MSG_RFE_CTY_11	Could the mechanical beings our ancestors created still function?
+MSG_RFE_CTY_12	We are the Lufenians, the descendants of the race that once lived among the clouds—the Sky People.<P>\nYou use a vessel you call an airship...<P>\nIt was built by one of our ancestors...a man by the name of Cid.
+MSG_RFE_CTY_13	The Mirage Tower is our symbol.
+MSG_RFE_CTY_14	We struggled for our very lives with Tiamat, the Fiend of Wind.<P>\nBut our power was not enough... To this day her lair remains in the castle in the sky—the Flying Fortress.
+MSG_RFE_CTY_15	Tiamat blocks the power of wind, the source of the Sky People's strength.
+MSG_RFE_CTY_16	Let's take a peek at your reflection in the water...<P>\nUgh! You're filthy! Use this to wash up!
+MSG_GET_WARPCUBE_01	...I have BEEN waiting...<P>\n...take this CUBE... ...TIAmat...flying fortress... ...please...
+MSG_GET_WARPCUBE_02	*buzz* *whir*
+MSG_GET_WARPCUBE_03	You obtain the warp cube.
+MSG_FAL_DAN_01	Kee! Kee!
+MSG_MRG_DAN_01	...masTER!... we have waited SO long...
+MSG_MRG_DAN_02	...our FRIEND left on a journey...to the WEST...<P>\n...he took the WARP cube...and went to see our masTER...
+MSG_MRG_DAN_03	...use the WARP cube to travel...beyond the SKY...<P>\n...it WILL take you to the...flying FORtress...
+MSG_WND_DAN_01	...analyzing TIAmat... no known WEAKNESS...
+MSG_WND_DAN_02	...from this observation WINdow...you can look out on...the ENTIRE world...
+MSG_WND_DAN_03	This is the Altar of Wind, from which the power of wind flows forth.
+MSG_WND_DAN_04	You obtain adamantite.
+MSG_LOOK_WINDOW_01	The observation window looks out upon the world.<P>\nThe four forces of fire, earth, water, and wind appear as mist converging on a single point...<P>\n...a point at the center of the four Altars. This must be the location of the Chaos Shrine!
+MSG_TIAMAT_01	You have defeated the lich and reached my lofty perch.
+MSG_TIAMAT_02	The lich, Marilith...<P>\nYou have defeated two Fiends and reached my lofty perch.
+MSG_TIAMAT_03	The lich, the kraken...<P>\nYou have defeated two Fiends and reached my lofty perch.
+MSG_TIAMAT_04	The lich, Marilith, the kraken...<P>\nYou have defeated three Fiends and reached my lofty perch.
+MSG_TIAMAT_05	All the better... May the image of Tiamat, the Fiend of Wind, be the last to burn in your eyes!
+MSG_EPL_01	The time loop was severed at last...
+MSG_EPL_02	The endless struggle that raged over two thousand years had ended, and peace prevailed once more.
+MSG_EPL_03	The light of the four Crystals restored the forces of wind, water, earth, and fire.
+MSG_EPL_04	It was a mere trick of fate that had given rise to the chain of Garland's wrath.
+MSG_EPL_05	But magnified by the four forces meant to guide our world, that trick of fate also gave birth to the Fiends.
+MSG_EPL_06	Monsters had run rampant as the world sank into darkness...
+MSG_EPL_07	But all that is now past.
+MSG_EPL_08	With the four forces flowing as they were meant, the Warriors prepared to cross time and return to the world they knew—a world where Princess Sarah, Queen Jayne, and even Garland himself await.
+MSG_EPL_09	When was this fateful day that sent time spiraling into a loop?
+MSG_EPL_10	None can say.
+MSG_EPL_11	It seemed the cycle into which time had fallen would last forever. But the bravery of four young travelers changed that. They took the forces that filled the world with darkness, and used them to bathe the world in light.
+MSG_EPL_12	None will ever recall the struggle the four endured, for the breaking of the chain means that it never existed.
+MSG_EPL_13	But within the tales of fantasy that people tell, the memory of their deeds lives on...
+MSG_EPL_14	Tales of dwarves and elves, of dragons and shining civilizations that reached for the heavens even as they fell.
+MSG_EPL_15	And now their return is upon us.
+MSG_EPL_16	With the memory of their struggle buried deep in their hearts, they will quietly watch over our world.
+MSG_EPL_17	Remember always that the forces of the world must be used as they were intended—that the power of light must never be used for dark, and that the true Crystals reside in your heart.
+MSG_EPL_18	For you are the warrior who crossed time.
+MSG_EPL_19	You are the bringer of light...
+MSG_EPL_20	
+MSG_EPL_21	
+MSG_EPL_22	
+MSG_EPL_23	
+MSG_EPL_24	
+MSG_EPL_25	
+MSG_EPL_26	
+MSG_EPL_27	
+MSG_EPL_28	
+MSG_EPL_29	
+MSG_EPL_30	
+MSG_MAP0A01_01	Please, come in! We charge (KINGAKU) gil per night. Would you like to stay?
+MSG_MAP0A01_02	Please come again!
+MSG_MAP0A01_03	Pleasant dreams!
+MSG_MAP0A01_04	You don't seem to have enough money.
+MSG_MAP0A01_05	Arise, fallen warrior!
+MSG_MAP0A01_06	It will cost (KINGAKU) gil to resurrect (SITAI). Proceed?
+MSG_MAP0A01_07	Who would you like to raise?
+MSG_MAP0A01_08	There are none in need of my services. Do not lose heart, brave warriors.
+MSG_MAP0A01_09	You wish to resurrect (SITAI)?
+MSG_OTHER_11	The chest contained (ITEM_N)!
+MSG_OTHER_12	The chest contained (NUM) gil!
+MSG_OTHER_13	You can't hold any more!
+MSG_OTHER_14	It's empty.
+MSG_OTHER_18	Monsters!
+MSG_OTHER_52	Leave?
+THANKS_TO_EVERYONE	To the fans across the globe, both past and present,\nand to the crew who brought the originals to life,\nwe offer our profound and heartfelt thanks.
+

@@ -1,0 +1,41 @@
+{
+    "Segments": [
+        {
+            "Label": "Main",
+            "EntryPoint": 0,
+            "Count": 2
+        }
+    ],
+    "ScriptLocal": [],
+    "Mnemonics": [
+        {
+            "label": "Main",
+            "mnemonic": "Nop",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        },
+	{"label" : "", "mnemonic" : "SysCall", "type" : 1, "operands" : { "sValues" : ["MapEntryRoofControl"] }, "comment":  "屋根操作"},
+        {
+            "label": "",
+            "mnemonic": "Exit",
+            "operands": {
+                "iValues": [],
+                "rValues": [],
+                "sValues": []
+            },
+            "type": 1,
+            "comment": ""
+        }
+    ],
+    "Animations": [],
+    "Name": "",
+    "Title": {
+        "main": "",
+        "sub": ""
+    }
+}

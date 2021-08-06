@@ -1,0 +1,53 @@
+{
+  "single": {
+    "messageids": [
+      "STUFF_LHW_00_01",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_LHW_01_01",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_03",
+      "STUFF_LHW_01_05",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_09",
+      "STUFF_LHW_01_11",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_16",
+      "STUFF_LHW_01_18",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_LHW_01_02",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_04",
+      "STUFF_LHW_01_06",
+      "STUFF_LHW_01_07",
+      "STUFF_LHW_01_08",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_10",
+      "STUFF_LHW_01_12",
+      "STUFF_LHW_01_13",
+      "STUFF_LHW_01_14",
+      "STUFF_LHW_01_15",
+      "STUFF_SIGN",
+      "STUFF_LHW_01_17",
+      "STUFF_LHW_01_19",
+      "STUFF_LHW_01_20",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+}

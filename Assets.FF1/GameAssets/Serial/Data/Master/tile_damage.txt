@@ -1,0 +1,2 @@
+id,damage_value,condition_id,field_se_asset_id
+1,1,0,5

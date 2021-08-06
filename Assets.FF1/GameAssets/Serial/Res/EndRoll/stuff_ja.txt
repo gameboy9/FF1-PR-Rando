@@ -1,0 +1,1453 @@
+STUFF_SIGN	\n
+STUFF_TITLE_00_01	<color="#ffffcc"><b>FINAL FANTASY\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_TITLE_00_02	<color="#ffffcc"><b>FINAL FANTASY II\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_TITLE_00_03	<color="#ffffcc"><b>FINAL FANTASY III\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_TITLE_00_04	<color="#ffffcc"><b>FINAL FANTASY IV\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_TITLE_00_05	<color="#ffffcc"><b>FINAL FANTASY V\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_TITLE_00_06	<color="#ffffcc"><b>FINAL FANTASY VI\nPIXEL REMASTER\nSTAFF</b></color>
+STUFF_SQDEV_01_01	<color="#43deff">SUPERVISOR</color>
+STUFF_SQDEV_01_02	Yoshinori Kitase
+STUFF_SQDEV_01_03	Takashi Tokita
+STUFF_SQDEV_01_04	<color="#43deff">DIRECTOR</color>
+STUFF_SQDEV_01_05	Takahiro Noda
+STUFF_SQDEV_01_25	<color="#43deff">LEAD PLANNER</color>
+STUFF_SQDEV_01_06	Kazuhiro Kobayashi
+STUFF_SQDEV_01_07	<color="#43deff">PLANNERS</color>
+STUFF_SQDEV_01_08	Natsuki Hanai
+STUFF_SQDEV_01_09	Miyuki Kano
+STUFF_SQDEV_01_10	<color="#43deff">ART DIRECTOR</color>
+STUFF_SQDEV_01_11	Marie Iwanaga
+STUFF_SQDEV_01_12	<color="#43deff">LEAD PIXEL ARTIST</color>
+STUFF_SQDEV_01_13	Kazuko Shibuya
+STUFF_SQDEV_01_14	<color="#43deff">ART PROJECT MANAGER</color>
+STUFF_SQDEV_01_15	Kumi Sudo
+STUFF_SQDEV_01_16	<color="#43deff">MUSIC DIRECTOR</color>
+STUFF_SQDEV_01_17	Hidenori Miyanaga
+STUFF_SQDEV_01_18	<color="#43deff">SOUND EFFECT DIRECTOR/ARRANGER</color>
+STUFF_SQDEV_01_19	<color="#43deff">SOUND EFFECT DIRECTOR</color>
+STUFF_SQDEV_01_20	Yuji Aoyama
+STUFF_SQDEV_01_21	<color="#43deff">ORIGINAL COMPOSER & MUSIC SUPERVISOR</color>
+STUFF_SQDEV_01_22	Nobuo Uematsu
+STUFF_SQDEV_01_23	<color="#43deff">LOGO & IMAGE ILLUSTRATION</color>
+STUFF_SQDEV_01_24	Yoshitaka Amano
+STUFF_TOSE_00_01	<color="#ffffcc"><b>TOSE CO., LTD.</b></color>
+STUFF_TOSE_01_01	<color="#43deff">PROJECT MANAGER</color>
+STUFF_TOSE_01_02	Takashi Katsuda
+STUFF_TOSE_01_03	<color="#43deff">DIRECTOR</color>
+STUFF_TOSE_01_04	Natsuko Kamoi
+STUFF_TOSE_02_01	<color="#43deff">PLANNERS</color>
+STUFF_TOSE_02_02	Hideaki Muraishi
+STUFF_TOSE_02_03	Kenshiro Saito
+STUFF_TOSE_02_04	Nobuhisa Wada
+STUFF_TOSE_02_05	Yohei Yamada
+STUFF_TOSE_02_06	Masanori Yokoyama
+STUFF_TOSE_02_07	Kento Kubo
+STUFF_TOSE_02_08	Naoya Suzawa
+STUFF_TOSE_02_09	Yuya Tonsho
+STUFF_TOSE_02_10	Saori Nagae
+STUFF_TOSE_02_11	Taiki Ikejiri
+STUFF_TOSE_02_12	Miki Narahashi
+STUFF_TOSE_02_13	Kei Nakai
+STUFF_TOSE_02_14	Arata Nemoto
+STUFF_TOSE_02_15	Daichi Yamasaki
+STUFF_TOSE_02_16	Tomoyuki Sato
+STUFF_TOSE_02_17	Koki Moriike
+STUFF_TOSE_02_18	Jun Sasaki
+STUFF_TOSE_02_19	Shinnosuke Nakamura
+STUFF_TOSE_02_20	Hung Ching Chun
+STUFF_TOSE_02_21	Ryota Kawahara
+STUFF_TOSE_02_22	Masaki Nishimura
+STUFF_TOSE_02_23	Ryojin Ueda
+STUFF_TOSE_02_24	Akito Komura
+STUFF_TOSE_02_25	Yosuke Umeki
+STUFF_TOSE_02_26	Ryosuke Fukuda
+STUFF_TOSE_02_27	Tomoya Saito
+STUFF_TOSE_03_01	<color="#43deff">TECHNICAL DIRECTOR</color>
+STUFF_TOSE_03_02	Shigeyuki Itoh
+STUFF_TOSE_03_03	<color="#43deff">PROGRAMMERS</color>
+STUFF_TOSE_03_04	Yuki Watanabe
+STUFF_TOSE_03_05	Daisuke Kimura
+STUFF_TOSE_03_06	Yu Watanabe
+STUFF_TOSE_03_07	Shunsuke Iwasaki
+STUFF_TOSE_03_08	Shigenobu Hirano
+STUFF_TOSE_03_09	Hitoshi Kano
+STUFF_TOSE_03_10	Rio Mitsushiro
+STUFF_TOSE_03_11	Tasuku Kamakura
+STUFF_TOSE_03_12	Shinobu Saito
+STUFF_TOSE_03_13	Akitoshi Nakamura
+STUFF_TOSE_03_14	Aoi Inoue
+STUFF_TOSE_03_15	Yoshitaka Kobayashi
+STUFF_TOSE_03_16	Yudai Sato
+STUFF_TOSE_03_17	Yudai Hashimoto
+STUFF_TOSE_03_18	Aya Kawakami
+STUFF_TOSE_04_01	<color="#43deff">ART DIRECTORS</color>
+STUFF_TOSE_04_02	Yasuki Kitano
+STUFF_TOSE_04_03	Soushi Saito
+STUFF_TOSE_04_04	<color="#43deff">ARTISTS</color>
+STUFF_TOSE_04_05	Atsushi Kaneko
+STUFF_TOSE_04_06	Rei Arakawa
+STUFF_TOSE_04_07	Riho Sunahara
+STUFF_TOSE_04_08	Sari Wakayama
+STUFF_TOSE_04_09	Kasumi Mori
+STUFF_TOSE_04_10	Ayana Kato
+STUFF_TOSE_04_11	Ami Ejima
+STUFF_TOSE_04_12	Moeko Kato
+STUFF_TOSE_04_13	Jun Nakahara
+STUFF_TOSE_04_14	Kotone Takeuchi
+STUFF_TOSE_04_15	Chazawa
+STUFF_TOSE_04_16	Yusuke Nakano
+STUFF_TOSE_04_17	Anna C. Siawingco
+STUFF_TOSE_04_18	Crisenda A. Espera
+STUFF_TOSE_04_19	Christina B. Alde
+STUFF_TOSE_04_20	Allain D. Rubin
+STUFF_TOSE_04_21	Cheska Marie S. Jaramillo
+STUFF_TOSE_04_22	Myrriane Allel C. Aguila
+STUFF_TOSE_04_23	Jayruel G. dela Peña
+STUFF_TOSE_04_24	Kennard James O. Penalba
+STUFF_TOSE_04_25	Skydee C. Tabotabo
+STUFF_TOSE_04_26	Dexter E. Aguinillo
+STUFF_TOSE_05_01	<color="#43deff">SPECIAL THANKS</color>
+STUFF_TOSE_05_02	Motoki Okazaki
+STUFF_TOSE_05_03	Yuta Yoshino
+STUFF_TOSE_05_04	Hinano Tanaka
+STUFF_TOSE_05_05	Reito Kobayashi
+STUFF_TOSE_05_06	Satoshi Minakata
+STUFF_TOSE_05_07	Hideki Yokoi
+STUFF_TOSE_05_08	Michael Angelo D. Ledesma
+STUFF_TOSE_05_09	Lincoln C. Nunag
+STUFF_SQEX_00_01	<color="#ffffcc"><b>SQUARE ENIX CO., LTD.</b></color>
+STUFF_SQEX_01_01	<color="#ffffcc"><b>Creative Business Unit IV</b></color>
+STUFF_SQEX_01_02	<color="#43deff">DEPUTY VICE PRESIDENT</color>
+STUFF_SQEX_01_03	Kei Hirono
+STUFF_SQEX_01_04	<color="#43deff">PROJECT MANAGERS</color>
+STUFF_SQEX_01_05	Yoshihiro Iwamoto
+STUFF_SQEX_01_06	Tatsuhiro Nagano
+STUFF_SQEX_01_07	<color="#43deff">ARTIST</color>
+STUFF_SQEX_01_08	Yutaka Koyama
+STUFF_SQEX_01_09	<color="#43deff">TECHNICAL DIRECTORS</color>
+STUFF_SQEX_01_10	Hisanao Suzuki
+STUFF_SQEX_01_11	Yosuke Iwasawa
+STUFF_SQEX_01_12	<color="#43deff">LOCALIZATION PROJECT MANAGERS</color>
+STUFF_SQEX_01_13	Maiko Okada
+STUFF_SQEX_01_14	Mizue Nakamoto
+STUFF_SQEX_01_15	<color="#43deff">PR & MARKETING STAFF</color>
+STUFF_SQEX_01_16	Kiyotaka Sousui
+STUFF_SQEX_01_17	Masahiko Kasai
+STUFF_SQEX_01_18	Hazuki Kuroda
+STUFF_SQEX_01_19	Shuyi Du
+STUFF_SQEX_01_20	Takashi Shibasaki
+STUFF_SQEX_01_21	<color="#43deff">PROJECT SUPPORT STAFF</color>
+STUFF_SQEX_01_22	Chie Tanaka
+STUFF_SQEX_01_23	Yuuko Suzuki
+STUFF_SQEX_01_24	Mari Kato
+STUFF_SQEX_01_25	Yuko Hirokawa
+STUFF_SQEX_01_26	Yuri Inamoto
+STUFF_SQEX_01_27	Aki Okutsu
+STUFF_SQEX_01_28	Kumiko Ishii
+STUFF_SQEX_01_29	<color="#43deff">MANAGER</color>
+STUFF_SQEX_01_30	Hiroshi Hisamoto
+STUFF_SQEX_01_31	<color="#43deff">SENIOR MANAGERS</color>
+STUFF_SQEX_01_32	Sho Makie
+STUFF_SQEX_01_33	Hiroyuki Suzuki
+STUFF_SQEX_01_34	<color="#43deff">DIVISION DIRECTORS</color>
+STUFF_SQEX_01_35	Sho Okamura
+STUFF_SQEX_01_36	Kohei Takaoka
+STUFF_SQEX_01_37	<color="#43deff">EXECUTIVE OFFICER</color>
+STUFF_SQEX_01_38	Hirokazu Nishikado
+STUFF_SQEX_02_01	<color="#ffffcc"><b>Sound Division</b></color>
+STUFF_SQEX_02_02	<color="#43deff">ARRANGER/SOUND EDITORS</color>
+STUFF_SQEX_02_03	Ayumu Murai
+STUFF_SQEX_02_04	Hirosato Noda
+STUFF_SQEX_02_05	<color="#43deff">SOUND EDITORS</color>
+STUFF_SQEX_02_06	Eri Yha
+STUFF_SQEX_02_07	Keisuke Morita
+STUFF_SQEX_02_08	Daiki Okazaki
+STUFF_SQEX_02_09	<color="#43deff">SOUND PROGRAMMERS</color>
+STUFF_SQEX_02_10	Yoshinori Tsuchida
+STUFF_SQEX_02_11	Akihiro Minami
+STUFF_SQEX_02_12	Yuichi Nishimatsu
+STUFF_SQEX_02_13	<color="#43deff">GUITAR</color>
+STUFF_SQEX_02_14	Tsuyoshi Sekito
+STUFF_SQEX_02_15	<color="#43deff">PROJECT MANAGERS</color>
+STUFF_SQEX_02_16	Masamu Kobayshi
+STUFF_SQEX_02_17	Kazuki Hamamoto
+STUFF_SQEX_02_18	<color="#43deff">ARRANGERS</color>
+STUFF_SQEX_02_19	Tomonori Adachi (Ivory Music)
+STUFF_SQEX_02_20	Reo Uratani (Rei Music)
+STUFF_SQEX_02_21	Shingo Kataoka (U-on Factory)
+STUFF_SQEX_02_22	Yuko Komiyama (comymusic)
+STUFF_SQEX_02_23	Daisuke Shiiba
+STUFF_SQEX_02_24	Ryoue Takagi (Studio Chikkyousya)
+STUFF_SQEX_02_25	Eri Tsunemoto (studio de musique)
+STUFF_SQEX_02_26	Kento Hasegawa (SOUND18)
+STUFF_SQEX_02_27	Masato Kouda (DesignWave Co.,Ltd.)
+STUFF_SQEX_02_28	Masaya Tsunemoto (JT STUDIO akihabara)
+STUFF_SQEX_02_29	<color="#43deff">ARTIST MANAGERS</color>
+STUFF_SQEX_02_30	Atsushi Mori (DesignWave Co.,Ltd.)
+STUFF_SQEX_02_31	Hiroshi Okamoto (JT STUDIO akihabara)
+STUFF_SQEX_03_01	<color="#ffffcc"><b>Quality Assurance</b></color>
+STUFF_SQEX_03_02	<color="#43deff">COORDINATORS</color>
+STUFF_SQEX_03_03	Maki Morioka
+STUFF_SQEX_03_04	Shinsaku Fukuma
+STUFF_SQEX_03_05	Tsubasa Kobayashi
+STUFF_SQEX_03_06	Gorou Kimura
+STUFF_SQEX_03_07	<color="#43deff">TECHNICAL ENGINEERS</color>
+STUFF_SQEX_03_08	Toyokazu Takehara
+STUFF_SQEX_03_09	Tetsuya Takahashi
+STUFF_SQEX_03_10	Jun Sato
+STUFF_SQEX_03_11	Keigo Kouno
+STUFF_SQEX_03_12	Kazuya Okada
+STUFF_SQEX_03_13	Keishi Takeda
+STUFF_SQEX_03_14	Hiroyuki Ogura
+STUFF_SQEX_03_15	Takahiro Shimizu 
+STUFF_SQEX_03_16	Takuma Sakurada
+STUFF_SQEX_03_17	Rie Kuba
+STUFF_SQEX_03_18	 ...and the entire QA staff
+STUFF_SQEX_03_19	<color="#43deff">RATINGS ADVISORS</color>
+STUFF_SQEX_03_20	Mari Tanabe
+STUFF_SQEX_03_21	Reiko Kondo
+STUFF_SQEX_03_22	<color="#43deff">MANAGERS</color>
+STUFF_SQEX_03_23	Hideyuki Kato
+STUFF_SQEX_03_24	Katsuhiko Yokoyama
+STUFF_SQEX_03_25	<color="#43deff">GENERAL MANAGER</color>
+STUFF_SQEX_03_26	Yukihiro Shibuya
+STUFF_SQEX_04_01	<color="#ffffcc"><b>Creative Division</b></color>
+STUFF_SQEX_04_02	<color="#43deff">STAFF</color>
+STUFF_SQEX_04_03	Yasunori Ohtsu
+STUFF_SQEX_04_04	Takeshi Kashio
+STUFF_SQEX_04_05	Mariko Nishizawa
+STUFF_SQEX_05_01	<color="#ffffcc"><b>Media & Arts Business Division</b></color>
+STUFF_SQEX_05_02	<color="#ffffcc"><b>Music Entertainment Group</b></color>
+STUFF_SQEX_05_03	<color="#43deff">PRODUCTION COORDINATOR</color>
+STUFF_SQEX_05_04	Shohei Negishi
+STUFF_SQEX_05_05	<color="#43deff">PRODUCTION PRODUCER</color>
+STUFF_SQEX_05_06	Akio Shiraishi
+STUFF_SQEX_05_07	<color="#43deff">DEPUTY GENERAL MANAGER\nHEAD OF MUSIC ENTERTAINMENT GROUP</color>
+STUFF_SQEX_05_08	\nSoshi Yoshida
+STUFF_SQEX_05_09	<color="#43deff">GENERAL MANAGER</color>
+STUFF_SQEX_05_10	Ryuji Abe
+STUFF_SQEX_06_01	<color="#ffffcc"><b>Business Relations Division</b></color>
+STUFF_SQEX_06_02	<color="#43deff">GENERAL MANAGER</color>
+STUFF_SQEX_06_03	Keisuke Hata
+STUFF_SQEX_06_04	<color="#43deff">SENIOR MANAGERS</color>
+STUFF_SQEX_06_05	Hidetoshi Aoyagi
+STUFF_SQEX_06_06	Noriko Watanabe
+STUFF_SQEX_06_07	<color="#43deff">STAFF</color>
+STUFF_SQEX_06_08	Ken Ishigooka
+STUFF_SQEX_07_01	<color="#ffffcc"><b>Digital Business Unit</b></color>
+STUFF_SQEX_07_02	<color="#43deff">EXECUTIVE OFFICER\nVICE PRESIDENT</color>
+STUFF_SQEX_07_03	\nTomoyoshi Oosaki
+STUFF_SQEX_07_04	<color="#43deff">DEPUTY VICE PRESIDENT</color>
+STUFF_SQEX_07_05	Makoto Tsuda
+STUFF_SQEX_08_01	<color="#ffffcc"><b>Sales Division</b></color>
+STUFF_SQEX_08_02	<color="#43deff">DIRECTOR</color>
+STUFF_SQEX_08_03	Daisuke Kobayashi
+STUFF_SQEX_08_04	<color="#43deff">STAFF</color>
+STUFF_SQEX_08_05	Fuminori Hyodo
+STUFF_SQEX_08_06	Daio Ito
+STUFF_SQEX_08_07	Toshiyuki Inoue
+STUFF_SQEX_08_08	Takashi Kamimura
+STUFF_SQEX_08_09	Kenta Kobayashi
+STUFF_SQEX_08_10	Aki Kohno
+STUFF_SQEX_08_11	Shun Koike
+STUFF_SQEX_08_12	Masahiro Matsumoto
+STUFF_SQEX_08_13	Saki Nishikawa
+STUFF_SQEX_08_14	Kazuhito Nishimura
+STUFF_SQEX_08_15	Nanami Nishimura
+STUFF_SQEX_08_16	Toshihide Nomura
+STUFF_SQEX_08_17	Mizuki Sakuma
+STUFF_SQEX_08_18	Maiko Shimizu
+STUFF_SQEX_08_19	Jain Son
+STUFF_SQEX_08_20	Waka Tachibana
+STUFF_SQEX_08_21	Gota Taguchi
+STUFF_SQEX_08_22	Shota Tamakoshi
+STUFF_SQEX_08_23	Masaki Yano
+STUFF_SQEX_08_24	Rumi Yoshikawa
+STUFF_SQEX_08_25	Tsutomu Yamada
+STUFF_SQEX_08_26	Ren Aimoto
+STUFF_SQEX_08_27	Yi Chia Hsieh
+STUFF_SQEX_08_28	Min Seon Lee
+STUFF_SQEX_08_29	Hiromi Sogamoto
+STUFF_SQEX_08_30	Masahide Tokuda
+STUFF_SQEX_08_31	Li-yen Wang
+STUFF_SQEX_08_32	Akiyo Hirota
+STUFF_SQEX_08_33	Noriko Ikeda
+STUFF_SQEX_08_34	Mariko Imai
+STUFF_SQEX_08_35	Haruka Tanaka
+STUFF_SQEX_08_36	Kaoru Yamagami
+STUFF_SQEX_09_01	<color="#ffffcc"><b>Merchandising Division</b></color>
+STUFF_SQEX_09_02	<color="#43deff">DIRECTOR</color>
+STUFF_SQEX_09_03	Hirokuni Matsuyama
+STUFF_SQEX_09_04	<color="#43deff">STAFF</color>
+STUFF_SQEX_09_05	Hirokazu Watanabe
+STUFF_SQEX_09_06	Masato Matsushita
+STUFF_SQEX_09_07	<color="#ffffcc"><b>PC Business Division</b></color>
+STUFF_SQEX_09_08	<color="#43deff">MANAGER</color>
+STUFF_SQEX_09_09	Takashi Hasegawa
+STUFF_SQEX_09_10	<color="#43deff">STAFF</color>
+STUFF_SQEX_09_11	Chieko Endo
+STUFF_SQEX_09_12	Jumpei Arakawa
+STUFF_SQEX_09_13	Makoto Takaji
+STUFF_SQEX_09_14	Tomomi Nakagawa
+STUFF_SQEX_10_01	<color="#ffffcc"><b>Online Business Development Division</b></color>
+STUFF_SQEX_10_02	<color="#43deff">DIRECTOR</color>
+STUFF_SQEX_10_03	Kenji Ishiwata
+STUFF_SQEX_10_04	<color="#43deff">STAFF</color>
+STUFF_SQEX_10_05	Shinsuke Takeda
+STUFF_SQEX_10_06	Chiaki Yamauchi
+STUFF_SQEX_11_01	<color="#ffffcc"><b>Community & Service Division</b></color>
+STUFF_SQEX_11_02	<color="#43deff">GENERAL MANAGER</color>
+STUFF_SQEX_11_03	Toshio Murouchi
+STUFF_SQEX_11_04	<color="#43deff">CUSTOMER SUPPORT MANAGER</color>
+STUFF_SQEX_11_05	Tatsuhiko Nozaki
+STUFF_SQEX_11_06	<color="#43deff">OPERATION SUPPORT LEADER</color>
+STUFF_SQEX_11_07	Naoto Tada
+STUFF_SQEX_11_08	<color="#43deff">OPERATION SUPPORT</color>
+STUFF_SQEX_11_09	Toshikazu Shigyou
+STUFF_SQEX_11_10	<color="#43deff">INFORMATION CENTER LEADER</color>
+STUFF_SQEX_11_11	Ryuji Kudo
+STUFF_SQEX_11_12	 ...and All Support Staff
+STUFF_SQEX_12_01	<color="#ffffcc"><b>Localization Division</b></color>
+STUFF_SQEX_12_02	<color="#43deff">LOCALIZATION PRODUCER</color>
+STUFF_SQEX_12_03	Yusuke Haruguchi
+STUFF_SQEX_12_04	<color="#43deff">LOCALIZATION PROJECT MANAGERS</color>
+STUFF_SQEX_12_05	Ko Suzuki
+STUFF_SQEX_12_06	Tomoko Morikawa
+STUFF_SQEX_12_07	<color="#43deff">LEAD ENGLISH TRANSLATOR</color>
+STUFF_SQEX_12_08	Paula Kaye Gerhold
+STUFF_SQEX_12_09	<color="#43deff">ENGLISH TRANSLATOR</color>
+STUFF_SQEX_12_10	Dan Gidion
+STUFF_SQEX_12_11	<color="#43deff">ENGLISH EDITOR</color>
+STUFF_SQEX_12_12	Tim Law (Olive Jirushi)
+STUFF_SQEX_12_13	<color="#43deff">KOREAN TRANSLATOR</color>
+STUFF_SQEX_12_14	Kim Jai In
+STUFF_SQEX_12_15	<color="#43deff">FRENCH TRANSLATOR</color>
+STUFF_SQEX_12_16	Geneviève Marier Howard
+STUFF_SQEX_12_17	<color="#43deff">ITALIAN TRANSLATOR</color>
+STUFF_SQEX_12_18	Alberto Della Rocca (Alpha CRC)
+STUFF_SQEX_12_19	<color="#43deff">GERMAN TRANSLATOR</color>
+STUFF_SQEX_12_20	Andreas Wollny
+STUFF_SQEX_12_21	<color="#43deff">SPANISH TRANSLATOR</color>
+STUFF_SQEX_12_22	Ahgueo
+STUFF_SQEX_12_23	<color="#43deff">LOCALIZATION ENGINEERS</color>
+STUFF_SQEX_12_24	Mahiro Komura
+STUFF_SQEX_12_25	Kazuki Kobayashi
+STUFF_SQEX_12_26	Taiji Uematsu
+STUFF_SQEX_12_27	Daichi Kan
+STUFF_SQEX_12_28	<color="#43deff">LOCALIZATION TECHNICAL DIRECTOR</color>
+STUFF_SQEX_12_29	Kenkyu Hata
+STUFF_SQEX_12_30	<color="#43deff">MANAGERS</color>
+STUFF_SQEX_12_31	Gary F. Manucal
+STUFF_SQEX_12_32	Emilie Thoré
+STUFF_SQEX_12_33	Aziz Hinoshita
+STUFF_SQEX_12_34	Ikuko Tsuruta
+STUFF_SQEX_12_35	<color="#43deff">GENERAL MANAGER</color>
+STUFF_SQEX_12_36	Shingo Hosokawa
+STUFF_SQEX_12_37	<color="#43deff">SPECIAL THANKS</color>
+STUFF_SQEX_12_38	Megumi Hiraoka
+STUFF_ART01_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART01_01_02	<color="#43deff">ART DIRECTOR\nNPC CHARACTER DESIGNER</color>
+STUFF_ART01_01_03	\nHaruna Shimayashiki
+STUFF_ART01_01_04	<color="#43deff">ART DIRECTOR\nMAP DESIGNER</color>
+STUFF_ART01_01_05	\nYu Nakamura
+STUFF_ART01_01_06	<color="#43deff">MAP DESIGNERS</color>
+STUFF_ART01_01_07	Naoya Muto
+STUFF_ART01_01_08	Koji Takino (I.T.L., Inc.)
+STUFF_ART01_01_09	<color="#43deff">MONSTER DESIGNER</color>
+STUFF_ART01_01_10	Masayoshi Nishimura (HECATONCHEIR)
+STUFF_ART01_01_11	<color="#43deff">PLANNERS</color>
+STUFF_ART01_01_12	Hideo Otsuka
+STUFF_ART01_01_13	Kazunori Inoue
+STUFF_ART01_01_14	<color="#43deff">DIRECTOR</color>
+STUFF_ART01_01_15	Koji Maki
+STUFF_ART01_01_16	<color="#43deff">MANAGERS</color>
+STUFF_ART01_01_17	Isao Okamoto
+STUFF_ART01_01_18	Hiroaki Kawai
+STUFF_ART01_01_19	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART01_01_20	Yasuhiro Ohori
+STUFF_ART01_02_01	<color="#ffffcc"><b>NETCHUBIYORI Ltd.</b></color>
+STUFF_ART01_02_02	<color="#43deff">PIXELATED MONSTER ART MANAGER</color>
+STUFF_ART01_02_03	Keiichi Yoshida
+STUFF_ART01_02_04	<color="#43deff">PIXELATED MONSTER ARTISTS</color>
+STUFF_ART01_02_05	Takahiro Hosoya
+STUFF_ART01_02_06	Mikako Shibukawa
+STUFF_ART01_02_07	Sachiko Tanaka
+STUFF_ART02_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART02_01_02	<color="#43deff">ART DIRECTOR\nNPC CHARACTER DESIGNER</color>
+STUFF_ART02_01_03	\nHaruna Shimayashiki
+STUFF_ART02_01_04	<color="#43deff">ART DIRECTOR\nMAP DESIGNER</color>
+STUFF_ART02_01_05	\nYu Nakamura
+STUFF_ART02_01_06	<color="#43deff">MAP DESIGNERS</color>
+STUFF_ART02_01_07	Naoya Muto
+STUFF_ART02_01_08	Koji Takino (I.T.L., Inc.)
+STUFF_ART02_01_09	<color="#43deff">MONSTER DESIGNER</color>
+STUFF_ART02_01_10	Masayoshi Nishimura (HECATONCHEIR)
+STUFF_ART02_01_11	<color="#43deff">PLANNERS</color>
+STUFF_ART02_01_12	Hideo Otsuka
+STUFF_ART02_01_13	Kazunori Inoue
+STUFF_ART02_01_14	Munetaka Hirano
+STUFF_ART02_01_15	<color="#43deff">DIRECTOR</color>
+STUFF_ART02_01_16	Koji Maki
+STUFF_ART02_01_17	<color="#43deff">MANAGERS</color>
+STUFF_ART02_01_18	Isao Okamoto
+STUFF_ART02_01_19	Hiroaki Kawai
+STUFF_ART02_01_20	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART02_01_21	Yasuhiro Ohori
+STUFF_ART02_02_01	<color="#ffffcc"><b>NETCHUBIYORI Ltd.</b></color>
+STUFF_ART02_02_02	<color="#43deff">PIXELATED MONSTER ART MANAGER</color>
+STUFF_ART02_02_03	Keiichi Yoshida
+STUFF_ART02_02_04	<color="#43deff">PIXELATED MONSTER ARTISTS</color>
+STUFF_ART02_02_05	Takahiro Hosoya
+STUFF_ART02_02_06	Mikako Shibukawa
+STUFF_ART02_02_07	Sachiko Tanaka
+STUFF_ART03_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART03_01_02	<color="#43deff">ART DIRECTOR\nNPC CHARACTER DESIGNER</color>
+STUFF_ART03_01_03	\nHaruna Shimayashiki
+STUFF_ART03_01_04	<color="#43deff">ART DIRECTOR\nMAP DESIGNER</color>
+STUFF_ART03_01_05	\nYu Nakamura
+STUFF_ART03_01_06	<color="#43deff">MAP DESIGNERS</color>
+STUFF_ART03_01_07	Naoya Muto
+STUFF_ART03_01_08	Koji Takino (I.T.L., Inc.)
+STUFF_ART03_01_09	Kazumi Yogi (I.T.L., Inc.)
+STUFF_ART03_01_10	Nariyuki Sakamoto (I.T.L., Inc.)
+STUFF_ART03_01_11	AQUA Co.,Ltd.
+STUFF_ART03_01_12	<color="#43deff">MAP DESIGNER\nBACKGROUND DESIGNER</color>
+STUFF_ART03_01_13	\nShinichiro Okaniwa
+STUFF_ART03_01_14	<color="#43deff">BACKGROUND DESIGNER</color>
+STUFF_ART03_01_15	Ginoya
+STUFF_ART03_01_16	<color="#43deff">MONSTER DESIGNER</color>
+STUFF_ART03_01_17	Masayoshi Nishimura (HECATONCHEIR)
+STUFF_ART03_01_18	<color="#43deff">PLANNERS</color>
+STUFF_ART03_01_19	Hideo Otsuka
+STUFF_ART03_01_20	Kazunori Inoue
+STUFF_ART03_01_21	Munetaka Hirano
+STUFF_ART03_01_22	<color="#43deff">DIRECTOR</color>
+STUFF_ART03_01_23	Koji Maki
+STUFF_ART03_01_24	<color="#43deff">MANAGERS</color>
+STUFF_ART03_01_25	Isao Okamoto
+STUFF_ART03_01_26	Hiroaki Kawai
+STUFF_ART03_01_27	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART03_01_28	Yasuhiro Ohori
+STUFF_ART03_02_01	<color="#ffffcc"><b>NETCHUBIYORI Ltd.</b></color>
+STUFF_ART03_02_02	<color="#43deff">PIXELATED MONSTER ART MANAGER</color>
+STUFF_ART03_02_03	Keiichi Yoshida
+STUFF_ART03_02_04	<color="#43deff">PIXELATED MONSTER ARTISTS</color>
+STUFF_ART03_02_05	Takahiro Hosoya
+STUFF_ART03_02_06	Mikako Shibukawa
+STUFF_ART03_02_07	Sachiko Tanaka
+STUFF_ART04_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART04_01_02	<color="#43deff">ART DIRECTOR\nNPC CHARACTER DESIGNER</color>
+STUFF_ART04_01_03	\nHaruna Shimayashiki
+STUFF_ART04_01_04	<color="#43deff">ART DIRECTOR\nMAP DESIGNER</color>
+STUFF_ART04_01_05	\nYu Nakamura
+STUFF_ART04_01_06	<color="#43deff">PLANNERS</color>
+STUFF_ART04_01_07	Hideo Otsuka
+STUFF_ART04_01_08	Kazunori Inoue
+STUFF_ART04_01_09	<color="#43deff">DIRECTOR</color>
+STUFF_ART04_01_10	Koji Maki
+STUFF_ART04_01_11	<color="#43deff">MANAGERS</color>
+STUFF_ART04_01_12	Isao Okamoto
+STUFF_ART04_01_13	Hiroaki Kawai
+STUFF_ART04_01_14	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART04_01_15	Yasuhiro Ohori
+STUFF_ART05_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART05_01_02	<color="#43deff">ART DIRECTOR\nNPC CHARACTER DESIGNER</color>
+STUFF_ART05_01_03	\nHaruna Shimayashiki
+STUFF_ART05_01_04	<color="#43deff">BACK GROUND DESIGNER</color>
+STUFF_ART05_01_05	Ginoya
+STUFF_ART05_01_06	<color="#43deff">PLANNER</color>
+STUFF_ART05_01_07	Kazunori Inoue
+STUFF_ART05_01_08	<color="#43deff">DIRECTOR</color>
+STUFF_ART05_01_09	Koji Maki
+STUFF_ART05_01_10	<color="#43deff">MANAGERS</color>
+STUFF_ART05_01_11	Isao Okamoto
+STUFF_ART05_01_12	Hiroaki Kawai
+STUFF_ART05_01_13	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART05_01_14	Yasuhiro Ohori
+STUFF_ART06_01_01	<color="#ffffcc"><b>Matrix Corporation</b></color>
+STUFF_ART06_01_02	<color="#43deff">ART DIRECTOR\nMAP DESIGNER</color>
+STUFF_ART06_01_03	\nYu Nakamura
+STUFF_ART06_01_04	<color="#43deff">PLANNER</color>
+STUFF_ART06_01_05	Kazunori Inoue
+STUFF_ART06_01_06	<color="#43deff">DIRECTOR</color>
+STUFF_ART06_01_07	Koji Maki
+STUFF_ART06_01_08	<color="#43deff">MANAGERS</color>
+STUFF_ART06_01_09	Isao Okamoto
+STUFF_ART06_01_10	Hiroaki Kawai
+STUFF_ART06_01_11	<color="#43deff">SPECIAL THANKS</color>
+STUFF_ART06_01_12	Yasuhiro Ohori
+STUFF_ART06_02_01	<color="#ffffcc"><b>NETCHUBIYORI Ltd.</b></color>
+STUFF_ART06_02_02	<color="#43deff">EFFECTS ART MANAGER</color>
+STUFF_ART06_02_03	Keiichi Yoshida
+STUFF_ART06_02_04	<color="#43deff">EFFECTS ARTISTS</color>
+STUFF_ART06_02_05	Mikako Shibukawa
+STUFF_ART06_02_06	Sachiko Tanaka
+STUFF_ART06_02_07	Keisuke Nitta (COYOTE RUNNER INC.)
+STUFF_TOSEPT_01_01	<color="#ffffcc"><b>amazing Inc.</b></color>
+STUFF_TOSEPT_01_02	<color="#43deff">DIRECTOR</color>
+STUFF_TOSEPT_01_03	Kazushi Kinoshita
+STUFF_TOSEPT_01_04	<color="#43deff">PROGRAMMER</color>
+STUFF_TOSEPT_01_05	Keiji Murakawa 
+STUFF_TOSEPT_01_06	<color="#43deff">PLANNER ASSISTANT</color>
+STUFF_TOSEPT_01_07	Daiki Jodoji
+STUFF_TOSEPT_02_01	<color="#ffffcc"><b>Linked Brain Inc.</b></color>
+STUFF_TOSEPT_02_02	<color="#43deff">SCRIPT DIRECTORS</color>
+STUFF_TOSEPT_02_03	Tomoki Hirata
+STUFF_TOSEPT_02_04	Yuta Nitabaru
+STUFF_TOSEPT_02_05	<color="#43deff">SCRIPT MANAGER</color>
+STUFF_TOSEPT_02_06	Takuro Ide
+STUFF_TOSEPT_02_07	<color="#43deff">SCRIPTWRITERS</color>
+STUFF_TOSEPT_02_08	Tomomi Matsuyama
+STUFF_TOSEPT_02_09	Miki Kawamura
+STUFF_TOSEPT_03_01	<color="#ffffcc"><b>Scenario Technology Mikagami Ltd.</b></color>
+STUFF_TOSEPT_03_02	<color="#43deff">SCRIPT DIRECTOR</color>
+STUFF_TOSEPT_03_03	Noboru Todoroki
+STUFF_TOSEPT_03_04	<color="#43deff">SCRIPTWRITERS</color>
+STUFF_TOSEPT_03_05	Akira Ishikura
+STUFF_TOSEPT_03_06	Souta Aioi
+STUFF_TOSEPT_04_01	<color="#ffffcc"><b>CREEK & RIVER Co., Ltd.</b></color>
+STUFF_TOSEPT_04_02	<color="#43deff">PRODUCER</color>
+STUFF_TOSEPT_04_03	Kohei Ochi
+STUFF_TOSEPT_04_04	<color="#43deff">TEAM LEADER</color>
+STUFF_TOSEPT_04_05	Satoru Ariga
+STUFF_TOSEPT_04_06	<color="#43deff">VISUAL EFFECTS ARTIST</color>
+STUFF_TOSEPT_04_07	Kohei Ogawa
+STUFF_TOSEPT_04_08	<color="#43deff">PROJECT MANAGER</color>
+STUFF_TOSEPT_04_09	Masaru Kawabata
+STUFF_PTWJA_00_01	<color="#ffffcc"><b>Pole To Win Co., Ltd.</b></color>
+STUFF_PTWJA_01_01	Masuo Ryu
+STUFF_PTWJA_01_02	Hirokazu Nagase
+STUFF_PTWJA_01_03	Masayasu Kawagoe
+STUFF_PTWJA_01_04	Takehiro Ogata
+STUFF_PTWJA_01_05	Kouki Tamura
+STUFF_PTWJA_01_06	Seiya Sasai
+STUFF_PTWJA_01_07	Hiroyuki Kitasaki
+STUFF_PTWJA_01_08	Haruna Moriyama
+STUFF_PTWJA_01_09	Takaaki Miyazaki
+STUFF_PTWJA_01_10	Maya Urabe
+STUFF_PTWJA_01_11	Tomohiro Kawase
+STUFF_PTWJA_01_12	Ryoji Tokunaga
+STUFF_PTWJA_01_13	Daiki Nakamura
+STUFF_PTWJA_01_14	Ayumi Saruwatari
+STUFF_PTWJA_01_15	Morio Kobayashi
+STUFF_PTWJA_01_16	Rintaro Yamasita
+STUFF_PTWJA_01_17	Kaori Hanafusa
+STUFF_PTWJA_01_18	Yasuo Sekine
+STUFF_PTWJA_01_19	Koichi Ito
+STUFF_PTWJA_01_20	Kouji Hiramoto
+STUFF_PTWJA_01_21	Syuhei Akine
+STUFF_PTWJA_01_22	Masahiro Furukawa
+STUFF_PTWJA_01_23	Shinya Miyamasa
+STUFF_PTWJA_01_24	Youhei Furukawa
+STUFF_PTWJA_01_25	Naoki Shibata
+STUFF_PTWJA_01_26	Yasuhiro Takaoka
+STUFF_PTWJA_01_27	Naoki Nakashima
+STUFF_PTWJA_01_28	Sachi Fujiki
+STUFF_PTWJA_01_29	Nami Takahuji
+STUFF_PTWJA_01_30	Kenta Inamasu
+STUFF_PTWJA_01_31	Satoshi Harada
+STUFF_PTWJA_01_32	Hiroyuki Hamada
+STUFF_PTWJA_01_33	Daichi Mukai
+STUFF_PTWJA_01_34	Takuya Taniguchi
+STUFF_PTWJA_01_35	Masaaki Watanabe
+STUFF_PTWJA_01_36	Kennto Shibata
+STUFF_PTWJA_01_37	Etsuko  Nishino
+STUFF_PTWJA_01_38	Minami Yamada
+STUFF_PTWJA_01_39	Issei Takahashi
+STUFF_PTWJA_01_40	Eri Motizuki
+STUFF_PTWJA_01_41	Kazuto Arichika
+STUFF_PTWJA_01_42	Shota Sonoda
+STUFF_PTWJA_01_43	Kento Furukawa
+STUFF_PTWJA_01_44	Kazutoshi Ushinohama
+STUFF_PTWJA_01_45	Kou Mizutani
+STUFF_PTWJA_01_46	Sayaka Fujimura
+STUFF_SOUND01_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND01_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND01_01_03	Hiroki Ogawa
+STUFF_SOUND01_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND01_01_05	Takanori Uematsu
+STUFF_SOUND01_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND01_02_02	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND01_02_03	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND01_02_04	Shimpei Sasaki
+STUFF_SOUND01_02_05	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND01_02_06	Seiji Watanabe
+STUFF_SOUND01_02_07	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND01_02_08	Japan Century Symphony Orchestra
+STUFF_SOUND01_02_09	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND01_02_10	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND01_02_11	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND01_02_12	<color="#43deff">FLUTE</color>
+STUFF_SOUND01_02_13	Junichiro Taku
+STUFF_SOUND01_02_14	<color="#43deff">OBOE</color>
+STUFF_SOUND01_02_15	Kanami Araki 
+STUFF_SOUND01_02_16	<color="#43deff">CLARINET</color>
+STUFF_SOUND01_02_17	Hidehito Naka
+STUFF_SOUND01_02_18	<color="#43deff">BASSOON</color>
+STUFF_SOUND01_02_19	Yohta Minakami
+STUFF_SOUND01_02_20	<color="#43deff">HORN</color>
+STUFF_SOUND01_02_21	Tatsuo Nippashi
+STUFF_SOUND01_02_22	<color="#43deff">TRUMPET</color>
+STUFF_SOUND01_02_23	Kenichi Tsujimoto
+STUFF_SOUND01_02_24	<color="#43deff">TROMBONE</color>
+STUFF_SOUND01_02_25	Shinji Koga
+STUFF_SOUND01_02_26	<color="#43deff">TUBA</color>
+STUFF_SOUND01_02_27	Shinpei Tsugita
+STUFF_SOUND01_02_28	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND01_02_29	Akihiro Oba
+STUFF_SOUND01_02_30	<color="#43deff">HARP</color>
+STUFF_SOUND01_02_31	Kazuko Shinozaki
+STUFF_SOUND01_02_32	<color="#43deff">STRINGS</color>
+STUFF_SOUND01_02_33	Koichiro Muroya Strings
+STUFF_SOUND01_02_34	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND01_02_35	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND01_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND01_02_37	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND01_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND01_03_02	<color="#43deff">GUITAR</color>
+STUFF_SOUND01_03_03	Masashi Kuno
+STUFF_SOUND01_03_04	<color="#43deff">DRUM</color>
+STUFF_SOUND01_03_05	YOYOKA
+STUFF_SOUND01_03_06	<color="#43deff">RECORDER/TIN WHISTLE/FIDDLE</color>
+STUFF_SOUND01_03_07	Patri
+STUFF_SOUND01_03_08	<color="#43deff">RECORDER</color>
+STUFF_SOUND01_03_09	Hidehiro Nakamura
+STUFF_SOUND02_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND02_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND02_01_03	Hiroki Ogawa
+STUFF_SOUND02_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND02_01_05	Takanori Uematsu
+STUFF_SOUND02_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND02_02_02	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND02_02_03	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND02_02_04	Shimpei Sasaki
+STUFF_SOUND02_02_05	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND02_02_06	Seiji Watanabe
+STUFF_SOUND02_02_07	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND02_02_08	Japan Century Symphony Orchestra
+STUFF_SOUND02_02_09	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND02_02_10	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND02_02_11	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND02_02_12	<color="#43deff">FLUTE</color>
+STUFF_SOUND02_02_13	Junichiro Taku
+STUFF_SOUND02_02_14	<color="#43deff">OBOE</color>
+STUFF_SOUND02_02_15	Kanami Araki 
+STUFF_SOUND02_02_16	<color="#43deff">CLARINET</color>
+STUFF_SOUND02_02_17	Hidehito Naka
+STUFF_SOUND02_02_18	<color="#43deff">BASSOON</color>
+STUFF_SOUND02_02_19	Yohta Minakami
+STUFF_SOUND02_02_20	<color="#43deff">HORN</color>
+STUFF_SOUND02_02_21	Tatsuo Nippashi
+STUFF_SOUND02_02_22	<color="#43deff">TRUMPET</color>
+STUFF_SOUND02_02_23	Kenichi Tsujimoto
+STUFF_SOUND02_02_24	<color="#43deff">TROMBONE</color>
+STUFF_SOUND02_02_25	Shinji Koga
+STUFF_SOUND02_02_26	<color="#43deff">TUBA</color>
+STUFF_SOUND02_02_27	Shinpei Tsugita
+STUFF_SOUND02_02_28	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND02_02_29	Akihiro Oba
+STUFF_SOUND02_02_30	<color="#43deff">HARP</color>
+STUFF_SOUND02_02_31	Kazuko Shinozaki
+STUFF_SOUND02_02_32	<color="#43deff">STRINGS</color>
+STUFF_SOUND02_02_33	Koichiro Muroya Strings
+STUFF_SOUND02_02_34	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND02_02_35	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND02_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND02_02_37	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND02_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND02_03_02	<color="#43deff">GUITAR</color>
+STUFF_SOUND02_03_03	Masashi Kuno
+STUFF_SOUND03_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND03_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND03_01_03	Hiroki Ogawa
+STUFF_SOUND03_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND03_01_05	Takanori Uematsu
+STUFF_SOUND03_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND03_02_02	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND03_02_03	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND03_02_04	Shimpei Sasaki
+STUFF_SOUND03_02_05	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND03_02_06	Seiji Watanabe
+STUFF_SOUND03_02_07	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND03_02_08	Japan Century Symphony Orchestra
+STUFF_SOUND03_02_09	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND03_02_10	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND03_02_11	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND03_02_12	<color="#43deff">FLUTE</color>
+STUFF_SOUND03_02_13	Junichiro Taku
+STUFF_SOUND03_02_14	<color="#43deff">OBOE</color>
+STUFF_SOUND03_02_15	Kanami Araki 
+STUFF_SOUND03_02_16	<color="#43deff">CLARINET</color>
+STUFF_SOUND03_02_17	Hidehito Naka
+STUFF_SOUND03_02_18	<color="#43deff">BASSOON</color>
+STUFF_SOUND03_02_19	Yohta Minakami
+STUFF_SOUND03_02_20	<color="#43deff">HORN</color>
+STUFF_SOUND03_02_21	Tatsuo Nippashi
+STUFF_SOUND03_02_22	<color="#43deff">TRUMPET</color>
+STUFF_SOUND03_02_23	Kenichi Tsujimoto
+STUFF_SOUND03_02_24	<color="#43deff">TROMBONE</color>
+STUFF_SOUND03_02_25	Shinji Koga
+STUFF_SOUND03_02_26	<color="#43deff">TUBA</color>
+STUFF_SOUND03_02_27	Shinpei Tsugita
+STUFF_SOUND03_02_28	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND03_02_29	Akihiro Oba
+STUFF_SOUND03_02_30	<color="#43deff">HARP</color>
+STUFF_SOUND03_02_31	Kazuko Shinozaki
+STUFF_SOUND03_02_32	<color="#43deff">STRINGS</color>
+STUFF_SOUND03_02_33	Koichiro Muroya Strings
+STUFF_SOUND03_02_34	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND03_02_35	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND03_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND03_02_37	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND03_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND03_03_02	<color="#43deff">FLUTE</color>
+STUFF_SOUND03_03_03	Naoko Yamamoto
+STUFF_SOUND03_03_04	<color="#43deff">OBOE/ENGLISH HORN</color>
+STUFF_SOUND03_03_05	Takayuki Mogami
+STUFF_SOUND03_03_06	<color="#43deff">CLARINET</color>
+STUFF_SOUND03_03_07	Marina Yamamoto
+STUFF_SOUND03_03_08	<color="#43deff">TRUMPET</color>
+STUFF_SOUND03_03_09	Hiroto Uga
+STUFF_SOUND03_03_10	<color="#43deff">DRUMS</color>
+STUFF_SOUND03_03_11	Genta Shirakawa
+STUFF_SOUND03_03_12	YOYOKA
+STUFF_SOUND03_03_13	<color="#43deff">RECORDER/TIN WHISTLE/FIDDLE</color>
+STUFF_SOUND03_03_14	Patri
+STUFF_SOUND03_03_15	<color="#43deff">SPECIAL THANKS</color>
+STUFF_SOUND03_03_16	Yui Hada
+STUFF_SOUND03_03_17	Hisashi Yamagiwa
+STUFF_SOUND04_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND04_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND04_01_03	Hiroki Ogawa
+STUFF_SOUND04_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND04_01_05	Takanori Uematsu
+STUFF_SOUND04_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND04_02_02	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND04_02_03	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND04_02_04	Shimpei Sasaki
+STUFF_SOUND04_02_05	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND04_02_06	Seiji Watanabe
+STUFF_SOUND04_02_07	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND04_02_08	Japan Century Symphony Orchestra
+STUFF_SOUND04_02_09	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND04_02_10	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND04_02_11	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND04_02_12	<color="#43deff">FLUTE</color>
+STUFF_SOUND04_02_13	Junichiro Taku
+STUFF_SOUND04_02_14	<color="#43deff">OBOE</color>
+STUFF_SOUND04_02_15	Kanami Araki 
+STUFF_SOUND04_02_16	<color="#43deff">CLARINET</color>
+STUFF_SOUND04_02_17	Hidehito Naka
+STUFF_SOUND04_02_18	<color="#43deff">BASSOON</color>
+STUFF_SOUND04_02_19	Yohta Minakami
+STUFF_SOUND04_02_20	<color="#43deff">HORN</color>
+STUFF_SOUND04_02_21	Tatsuo Nippashi
+STUFF_SOUND04_02_22	<color="#43deff">TRUMPET</color>
+STUFF_SOUND04_02_23	Kenichi Tsujimoto
+STUFF_SOUND04_02_24	<color="#43deff">TROMBONE</color>
+STUFF_SOUND04_02_25	Shinji Koga
+STUFF_SOUND04_02_26	<color="#43deff">TUBA</color>
+STUFF_SOUND04_02_27	Shinpei Tsugita
+STUFF_SOUND04_02_28	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND04_02_29	Akihiro Oba
+STUFF_SOUND04_02_30	<color="#43deff">HARP</color>
+STUFF_SOUND04_02_31	Kazuko Shinozaki
+STUFF_SOUND04_02_32	<color="#43deff">STRINGS</color>
+STUFF_SOUND04_02_33	Koichiro Muroya Strings
+STUFF_SOUND04_02_34	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND04_02_35	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND04_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND04_02_37	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND04_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND04_03_02	<color="#43deff">TRUMPET</color>
+STUFF_SOUND04_03_03	Hiroto Uga
+STUFF_SOUND04_03_04	<color="#43deff">LUTE</color>
+STUFF_SOUND04_03_05	Masashi Kuno
+STUFF_SOUND04_03_06	<color="#43deff">DRUMS</color>
+STUFF_SOUND04_03_07	Genta Shirakawa
+STUFF_SOUND04_03_08	YOYOKA
+STUFF_SOUND04_03_09	<color="#43deff">RECORDER/TIN WHISTLE/FIDDLE</color>
+STUFF_SOUND04_03_10	Patri
+STUFF_SOUND04_03_11	<color="#43deff">SPECIAL THANKS</color>
+STUFF_SOUND04_03_12	Yui Hada
+STUFF_SOUND04_03_13	Hisashi Yamagiwa
+STUFF_SOUND05_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND05_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND05_01_03	Hiroki Ogawa
+STUFF_SOUND05_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND05_01_05	Takanori Uematsu
+STUFF_SOUND05_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND05_02_02	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND05_02_03	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND05_02_04	Shimpei Sasaki
+STUFF_SOUND05_02_05	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND05_02_06	Seiji Watanabe
+STUFF_SOUND05_02_07	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND05_02_08	Japan Century Symphony Orchestra
+STUFF_SOUND05_02_09	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND05_02_10	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND05_02_11	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND05_02_12	<color="#43deff">FLUTE</color>
+STUFF_SOUND05_02_13	Junichiro Taku
+STUFF_SOUND05_02_14	<color="#43deff">OBOE</color>
+STUFF_SOUND05_02_15	Kanami Araki 
+STUFF_SOUND05_02_16	<color="#43deff">CLARINET</color>
+STUFF_SOUND05_02_17	Hidehito Naka
+STUFF_SOUND05_02_18	<color="#43deff">BASSOON</color>
+STUFF_SOUND05_02_19	Yohta Minakami
+STUFF_SOUND05_02_20	<color="#43deff">HORN</color>
+STUFF_SOUND05_02_21	Tatsuo Nippashi
+STUFF_SOUND05_02_22	<color="#43deff">TRUMPET</color>
+STUFF_SOUND05_02_23	Kenichi Tsujimoto
+STUFF_SOUND05_02_24	<color="#43deff">TROMBONE</color>
+STUFF_SOUND05_02_25	Shinji Koga
+STUFF_SOUND05_02_26	<color="#43deff">TUBA</color>
+STUFF_SOUND05_02_27	Shinpei Tsugita
+STUFF_SOUND05_02_28	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND05_02_29	Akihiro Oba
+STUFF_SOUND05_02_30	<color="#43deff">HARP</color>
+STUFF_SOUND05_02_31	Kazuko Shinozaki
+STUFF_SOUND05_02_32	<color="#43deff">STRINGS</color>
+STUFF_SOUND05_02_33	Koichiro Muroya Strings
+STUFF_SOUND05_02_34	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND05_02_35	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND05_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND05_02_37	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND05_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND05_03_02	<color="#43deff">FLUTE</color>
+STUFF_SOUND05_03_03	Naoko Yamamoto
+STUFF_SOUND05_03_04	<color="#43deff">OBOE/ENGLISH HORN</color>
+STUFF_SOUND05_03_05	Takayuki Mogami
+STUFF_SOUND05_03_06	<color="#43deff">TRUMPET</color>
+STUFF_SOUND05_03_07	Hiroto Uga
+STUFF_SOUND05_03_08	<color="#43deff">SAXOPHONE</color>
+STUFF_SOUND05_03_09	Yudai Adachi
+STUFF_SOUND05_03_10	<color="#43deff">GUITAR</color>
+STUFF_SOUND05_03_11	Masashi Kuno
+STUFF_SOUND05_03_12	<color="#43deff">DRUMS</color>
+STUFF_SOUND05_03_13	Genta Shirakawa
+STUFF_SOUND05_03_14	YOYOKA
+STUFF_SOUND05_03_15	<color="#43deff">RECORDER/TIN WHISTLE/FIDDLE</color>
+STUFF_SOUND05_03_16	Patri
+STUFF_SOUND05_03_17	<color="#43deff">RECORDING ENGINEER</color>
+STUFF_SOUND05_03_18	Pansy Seki
+STUFF_SOUND05_03_19	<color="#43deff">SPECIAL THANKS</color>
+STUFF_SOUND05_03_20	Yui Hada
+STUFF_SOUND05_03_21	Hisashi Yamagiwa
+STUFF_SOUND06_01_01	<color="#ffffcc"><b>Dog Ear Records Co., Ltd.</b></color>
+STUFF_SOUND06_01_02	<color="#43deff">MUSIC PRODUCTION MANAGER</color>
+STUFF_SOUND06_01_03	Hiroki Ogawa
+STUFF_SOUND06_01_04	<color="#43deff">ASSISTANT MANAGER</color>
+STUFF_SOUND06_01_05	Takanori Uematsu
+STUFF_SOUND06_02_01	<color="#ffffcc"><b>RECORDING SECTION</b></color>
+STUFF_SOUND06_02_02	<color="#ffffcc"><b><Opera></b></color>
+STUFF_SOUND06_02_03	<color="#43deff">VOCALS (JAPANESE)</color>
+STUFF_SOUND06_02_04	Masumi Nemoto
+STUFF_SOUND06_02_05	Masafumi Tanaka
+STUFF_SOUND06_02_06	Akihiko Tamayama
+STUFF_SOUND06_02_07	<color="#43deff">VOCALS (ENGLISH)</color>
+STUFF_SOUND06_02_08	Hannah Grace
+STUFF_SOUND06_02_09	Jeffrey Trambley
+STUFF_SOUND06_02_10	David Mashiko
+STUFF_SOUND06_02_11	<color="#43deff">VOCALS (FRENCH)</color>
+STUFF_SOUND06_02_12	Morgane Heyse
+STUFF_SOUND06_02_13	Geoffrey Derives
+STUFF_SOUND06_02_14	Paolo Di Pietro
+STUFF_SOUND06_02_15	<color="#43deff">VOCALS (GERMAN)</color>
+STUFF_SOUND06_02_16	Morgane Heyse
+STUFF_SOUND06_02_17	Marco Di Sapia
+STUFF_SOUND06_02_18	Josua
+STUFF_SOUND06_02_19	<color="#43deff">VOCALS (ITALIAN)</color>
+STUFF_SOUND06_02_20	Antonella Rondinone
+STUFF_SOUND06_02_21	Roberto
+STUFF_SOUND06_02_22	Paolo Di Pietro
+STUFF_SOUND06_02_23	<color="#43deff">VOCALS (SPANISH)</color>
+STUFF_SOUND06_02_24	Francesca Calero
+STUFF_SOUND06_02_25	Pablo Lopez
+STUFF_SOUND06_02_26	Miguel Ferrer
+STUFF_SOUND06_02_27	<color="#43deff">VOCALS (KOREAN)</color>
+STUFF_SOUND06_02_28	AN Hye-Soo
+STUFF_SOUND06_02_29	LEE Sang-Joon
+STUFF_SOUND06_02_30	HAN Sang-Ho
+STUFF_SOUND06_02_31	<color="#43deff">VOCAL RECORDING DIRECTOR</color>
+STUFF_SOUND06_02_32	Kentaro Sato
+STUFF_SOUND06_02_33	<color="#43deff">RECORDING ENGINEERS</color>
+STUFF_SOUND06_02_34	Kurt Jessen (Arriba Entertainment Inc.)
+STUFF_SOUND06_02_35	Nicolas Alvarez (Arriba Entertainment Inc.)
+STUFF_SOUND06_02_36	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND06_02_37	Chihoko Bae (Arriba Entertainment Inc.)
+STUFF_SOUND06_02_38	<color="#ffffcc"><b><Osaka></b></color>
+STUFF_SOUND06_02_39	<color="#43deff">CONDUCTOR</color>
+STUFF_SOUND06_02_40	Shimpei Sasaki
+STUFF_SOUND06_02_41	<color="#43deff">ARTIST MANAGER</color>
+STUFF_SOUND06_02_42	Seiji Watanabe
+STUFF_SOUND06_02_43	<color="#43deff">ORCHESTRA</color>
+STUFF_SOUND06_02_44	Japan Century Symphony Orchestra
+STUFF_SOUND06_02_45	<color="#43deff">RECORDING DIRECTION SUPPORT</color>
+STUFF_SOUND06_02_46	Keiji Ono (Myo-on-sha Inc.)
+STUFF_SOUND06_02_47	<color="#ffffcc"><b><Tokyo></b></color>
+STUFF_SOUND06_02_48	<color="#43deff">FLUTE</color>
+STUFF_SOUND06_02_49	Junichiro Taku
+STUFF_SOUND06_02_50	<color="#43deff">OBOE</color>
+STUFF_SOUND06_02_51	Kanami Araki 
+STUFF_SOUND06_02_52	<color="#43deff">CLARINET</color>
+STUFF_SOUND06_02_53	Hidehito Naka
+STUFF_SOUND06_02_54	<color="#43deff">BASSOON</color>
+STUFF_SOUND06_02_55	Yohta Minakami
+STUFF_SOUND06_02_56	<color="#43deff">HORN</color>
+STUFF_SOUND06_02_57	Tatsuo Nippashi
+STUFF_SOUND06_02_58	<color="#43deff">TRUMPET</color>
+STUFF_SOUND06_02_59	Kenichi Tsujimoto
+STUFF_SOUND06_02_60	<color="#43deff">TROMBONE</color>
+STUFF_SOUND06_02_61	Shinji Koga
+STUFF_SOUND06_02_62	<color="#43deff">TUBA</color>
+STUFF_SOUND06_02_63	Shinpei Tsugita
+STUFF_SOUND06_02_64	<color="#43deff">PERCUSSION</color>
+STUFF_SOUND06_02_65	Akihiro Oba
+STUFF_SOUND06_02_66	<color="#43deff">HARP</color>
+STUFF_SOUND06_02_67	Kazuko Shinozaki
+STUFF_SOUND06_02_68	<color="#43deff">STRINGS</color>
+STUFF_SOUND06_02_69	Koichiro Muroya Strings
+STUFF_SOUND06_02_70	<color="#43deff">RECORDING/MIXING ENGINEER</color>
+STUFF_SOUND06_02_71	Takeshi Muramatsu (Octavia Records Inc.)
+STUFF_SOUND06_02_72	<color="#43deff">RECORDING COORDINATOR</color>
+STUFF_SOUND06_02_73	Tsutomu Satomi (Shangri-la inc.)
+STUFF_SOUND06_03_01	<color="#ffffcc"><b><Remote Recording></b></color>
+STUFF_SOUND06_03_02	<color="#43deff">FLUTE</color>
+STUFF_SOUND06_03_03	Naoko Yamamoto
+STUFF_SOUND06_03_04	<color="#43deff">OBOE/ENGLISH HORN</color>
+STUFF_SOUND06_03_05	Takayuki Mogami
+STUFF_SOUND06_03_06	<color="#43deff">TRUMPET</color>
+STUFF_SOUND06_03_07	Hiroto Uga
+STUFF_SOUND06_03_08	<color="#43deff">GUITAR</color>
+STUFF_SOUND06_03_09	Masashi Kuno
+STUFF_SOUND06_03_10	Fumihiko Nakamura
+STUFF_SOUND06_03_11	<color="#43deff">DRUMS</color>
+STUFF_SOUND06_03_12	Genta Shirakawa
+STUFF_SOUND06_03_13	YOYOKA
+STUFF_SOUND06_03_14	<color="#43deff">RECORDER/TIN WHISTLE/FIDDLE</color>
+STUFF_SOUND06_03_15	Patri
+STUFF_SOUND06_03_16	<color="#43deff">PAN FLUTE</color>
+STUFF_SOUND06_03_17	Kei Sakamoto
+STUFF_SOUND06_03_18	<color="#43deff">SHAKUHACHI</color>
+STUFF_SOUND06_03_19	Ishigaki Seizan
+STUFF_SOUND06_03_20	<color="#43deff">WHISTLING</color>
+STUFF_SOUND06_03_21	Romu Aoyagi
+STUFF_SOUND06_03_22	<color="#43deff">SAXOPHONE</color>
+STUFF_SOUND06_03_23	Yudai Adachi
+STUFF_SOUND06_03_24	<color="#43deff">RECORDING ENGINEER</color>
+STUFF_SOUND06_03_25	Pansy Seki
+STUFF_SOUND06_03_26	<color="#43deff">VIOLIN</color>
+STUFF_SOUND06_03_27	Issaku Matsumoto
+STUFF_SOUND06_03_28	<color="#43deff">SPECIAL THANKS</color>
+STUFF_SOUND06_03_29	Yui Hada
+STUFF_SOUND06_03_30	Hisashi Yamagiwa
+STUFF_SOUND06_03_31	Nozomi Toki
+STUFF_SOUND06_03_32	Keisuke Albert Kato
+STUFF_SOUND06_03_33	Josh Lovell
+STUFF_SQSEA_00_01	<color="#ffffcc"><b>SQUARE ENIX, INC.</b></color>
+STUFF_SQSEA_01_01	<color="#43deff">QA Manager</color>
+STUFF_SQSEA_01_02	Mathew A. Clift
+STUFF_SQSEA_01_03	<color="#43deff">Associate QA Manager</color>
+STUFF_SQSEA_01_04	Keith P. Christensen-Martz
+STUFF_SQSEA_01_05	<color="#43deff">Senior QA Coordinator</color>
+STUFF_SQSEA_01_06	Michael Ashton
+STUFF_SQSEA_01_07	<color="#43deff">QA Coordinator</color>
+STUFF_SQSEA_01_08	Tim Blake
+STUFF_SQSEA_01_09	<color="#43deff">Senior QA Administrator</color>
+STUFF_SQSEA_01_10	Louis Sedeno III
+STUFF_SQSEA_01_100	<color="#43deff">Sr Web Designer</color>
+STUFF_SQSEA_01_101	Andres D'Aleman
+STUFF_SQSEA_01_102	<color="#43deff">Executive Creative Director</color>
+STUFF_SQSEA_01_103	Ricardo Mireles
+STUFF_SQSEA_01_104	<color="#43deff">Visual Design Director</color>
+STUFF_SQSEA_01_105	Michael Bannon
+STUFF_SQSEA_01_106	<color="#43deff">Visual Design Lead</color>
+STUFF_SQSEA_01_107	Brett Wooldridge
+STUFF_SQSEA_01_108	<color="#43deff">Senior Visual Designer</color>
+STUFF_SQSEA_01_109	James Cunningham
+STUFF_SQSEA_01_11	<color="#43deff">QA Translator</color>
+STUFF_SQSEA_01_110	<color="#43deff">Senior Graphic Production Designer</color>
+STUFF_SQSEA_01_111	Ken Murayama
+STUFF_SQSEA_01_112	<color="#43deff">Visual Designer</color>
+STUFF_SQSEA_01_113	Raul Encarnacion
+STUFF_SQSEA_01_114	<color="#43deff">Senior Creative Producer</color>
+STUFF_SQSEA_01_115	Caroline Wu Bonti
+STUFF_SQSEA_01_116	<color="#43deff">Creative Producer</color>
+STUFF_SQSEA_01_117	Natasha Watford
+STUFF_SQSEA_01_118	<color="#43deff">General Manager: Digital, North American Sales and Operations</color>
+STUFF_SQSEA_01_119	Doug Bone
+STUFF_SQSEA_01_12	Sayuri Otsu
+STUFF_SQSEA_01_120	<color="#43deff">Director of Digital Sales</color>
+STUFF_SQSEA_01_121	Andrew Larcombe
+STUFF_SQSEA_01_122	<color="#43deff">Senior Sales Manager, Digital Sales</color>
+STUFF_SQSEA_01_123	Diego Hernandez
+STUFF_SQSEA_01_124	<color="#43deff">Senior Digital Operations Managers</color>
+STUFF_SQSEA_01_125	Toby Coleman
+STUFF_SQSEA_01_126	Keith Hershey
+STUFF_SQSEA_01_127	<color="#43deff">Digital Sales Manager, Digital Sales</color>
+STUFF_SQSEA_01_128	Jason Brooks
+STUFF_SQSEA_01_129	Sadie Campos
+STUFF_SQSEA_01_13	<color="#43deff">Localization & QA Director</color>
+STUFF_SQSEA_01_130	<color="#43deff">Digital Sales Coordinator</color>
+STUFF_SQSEA_01_131	Megan Pelt
+STUFF_SQSEA_01_132	<color="#43deff">Merchandise Manager</color>
+STUFF_SQSEA_01_133	Jennifer Park
+STUFF_SQSEA_01_134	<color="#43deff">Assistant Manager of Merchandise</color>
+STUFF_SQSEA_01_135	Peter Whites
+STUFF_SQSEA_01_136	<color="#43deff">Merchandise Coordinator</color>
+STUFF_SQSEA_01_137	Richelle Brady
+STUFF_SQSEA_01_138	<color="#43deff">Senior Manager, Project Communications & Events</color>
+STUFF_SQSEA_01_139	Ami Funaki
+STUFF_SQSEA_01_14	Yutaka Sano
+STUFF_SQSEA_01_140	<color="#43deff">Assistant Managers, Project Communications & Events</color>
+STUFF_SQSEA_01_141	Aimi Tokutake
+STUFF_SQSEA_01_142	Taku Hatori
+STUFF_SQSEA_01_143	Stephany Ota
+STUFF_SQSEA_01_144	<color="#43deff">Events Director</color>
+STUFF_SQSEA_01_145	Wilbur Lin
+STUFF_SQSEA_01_146	<color="#43deff">Events Manager</color>
+STUFF_SQSEA_01_147	Kathryn Campagna
+STUFF_SQSEA_01_148	<color="#43deff">Events Coordinator</color>
+STUFF_SQSEA_01_149	Sarah Bloom
+STUFF_SQSEA_01_15	<color="#43deff">Senior Director, C&S</color>
+STUFF_SQSEA_01_150	<color="#43deff">Senior Director of Sales Planning, Merchandise,\nProject Communications & Events</color>
+STUFF_SQSEA_01_151	\nKanji Romeo Tashiro
+STUFF_SQSEA_01_152	<color="#43deff">CEO</color>
+STUFF_SQSEA_01_153	Phil Rogers
+STUFF_SQSEA_01_154	<color="#43deff">CMO</color>
+STUFF_SQSEA_01_155	John Heinecke
+STUFF_SQSEA_01_156	<color="#43deff">Executive Director - SEE Marketing</color>
+STUFF_SQSEA_01_157	Larry Sparks
+STUFF_SQSEA_01_158	<color="#43deff">Executive Director - SEA Marketing</color>
+STUFF_SQSEA_01_159	Kevin Kraff
+STUFF_SQSEA_01_16	Yasu Kurosawa
+STUFF_SQSEA_01_17	<color="#43deff">Assistant Director of Operations</color>
+STUFF_SQSEA_01_18	Brendan Hee
+STUFF_SQSEA_01_19	<color="#43deff">Manager, Customer Support & Fraud Prevention</color>
+STUFF_SQSEA_01_20	Kenny Yoshinaga
+STUFF_SQSEA_01_21	<color="#43deff">Assistant Manager, Customer Support</color>
+STUFF_SQSEA_01_22	Chris Farmer
+STUFF_SQSEA_01_23	<color="#43deff">Customer Support Supervisor</color>
+STUFF_SQSEA_01_24	Josue Munoz
+STUFF_SQSEA_01_25	<color="#43deff">Assistant Director, Operations Support / Business Intelligence</color>
+STUFF_SQSEA_01_26	Steve Nguyen
+STUFF_SQSEA_01_27	<color="#43deff">Senior Manager, Business Intelligence</color>
+STUFF_SQSEA_01_28	Michael Somerville
+STUFF_SQSEA_01_29	<color="#43deff">Senior Manager, Operations Support</color>
+STUFF_SQSEA_01_30	Kumiko Yamaguchi
+STUFF_SQSEA_01_31	<color="#43deff">Assistant Manager, Operations Support</color>
+STUFF_SQSEA_01_32	Chris Ichikawa
+STUFF_SQSEA_01_33	<color="#43deff">Supervisors, Operations Support</color>
+STUFF_SQSEA_01_34	Joshua Hochner
+STUFF_SQSEA_01_35	Gregory Toyosaka
+STUFF_SQSEA_01_36	<color="#43deff">General Counsel</color>
+STUFF_SQSEA_01_37	Adam Sullivan
+STUFF_SQSEA_01_38	<color="#43deff">Director, Business & Legal Affairs</color>
+STUFF_SQSEA_01_39	Brian Finkelstein
+STUFF_SQSEA_01_40	<color="#43deff">Associate Director, Business & Legal Affairs</color>
+STUFF_SQSEA_01_41	Noi Sasaki
+STUFF_SQSEA_01_42	<color="#43deff">Counsels</color>
+STUFF_SQSEA_01_43	Alberto Wilches
+STUFF_SQSEA_01_44	Maria Abesa 
+STUFF_SQSEA_01_45	<color="#43deff">Senior Paralegal</color>
+STUFF_SQSEA_01_46	Dean Okazaki
+STUFF_SQSEA_01_47	<color="#43deff">Paralegal</color>
+STUFF_SQSEA_01_48	Tricia Tran
+STUFF_SQSEA_01_49	<color="#43deff">Manager, Legal Operations</color>
+STUFF_SQSEA_01_50	Stephanie Pimentel
+STUFF_SQSEA_01_51	<color="#43deff">Legal Assistants</color>
+STUFF_SQSEA_01_52	Angelo Rivera
+STUFF_SQSEA_01_53	Vanessa Grundy
+STUFF_SQSEA_01_54	<color="#43deff">Senior Director, Marketing</color>
+STUFF_SQSEA_01_55	Ryan Lacina
+STUFF_SQSEA_01_56	<color="#43deff">Manager, Marketing</color>
+STUFF_SQSEA_01_57	Jarek Ceballos
+STUFF_SQSEA_01_58	<color="#43deff">Head of Communications</color>
+STUFF_SQSEA_01_59	Michelle Schroder
+STUFF_SQSEA_01_60	<color="#43deff">Director, PR</color>
+STUFF_SQSEA_01_61	Bob Colayco
+STUFF_SQSEA_01_62	<color="#43deff">Senior PR Manager</color>
+STUFF_SQSEA_01_63	Emily Shoji
+STUFF_SQSEA_01_64	<color="#43deff">PR Managers</color>
+STUFF_SQSEA_01_65	Stephanie Chang
+STUFF_SQSEA_01_66	Adam Pelc
+STUFF_SQSEA_01_67	<color="#43deff">Assistant PR Manager</color>
+STUFF_SQSEA_01_68	Rachel Mascetti
+STUFF_SQSEA_01_69	<color="#43deff">Director of Social Media</color> 
+STUFF_SQSEA_01_70	Aaron Kaufman
+STUFF_SQSEA_01_71	<color="#43deff">Social Communications Managers</color>
+STUFF_SQSEA_01_72	Eric So
+STUFF_SQSEA_01_73	Samantha Laabs
+STUFF_SQSEA_01_74	<color="#43deff">Influencer Relations Manager</color>
+STUFF_SQSEA_01_75	Nel Schwertner
+STUFF_SQSEA_01_76	<color="#43deff">Director of Sales Analytics</color>
+STUFF_SQSEA_01_77	Josh England
+STUFF_SQSEA_01_78	<color="#43deff">Senior Business Analyst, Digital Sales</color>
+STUFF_SQSEA_01_79	Warren Perdon
+STUFF_SQSEA_01_80	<color="#43deff">Senior Sales Analyst</color>
+STUFF_SQSEA_01_81	Kasim Somers
+STUFF_SQSEA_01_82	<color="#43deff">Business Analyst, Digital Sales</color>
+STUFF_SQSEA_01_83	Lisa Guo
+STUFF_SQSEA_01_84	<color="#43deff">Sales Analysts</color>
+STUFF_SQSEA_01_85	Lana Josephbek
+STUFF_SQSEA_01_86	Corey Chamberlain
+STUFF_SQSEA_01_87	<color="#43deff">Head of Digital Channels</color>
+STUFF_SQSEA_01_88	Brad Stamulis
+STUFF_SQSEA_01_89	<color="#43deff">Senior Ecommerce Manager</color>
+STUFF_SQSEA_01_90	Shinri Matsuoka
+STUFF_SQSEA_01_91	<color="#43deff">Marketing Performance Analyst</color>
+STUFF_SQSEA_01_92	Samuel Bonin
+STUFF_SQSEA_01_93	<color="#43deff">Director CRM & Customer Loyalty</color>
+STUFF_SQSEA_01_94	Daniel Nasserian
+STUFF_SQSEA_01_95	<color="#43deff">Associate Managers CRM</color>
+STUFF_SQSEA_01_96	Aaron Pathammavong
+STUFF_SQSEA_01_97	Jacqueline Ko
+STUFF_SQSEA_01_98	<color="#43deff">Digital Project Manager</color>
+STUFF_SQSEA_01_99	Knoah Piasek
+STUFF_SQSEA_02_01	<color="#ffffcc"><b>Pole to Win – Canada</b></color>
+STUFF_SQSEA_02_02	<color="#43deff">LQA Senior Director</color>
+STUFF_SQSEA_02_03	Arnaud Messager
+STUFF_SQSEA_02_04	<color="#43deff">LQA Manager</color>
+STUFF_SQSEA_02_05	Claudia Moscoso
+STUFF_SQSEA_02_06	<color="#43deff">LQA Project Manager</color>
+STUFF_SQSEA_02_07	Adriana Morales Quinones
+STUFF_SQSEA_02_08	<color="#43deff">LQA Project Coordinator</color>
+STUFF_SQSEA_02_09	Étienne Drolet-Blouin
+STUFF_SQSEA_02_10	<color="#43deff">LQA English Testers</color>
+STUFF_SQSEA_02_11	Boris Saint-Pierre
+STUFF_SQSEA_02_12	Christopher Richards
+STUFF_SQSEA_02_13	Philip Thorne
+STUFF_SQSEE_00_01	<color="#ffffcc"><b>SQUARE ENIX LTD.</b></color>
+STUFF_SQSEE_01_01	<color="#ffffcc"><b>QA & Localisation Services</b></color>
+STUFF_SQSEE_01_02	<color="#43deff">QA & Localisation Services Directors</color>
+STUFF_SQSEE_01_03	Marc Titheridge
+STUFF_SQSEE_01_04	Yuko Tomizawa
+STUFF_SQSEE_01_05	<color="#43deff">Head of Localisation</color>
+STUFF_SQSEE_01_06	Martin Walter
+STUFF_SQSEE_01_07	<color="#43deff">Localisation Project Manager</color>
+STUFF_SQSEE_01_08	Nobuko Sugahara
+STUFF_SQSEE_01_09	<color="#43deff">Senior Localisation Producers</color>
+STUFF_SQSEE_01_10	Alex Moresby
+STUFF_SQSEE_01_11	Elisa Giribaldi
+STUFF_SQSEE_01_12	<color="#43deff">Assistant Localisation Producer</color>
+STUFF_SQSEE_01_13	Kevin Balon
+STUFF_SQSEE_01_14	<color="#43deff">Senior LQA Manager</color>
+STUFF_SQSEE_01_15	André Woitczyk
+STUFF_SQSEE_01_16	<color="#43deff">Assistant LQA Manager</color>
+STUFF_SQSEE_01_17	Hoi-yee Leung
+STUFF_SQSEE_01_18	<color="#43deff">Mastering Manager</color>
+STUFF_SQSEE_01_19	Jason Walker
+STUFF_SQSEE_01_20	<color="#43deff">Senior QA Lead (English)</color>
+STUFF_SQSEE_01_21	Shailesh Iyer
+STUFF_SQSEE_01_22	<color="#43deff">Senior QA Lead (French)</color>
+STUFF_SQSEE_01_23	Soraya Lamoudi
+STUFF_SQSEE_01_24	<color="#43deff">Senior QA Lead (Italian)</color>
+STUFF_SQSEE_01_25	Erica Berghi
+STUFF_SQSEE_01_26	<color="#43deff">Senior QA Lead (German)</color>
+STUFF_SQSEE_01_27	Heike Pham Dan
+STUFF_SQSEE_01_28	<color="#43deff">Senior QA Lead (Spanish)</color>
+STUFF_SQSEE_01_29	Lolo García
+STUFF_SQSEE_01_30	<color="#43deff">Translator/Editor (French)</color>
+STUFF_SQSEE_01_31	Marie Martin
+STUFF_SQSEE_01_32	<color="#43deff">Translator/Editor (Italian)</color>
+STUFF_SQSEE_01_33	Federica Lusardi
+STUFF_SQSEE_01_34	<color="#43deff">Translator/Editor (German)</color>
+STUFF_SQSEE_01_35	Katharina Klamt
+STUFF_SQSEE_01_36	<color="#43deff">Senior Translator/Editor (Spanish)</color>
+STUFF_SQSEE_01_37	Raquel Uzal-Gómez
+STUFF_SQSEE_02_01	<color="#ffffcc"><b>Japanese Language Support</b></color>
+STUFF_SQSEE_02_02	<color="#43deff">Senior Translation Manager</color>
+STUFF_SQSEE_02_03	Andii Yamanaka
+STUFF_SQSEE_02_04	<color="#43deff">Senior Japanese Business Translator / Event Translation Manager</color>
+STUFF_SQSEE_02_05	Gavin Poffley
+STUFF_SQSEE_02_06	<color="#43deff">Senior Japanese Business Translator / Assistant Manager</color>
+STUFF_SQSEE_02_07	Grace Ellen Mitchell
+STUFF_SQSEE_02_08	<color="#43deff">Japanese Business Translators</color>
+STUFF_SQSEE_02_09	Kyoko Hotta Gowlett
+STUFF_SQSEE_02_10	Shigeru Tabata
+STUFF_SQSEE_02_11	Juzo Hirose
+STUFF_SQSEE_02_12	Katsuya Norita
+STUFF_SQSEE_02_13	Corinne Foxton
+STUFF_SQSEE_02_14	Hinako Matsumoto
+STUFF_SQSEE_03_01	<color="#ffffcc"><b>Square Enix Europe Marketing </b></color>
+STUFF_SQSEE_03_02	<color="#43deff">Chief Executive Officer</color>
+STUFF_SQSEE_03_03	Phil Rogers
+STUFF_SQSEE_03_04	<color="#43deff">Chief Marketing Officer</color>
+STUFF_SQSEE_03_05	John Heinecke
+STUFF_SQSEE_03_06	<color="#43deff">Executive Director Marketing</color>
+STUFF_SQSEE_03_07	Larry Sparks
+STUFF_SQSEE_03_08	<color="#43deff">Marketing Director</color>
+STUFF_SQSEE_03_09	Ned Browning
+STUFF_SQSEE_03_10	<color="#43deff">Marketing Manager</color>
+STUFF_SQSEE_03_11	Aimee Sanjari  
+STUFF_SQSEE_03_12	<color="#43deff">Assistant Marketing Manager</color>
+STUFF_SQSEE_03_13	Laura Grant
+STUFF_SQSEE_03_14	<color="#43deff">Senior PR Manager</color>
+STUFF_SQSEE_03_15	Hugo Bustillos
+STUFF_SQSEE_03_16	<color="#43deff">Senior PR & Communications Director</color>
+STUFF_SQSEE_03_17	Alex Huhtala
+STUFF_SQSEE_03_18	<color="#43deff">European Marketing Director</color>
+STUFF_SQSEE_03_19	Anthony Newell
+STUFF_SQSEE_03_20	<color="#43deff">Media Strategist</color>
+STUFF_SQSEE_03_21	Kim Fitzgerald
+STUFF_SQSEE_03_22	<color="#43deff">Influencer Relations Director</color>
+STUFF_SQSEE_03_23	Adam Phillips
+STUFF_SQSEE_03_24	<color="#43deff">Senior Social Media Manager</color>
+STUFF_SQSEE_03_25	Sunil Godhania
+STUFF_SQSEE_03_26	<color="#43deff">Social Media Manager</color>
+STUFF_SQSEE_03_27	Mike Adebajo
+STUFF_SQSEE_03_28	<color="#43deff">Social Media Executive</color>
+STUFF_SQSEE_03_29	George Hind
+STUFF_SQSEE_03_30	<color="#43deff">Senior Designer</color>
+STUFF_SQSEE_03_31	Gary Harrod
+STUFF_SQSEE_03_32	<color="#43deff">Designer</color>
+STUFF_SQSEE_03_33	Lewis-Jon Somerscales
+STUFF_SQSEE_03_34	<color="#43deff">Marketing Design Coordinator</color>
+STUFF_SQSEE_03_35	Dan Hill
+STUFF_SQSEE_03_36	<color="#43deff">Senior Business Manager</color>
+STUFF_SQSEE_03_37	Hideki Miwa
+STUFF_SQSEE_04_01	<color="#ffffcc"><b>UK/Export Sales and Marketing</b></color>
+STUFF_SQSEE_04_02	<color="#43deff">Marketing Director - UK</color>
+STUFF_SQSEE_04_03	Elizabeth Blackman
+STUFF_SQSEE_04_04	<color="#43deff">Marketing Manager - UK</color>
+STUFF_SQSEE_04_05	David Salman
+STUFF_SQSEE_04_06	<color="#43deff">Assistant Marketing Manager - UK</color>
+STUFF_SQSEE_04_07	Melissa Larsson
+STUFF_SQSEE_04_08	<color="#43deff">Marketing Director - Export</color>
+STUFF_SQSEE_04_09	Laura Disney
+STUFF_SQSEE_04_10	<color="#43deff">Marketing Manager - Export</color>
+STUFF_SQSEE_04_11	Natalie Gausden
+STUFF_SQSEE_04_12	<color="#43deff">Marketing Manager - Export</color>
+STUFF_SQSEE_04_13	Sandra Chau
+STUFF_SQSEE_04_14	<color="#43deff">Marketing Executive - Export</color>
+STUFF_SQSEE_04_15	Eleni Christodoulou
+STUFF_SQSEE_04_16	<color="#43deff">PR Executive - Export</color>
+STUFF_SQSEE_04_17	Shez Sheikh
+STUFF_SQSEE_04_18	<color="#43deff">Senior Influencer Relations Manager</color>
+STUFF_SQSEE_04_19	Cat Karskens
+STUFF_SQSEE_04_20	<color="#43deff">Influencer Relations Manager</color>
+STUFF_SQSEE_04_21	Ria Patel
+STUFF_SQSEE_04_22	<color="#43deff">Senior Production Manager - UK & Export</color>
+STUFF_SQSEE_04_23	Carrie Judge
+STUFF_SQSEE_04_24	<color="#43deff">Production Manager - UK & Export</color>
+STUFF_SQSEE_04_25	Lynne Fisher
+STUFF_SQSEE_04_26	<color="#43deff">UK and Export Sales Director</color>
+STUFF_SQSEE_04_27	Karine Parker
+STUFF_SQSEE_04_28	<color="#43deff">UK Sales Manager</color>
+STUFF_SQSEE_04_29	David Stubberfield
+STUFF_SQSEE_04_30	<color="#43deff">Export Sales Manager</color>
+STUFF_SQSEE_04_31	Tom Vickery
+STUFF_SQSEE_04_32	<color="#43deff">Export Sales Manager</color>
+STUFF_SQSEE_04_33	Graham Brown
+STUFF_SQSEE_05_01	<color="#ffffcc"><b>France/Benelux Sales and Marketing</b></color>
+STUFF_SQSEE_05_02	<color="#43deff">Managing Director, France and Benelux</color>
+STUFF_SQSEE_05_03	Florent Moreau 
+STUFF_SQSEE_05_04	<color="#43deff">Marketing Director</color>
+STUFF_SQSEE_05_05	Tristan Perdriau 
+STUFF_SQSEE_05_06	<color="#43deff">Senior PR Manager</color>
+STUFF_SQSEE_05_07	Emilie Hurel 
+STUFF_SQSEE_05_08	<color="#43deff">Marketing Manager</color>
+STUFF_SQSEE_05_09	Fabio Costa
+STUFF_SQSEE_05_10	<color="#43deff">Community, Social & Influencer Manager</color>
+STUFF_SQSEE_05_11	Cédric Devoyon 
+STUFF_SQSEE_05_12	<color="#43deff">Executive Assistant, Marketing and Sales</color>
+STUFF_SQSEE_05_13	Isabelle Connuel 
+STUFF_SQSEE_06_01	<color="#ffffcc"><b>G/A/S Sales and Marketing</b></color>
+STUFF_SQSEE_06_02	<color="#43deff">Managing and Finance Director</color>
+STUFF_SQSEE_06_03	Klaus Jens
+STUFF_SQSEE_06_04	<color="#43deff">Marketing & PR Director</color>
+STUFF_SQSEE_06_05	Lars Winkler
+STUFF_SQSEE_06_06	<color="#43deff">Marketing Manager</color>
+STUFF_SQSEE_06_07	Kerstin Weber
+STUFF_SQSEE_06_08	<color="#43deff">Junior Marketing Manager</color>
+STUFF_SQSEE_06_09	Isabell Kretzing
+STUFF_SQSEE_06_10	<color="#43deff">Marketing Executive</color>
+STUFF_SQSEE_06_11	Eva Marie Ghossain
+STUFF_SQSEE_06_12	<color="#43deff">PR Manager</color>
+STUFF_SQSEE_06_13	Daniela Schlögel
+STUFF_SQSEE_06_14	<color="#43deff">Senior Social Manager</color>
+STUFF_SQSEE_06_15	Barbara Winterfeldt
+STUFF_SQSEE_06_16	<color="#43deff">Sales Manager</color>
+STUFF_SQSEE_06_17	Fabian Rather
+STUFF_SQSEE_06_18	<color="#43deff">Operations Manager</color>
+STUFF_SQSEE_06_19	Nikolaus Ziegert
+STUFF_SQSEE_07_01	<color="#ffffcc"><b>European Commercial and Publishing Services</b></color>
+STUFF_SQSEE_07_02	<color="#43deff">General Manager – European Commercial and Publishing Services</color>
+STUFF_SQSEE_07_03	Justin Gaffney
+STUFF_SQSEE_07_04	<color="#43deff">Creative Service Director - EU Packaging</color>
+STUFF_SQSEE_07_05	Stéphanie Journau
+STUFF_SQSEE_07_06	<color="#43deff">Designer - EU Packaging</color>
+STUFF_SQSEE_07_07	Cindy Taylor
+STUFF_SQSEE_07_08	<color="#43deff">Artworker - EU Packaging</color>
+STUFF_SQSEE_07_09	Aaron Bent
+STUFF_SQSEE_08_01	<color="#ffffcc"><b>European Merchandising</b></color>
+STUFF_SQSEE_08_02	<color="#43deff">Senior Manager Merchandising</color>
+STUFF_SQSEE_08_03	Akihiro Ichimura
+STUFF_SQSEE_08_04	<color="#43deff">E-Commerce Manager</color>
+STUFF_SQSEE_08_05	Taishi Narumoto
+STUFF_SQSEE_08_06	<color="#43deff">Manager Organised Play & Community (Table Top Games)</color>
+STUFF_SQSEE_08_07	Tim Schilder
+STUFF_SQSEE_08_08	<color="#43deff">Manager - Tabletop Game</color>
+STUFF_SQSEE_08_09	Fabian Weber
+STUFF_SQSEE_08_10	<color="#43deff">Assistant Manager Research & Development</color>
+STUFF_SQSEE_08_11	Tomasz Rozejowski
+STUFF_SQSEE_08_12	<color="#43deff">Assistant Manager Logistics</color>
+STUFF_SQSEE_08_13	Satoko Adachi
+STUFF_SQSEE_08_14	<color="#43deff">Organized Play & Community Coordinator</color>
+STUFF_SQSEE_08_15	Michelle Boehm
+STUFF_SQSEE_08_16	<color="#43deff">Operations Coordinator</color>
+STUFF_SQSEE_08_17	Shaun Bedassie
+STUFF_SQSEE_09_01	<color="#ffffcc"><b>European Community and Service</b></color>
+STUFF_SQSEE_09_02	<color="#43deff">Head of Community and Service</color>
+STUFF_SQSEE_09_03	Saori Spencer-Hill
+STUFF_SQSEE_09_04	<color="#43deff">European Customer Service Director</color>
+STUFF_SQSEE_09_05	Damian Bennett
+STUFF_SQSEE_09_06	<color="#43deff">European Support Centre Manager</color>
+STUFF_SQSEE_09_07	Camille Ledauphin
+STUFF_SQSEE_09_08	<color="#43deff">European Support Centre Assistant Manager</color>
+STUFF_SQSEE_09_09	Andreas Remy
+STUFF_SQSEE_09_10	<color="#43deff">European Senior Support Centre Operators</color>
+STUFF_SQSEE_09_11	Maximilian Horn
+STUFF_SQSEE_09_12	Marion Mangion
+STUFF_SQSEE_09_13	John Quantin
+STUFF_SQSEE_09_14	<color="#43deff">European Operations Support Manager</color>
+STUFF_SQSEE_09_15	Bastian Spiegel
+STUFF_SQSEE_09_16	<color="#43deff">European Operations Support Assistant Manager</color>
+STUFF_SQSEE_09_17	James Avins
+STUFF_SQSEE_09_18	<color="#43deff">European Operations Support Coordinators</color>
+STUFF_SQSEE_09_19	Edward Avins
+STUFF_SQSEE_09_20	Louise Delahaye
+STUFF_SQSEE_09_21	<color="#43deff">Pole To Win Europe -\nSquare Enix Support Account Manager</color>
+STUFF_SQSEE_09_22	\nMichael Joyce
+STUFF_SQSEE_09_23	<color="#43deff">Pole To Win Europe -\nSquare Enix Support Assistant Account Manager</color>
+STUFF_SQSEE_09_24	\nPaul Neil
+STUFF_SQSEE_09_25	<color="#43deff">Pole To Win Europe - Square Enix Support Representatives</color>
+STUFF_SQSEE_09_26	Raymond Chan
+STUFF_SQSEE_09_27	Anne-Laure Grimaud
+STUFF_SQSEE_09_28	Kaya Herklotz
+STUFF_SQSEE_09_29	Jan Hlavacka
+STUFF_SQSEE_09_30	Laurie Kitson
+STUFF_SQSEE_09_31	Delia Lange
+STUFF_SQSEE_09_32	Andrew Morson
+STUFF_SQSEE_09_33	Annaig Nicol
+STUFF_SQSEE_09_34	Sabrina Obreiter
+STUFF_SQSEE_09_35	Mark Paterson
+STUFF_SQSEE_09_36	Eric Pupunat
+STUFF_SQSEE_09_37	Johannes Renger
+STUFF_SQSEE_09_38	Mita Syring
+STUFF_PTWUK_00_01	<color="#ffffcc"><b>PTW International UK</b></color>
+STUFF_PTWUK_01_01	<color="#43deff">Senior Director</color>
+STUFF_PTWUK_01_02	Arnaud Messager
+STUFF_PTWUK_01_03	<color="#43deff">Director</color>
+STUFF_PTWUK_01_04	Liam Ross
+STUFF_PTWUK_01_05	<color="#43deff">QA Manager</color>
+STUFF_PTWUK_01_06	Monica Zamboni
+STUFF_PTWUK_01_07	<color="#43deff">Assistant QA Managers</color>
+STUFF_PTWUK_01_08	David McMeekin
+STUFF_PTWUK_01_09	Elena Inei
+STUFF_PTWUK_01_10	<color="#43deff">Project Managers</color>
+STUFF_PTWUK_01_11	Alejandro Lopez
+STUFF_PTWUK_01_12	Sam Anderson
+STUFF_PTWUK_01_13	Sandra Moller
+STUFF_PTWUK_01_14	Sergejs Adamovs
+STUFF_PTWUK_01_15	Valentina Porcu
+STUFF_PTWUK_01_16	Valerie Brentjes
+STUFF_PTWUK_01_17	Viktorija Koluzajeva
+STUFF_PTWUK_01_18	<color="#43deff">QA Mastering Technician</color>
+STUFF_PTWUK_01_19	Peng Gao
+STUFF_PTWUK_01_20	<color="#43deff">Project Coordinators</color>
+STUFF_PTWUK_01_21	Augusto Santos Caseiro
+STUFF_PTWUK_01_22	Alexis Golitsyn
+STUFF_PTWUK_01_23	Gianpiero Bonaffini
+STUFF_PTWUK_01_24	Kevin De Souza
+STUFF_PTWUK_01_25	<color="#43deff">Localisation QA Testers</color>
+STUFF_PTWUK_01_26	Alexandre Cândido
+STUFF_PTWUK_01_27	Arturs Peknerius
+STUFF_PTWUK_01_28	Ashley Dods
+STUFF_PTWUK_01_29	Ben McNeill
+STUFF_PTWUK_01_30	Benjawan Chansiri
+STUFF_PTWUK_01_31	Bomin Ryu
+STUFF_PTWUK_01_32	Boonchanutta Deetai
+STUFF_PTWUK_01_33	Caio Bastos
+STUFF_PTWUK_01_34	Cindy Mouandza
+STUFF_PTWUK_01_35	Davide Maramotti
+STUFF_PTWUK_01_36	Elija Maus
+STUFF_PTWUK_01_37	Flavio Chiavari
+STUFF_PTWUK_01_38	Israel Grande Fernández
+STUFF_PTWUK_01_39	Ivano Abbatino
+STUFF_PTWUK_01_40	Jesko Pszenny
+STUFF_PTWUK_01_41	Jhonatan Zacchi
+STUFF_PTWUK_01_42	Jonathan Léoni
+STUFF_PTWUK_01_43	Julian Espin
+STUFF_PTWUK_01_44	Julie Berquier
+STUFF_PTWUK_01_45	Karla Borela-O'Connor
+STUFF_PTWUK_01_46	Kelly Joo
+STUFF_PTWUK_01_47	Konstantin Mashtakov
+STUFF_PTWUK_01_48	Michail Chudnickij
+STUFF_PTWUK_01_49	Nongnut Smyth
+STUFF_PTWUK_01_50	Ofelia Khan
+STUFF_PTWUK_01_51	Paola Guerra-Librero Calvo
+STUFF_PTWUK_01_52	Renata Espingardeiro
+STUFF_PTWUK_01_53	Soorin Shin
+STUFF_PTWUK_01_54	Stina Buechl
+STUFF_PTWUK_01_55	Tatiana Dioniseva
+STUFF_PTWUK_01_56	Theeracha Raiva
+STUFF_LHW_00_01	<color="#ffffcc"><b>Local Heroes Worldwide BV</b></color>
+STUFF_LHW_01_01	<color="#43deff">Localisation Project Manager</color>
+STUFF_LHW_01_02	Jelle Kihaishii-de Vaal
+STUFF_LHW_01_03	<color="#43deff">Brazilian Portuguese Language Support</color>
+STUFF_LHW_01_04	Bruno Dias
+STUFF_LHW_01_05	<color="#43deff">Team Locsmiths</color>
+STUFF_LHW_01_06	Diego Perez
+STUFF_LHW_01_07	Juliana Moraes
+STUFF_LHW_01_08	Ricardo Nakaoka
+STUFF_LHW_01_09	<color="#43deff">Russian Language Support</color>
+STUFF_LHW_01_10	Anton Gashenko
+STUFF_LHW_01_11	<color="#43deff">Team Levsha</color>
+STUFF_LHW_01_12	Maria Kuznetcova
+STUFF_LHW_01_13	Marina Davydova
+STUFF_LHW_01_14	Maya Danielsson
+STUFF_LHW_01_15	Oleg Utkin
+STUFF_LHW_01_16	<color="#43deff">Thai Language Support</color>
+STUFF_LHW_01_17	Shu Komatsu
+STUFF_LHW_01_18	<color="#43deff">Team DICO</color>
+STUFF_LHW_01_19	Thitiporn Sudjarastham
+STUFF_LHW_01_20	Wikawee Dempsey
+STUFF_OWNER_00_01	<color="#ffffcc"><b>SQUARE ENIX (CHINA) CO., LTD.</b></color>
+STUFF_OWNER_00_02	Localization Department
+STUFF_OWNER_01_01	<color="#ffffcc"><b>SQUARE ENIX HOLDINGS CO., LTD.</b></color>
+STUFF_OWNER_01_02	<color="#43deff">CORPORATE ADVISOR</color>
+STUFF_OWNER_01_03	Shinji Hashimoto
+STUFF_OWNER_01_04	<color="#43deff">SPECIAL THANKS</color>
+STUFF_OWNER_01_05	Hironobu Sakaguchi
+STUFF_OWNER_01_06	Hiromichi Tanaka
+STUFF_OWNER_01_07	Koichi Ishii
+STUFF_OWNER_01_08	Naoki Yoshida
+STUFF_OWNER_01_09	Ichiro Hazama
+STUFF_OWNER_01_10	Akitoshi Kawazu
+STUFF_OWNER_01_11	Takashi Tokita
+STUFF_OWNER_01_12	Tetsuya Nomura
+STUFF_OWNER_01_13	Ryoji Uchimichi
+STUFF_OWNER_01_14	Tomoya Asano
+STUFF_OWNER_01_15	Masashi Takahashi
+STUFF_OWNER_01_16	Izumi Tsukushi
+STUFF_OWNER_01_17	Mariko Suzuki (Yoshitaka Amano Office)
+STUFF_OWNER_01_18	QBIST Inc.
+STUFF_OWNER_01_19	Fontworks Inc.
+STUFF_OWNER_01_20	C & G Incorporated
+STUFF_OWNER_02_01	<color="#43deff">ASSISTANT PRODUCER</color>
+STUFF_OWNER_02_02	Naofumi Takuma
+STUFF_OWNER_02_03	<color="#43deff">PRODUCER</color>
+STUFF_OWNER_02_04	Toshio Akiyama
+STUFF_OWNER_02_05	<color="#43deff">PRODUCTION EXECUTIVE</color>
+STUFF_OWNER_02_06	Yosuke Matsuda
+STUFF_TOSE_04_27	Noriaki Kitamura
+STUFF_TOSE_04_28	Yukiko Nishigaki
+STUFF_TOSE_05_10	Sota Hashimoto
+STUFF_TOSE_05_11	Miku Hiura
+STUFF_TOSE_05_12	Hideto Inaoka
+STUFF_TOSE_05_13	Mao Honda
+STUFF_TOSE_05_14	Seiya Iitake
+STUFF_TOSE_05_15	Toya Takemura
+STUFF_OWNER_01_21	Mercury Software Japan Inc.

@@ -1,0 +1,51 @@
+{
+    "Name": "Battle_tempalte",
+    "Title": {
+        "main": "通常バトルで発火させるバトルメインスクリプト"
+    },
+    "EntryPoint": 0,
+    "Count": 1,
+    "ScriptLocal": ["BattleAIFlag"],
+    "Mnemonics": [
+        {
+            "label": "0000",
+            "mnemonic": "ExecBattleAI",
+            "type": 1
+        },
+        {
+            "label": "0001",
+            "mnemonic": "Nop",
+            "type": 1
+        },
+        {
+            "label": "0002",
+            "mnemonic": "Blank",
+            "type": 1
+        },
+        {
+            "label": "0003",
+            "mnemonic": "SyncBattleAI",
+            "type": 1,
+            "operands": {
+                "iValues": [ 0 ],
+                "sValues": [ "ScriptLocalVariable" ]
+            }
+        },
+        {
+            "label": "0004",
+            "mnemonic": "Branch",
+            "type": 1,
+            "operands": {
+                "iValues": [ 0, 0, 0 ],
+                "sValues": [ "ScriptLocalVariable", "＝", "imm" ],
+                "comment": ""
+            }
+        },
+        {
+            "label": "0005",
+            "mnemonic": "Exit",
+            "type": 1
+        }
+
+    ]
+}

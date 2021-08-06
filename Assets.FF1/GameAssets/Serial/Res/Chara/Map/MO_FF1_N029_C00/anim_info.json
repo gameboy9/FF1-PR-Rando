@@ -1,0 +1,648 @@
+{
+    "animation": [
+        {
+            "name": "Default",
+            "frames": [
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 3,
+            "is_reverse": false
+        },
+        {
+            "name": "WalkL",
+            "frames": [
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.0,
+                    "offsety": -1.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 3,
+            "is_reverse": false
+        },
+        {
+            "name": "WalkR",
+            "frames": [
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.0,
+                    "offsety": -1.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.4000000059604645,
+            "play_mode": 3,
+            "is_reverse": true
+        },
+        {
+            "name": "FadeOut",
+            "frames": [
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.4000000059604645,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 0.800000011920929,
+                    "offsety": 1.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 1.2000000476837159,
+                    "offsety": 2.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 1.600000023841858,
+                    "offsety": 3.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 2.0,
+                    "offsety": 4.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 2.4000000953674318,
+                    "offsety": 5.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 2.799999952316284,
+                    "offsety": 6.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 3.200000047683716,
+                    "offsety": 7.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 3.5999999046325685,
+                    "offsety": 8.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 4.0,
+                    "offsety": 9.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 4.400000095367432,
+                    "offsety": 10.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 4.800000190734863,
+                    "offsety": 11.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 5.199999809265137,
+                    "offsety": 12.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 5.599999904632568,
+                    "offsety": 13.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 6.0,
+                    "offsety": 14.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 6.400000095367432,
+                    "offsety": 15.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 6.800000190734863,
+                    "offsety": 16.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 7.199999809265137,
+                    "offsety": 16.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 7.599999904632568,
+                    "offsety": 17.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 8.0,
+                    "offsety": 17.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 8.399999618530274,
+                    "offsety": 18.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 8.800000190734864,
+                    "offsety": 18.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 9.199999809265137,
+                    "offsety": 19.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 9.600000381469727,
+                    "offsety": 19.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 10.0,
+                    "offsety": 20.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 10.399999618530274,
+                    "offsety": 20.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 10.800000190734864,
+                    "offsety": 21.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 11.199999809265137,
+                    "offsety": 21.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 11.600000381469727,
+                    "offsety": 21.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 12.0,
+                    "offsety": 22.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 12.399999618530274,
+                    "offsety": 22.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 12.800000190734864,
+                    "offsety": 22.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 13.199999809265137,
+                    "offsety": 23.0,
+                    "alpha": 0.8999999761581421,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 13.600000381469727,
+                    "offsety": 23.0,
+                    "alpha": 0.800000011920929,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 14.0,
+                    "offsety": 23.0,
+                    "alpha": 0.699999988079071,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 14.399999618530274,
+                    "offsety": 23.0,
+                    "alpha": 0.6000000238418579,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 14.800000190734864,
+                    "offsety": 24.0,
+                    "alpha": 0.5,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 15.199999809265137,
+                    "offsety": 24.0,
+                    "alpha": 0.4000000059604645,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 15.600000381469727,
+                    "offsety": 24.0,
+                    "alpha": 0.30000001192092898,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 16.0,
+                    "offsety": 24.0,
+                    "alpha": 0.20000000298023225,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "WalkL_01",
+                    "offsetx": 16.0,
+                    "offsety": 24.0,
+                    "alpha": 0.10000000149011612,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 1.125,
+            "play_mode": 0,
+            "is_reverse": false
+        }
+    ],
+    "shader_type": 0
+}

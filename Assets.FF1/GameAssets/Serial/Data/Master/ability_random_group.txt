@@ -1,0 +1,1 @@
+id,group_id,ability_id,invocation_rate,condition_group_id

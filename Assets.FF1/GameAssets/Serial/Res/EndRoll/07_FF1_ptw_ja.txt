@@ -1,0 +1,68 @@
+{
+  "single": {
+    "messageids": [
+      "STUFF_PTWJA_00_01",
+      "STUFF_SIGN",
+      "STUFF_PTWJA_01_01",
+      "STUFF_PTWJA_01_02",
+      "STUFF_PTWJA_01_03",
+      "STUFF_PTWJA_01_04",
+      "STUFF_PTWJA_01_05",
+      "STUFF_PTWJA_01_06",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_PTWJA_01_07",
+      "STUFF_PTWJA_01_09",
+      "STUFF_PTWJA_01_11",
+      "STUFF_PTWJA_01_13",
+      "STUFF_PTWJA_01_15",
+      "STUFF_PTWJA_01_17",
+      "STUFF_PTWJA_01_19",
+      "STUFF_PTWJA_01_21",
+      "STUFF_PTWJA_01_23",
+      "STUFF_PTWJA_01_25",
+      "STUFF_PTWJA_01_27",
+      "STUFF_PTWJA_01_29",
+      "STUFF_PTWJA_01_31",
+      "STUFF_PTWJA_01_33",
+      "STUFF_PTWJA_01_35",
+      "STUFF_PTWJA_01_37",
+      "STUFF_PTWJA_01_39",
+      "STUFF_PTWJA_01_41",
+      "STUFF_PTWJA_01_43",
+      "STUFF_PTWJA_01_45",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_PTWJA_01_08",
+      "STUFF_PTWJA_01_10",
+      "STUFF_PTWJA_01_12",
+      "STUFF_PTWJA_01_14",
+      "STUFF_PTWJA_01_16",
+      "STUFF_PTWJA_01_18",
+      "STUFF_PTWJA_01_20",
+      "STUFF_PTWJA_01_22",
+      "STUFF_PTWJA_01_24",
+      "STUFF_PTWJA_01_26",
+      "STUFF_PTWJA_01_28",
+      "STUFF_PTWJA_01_30",
+      "STUFF_PTWJA_01_32",
+      "STUFF_PTWJA_01_34",
+      "STUFF_PTWJA_01_36",
+      "STUFF_PTWJA_01_38",
+      "STUFF_PTWJA_01_40",
+      "STUFF_PTWJA_01_42",
+      "STUFF_PTWJA_01_44",
+      "STUFF_PTWJA_01_46",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+}

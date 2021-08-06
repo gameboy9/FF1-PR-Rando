@@ -1,0 +1,250 @@
+{
+    "animation": [
+        {
+            "name": "Default",
+            "frames": [
+                {
+                    "sprite_name": "Default_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.699999988079071,
+            "play_mode": 1,
+            "is_reverse": false
+        },
+        {
+            "name": "dive",
+            "frames": [
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_02",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_02",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_03",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_03",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_04",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_06",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.5,
+            "play_mode": 0,
+            "is_reverse": false
+        },
+        {
+            "name": "surface",
+            "frames": [
+                {
+                    "sprite_name": "Default_06",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_04",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_03",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_03",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_02",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_02",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_01",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                },
+                {
+                    "sprite_name": "Default_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.5,
+            "play_mode": 0,
+            "is_reverse": false
+        }
+    ],
+    "shader_type": 0
+}

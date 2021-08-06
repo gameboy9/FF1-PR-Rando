@@ -1,0 +1,168 @@
+{
+    "name": "Map_30111",
+    "asset_group_name": "map_30111",
+    "texture": [
+        {
+            "name": "Map_30111",
+            "asset": "Map_30111"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_30111_1",
+            "tilemap": "Map_30111_1/tilemap",
+            "collision": "Map_30111_1/collision",
+            "entity_default": "Map_30111_1/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_30111_1/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_30111_1",
+                    "asset": "Map_30111_1/sc_map_30111_1"
+                },
+                {
+                    "name": "sc_war_30111_1",
+                    "asset": "Map_30111_1/sc_war_30111_1"
+                },
+                {
+                    "name": "sc_war_30111_2",
+                    "asset": "Map_30111_1/sc_war_30111_2"
+                }
+            ],
+            "route_instruction": []
+        },
+        {
+            "name": "Map_30111_2",
+            "tilemap": "Map_30111_2/tilemap",
+            "collision": "Map_30111_2/collision",
+            "entity_default": "Map_30111_2/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0051",
+                    "asset": "Map_30111_2/ev_e_0051"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0051",
+                    "asset": "Map_30111_2/sc_e_0051"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_30111_2/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_30111_2",
+                    "asset": "Map_30111_2/sc_map_30111_2"
+                },
+                {
+                    "name": "sc_war_30111_3",
+                    "asset": "Map_30111_2/sc_war_30111_3"
+                },
+                {
+                    "name": "sc_war_30111_9",
+                    "asset": "Map_30111_2/sc_war_30111_9"
+                }
+            ],
+            "route_instruction": []
+        },
+        {
+            "name": "Map_30111_3",
+            "tilemap": "Map_30111_3/tilemap",
+            "collision": "Map_30111_3/collision",
+            "entity_default": "Map_30111_3/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_e_0050",
+                    "asset": "Map_30111_3/sc_e_0050"
+                },
+                {
+                    "name": "sc_e_0050_2",
+                    "asset": "Map_30111_3/sc_e_0050_2"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_30111_3/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_30111_3",
+                    "asset": "Map_30111_3/sc_map_30111_3"
+                },
+                {
+                    "name": "sc_war_30111_4",
+                    "asset": "Map_30111_3/sc_war_30111_4"
+                },
+                {
+                    "name": "sc_war_30111_8",
+                    "asset": "Map_30111_3/sc_war_30111_8"
+                }
+            ],
+            "route_instruction": []
+        },
+        {
+            "name": "Map_30111_4",
+            "tilemap": "Map_30111_4/tilemap",
+            "collision": "Map_30111_4/collision",
+            "entity_default": "Map_30111_4/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_map_30111_4",
+                    "asset": "Map_30111_4/sc_map_30111_4"
+                },
+                {
+                    "name": "sc_war_30111_5",
+                    "asset": "Map_30111_4/sc_war_30111_5"
+                },
+                {
+                    "name": "sc_war_30111_7",
+                    "asset": "Map_30111_4/sc_war_30111_7"
+                }
+            ],
+            "route_instruction": []
+        },
+        {
+            "name": "Map_30111_5",
+            "tilemap": "Map_30111_5/tilemap",
+            "collision": "Map_30111_5/collision",
+            "entity_default": "Map_30111_5/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0037",
+                    "asset": "Map_30111_5/ev_e_0037"
+                },
+                {
+                    "name": "ev_e_0038",
+                    "asset": "Map_30111_5/ev_e_0038"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0037",
+                    "asset": "Map_30111_5/sc_e_0037"
+                },
+                {
+                    "name": "sc_e_0037_2",
+                    "asset": "Map_30111_5/sc_e_0037_2"
+                },
+                {
+                    "name": "sc_map_30111_5",
+                    "asset": "Map_30111_5/sc_map_30111_5"
+                },
+                {
+                    "name": "sc_war_30111_10",
+                    "asset": "Map_30111_5/sc_war_30111_10"
+                },
+                {
+                    "name": "sc_war_30111_6",
+                    "asset": "Map_30111_5/sc_war_30111_6"
+                }
+            ],
+            "route_instruction": []
+        }
+    ]
+}

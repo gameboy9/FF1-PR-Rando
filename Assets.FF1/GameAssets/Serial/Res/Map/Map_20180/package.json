@@ -1,0 +1,33 @@
+{
+    "name": "Map_20180",
+    "asset_group_name": "map_20180",
+    "texture": [
+        {
+            "name": "Map_20180",
+            "asset": "Map_20180"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20180",
+            "tilemap": "Map_20180/tilemap",
+            "collision": "Map_20180/collision",
+            "entity_default": "Map_20180/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_e_0025_1",
+                    "asset": "Map_20180/sc_e_0025_1"
+                },
+                {
+                    "name": "sc_e_0025_3",
+                    "asset": "Map_20180/sc_e_0025_3"
+                },
+                {
+                    "name": "sc_map_20180",
+                    "asset": "Map_20180/sc_map_20180"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+MSG_MPLAY_01	Prelude
+MSG_MPLAY_02	Opening Theme
+MSG_MPLAY_03	Castle Cornelia
+MSG_MPLAY_04	Main Theme
+MSG_MPLAY_05	Sunken Shrine
+MSG_MPLAY_06	Matoya's Cave
+MSG_MPLAY_07	Town
+MSG_MPLAY_08	Shop
+MSG_MPLAY_09	Inn
+MSG_MPLAY_10	The Ship
+MSG_MPLAY_11	Chaos Shrine
+MSG_MPLAY_12	Dungeon
+MSG_MPLAY_13	Menu Screen
+MSG_MPLAY_14	The Airship
+MSG_MPLAY_15	Mount Gulg
+MSG_MPLAY_16	Flying Fortress
+MSG_MPLAY_17	Battle
+MSG_MPLAY_18	Victory
+MSG_MPLAY_19	End Theme
+MSG_MPLAY_20	Game Over
+MSG_MPLAY_22	Sanctuary
+MSG_MPLAY_23	Miniboss Battle
+MSG_MPLAY_24	Boss Battle A
+MSG_MPLAY_25	Boss Battle B
+MSG_MPLAY_26	Final Battle
+MSG_MPLAY_27	Opening Demo
+MSG_MPLAY_31	Derelict Keep
+MSG_GAERY_01	Title Splash
+MSG_GAERY_02	Title Splash (1987)
+MSG_GAERY_04	By Her Majesty's Side
+MSG_GAERY_05	By Her Majesty's Side (Unused)
+MSG_GAERY_06	Princess Sarah
+MSG_GAERY_07	Uncharted Lands
+MSG_GAERY_08	Flying Fortress
+MSG_GAERY_09	Battling the Dragon
+MSG_GAERY_10	Battling the Ochu
+MSG_GAERY_11	Battling the Kraken
+MSG_GAERY_12	Battling the Behemoth
+MSG_GAERY_13	The Cloudsea Djinn
+MSG_GAERY_14	Chaos Enthroned
+MSG_GAERY_15	Warriors of Light (A)
+MSG_GAERY_16	Warriors of Light (B)
+MSG_GAERY_17	Warriors of Light (C)
+MSG_GAERY_18	Warriors of Light Combat the Djinn
+MSG_GAERY_19	Goblin
+MSG_GAERY_20	Basilisk
+MSG_GAERY_21	Gigas
+MSG_GAERY_22	Sahagin
+MSG_GAERY_23	Shark
+MSG_GAERY_24	Skeleton
+MSG_GAERY_25	Crawler
+MSG_GAERY_26	Hellhound
+MSG_GAERY_27	Anaconda
+MSG_GAERY_28	Scorpion
+MSG_GAERY_29	Minotaur
+MSG_GAERY_30	Troll
+MSG_GAERY_31	Ghost
+MSG_GAERY_32	Zombie
+MSG_GAERY_33	Medusa
+MSG_GAERY_34	Rakshasa
+MSG_GAERY_35	Sabertooth
+MSG_GAERY_36	Gargoyle
+MSG_GAERY_37	Dragon
+MSG_GAERY_38	Green Slime
+MSG_GAERY_39	Tarantula
+MSG_GAERY_40	Manticore
+MSG_GAERY_41	Baretta
+MSG_GAERY_42	Mummy
+MSG_GAERY_43	Cockatrice
+MSG_GAERY_44	Tyrannosaur
+MSG_GAERY_45	Crocodile
+MSG_GAERY_46	Ochu
+MSG_GAERY_47	Hydra
+MSG_GAERY_48	Soldier
+MSG_GAERY_49	Naga
+MSG_GAERY_50	Chimera
+MSG_GAERY_51	Mindflayer
+MSG_GAERY_52	Golem
+MSG_GAERY_53	Black Knight
+MSG_GAERY_54	Dark Elf
+MSG_GAERY_55	Nightmare
+MSG_GAERY_56	Lich
+MSG_GAERY_57	Marilith
+MSG_GAERY_58	Kraken
+MSG_GAERY_59	Tiamat
+MSG_GAERY_60	Chaos

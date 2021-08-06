@@ -1,0 +1,26 @@
+{
+    "animation": [
+        {
+            "name": "Default",
+            "frames": [
+                {
+                    "sprite_name": "Default_00",
+                    "offsetx": 0.0,
+                    "offsety": 0.0,
+                    "alpha": 1.0,
+                    "rgb": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "flip": false
+                }
+            ],
+            "play_speed": 0.20000000298023225,
+            "play_mode": 1,
+            "is_reverse": false
+        }
+    ],
+    "shader_type": 0
+}

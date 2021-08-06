@@ -1,0 +1,4 @@
+id,group_id,scenario_id,map_id,asset_group_name,asset_name
+1,1,0,800,world1,gps_screen_1
+2,1,6,801,world1,gps_screen_0
+3,1,15,802,world1,gps_screen_2

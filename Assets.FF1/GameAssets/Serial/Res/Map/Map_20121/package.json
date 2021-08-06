@@ -1,0 +1,76 @@
+{
+    "name": "Map_20121",
+    "asset_group_name": "map_20121",
+    "texture": [
+        {
+            "name": "Map_20121",
+            "asset": "Map_20121"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20121_1",
+            "tilemap": "Map_20121_1/tilemap",
+            "collision": "Map_20121_1/collision",
+            "entity_default": "Map_20121_1/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_20121_1/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_20121_1",
+                    "asset": "Map_20121_1/sc_map_20121_1"
+                }
+            ]
+        },
+        {
+            "name": "Map_20121_2",
+            "tilemap": "Map_20121_2/tilemap",
+            "collision": "Map_20121_2/collision",
+            "entity_default": "Map_20121_2/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_map_20121_2",
+                    "asset": "Map_20121_2/sc_map_20121_2"
+                }
+            ]
+        },
+        {
+            "name": "Map_20121_3",
+            "tilemap": "Map_20121_3/tilemap",
+            "collision": "Map_20121_3/collision",
+            "entity_default": "Map_20121_3/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0048",
+                    "asset": "Map_20121_3/ev_e_0048"
+                },
+                {
+                    "name": "ev_e_0049",
+                    "asset": "Map_20121_3/ev_e_0049"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0048",
+                    "asset": "Map_20121_3/sc_e_0048"
+                },
+                {
+                    "name": "sc_g_01_1",
+                    "asset": "Map_20121_3/sc_g_01_1"
+                },
+                {
+                    "name": "sc_map_20121_3",
+                    "asset": "Map_20121_3/sc_map_20121_3"
+                },
+                {
+                    "name": "sc_npc_20121_1",
+                    "asset": "Map_20121_3/sc_npc_20121_1"
+                }
+            ]
+        }
+    ]
+}

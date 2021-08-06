@@ -1,0 +1,29 @@
+{
+    "name": "Map_40003",
+    "asset_group_name": "map_40003",
+    "texture": [
+        {
+            "name": "Map_event",
+            "asset": "Map_event"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_40003",
+            "tilemap": "Map_40003/tilemap",
+            "collision": "Map_40003/collision",
+            "entity_default": "Map_40003/entity_default",
+            "entity": [],
+            "script": [
+                {
+                    "name": "sc_e_0044_2",
+                    "asset": "Map_40003/sc_e_0044_2"
+                },
+                {
+                    "name": "sc_map_40003",
+                    "asset": "Map_40003/sc_map_40003"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,454 @@
+SPEAKER_01	???
+SPEAKER_02	Astos
+SPEAKER_03	Unne
+SPEAKER_04	Garland
+SPEAKER_05	Koppe
+SPEAKER_06	Sadda
+SPEAKER_07	Jayne
+SPEAKER_08	Ferradura
+SPEAKER_09	Sarah
+SPEAKER_10	Curandeiro
+SPEAKER_11	Nerrick
+SPEAKER_12	Bahamut
+SPEAKER_13	Vampiro
+SPEAKER_14	Bikke
+SPEAKER_15	Matoya
+SPEAKER_16	Lukahn
+SPEAKER_17	Watts
+SPEAKER_18	Príncipe
+SPEAKER_19	Rei
+SPEAKER_20	Chanceler
+MSG_OP_01	O mundo está mergulhado na escuridão.
+MSG_OP_02	Os ventos cessam...
+MSG_OP_07	Os mares se revoltam...
+MSG_OP_08	A terra se deteriora...
+MSG_OP_03	Mas o povo acredita em uma profecia e aguarda pacientemente que ela se torne realidade.
+MSG_OP_04	"Quando a escuridão engolir o mundo, quatro Guerreiros da Luz surgirão."
+MSG_OP_05	Após uma longa jornada, quatro jovens viajantes finalmente aparecem...
+MSG_OP_06	Cada um deles carregando na mão um cristal.
+MSG_KON_CTY_01	Esta é Cornélia, a cidade dos sonhos.
+MSG_KON_CTY_02	Olá! Sou uma dançarina! Que foi? Querem dançar comigo? Hihi!
+MSG_KON_CTY_03	O que ainda estão fazendo aqui?<P>\nNão deveriam cruzar aquela ponte ao norte? Aposto que querem dançar comigo. Hihi!
+MSG_KON_CTY_04	Pravoka é uma cidade portuária. Os piratas de lá devem ter um barco.
+MSG_KON_CTY_05	Já encontraram a Matoya? Ela tem tido muitos problemas desde que perdeu a visão.<P>\nDizem que ela mora depois da ponte, lá nos cafundós do norte.
+MSG_KON_CTY_06	Vocês já foram à Fortaleza Ocidental?<P>\nDizem que a coroa que está na Caverna do Pântano pode restaurar a fortaleza arruinada...
+MSG_KON_CTY_07	Ué! Vocês não tinham que levar a coroa para o rei da Fortaleza Ocidental?<P>\nSe bem que, pensando melhor, parece ter alguma coisa estranha por lá...
+MSG_KON_CTY_08	O olho de cristal da Matoya foi roubado e ela AINDA não o conseguiu de volta.
+MSG_KON_CTY_09	Aposto que vocês poderiam usar o tônico estimulante para acordar o príncipe elfo.
+MSG_KON_CTY_10	Dizem que dá pra entrar nos aposentos trancados do Castelo Cornélia se você tiver a chave mística.
+MSG_KON_CTY_11	Nerrick, o anão, anda procurando por explosivos poderosos. O que será que ele pretende fazer?
+MSG_KON_CTY_12	Não sei mais o que dizer a vocês... Que tal uma dancinha? Se animam?
+MSG_KON_CTY_13	Restaurem a glória dos Cristais....
+MSG_KON_CTY_14	Por favor... Salvem a princesa.
+MSG_KON_CTY_15	Uma bruxa chamada Matoya vive ao norte de Cornélia.
+MSG_KON_CTY_16	O sábio Lukahn disse algo sobre encontrar a lua crescente, depois se levantou e saiu da cidade...
+MSG_KON_CTY_17	Vocês vão precisar de um navio se quiserem se deslocar com mais liberdade.<P>\nSe tiverem problemas para arranjar um, podem "pegar emprestado" o dos piratas...
+MSG_KON_CTY_18	Vocês poderiam atravessar rios se tivessem uma espécie de canoa.<P>\nAcho que ouvi os sábios do Lago Crescente falando sobre isso.
+MSG_KON_CTY_19	Aliás, já ouviram falar de uma embarcação capaz de navegar pelos ares?<P>\nA pedraleve, de que falam os sábios elfos, tem algo a ver com isso...
+MSG_KON_CTY_20	Só falta uma coisa para que vocês sejam realmente exaltados como Guerreiros da Luz...<P>\nVocê precisam de títulos mais dignos. Já pensaram nisso?<P>\nTem um dragão em Onrac que sabe tudo sobre títulos.
+MSG_KON_CTY_21	Quer dizer que vocês já estiveram na Cidadela das Provas, mas ainda não têm o símbolo da coragem?
+MSG_KON_CTY_22	Estão carregando uma cauda de rato pra lá e pra cá, é? É, melhor que nada.<P>\nTalvez seja hora de visitar o Rei Dragão.
+MSG_KON_CTY_23	Aliás, no fim das contas, o nome "crescente" talvez não tenha nada a ver com a lua.<P>\nPode ser uma referência a uma formação geográfica perto da cidade de Lago Crescente...<P>\nMas, vejam bem, é só um palpite.
+MSG_KON_CTY_24	Acho que não tenho mais nada para dizer a vocês no momento.<P>\nRestaurar a luz de um dos Cristais talvez faça algo acontecer... mas quem sabe?
+MSG_KON_CTY_25	O rei acredita mesmo na profecia de Lukahn...<P>\nDe que os Guerreiros da Luz virão para salvar a princesa.
+MSG_KON_CTY_27	Por favor, resgatem a Lady Sarah!
+MSG_KON_CTY_28	Dizem que a Matoya não enxerga direito. Sem o olho de cristal, ela fica cegueta.
+MSG_KON_CTY_29	Eu morava a leste daqui, na cidade portuária de Pravoka.<P>\nOuvi falar que ultimamente ela se tornou um covil de piratas.
+MSG_KON_CTY_30	É um poço. Parece que dá pra entrar, mas não dá. Sério.
+MSG_KON_CTY_31	Vamos dar uma olhada no seu reflexo na água...<P>\nEca! Que imundície! Use isto para se lavar!
+MSG_MAP0A01_10	O rei está procurando pelos Guerreiros da Luz da profecia.<P>\nOh! Esses cristais! Apresentem-se ao rei imediatamente!
+MSG_KON_INN_01	Será um prazer ensinar tudo que precisam saber sobre equipamentos. Gostariam de ouvir?
+MSG_KON_INN_02	Equipamentos dividem-se em duas categorias: armas e armaduras.<P>\nEquipar uma arma aumenta seu poder de ataque.<P>\nHá quatro tipos de armaduras: escudos, elmos, luvas e armaduras corporais.<P>\nQualquer equipamento que você use no corpo, inclusive braceletes, conta como armadura corporal.<P>\nEscudos ocupam uma das mãos, e elmos são usados na cabeça.<P>\nEquipem no menu principal as armas e armaduras encontradas, ou elas serão inúteis.<P>\nSelecione "Otimizar" se quiser equipar automaticamente as melhores armas e armaduras do inventário.
+MSG_KON_INN_03	Dizem que eu dou uma excelente aula sobre o uso de magia. Interessados?
+MSG_KON_INN_04	Há duas escolas de magia: branca e negra.<P>\nA magia branca é composta de feitiços de cura e defesa, enquanto a magia negra é do tipo ofensiva.<P>\nCada nível de magia branca e negra contém quatro feitiços diferentes.<P>\nPorém, seus personagens só podem aprender três de quatro feitiços de um determinado nível.<P>\nUse o comando "Descartar" se quiser apagar da memória qualquer feitiço que tiver aprendido.<P>\nTambém é possível reaprender uma magia que foi descartada.<P>\nTente escolher uma combinação de feitiços que combine com seu estilo de combate.
+MSG_KON_INN_05	Se querem saber sobre itens, estão falando com a pessoa certa! Ouvir não custa nada, certo?
+MSG_KON_INN_06	É sempre bom carregar um monte de poções, antídotos e outros itens em suas viagens.<P>\nSe tiver um bom estoque de itens, você poderá conservar sua magia para quando mais precisar.<P>\nAgora vamos falar de sacos de dormir, barracas e cabanas, sim?<P>\nSão itens maravilhosos que permitem restaurar PV e PM, mas só podem ser usados ao ar livre.<P>\nAlém desses itens tradicionais, certos equipamentos também podem ser usados como itens.<P>\nA única forma de saber se um equipamento pode ser usado é tentando, então experimente.<P>\nEm suas viagens, você encontrará itens específicos chamados "itens principais".<P>\nAlguns deles têm um efeito quando usados em um determinado local.
+MSG_KON_INN_07	Vocês têm um minutinho para saber mais sobre monstros?
+MSG_KON_INN_08	Há vários tipos de monstros, cada um com pontos fracos diferentes.<P>\nDescubra o ponto fraco de um monstro para obter vantagem em combate.<P>\nPor exemplo, monstros aquáticos são vulneráveis a eletricidade.<P>\nInvoque Trovão contra esses monstros para causar um dano bem alto.<P>\nAlgumas armas são mais eficazes contra determinados monstros.
+MSG_KON_CAS_01	Sou Jayne, rainha de Cornélia. Por favor, tragam minha filha... Sarah... de volta em segurança.
+MSG_KON_CAS_02	Não tenho palavras para agradecer por terem trazido minha Sarah de volta.
+MSG_KON_CAS_03	Minha irmã... Eu quero a minha irmã!
+MSG_KON_CAS_04	Minha irmã voltou! E graças a vocês! Quero encher vocês de beijos!<P>\nMuá!
+MSG_KON_CAS_05	O rei está procurando pelos Guerreiros da Luz da profecia.<P>\nE-esses cristais! Será mesmo possível?
+MSG_KON_CAS_06	Recebi a importante tarefa de defender o Castelo Cornélia!<P>\nPara ser franco, estou meio nervoso.
+MSG_KON_CAS_07	Sua Majestade está sofrendo muito. Ela se trancou nos aposentos reais. Tentem não perturbá-la.
+MSG_KON_CAS_08	Os Guerreiros da Luz! Obrigado, muito obrigado por salvarem a Lady Sarah!
+MSG_KON_CAS_09	Por favor, salvem a Lady Sarah!
+MSG_KON_CAS_10	Vocês são... os Guerreiros da Luz? Os mesmos da profecia de Lukahn?
+MSG_KON_CAS_11	Garland já foi o melhor cavaleiro deste reino.<P>\nMas ele foi consumido pelo poder e perdeu a noção de quem era realmente.
+MSG_KON_CAS_12	Acredita-se que o belo alaúde passado de geração em geração às princesas de Cornélia tem um poder especial. Ele é capaz de destruir o portal maligno.
+MSG_KON_CAS_13	Quatrocentos anos atrás, nossos ancestrais guardaram armas nesta sala de tesouros...<P>\nEles deixaram a chave sob os cuidados do rei dos elfos até a chegada dos Guerreiros da Luz.
+MSG_KON_CAS_14	A sala de tesouros foi trancada com a chave mística.
+MSG_KON_CAS_16	É chegada a hora de usar a chave para abrir as portas!<P>\nOs equipamentos guardados aqui sem dúvida os ajudarão!
+MSG_KON_CAS_17	Os Guerreiros da Luz finalmente chegaram! Há quanto tempo aguardamos este dia!<P>\nGarland já não é o homem que eu conheci...<P>\nEu imploro, devolvam-me minha filha o mais rápido possível!
+MSG_KON_CAS_18	Sarah será eternamente grata a vocês.
+MSG_KON_CAS_20	Se quiserem, vocês poderiam... quer dizer, aqui em Cornélia...<P>\nN-não. Esqueçam.<P>\nVocês devem se preparar para a jornada. Restaurem a luz dos Cristais!
+MSG_KON_CAS_23	Temos relatos de que Garland fugiu para o norte com a princesa! Para o Templo do Caos!
+MSG_KON_CAS_25	Na cidade, tem uma dançarina que é muito bem informada.<P>\nSe ficarem perdidos, falem com ela. Ela pode saber de algo que ajude vocês a reencontrar o caminho.
+MSG_KON_CAS_26	Pólvora nitrosa obtida.
+MSG_EKKEN_01	O rei está procurando pelos Guerreiros da Luz da profecia.<P>\nOh! Esses cristais! Apresentem-se ao rei imediatamente!
+MSG_EKKEN_02	Bem-vindos, viajantes. Disseram-me que vocês trazem cristais. É verdade?
+MSG_EKKEN_03	Bem como Lukahn profetizou: "Quando a escuridão engolir o mundo, quatro Guerreiros da Luz surgirão."
+MSG_EKKEN_04	Majestade, não podemos ter certeza de que esses são os guerreiros da profecia.
+MSG_EKKEN_05	Contudo, aqui estão eles com os cristais. Não pode ser mera coincidência.<P>\nPortadores dos cristais, tenho um pedido a fazer.<P>\nPoderiam resgatar minha filha, Sarah?
+MSG_EKKEN_06	Garland, um cavaleiro que antes servia à Coroa, raptou a princesa Sarah.<P>\nPeço a ajuda de vocês em nome da Sua Majestade, o rei de Cornélia.<P>\nGarland se refugiou no Templo do Caos, que fica ao norte.<P>\nObviamente, nós mesmos já tentamos salvar a princesa...<P>\nMas Garland é o melhor espadachim do reino. Não temos ninguém que seja páreo para ele.
+MSG_EKKEN_07	Disseram-me que vocês desejam viajar para o continente ao norte.<P>\nA ponte para o norte desabou tempos atrás, impossibilitando a passagem.<P>\nSe vocês resgatarem a Sarah, farei com que a ponte seja reconstruída como prova da minha gratidão.<P>Agora vão, Guerreiros da Luz, e não me decepcionem!
+MSG_HELPSERA_04	Obrigado por trazerem minha filha de volta.<P>\nNão resta dúvidas de que vocês são os Guerreiros da Luz da profecia de Lukahn!<P>\nVocês devem ouvir a profecia na íntegra. (Cof, cof). Se me permitem...<P>\n"Quando a escuridão engolir o mundo, quatro Guerreiros da Luz surgirão.<P>\nSe eles não forem capazes de reunir os fragmentos de luz, a escuridão reinará.<P>\nOs quatro cristais jamais brilharão novamente..."<P>\nOra, dizem que há um Cristal no continente ao norte.<P>\nRestaurar a luz dos Cristais é nossa única esperança de livrar o mundo dos monstros que o assolam!
+MSG_HELPSERA_05	Ordenarei que a ponte ao norte seja reconstruída, como prometido.<P>\nTorço para que vocês tenham sucesso ao restaurar a luz dos quatro Cristais e do mundo.
+MSG_LUTE_01	Esperem um instante!
+MSG_LUTE_02	Há muitas gerações que este alaúde tem sido confiado às princesas de Cornélia.<P>\nQuando Garland me raptou, ele também levou o alaúde.<P>\nQuero que fique com vocês. Ele poderá ajudá-los em sua jornada.
+MSG_LUTE_03	Alaúde obtido.
+MSG_CHS_01	Squick! Squick!
+MSG_CHS_02	O Cristal Negro estava enviando ao passado o poder que os quatro Demônios absorveram dos Cristais.<P>\nA criatura distorcendo a luz pura dos Cristais é a que estivemos procurando esse tempo todo.<P>\nA verdadeira raiz de todo mal está logo adiante...
+MSG_CHS_03	O Cristal Negro emite um brilho lúgubre. O ar ao seu redor parece ligeiramente... distorcido.
+MSG_CHS_04	A porta está trancada.
+MSG_CHS_06	A luz... a luz dos quatro que estávamos buscando há tanto tempo!<P>\nEssa luz abrirá o portal do tempo!<P>\nO portal transportará vocês para o passado, dois mil anos atrás, no início do loop temporal.
+MSG_CHS_08	Apontem a luz dos quatro Cristais para o Cristal Negro no centro da câmara!<P>\nIsso abrirá um portal para este templo como ele era há dois mil anos.
+MSG_CHS_10	Somos o Povo Celestial.<P>\nViemos a este templo para tentar encontrar a origem do fim do mundo.<P>\nAconteceu há 400 anos...
+MSG_CHS_12	A maldição dos Demônios nos deu estas formas e nos impediu de falar.<P>\nA luz dos Cristais devolveu a nossa voz!
+MSG_CHS_14	Esta porta foi trancada com a chave mística.
+MSG_FUSION_01	Vocês apontam a luz dos quatro cristais; fogo, terra, água e vento, para o Cristal Negro.<P>\nO fluxo temporal oscila e o espaço começa a se distorcer!<P>\nUm passo à frente e vocês voltarão dois mil anos no tempo!
+MSG_HELPSERA_01	O rei não terá escolha senão trocar o reino pela vida da filha. Cornélia será minha!
+MSG_HELPSERA_02	Quem se aproxima?!<P>\nHumpf. Os cachorrinhos do rei. Vocês têm ideia de quem estão enfrentando?<P>\nAcham mesmo que podem cruzar espadas COMIGO? Muito bem... Eu, Garland, farei picadinho de vocês!!!
+MSG_HELPSERA_03	Vocês... vocês vieram me salvar?<P>\nEu sou a Sarah, princesa de Cornélia. Não tenho palavras para expressar o quanto estou grata...<P>\nEsta é a primeira vez que alguém derrota Garland.<P>Permitam-me que eu demonstre minha gratidão. Venham comigo até o Castelo Cornélia.
+MSG_LAST_01	Lembram-se de mim? Eu já fui o cavaleiro mais renomado de Cornélia.
+MSG_LAST_02	Dois mil anos no futuro... vocês me mataram. Eu sou Garland.
+MSG_LAST_03	Ah, vocês me derrotaram naquela ocasião.<P>\nMas as quatro grandes forças me enviaram de volta no tempo e salvaram minha vida!
+MSG_LAST_04	Quando cheguei aqui, enviei os quatros Demônios para o futuro...
+MSG_LAST_05	Onde mais uma vez eles usarão as quatro grandes forças para me enviar ao passado!
+MSG_LAST_06	Em dois mil anos, eu não me lembrarei de nada disso.
+MSG_LAST_07	Mas nascerei de novo aqui.<P>\nEntão, enquanto vocês morrem incontáveis vezes, eu sempre retornarei!<P>\nRenascido neste ciclo eterno que eu mesmo criei!
+MSG_BRIDGE_01	Ordens de Sua Majestade. Devemos fazer nossa parte para cumprir a profecia de Lukhan.
+MSG_BRIDGE_02	O que esta ponte tem a ver com a profecia?
+MSG_BRIDGE_03	Os quatro Guerreiros da Luz estão aqui... Eles estão em Cornélia!
+MSG_PRL_01	E assim começou a aventura do grupo.\n\nComo os quatro Guerreiros da Luz, sentiam nos ombros o peso da missão que o destino lhes reservara.\n\nEles sequer conheciam o verdadeiro significado dos quatro cristais que traziam nas mãos...\n\nCristais que, em tempos idos, brilharam com uma luz intensa.\n\nO primeiro passo da jornada estava dado.\n\nEra hora de remover o véu da escuridão e trazer o mundo de volta para a luz...
+MSG_SHIP_01	Cês devem sê muito fanfarrão pra querê enfrentá o grande pirata Bikke! Pra cima deles, marujada!
+MSG_SHIP_02	Podexá, capitão! Vamo triturá os ossinho deles!
+MSG_SHIP_03	Foi mals aí, gente fina. Juro qui num vô mais criá confusão.<P>\nCês pode levá meu navio em troca. Será que cês pode perdoá esse véio lobo do mar?
+MSG_SHIP_04	Navio obtido.
+MSG_PBK_01	Acudam, por favor!
+MSG_PBK_02	Há muitos monstros no Mar Aldeano. É melhor tomarem cuidado!
+MSG_PBK_03	Malditos piratas! Estão saqueando e pilhando tudo como se a cidade fosse deles!
+MSG_PBK_04	Acho que não tem nenhum porto no norte. Navios só podem ancorar em portos, como vocês sabem.
+MSG_PBK_05	Agora eu sô um novo homi.<P>\nVô arregaçá as manga e trabaiá mais qui qualqué um.<P>\nCê credita em mim, num credita?
+MSG_PBK_06	Graças a vocês, não precisamos mais temer os piratas!<P>\nMuito obrigado!
+MSG_PBK_07	Dizem que elfos vivem do outro lado do mar!<P>\nMas o príncipe dos elfos caiu em um sono profundo e nunca mais acordou...
+MSG_PBK_08	Eu fugi pra cá de Melmond, uma cidade nos confins do oeste.<P>\nA situação está feia por lá... O solo apodreceu, e monstros atacam à noite.<P>\nSerá que vocês poderiam ajudar?
+MSG_PBK_09	Que qui cês tão fazeno aqui? Tão quereno arranjá encrenca cos Bukkaneiros do Bikke, é?
+MSG_ELF_CAS_01	A maldição de Astos mergulhou nosso príncipe em um sono profundo, do qual ele não consegue acordar.<P>\nSerá que vocês podem ajudar nosso príncipe adormecido?
+MSG_ELF_CAS_02	Uma criatura asquerosa vive em uma caverna ao oeste.<P>\nÉ por culpa dela que o solo está apodrecendo, tenho certeza.
+MSG_ELF_CAS_04	Os elfos são os guardiões da chave. Quando os Guerreiros da Luz chegarem, a entregaremos para eles.
+MSG_ELF_CAS_05	Ouvi boatos sobre uma bruxa que sabe preparar qualquer poção que você possa imaginar.<P>\nDeixe-me ver... acho que ela se chamava Matoya.
+MSG_ELF_CAS_06	Vocês têm um tônico estimulante? Isso serviria para acordar o príncipe!
+MSG_ELF_CAS_07	O rei dos elfos negros, Astos, invadiu o castelo e lançou uma maldição contra nosso príncipe.<P>\nE então, Astos levou embora todos os tesouros do castelo!
+MSG_ELF_CAS_08	O príncipe despertou! Obrigado!
+MSG_ELF_CAS_09	Os anões vivem em uma caverna na orla oeste do Mar Aldeano.<P>\nEles são muito simpáticos!
+MSG_ELF_CAS_10	A sala de tesouros foi trancada com a chave mística.
+MSG_ELF_CAS_11	Há cinco anos que o príncipe está adormecido devido à maldição de Astos.<P>\nDeve haver alguma poção capaz de despertar alguém nessa situação... mas onde?
+MSG_ELF_CAS_12	Graças a vocês, o príncipe finalmente despertou. Serei eternamente grato.<P>\nVocês devolveram a paz a Elfheim.
+MSG_ELF_CAS_13	Zzz...
+MSG_ELF_CAS_14	Estou desperto e forte novamente... tudo graças a vocês. Obrigado, Guerreiros da Luz!
+MSG_AWAKEELF_01	Este tônico estimulante...<P>\nTalvez seja perfeito para quebrar a maldição e despertar o príncipe!<P>\nVou experimentar agora mesmo!
+MSG_AWAKEELF_02	Alteza? Alteza!
+MSG_AWAKEELF_03	Eu estava tendo... um pesadelo terrível. Ainda... estou sonhando?
+MSG_AWAKEELF_04	Vocês... vocês são os guerreiros lendários! Algo me diz que não estou sonhando...<P>\nFinalmente chegou a hora de honrar meus antepassados.<P>\nEntregarei a chave mística aos seus verdadeiros donos.
+MSG_AWAKEELF_05	Chave mística obtida.
+MSG_ELF_CTY_01	Não sei mais o que podemos fazer... Por favor, ajudem nosso príncipe.
+MSG_ELF_CTY_02	O príncipe despertou! Obrigado!
+MSG_ELF_CTY_03	Se o príncipe não despertar, os elfos ficarão sem rei.<P>\nEstaremos à mercê do poder maligno do elfo negro.
+MSG_ELF_CTY_04	Reza a lenda que um helibarco, uma embarcação que navega pelos céus, está enterrado em algum lugar.
+MSG_ELF_CTY_05	Ninguém sabe para onde foi Astos, o rei dos elfos negros.
+MSG_ELF_CTY_07	Uma vez, eu estava viajando para oeste e topei com um castelo antigo.<P>\nNão havia uma viva alma lá dentro, e o lugar me deu arrepios, então fui embora correndo.
+MSG_ELF_CTY_08	Vocês derrotaram Astos e trouxeram paz para Elfheim!
+MSG_ELF_CTY_09	Nosso príncipe deveria se tornar o rei dos elfos, mas e agora?
+MSG_ELF_CTY_11	Armas e armaduras feitas de mithril são resistentes e poderosas. Vocês deveriam experimentá-las.<P>\nVão se surpreender!
+MSG_ELF_CTY_12	Sou um sábio. No momento certo, o futuro será revelado para mim.<P>\nAté lá, esperarei pacientemente.
+MSG_ELF_CTY_13	Pelo poder da pedraleve, do mar de areia sob a crescente se ergue aos céus uma grande nau!
+MSG_ELF_CTY_15	No abismo sombrio acima da crescente, ao norte, além da montanha fumegante, jaz a pedraleve.<P>\nAlgo espera por vocês ali...
+MSG_ELF_CTY_16	Aqui jaz Link.
+MSG_ELF_CTY_17	É uma lápide.
+MSG_WST_CAS_01	Fui enganado por Astos, rei dos elfos negros, e agora meu castelo está em ruínas.<P>\nSe eu pudesse recuperar a coroa da Caverna do Pântano, conseguiria restaurar meu castelo.<P>\nVocês poderiam me trazer a coroa?
+MSG_WST_CAS_02	Squick! Squick!
+MSG_WST_CAS_03	Esta porta foi trancada com a chave mística.
+MSG_ASTOS_01	Muahaha!<P>\nTolos! Caíram como patinhos na minha armadilha!<P>\nEU sou Astos, rei dos elfos negros!
+MSG_ASTOS_02	Com o poder conjunto da coroa que vocês trouxeram e o olho de cristal que já tenho...<P>\nEu me tornarei o VERDADEIRO rei dos elfos!
+MSG_ASTOS_03	É inútil lutar contra mim! Tomarei o que é meu por meio de força bruta!
+MSG_ASTOS_04	Olho de cristal obtido.
+MSG_PND_01	Squick! Squick!
+MSG_PND_02	Esta porta foi trancada com a chave mística.
+MSG_GET_CROWN_01	Coroa obtida.
+MSG_AWAKEPOT_01	Ah, o que é isto? Meu olho de cristal? Me deem aqui!<P>\nNão se preocupem, tenho algo pra dar em troca. Tomem esta poção. É a mais incrível da minha coleção!
+MSG_AWAKEPOT_02	Aaah! Estou enxergando! Voltei a enxergar!
+MSG_AWAKEPOT_03	Tônico estimulante obtido.
+MSG_MATOYA_01	*pof* Ai, ai!
+MSG_MATOYA_02	Meu olho... meu olho!
+MSG_MATOYA_03	Não consigo enxergar patavinas sem meu olho de cristal!
+MSG_MATOYA_04	Quem pode ter roubado ele de mim?
+MSG_MAT_02	Ainda por aqui? Não preciso mais de vocês, podem ir andando!<P>\nHumpf! Não são tão atraentes quanto eu achei que fossem...
+MSG_MAT_03	De trás pra frente, as palavras vão se formar! Troca, troca, que feitiço estranho de entoar!<P>\nMu Le Ralecnac. Troca, troca!
+MSG_MAT_04	De trás pra frente, as palavras vão se formar! Troca, troca, que feitiço estranho de entoar!<P>\nApam o Eruges e Etrepa. Troca, troca!
+MSG_DWF_CAV_01	Se ao menos eu tivesse o lendário metal adamantita! Eu poderia forjar uma espada tão mágica...
+MSG_DWF_CAV_02	Tenho certeza que cês vão saber usar a Excalibur.
+MSG_DWF_CAV_03	Com o olho de cristal, até os cegos conseguem ver.<P>\nOuvi dizer que o elfo negro Astos roubou o da Matoya.
+MSG_DWF_CAV_04	O solo tá apodrecendo. Começou no oeste, e agora a podridão tá se espalhando...
+MSG_DWF_CAV_05	O solo voltou ao que era antes! Obrigado, Guerreiros da Luz!
+MSG_DWF_CAV_06	Cês já foram falar com nosso ferreiro, o Ferradura? Ele tá na ferraria.
+MSG_DWF_CAV_07	Esse som? Ah, é o Nerrick. Ele tá quebrando pedra lá nos fundos da caverna.
+MSG_DWF_CAV_08	Aquele é o Nerrick, ele é um bom anão. Eu botaria minha mão na forja por ele.
+MSG_DWF_CAV_09	Upa-lê-lê!
+MSG_DWF_CAV_10	Lembrem-se que, no quesito defesa, um bom bracelete é tão eficaz quanto uma armadura. Experimentem!
+MSG_DWF_CAV_12	Cês já viram o canal? Caramba, aquele Nerrick é um anão pra ninguém botar defeito!
+MSG_DWF_CAV_13	Tô em busca de pedraleve.<P>\nDizem que é um material incrível que faz as coisas flutuarem!
+MSG_DWF_CAV_14	Devia ter um pouco de pólvora nitrosa na sala de tesouros do castelo antes de trancarem as portas.
+MSG_DWF_CAV_16	Maldição!!! Tem uma pedra gigante no meu caminho!<P>\nE eu tava pertinho de conseguir abrir o canal!<P>\nSe eu tivesse um tiquinho de pólvora nitrosa, podia mandar essa pedra pelos ares...
+MSG_DWF_CAV_17	Calminha! Essas são só de amostra! Cês não podem lutar com elas!
+MSG_DWF_CAV_18	Esta porta foi trancada com a chave mística.
+MSG_CANAL_01	Pólvora nitrosa!<P>\nA força explosiva dessa pólvora vai abrir o canal num piscar de olhos!<P>\nMandaram bem, rapaziada!
+MSG_CANAL_02	Prontinho!
+MSG_CANAL_03	Agora a gente pode detonar essa pedra todinha!
+MSG_CANAL_04	Tão fazendo o quê, parados aí?<P>\nA pólvora vai explodir! Se não quiserem ir pelos ares também, é melhor saírem enquanto podem!
+MSG_CANAL_05	Mal posso esperar pra ver o que tem depois do canal!
+MSG_GET_EXCALIBER_01	Será mesmo... adamantita?!
+MSG_GET_EXCALIBAR_02	Uau! Vô usar isso pra fazer a melhor espada que cês já empunharam!
+MSG_GET_EXCALIBAR_03	Pronto! Em todos esses anos, nunca fiz uma espada tão boa!
+MSG_GET_EXCALIBAR_04	Tomem, fiquem com ela. É de vocês!
+MSG_GET_EXCALIBAR_05	Excalibur obtida.
+MSG_LEARN_01	Esperem um instante. Deixem-me ver esta tabuleta...
+MSG_LEARN_02	Esta é... a Pedra de Roseta!
+MSG_LEARN_03	Ela permite decifrar o idioma lufeniano!
+MSG_LEARN_04	Hum... Sim, claro! Era DISSO que se tratava! Agora faz todo sentido!
+MSG_LEARN_05	Permitam-me expressar minha gratidão. Vou ensinar lufeniano a vocês.
+MSG_LEARN_06	Pronto! Agora vocês também sabem falar lufeniano!
+MSG_MMD_CTY_01	O solo está se deteriorando, e é tudo culpa do vampiro que vive na Caverna da Terra.<P>\nNossa cidade está nessas condições deploráveis porque ele está bloqueando o fluxo do poder da terra.<P>\nSerá que vocês poderiam detê-lo?
+MSG_MMD_CTY_02	Tempos atrás, Melmond era uma linda cidade, abençoada pelas riquezas da terra.
+MSG_MMD_CTY_03	O vampiro nos atacou, destruiu a igreja e deixou a cidade devastada.<P>\nSerá que não podemos fazer nada para impedir que a terra seja arruinada?
+MSG_MMD_CTY_04	Vocês por acaso são os Guerreiros da Luz?
+MSG_MMD_CTY_05	Restaurem a glória dos Cristais....
+MSG_MMD_CTY_06	O vampiro foi morto, mas o solo continua se deteriorando. O que está acontecendo?
+MSG_MMD_CTY_07	A Caverna da Terra fica ao sul de Melmond, numa península chamada Cauda do Diabo.<P>\nAntes, quanto mais perto você chegava da caverna, mais fértil era o solo. Agora... está tudo seco.
+MSG_MMD_CTY_08	O Cristal da Terra deve estar brilhando novamente!
+MSG_MMD_CTY_09	O gigante que vive na caverna come pedras.<P>\nQualquer tipo serve, mas dizem que ele gosta mesmo é de gemas preciosas! Ele nunca enjoa delas!
+MSG_MMD_CTY_10	Não há nada que eu, o grande Dr. Unne, desconheça!<P>\nO quê?! Nunca ouviram falar de mim?! Inconcebível!
+MSG_MMD_CTY_12	Tempos atrás, uma civilização próspera vicejava nas terras ao norte.<P>\nAgora, só restam ruínas.
+MSG_MMD_CTY_14	Ora, vocês estão bem mais vistosos do que antes!
+MSG_MMD_CTY_15	Ouvi falar que os antigos tinham algum tipo de poder que fazia as embarcações voarem pelos ares.
+MSG_MMD_CTY_16	Um helibarco! Então eles existem MESMO!
+MSG_MMD_CTY_17	Me chamo Watts.<P>\nVim lá de Duergar pra descobrir o que tá fazendo a terra apodrecer.
+MSG_MMD_CTY_18	Guerreiros da Luz... isso num teria sido possível sem vocês! O solo já tá se recuperando!
+MSG_MMD_CTY_19	Um homem chamado Sadda vive numa caverna no extremo sul deste continente. Ele é muito sábio.
+MSG_MMD_CTY_20	Sou apenas um fazendeiro.
+MSG_MMD_CTY_21	O vampiro foi morto, mas a terra continua deteriorando.<P>\nO que está acontecendo? Tem algo mais por trás disso?
+MSG_MMD_CTY_22	Dêem um pulo na loja do meu pai, sim?
+MSG_MMD_CTY_23	Se o Cristal da Terra recuperar o brilho, a vida voltará à terra, e o verde às colinas e aos vales.
+MSG_MMD_CTY_24	Guerreiros da Luz... aceitem nossos agradecimentos. A terra está voltando ao normal.
+MSG_MMD_CTY_25	É uma lápide.
+MSG_MMD_CTY_26	Restaurem a glória dos Cristais....
+MSG_MAP01_01	Rubi estelar obtido.
+MSG_LICH_01	Quem se dirige a mim?
+MSG_LICH_02	Sou aquele que se alimenta do poder da terra.
+MSG_LICH_03	Não serei perturbado por mortais. Sou o lich... o Demônio da Terra!
+MSG_VAMPIRE_01	Todas as coisas deste mundo estão destinadas a morrer...<P>\nA barreira não pode ser rompida. A terra apodrecerá.
+MSG_VAMPIRE_02	Vocês não podem alterar o destino.<P>\nMeros mortais não podem matar o que é eterno!
+MSG_ERH_CAV_01	Squick! Squick!
+MSG_ERH_CAV_02	Há uma tabuleta de pedra no chão. Uma força maligna parece emanar dela.
+MSG_ERH_CAV_03	Este é o Altar da Terra, de onde emana o poder desse elemento.
+MSG_GIANT_RUBYEAT_01	Vocês têm o rubi estelar?!<P>\nMe deem o rubi e deixarei vocês passarem!
+MSG_GIANT_RUBYEAT_02	*Nhac* *nhoc*<P>\nHummm! Rubis são tão deliciosos!
+MSG_GIA_CAV_01	Vocês não passarão!
+MSG_SAG_CAV_01	Restaurem a glória dos Cristais....
+MSG_GET_STICK_01	Então foram vocês que derrotaram o vampiro?<P>\nEle era apenas um servo... Quem corrompe o Cristal da Terra esconde-se nas profundezas da caverna.<P>\nTomem. Levem este cajado e usem-no atrás dos aposentos do vampiro!
+MSG_GET_STICK_02	Cajado da terra obtido.
+MSG_GET_CANOE_01	Muito bem, Guerreiros da Luz. Vocês derrotaram o Demônio da Terra e restauraram a luz do Cristal.<P>\nInfelizmente, isso despertou o Demônio do Fogo, que deveria se manter inativo por mais duzentos anos.<P>\nPeguem esta canoa e enfrentem o Demônio no Monte Gulg!
+MSG_GET_CANOE_02	Canoa obtida.
+MSG_CLK_CTY_01	Meu marido está sempre viajando e, quando está em casa, só dorme!<P>\nAcho que ele precisava rever as prioridades dele.
+MSG_CLK_CTY_02	Zzz...
+MSG_CLK_CTY_03	Estou há dez anos em busca de pedraleve...<P>\nA caverna ao norte parece promissora, mas não posso ir...<P>\nMinha mulher iria buzinar no meu ouvido pra sempre.
+MSG_CLK_CTY_04	Doze sábios nós somos, guiados até aqui pelas estrelas e pela profecia.
+MSG_CLK_CTY_05	Quatro Grandes Cristais existem neste mundo. A luz que antes emanava deles se perdeu...<P>\nOs quatro Demônios do Caos bloqueiam o poder dos Cristais, tomando-o para si.
+MSG_CLK_CTY_06	As quatro forças se reúnem no Templo do Caos, o centro geográfico dos quatro altares.<P>\nAgora que as forças voltaram a fluir, é hora de ir até lá e cortar o mal pela raiz!
+MSG_CLK_CTY_07	Fogo, terra, água e vento... Essas são as quatro forças que compõem nosso mundo.
+MSG_CLK_CTY_08	Os quatro Cristais brilham novamente!<P>\nApenas o poder conjunto dessa luz é capaz de quebrar a barreira do tempo.<P>\nO responsável por este desastre está atrás desta barreira, dois mil anos no passado!
+MSG_CLK_CTY_09	A fonte das quatro forças são os altares espalhados pelo mundo.<P>\nDerrotem os Demônios que se enraizaram nos altares e coloquem lá os cristais que vocês carregam.<P>\nA luz deles será recuperada.
+MSG_CLK_CTY_10	Vocês não se lembram, mas antes de chegarem até aqui, o tempo fluía normalmente para vocês.<P>\nMas agora, no tempo em que estamos, esse fluxo temporal ficou distorcido para vocês.
+MSG_CLK_CTY_11	Os quatro Demônios planejam dominar o mundo do passado e do presente.<P>\nO Demônio do Vento surgiu 400 anos atrás, seguido 200 anos depois pelo Demônio da Água.<P>\nJuntos, eles dizimaram a civilização do norte.
+MSG_CLK_CTY_12	A corrente do tempo fechou-se em um ciclo repetitivo...<P>\nVocês devem voltar até o elo em que esse ciclo de ódio teve início... para destruí-lo!
+MSG_CLK_CTY_13	O Demônio da Terra apodrece o solo...
+MSG_CLK_CTY_14	A sequência de desastres que começou 400 anos atrás...<P>\nEla foi desencadeada por eventos que ocorreram há poucos dias no nosso passado.<P>\nMas o responsável por tudo isso fugiu para dois mil anos no passado.
+MSG_CLK_CTY_15	O Demônio do Fogo deixa um rastro de chamas por onde passa...
+MSG_CLK_CTY_16	Vejo o tempo entrar em espiral...<P>\nAquele que voltou dois mil anos no passado deixou o mundo à beira da destruição.<P>\nE agora, dois mil anos depois, ele viajou novamente para o passado...<P>\nEm um ciclo de ódio sem fim...
+MSG_CLK_CTY_17	Quando os quatro Cristais tornarem a brilhar, voltem aqui.<P>\nTudo será revelado...
+MSG_CLK_CTY_18	Um ciclo que se repete a cada dois mil anos... Uma distorção que faz nascer e renascer o ódio...<P>\nMas não passa de uma ilusão... de uma fantasia! E só os Guerreiros da Luz podem quebrar o ciclo!
+MSG_CLK_CTY_19	Tragam-nos a luz dos quatro Cristais! Guerreiros da Luz, só vocês podem fazer isso!
+MSG_CLK_CTY_20	O poder deve ser direcionado ao seu devido fim.
+MSG_CLK_CTY_21	O vulcão Monte Gulg fica a oeste desta cidade.<P>\nO Demônio do Fogo dormiu longamente, mas despertou duzentos anos antes do tempo.<P>\nElimine-o antes que o mundo seja consumido pelas chamas!
+MSG_CLK_CTY_22	Há quatrocentos anos, foi o vento... Duzentos anos atrás, a água... Depois a terra e o fogo...<P>\nAs quatro forças que compõem o mundo...
+MSG_CLK_CTY_23	Sou Lukahn.<P>\nEu vejo... um ciclo de ódio... Uma luz tênue... guiada pelo destino... iluminando nosso futuro...
+MSG_CLK_CTY_24	É uma lápide.
+MSG_GRG_MNT_01	Este é o Altar do Fogo, de onde emana o poder desse elemento.
+MSG_MARILITH_01	Então foram vocês que derrotaram o Demônio da Terra e despertaram Marilith...
+MSG_MARILITH_02	Então foram vocês que derrotaram os Demônios da Terra e da Água, e despertaram Marilith...
+MSG_MARILITH_03	Então foram vocês que derrotaram os Demônios da Terra e do Vento, e despertaram Marilith...
+MSG_MARILITH_04	Então foram vocês que derrotaram os Demônios da Terra, da Água e do Vento, e despertaram Marilith...
+MSG_MARILITH_05	O poder da chama é meu e de ninguém mais!<P>\nAqueles que se opuserem a mim queimarão no fogo eterno!
+MSG_GET_FLOAT_01	Pedraleve obtida.
+MSG_MAP1B_01	Helibarco obtido.
+MSG_GET_MOUSE_01	Cauda de rato obtida.
+MSG_TRIAL_CAS_01	Vejo que vocês trazem a coroa.<P>\nA determinação de vocês não pode ser questionada de forma alguma...<P>\nMuito bem, lhes concederei o direito de fazer as provas. Andem. Sentem-se no trono.<P>\nSua coragem será testada. Se ela for verdadeira, a prova estará bem aqui.
+MSG_TRIAL_CAS_02	Apenas aqueles que receberam permissão poderão fazer as provas.
+MSG_CLASS_CHG_01	Há tempos que eu não testemunhava tamanha coragem.<P>\nA bravura de vocês é digna de respeito.
+MSG_CLASS_CHG_02	A cauda de rato que vocês trazem é um símbolo apropriado de coragem e força...
+MSG_CLASS_CHG_03	Que assim seja... honrarei vocês com títulos condizentes com sua bravura.
+MSG_DRG_CAV_01	Sou Bahamut, o rei dos dragões.<P>\nConcedo honras àqueles cuja força e coragem são verdadeiras. Voltem com um símbolo de sua coragem.
+MSG_DRG_CAV_02	Restaurem a glória dos Cristais....
+MSG_DRG_CAV_03	Você não me teme... Sua bravura é admirável, humano.
+MSG_DRG_CAV_04	Já falaram com nosso rei, Bahamut?<P>\nO rei dos dragões confere grandes honras aos mais corajosos.
+MSG_DRG_CAV_05	Os dragões têm o costume de seguir para o nordeste, em direção à Cidadela das Provas.<P>\nLá, devemos testar nossa determinação buscando um símbolo nas profundezas da cidadela.
+MSG_DRG_CAV_06	A forma do símbolo da coragem muda com o passar do tempo. Mas atenção, as aparências enganam.
+MSG_DRG_CAV_07	Tempos atrás, as terras do norte eram repletas de belos templos e imensos castelos mecânicos.<P>\nIsso faz muito, muito tempo...
+MSG_DRG_CAV_08	É raro termos visitas de humanos por aqui.<P>\nSe vocês forem guerreiros valentes, devem falar com Bahamut, nosso rei.
+MSG_DRG_CAV_09	Os dragões das Ilhas Cardianas não apreciam matanças gratuitas.
+MSG_DRG_CAV_10	Houve um tempo em que homens e dragões viviam em harmonia.
+MSG_DRG_CAV_11	Apenas os que demonstrarem verdadeira bravura poderão obter o símbolo da coragem.
+MSG_DRG_CAV_12	Esta é a câmara de Bahamut, o rei dos dragões. Tome cuidado com o que fala.
+MSG_DRG_CAV_13	O rei dos dragões olha para dentro das pessoas para ver se são corajosas de verdade.
+MSG_OXYALE_01	Foram vocês que me tiraram daquela garrafa!<P>\nLamento por ter fugido, mas fiquei tão assustada...<P>\nVou buscar um pouco de aerágua do fundo da fonte para compensar, está bem?
+MSG_OXYALE_02	O ar fluirá desta água enquanto vocês estiverem com ela nas mãos!
+MSG_OXYALE_03	Aerágua obtida.
+MSG_GAI_CTY_01	Eu que peguei a fada, o que torna ela minha pra eu fazer o que quiser. Qual o problema?<P>\nEu vendi ela pra caravana. E daí?
+MSG_GAI_CTY_02	Havia um acadêmico que estudava o idioma lufeniano, mas não me lembro o nome dele.
+MSG_GAI_CTY_03	Tinha uma fada que vivia na nossa fonte, mas não tenho visto mais ela. Que fim ela levou?
+MSG_GAI_CTY_04	Meu pai sempre me dizia que o castelo a oeste era um lugar feito para testar sua coragem.
+MSG_GAI_CTY_05	Dizem que uma água especial chamada aerágua brota da nossa fonte, mas só as fadas sabem extraí-la.
+MSG_GAI_CTY_06	Reza a lenda que o Povo Celestial voava pelos ares e construía castelos além das nuvens.
+MSG_GAI_CTY_07	Há uma torre no Deserto Yahnikurm na qual ninguém consegue entrar.<P>\nAlguns dizem que é apenas uma ilusão, por isso ela é chamada de Torre da Miragem.<P>\nMas ninguém sabe dizer ao certo.
+MSG_GAI_CTY_08	Aquela vassoura está sempre querendo se esquivar das tarefas. Não sei mais o que fazer com ela!
+MSG_GAI_CTY_09	Quanto trabalho, quanto trabalho... Varre, varre, varre!
+MSG_GAI_CTY_10	Vocês já visitaram a Asa do Falcão? Não entendo uma palavra do que eles falam por lá.
+MSG_GAI_CTY_11	Quê? Vocês entendem a língua que eles falam na Asa do Falcão?
+MSG_GAI_CTY_12	Aqui é Gaia. Forasteiros costumam chamar nossa cidade de Olho do Falcão.<P>\nAo sul, fica uma cidade antiga chamada Asa do Falcão.
+MSG_GAI_CTY_13	Obrigada por me salvarem! A aerágua ajudou vocês?<P>\nO ar dela é inesgotável, então podem usá-la para ficar debaixo d'água pelo tempo que quiserem!
+MSG_GAI_CTY_14	Não acredito! Vocês são forasteiros, não são?! Como chegaram tão alto nas montanhas?<P>\nSabem voar ou coisa parecida? Não, isso é impossível... não é?
+MSG_GAI_CTY_15	Vi uma luz forte cruzar o céu noturno na direção oeste! Tenho certeza que vi!
+MSG_SUBMARINE_01	Vocês... vocês têm a aerágua.
+MSG_SUBMARINE_02	Eu estava esperando por vocês.
+MSG_SUBMARINE_03	Por favor, salvem as sereias!
+MSG_ORK_CTY_01	Já ouviram falar de algo chamado aerágua?
+MSG_ORK_CTY_02	Dizem que o templo afundou no mar há duzentos anos.<P>\nAgora, sereias vivem nele... ou pelo menos é o que dizem.
+MSG_ORK_CTY_03	Dizem que, há uns duzentos anos, havia um belo vilarejo aqui.
+MSG_ORK_CTY_04	Olhem minhas pernas! Não são maravilhosas?<P>\nAdoro ter pernas! Olhem! Olhem! Viram o movimento que acabei de fazer?
+MSG_ORK_CTY_05	Aquele tal de Monteiro da caravana tinha algo muito estranho à venda.
+MSG_ORK_CTY_06	Tempos atrás, uma raça antiga, conhecida como Povo Celestial, falava uma língua chamada lufeniano.<P>\nMeu irmão Unne dizia que poderia aprender a falar o idioma se tivesse a Pedra de Roseta.
+MSG_ORK_CTY_07	Vocês têm a Pedra de Roseta?!<P>\nLevem-na até meu irmão Unne imediatamente!
+MSG_ORK_CTY_08	Dizem que o Templo Submerso é repleto de riquezas.<P>\nPrata, ouro, diamantes... até tabuletas descrevendo línguas e civilizações perdidas.
+MSG_ORK_CTY_09	O Koppe anda dizendo por aí que viu algo brilhante caindo do céu.
+MSG_ORK_CTY_10	Sai da frente! Raios! Num consegui apanhá um peixe sequer!<P>\nCumé qui eu vô botá comida na mesa e, hic, na minha barriga?
+MSG_ORK_CTY_11	Essas pernas são suas mesmo?
+MSG_ORK_CTY_12	Duzentos anos atrás, o Templo de Onrac estava no auge. Ele transbordava com o poder da água.<P>\nPeço apenas uma coisa a vocês. Recuperem o poder e a glória do nosso templo.
+MSG_ORK_CTY_13	O poder místico da água foi restaurado! Agora nosso reino voltará a prosperar!
+MSG_ORK_CTY_14	Eu queria salvar as sereias que viviam no fundo do mar, então fiz este submarino com um barril.<P>\nMas, quando submergi, comecei a ficar sem ar. Não conseguia respirar.<P>\nÉ totalmente inútil. E, pra piorar, é perigoso. É melhor nem tentarem.
+MSG_ORK_CTY_15	Vocês parecem ser guerreiros. Eu também sou, e estou a caminho da Cidadela das Provas.<P>\nQuero ser reconhecido pelo rei dos dragões. Preciso voltar com um símbolo da minha força e coragem.
+MSG_ORK_CTY_16	Incrível! Humanos foram honrados pelo rei dos dragões!
+MSG_ORK_CTY_17	Meu pai está na caravana. Agora, eles estão no deserto a oeste.<P>\nEles geralmente acampam perto da floresta ao norte do deserto. Espero que ele volte logo.
+MSG_ORK_CTY_18	Oi, meu nome é Koppe. Hum?<P>\nQuerem saber sobre o objeto brilhante que eu vi? Acho que ele caiu perto da cachoeira ao norte.<P>\nNinguém acredita em mim, mas acho que foi uma espécie de criatura mecânica!
+MSG_ORK_CTY_19	Vocês querem entrar no barril?
+MSG_ORK_CTY_20	Vamos dar uma olhada no seu reflexo na água...<P>\nEca! Que imundície! Use isto para se lavar!
+MSG_ORK_CTY_21	É uma lápide.
+MSG_ORK_CTY_22	É um poço. Parece que dá pra entrar nele, mas não dá. Sério.
+MSG_MAP04_01	Pedra de Roseta obtida.
+MSG_KRAKEN_01	Humpf. Vocês humanos são impressionantes... Nunca imaginei vê-los aqui embaixo.
+MSG_KRAKEN_02	Mas acham mesmo que conseguirão derrotar o Demônio da Água em meu próprio domínio?<P>\nTolos! Estas profundezas sombrias serão o túmulo de vocês!
+MSG_SEA_DAN_01	Este é o Altar da Água, de onde emana o poder desse elemento.
+MSG_SEA_DAN_02	Ah! Minhas preces foram atendidas!
+MSG_SEA_DAN_03	Se a luz dos mares se perder, viraremos espuma marinha e desapareceremos para sempre...
+MSG_SEA_DAN_04	Uma de nossas amigas foi ver o mundo lá de cima e não voltou.<P>\nO que será que ela está fazendo agora? Espero que esteja bem...
+MSG_SEA_DAN_05	Vocês conseguem respirar debaixo d'água?! Como? COMO?
+MSG_SEA_DAN_06	Salvem os mares. Restaurem a luz do Cristal da Água.
+MSG_SEA_DAN_07	Muito obrigada! Agora este mar certamente voltará a ser tão belo quanto antes!
+MSG_SEA_DAN_08	Se a luz dos mares não for restaurada, nós desapareceremos como a espuma nas ondas...
+MSG_SEA_DAN_09	São estes os Cristais de que falam as lendas? Quem são vocês?
+MSG_SEA_DAN_10	Este é o primeiro nível alto do templo.<P>\nO kraken, Demônio das Águas, habita o nível mais profundo.
+MSG_SEA_DAN_11	A Torre da Miragem fica no deserto a leste do continente, certo?<P>\nBom, eu vi alguém entrar na torre! Ouvi também um som muito agradável e melodioso...
+MSG_SEA_DAN_12	Enquanto o Demônio da Água viver, a luz do mar ficará cada vez mais fraca.
+MSG_SEA_DAN_13	Vocês querem entrar no barril?
+MSG_GET_CHIME_01	Antes de partirem, guerreiros lendários, levem este sino com vocês.<P>\nEle permitirá que vocês entrem na Torre da Miragem.
+MSG_GET_CHIME_02	Sino obtido.
+MSG_RFE_CTY_01	Lu...pa...gamhi...dho?
+MSG_RFE_CTY_02	Temos uma lenda que nos foi repassada por muitas gerações. Ela diz o seguinte.<P>\nQuatrocentos anos após a queda da civilização celeste, guerreiros trarão luz para salvar nosso povo.
+MSG_RFE_CTY_03	Os Portadores da Luz! A lenda é verdadeira!
+MSG_RFE_CTY_04	Depositamos nossas últimas esperanças nos cinco guerreiros que enviamos...<P>\nDizem que eles foram amaldiçoados pelos Demônios e transformados em morcegos.
+MSG_RFE_CTY_05	O castelo que paira acima das nuvens costumava ser o lar dos nossos ancestrais.<P>\nA Torre da Miragem é o portal para esse castelo.
+MSG_RFE_CTY_06	Acreditamos que há outra entidade controlando os quatro Demônios.<P>\nEntão, enviamos cinco guerreiros para localizá-la. Mas há tempos que não sabemos deles.<P>\nEspero que nada de ruim tenha acontecido...
+MSG_RFE_CTY_07	O mundo é composto de quatro forças: fogo, terra, água e vento. Nosso povo dominava o vento.<P>\nUsamos seu poder para erguer, no mar anil de estrelas, um castelo flutuante.
+MSG_RFE_CTY_08	Quatrocentos anos atrás, construímos uma civilização avançadíssima.<P>\nChegamos a ir além dos céus... Porém, agora isso não passa de história.
+MSG_RFE_CTY_09	O castelo voador paira em um mar azul de estrelas além do céu.
+MSG_RFE_CTY_10	O Povo Celestial transmitia suas memórias de geração a geração por meio de rituais.<P>\nMas 400 anos é muito tempo, e essas memórias começaram a desaparecer.
+MSG_RFE_CTY_11	Será que os seres mecânicos criados por nossos ancestrais ainda funcionam?
+MSG_RFE_CTY_12	Somos os lufenianos, descendentes da raça que vivia entre as nuvens: o Povo Celestial.<P>\nVocês usam uma embarcação que chamam de helibarco...<P>\nEle foi construído por um de nossos ancestrais... um homem chamado Cid.
+MSG_RFE_CTY_13	A Torre da Miragem é nosso símbolo.
+MSG_RFE_CTY_14	Lutamos pelas nossas vidas contra Tiamat, o Demônio do Vento. Mas nosso poder foi insuficiente...<P>\nAté hoje, a fera ocupa o castelo no céu; a Fortaleza Voadora.
+MSG_RFE_CTY_15	Tiamat bloqueia o poder do vento, que dá forças ao Povo Celestial.
+MSG_RFE_CTY_16	Vamos dar uma olhada no seu reflexo na água...<P>\nEca! Que imundície! Use isto para se lavar!
+MSG_GET_WARPCUBE_01	...Estive esperando...<P>\n...Levem este CUBO... ...TIAmat...fortaleza voadora... ...por favor...
+MSG_GET_WARPCUBE_02	*bzzt* *zoing*
+MSG_GET_WARPCUBE_03	Teletranscubo obtido.
+MSG_FAL_DAN_01	Squick! Squick!
+MSG_MRG_DAN_01	...mesTRE!... esperei TANTO tempo...
+MSG_MRG_DAN_02	...nosso AMIGO partiu...para o OESTE...<P>\n...ele levou o TELEtranscubo...e foi encontrar nosso mesTRE...
+MSG_MRG_DAN_03	...Usem o TELEtranscubo para viajar... para além do CÉU...<P>\n...ele LEVARÁ vocês até a... FORtaleza voadora...
+MSG_WND_DAN_01	...analisando TIAmat... nenhuma FRAQUEZA conhecida...
+MSG_WND_DAN_02	...desta JANela de observação...é possível ver...o mundo INTEIRO...
+MSG_WND_DAN_03	Este é o Altar do Vento, de onde emana o poder desse elemento.
+MSG_WND_DAN_04	Adamantita obtida.
+MSG_LOOK_WINDOW_01	A janela de observação oferece uma vista do mundo.<P>\nAs quatro forças do fogo, terra, água e vento surgem como uma névoa que converge para um só ponto...<P>\nUm ponto no centro dos quatro Altares. Essa deve ser a localização do Templo do Caos!
+MSG_TIAMAT_01	Vocês derrotaram o lich e alcançaram meu posto nas alturas.
+MSG_TIAMAT_02	O lich, Marilith...<P>\nVocês derrotaram dois Demônios e alcançaram meu posto nas alturas.
+MSG_TIAMAT_03	O lich, o kraken...<P>\nVocês derrotaram dois Demônios e alcançaram meu posto nas alturas.
+MSG_TIAMAT_04	O lich, Marilith o kraken...<P>\nVocês derrotaram três Demônios e alcançaram meu posto nas alturas.
+MSG_TIAMAT_05	Melhor assim... Que a imagem de Tiamat, o Demônio do Vento, seja a última que vocês verão!
+MSG_EPL_01	O loop temporal foi enfim quebrado...
+MSG_EPL_02	A luta incessante de mais de dois mil anos chegou ao fim, e a paz prevaleceu novamente.
+MSG_EPL_03	A luz dos quatro Cristais restaurou as forças do vento, da água, da terra e do fogo.
+MSG_EPL_04	Um mero capricho do destino havia gerado a escalada de ódio de Garland.
+MSG_EPL_05	Mas as quatro forças que compõem nosso mundo potencializaram esse ódio, gerando os quatro Demônios.
+MSG_EPL_06	Monstros espalharam o caos, e o mundo mergulhou na escuridão...
+MSG_EPL_07	No entanto, agora tudo isso é passado.
+MSG_EPL_08	Com as quatro forças restauradas, os Guerreiros se prepararam para viajar no tempo, de volta ao mundo deles.<P>\nUm mundo em que a princesa Sarah, a rainha Jayne e até o Garland os aguardavam.
+MSG_EPL_09	Quando foi o dia fatídico em que o tempo entrou em espiral, gerando um loop infinito?
+MSG_EPL_10	Ninguém sabe dizer.
+MSG_EPL_11	Parecia que o loop temporal duraria para sempre. Mas a bravura de quatro viajantes mudou isso.<P>\nEles tomaram as forças que mergulharam o mundo na escuridão e as usaram para restaurar a luz.
+MSG_EPL_12	A luta dos quatro ficará para sempre esquecida, pois deixou de existir quando a corrente foi quebrada.
+MSG_EPL_13	Mas nas histórias fantásticas contadas pelas pessoas, a memória de seus feitos perdurará...
+MSG_EPL_14	Histórias de anões e elfos, dragões e civilizações que almejavam as alturas mesmo depois de caídas.
+MSG_EPL_15	E agora eles estão prestes a retornar.
+MSG_EPL_16	Com essas grandiosas lembranças gravadas para sempre em seus corações, eles zelam pelo nosso mundo.
+MSG_EPL_17	Lembre-se de que as forças do mundo só devem ser usadas para o bem.<P>\nA luz nunca deve ser usada para fins sombrios, e os verdadeiros Cristais estão dentro do seu coração.
+MSG_EPL_18	Pois você é o guerreiro que cruzou as barreiras do tempo.
+MSG_EPL_19	Você é o portador da luz...
+MSG_EPL_20	
+MSG_EPL_21	
+MSG_EPL_22	
+MSG_EPL_23	
+MSG_EPL_24	
+MSG_EPL_25	
+MSG_EPL_26	
+MSG_EPL_27	
+MSG_EPL_28	
+MSG_EPL_29	
+MSG_EPL_30	
+MSG_MAP0A01_01	Sejam bem-vindos! Cobramos (KINGAKU) gil por noite. Vão querer ficar?
+MSG_MAP0A01_02	Voltem sempre!
+MSG_MAP0A01_03	Bons sonhos!
+MSG_MAP0A01_04	Parece que vocês não têm dinheiro suficiente.
+MSG_MAP0A01_05	Erga-se, guerreiro caído!
+MSG_MAP0A01_06	Ressuscitar (SITAI) custará (KINGAKU) gil. Deseja continuar?
+MSG_MAP0A01_07	Quem você gostaria de ressuscitar?
+MSG_MAP0A01_08	Nenhum de vocês necessita dos meus serviços. Não desanimem, bravos guerreiros.
+MSG_MAP0A01_09	Deseja ressuscitar (SITAI)?
+MSG_OTHER_11	O baú continha (ITEM_N)!
+MSG_OTHER_12	O baú continha (NUM) gil!
+MSG_OTHER_13	Seu inventário está cheio!
+MSG_OTHER_14	Está vazio.
+MSG_OTHER_18	Monstros!
+MSG_OTHER_52	Sair?
+THANKS_TO_EVERYONE	Para os fãs ao redor do mundo, passados e presentes,\ne para a equipe que deu vida aos originais,\nnosso mais profundo e sincero agradecimento.
+

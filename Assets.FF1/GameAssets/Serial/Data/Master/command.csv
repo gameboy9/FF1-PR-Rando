@@ -1,0 +1,7 @@
+id,command_lv,mes_id_name,mes_id_name2,mes_id_description,consume_type,command_type,execution_type,list_type,number_select,ability_group_id,ability_id,job_group_id,condition_group_id,release_type,release_value1,release_value2,command_wait,adjust_strength,adjust_vitality,adjust_agility,adjust_magic,auto_execution_ability_id
+1,0,MSG_SYSTEM_029,MSG_SYSTEM_029,None,0,1,1,0,0,0,1,22,0,0,0,0,0,0,0,0,0,0
+2,0,MSG_SYSTEM_030,MSG_SYSTEM_030,None,0,2,1,0,0,0,2,22,0,0,0,0,0,0,0,0,0,0
+3,0,MSG_SYSTEM_043,MSG_SYSTEM_043,None,2,1,2,2,1,1,0,22,4,0,0,0,0,0,0,0,0,0
+4,0,MSG_SYSTEM_042,MSG_SYSTEM_042,None,0,1,2,1,1,0,0,22,0,0,0,0,0,0,0,0,0,0
+5,0,MSG_SYSTEM_032,MSG_SYSTEM_032,None,0,5,1,0,0,0,3,22,0,0,0,0,0,0,0,0,0,0
+6,0,MSG_SYSTEM_002,MSG_SYSTEM_002,None,0,5,1,0,0,0,4,22,0,0,0,0,0,0,0,0,0,0

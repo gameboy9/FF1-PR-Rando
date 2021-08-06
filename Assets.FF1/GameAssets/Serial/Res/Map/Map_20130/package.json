@@ -1,0 +1,62 @@
+{
+    "name": "Map_20130",
+    "asset_group_name": "map_20130",
+    "texture": [
+        {
+            "name": "Map_20130",
+            "asset": "Map_20130"
+        }
+    ],
+    "map": [
+        {
+            "name": "Map_20130",
+            "tilemap": "Map_20130/tilemap",
+            "collision": "Map_20130/collision",
+            "entity_default": "Map_20130/entity_default",
+            "entity": [
+                {
+                    "name": "ev_e_0026",
+                    "asset": "Map_20130/ev_e_0026"
+                },
+                {
+                    "name": "ev_e_0030",
+                    "asset": "Map_20130/ev_e_0030"
+                },
+                {
+                    "name": "ev_e_0031",
+                    "asset": "Map_20130/ev_e_0031"
+                }
+            ],
+            "script": [
+                {
+                    "name": "sc_e_0030",
+                    "asset": "Map_20130/sc_e_0030"
+                },
+                {
+                    "name": "sc_e_0031",
+                    "asset": "Map_20130/sc_e_0031"
+                },
+                {
+                    "name": "sc_e_0032_1",
+                    "asset": "Map_20130/sc_e_0032_1"
+                },
+                {
+                    "name": "sc_map_20130",
+                    "asset": "Map_20130/sc_map_20130"
+                },
+                {
+                    "name": "sc_npc_20130_1",
+                    "asset": "Map_20130/sc_npc_20130_1"
+                },
+                {
+                    "name": "sc_npc_20130_2",
+                    "asset": "Map_20130/sc_npc_20130_2"
+                },
+                {
+                    "name": "sc_npc_20130_3",
+                    "asset": "Map_20130/sc_npc_20130_3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+  "single": {
+    "messageids": [
+      "STUFF_TOSEPT_01_01",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_TOSEPT_01_02",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_01_04",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_01_06",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_TOSEPT_01_03",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_01_05",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_01_07",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+  "single": {
+    "messageids": [
+      "STUFF_TOSEPT_02_01",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_TOSEPT_02_02",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_02_05",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_02_07",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_TOSEPT_02_03",
+      "STUFF_TOSEPT_02_04",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_02_06",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_02_08",
+      "STUFF_TOSEPT_02_09",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+  "single": {
+    "messageids": [
+      "STUFF_TOSEPT_03_01",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_TOSEPT_03_02",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_03_04",
+      "STUFF_SIGN",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_TOSEPT_03_03",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_03_05",
+      "STUFF_TOSEPT_03_06",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+  "single": {
+    "messageids": [
+      "STUFF_TOSEPT_04_01",
+      "STUFF_SIGN"
+    ],
+    "anchor": 2
+  },
+  "double": {
+    "messageidsLeft": [
+      "STUFF_TOSEPT_04_02",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_04",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_06",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_08",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorLeft": 3,
+    "messageidsRight": [
+      "STUFF_TOSEPT_04_03",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_05",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_07",
+      "STUFF_SIGN",
+      "STUFF_TOSEPT_04_09",
+      "STUFF_SIGN",
+      "STUFF_SIGN"
+    ],
+    "anchorRight": 1
+  },
+}

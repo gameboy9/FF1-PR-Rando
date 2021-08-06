@@ -1,0 +1,1004 @@
+MSG_JOB_NAME_01	Воин
+MSG_JOB_NAME_02	Вор
+MSG_JOB_NAME_03	Монах
+MSG_JOB_NAME_04	Красный маг
+MSG_JOB_NAME_05	Белый маг
+MSG_JOB_NAME_06	Черный маг
+MSG_JOB_NAME_07	Рыцарь
+MSG_JOB_NAME_08	Ниндзя
+MSG_JOB_NAME_09	Мастер
+MSG_JOB_NAME_10	Красный волшебник
+MSG_JOB_NAME_11	Белый волшебник
+MSG_JOB_NAME_12	Черный волшебник
+MSG_JOB_INF_01	Может использовать самое разное оружие и доспехи.
+MSG_JOB_INF_02	Ловко описывает круги вокруг противника.
+MSG_JOB_INF_03	Специализируется на рукопашных атаках.
+MSG_JOB_INF_04	Владеет как черной, так и белой магией.
+MSG_JOB_INF_05	Поддерживает отряд белой магией.
+MSG_JOB_INF_06	Атакует врагов черной магией.
+MSG_MAGIC_NAME_01	<IC_WMGC>Исцеление
+MSG_MAGIC_NAME_02	<IC_WMGC>Диа
+MSG_MAGIC_NAME_03	<IC_WMGC>Защита
+MSG_MAGIC_NAME_04	<IC_WMGC>Мерцание
+MSG_MAGIC_NAME_05	<IC_WMGC>Антислепота
+MSG_MAGIC_NAME_06	<IC_WMGC>Немота
+MSG_MAGIC_NAME_07	<IC_WMGC>Антишок
+MSG_MAGIC_NAME_08	<IC_WMGC>Невидимость
+MSG_MAGIC_NAME_09	<IC_WMGC>Исцеление 1
+MSG_MAGIC_NAME_10	<IC_WMGC>Диа 1
+MSG_MAGIC_NAME_11	<IC_WMGC>Антипламя
+MSG_MAGIC_NAME_12	<IC_WMGC>Лечение
+MSG_MAGIC_NAME_13	<IC_WMGC>Антияд
+MSG_MAGIC_NAME_14	<IC_WMGC>Страх
+MSG_MAGIC_NAME_15	<IC_WMGC>Антихолод
+MSG_MAGIC_NAME_16	<IC_WMGC>Голос
+MSG_MAGIC_NAME_17	<IC_WMGC>Исцеление 2
+MSG_MAGIC_NAME_18	<IC_WMGC>Оживление
+MSG_MAGIC_NAME_19	<IC_WMGC>Диа 2
+MSG_MAGIC_NAME_20	<IC_WMGC>Лечение 1
+MSG_MAGIC_NAME_21	<IC_WMGC>Антиокаменение
+MSG_MAGIC_NAME_22	<IC_WMGC>Побег
+MSG_MAGIC_NAME_23	<IC_WMGC>Защита 1
+MSG_MAGIC_NAME_24	<IC_WMGC>Невидимость 1
+MSG_MAGIC_NAME_25	<IC_WMGC>Исцеление 3
+MSG_MAGIC_NAME_26	<IC_WMGC>Диа 3
+MSG_MAGIC_NAME_27	<IC_WMGC>Антисмерть
+MSG_MAGIC_NAME_28	<IC_WMGC>Лечение 2
+MSG_MAGIC_NAME_29	<IC_WMGC>Воскрешение
+MSG_MAGIC_NAME_30	<IC_WMGC>Свет
+MSG_MAGIC_NAME_31	<IC_WMGC>Антимагия
+MSG_MAGIC_NAME_32	<IC_WMGC>Рассеивание
+MSG_MAGIC_NAME_33	<IC_BMGC>Искра
+MSG_MAGIC_NAME_34	<IC_BMGC>Сон
+MSG_MAGIC_NAME_35	<IC_BMGC>Фокус
+MSG_MAGIC_NAME_36	<IC_BMGC>Вспышка
+MSG_MAGIC_NAME_37	<IC_BMGC>Метель
+MSG_MAGIC_NAME_38	<IC_BMGC>Тьма
+MSG_MAGIC_NAME_39	<IC_BMGC>Мощь
+MSG_MAGIC_NAME_40	<IC_BMGC>Замедление
+MSG_MAGIC_NAME_41	<IC_BMGC>Пламя
+MSG_MAGIC_NAME_42	<IC_BMGC>Хватка
+MSG_MAGIC_NAME_43	<IC_BMGC>Молния
+MSG_MAGIC_NAME_44	<IC_BMGC>Фокус 1
+MSG_MAGIC_NAME_45	<IC_BMGC>Сон 1
+MSG_MAGIC_NAME_46	<IC_BMGC>Ускорение
+MSG_MAGIC_NAME_47	<IC_BMGC>Замешательство
+MSG_MAGIC_NAME_48	<IC_BMGC>Буран
+MSG_MAGIC_NAME_49	<IC_BMGC>Пожар
+MSG_MAGIC_NAME_50	<IC_BMGC>Кара
+MSG_MAGIC_NAME_51	<IC_BMGC>Телепорт
+MSG_MAGIC_NAME_52	<IC_BMGC>Замедление 1
+MSG_MAGIC_NAME_53	<IC_BMGC>Гроза
+MSG_MAGIC_NAME_54	<IC_BMGC>Гибель
+MSG_MAGIC_NAME_55	<IC_BMGC>Землетрясение
+MSG_MAGIC_NAME_56	<IC_BMGC>Оглушение
+MSG_MAGIC_NAME_57	<IC_BMGC>Вьюга
+MSG_MAGIC_NAME_58	<IC_BMGC>Изваяние
+MSG_MAGIC_NAME_59	<IC_BMGC>Сабля
+MSG_MAGIC_NAME_60	<IC_BMGC>Слепота
+MSG_MAGIC_NAME_61	<IC_BMGC>Всполох
+MSG_MAGIC_NAME_62	<IC_BMGC>Остановка
+MSG_MAGIC_NAME_63	<IC_BMGC>Перемещение
+MSG_MAGIC_NAME_64	<IC_BMGC>Убийство
+MSG_MAG_INF_01	Восстанавливает немного здоровья одному союзнику.
+MSG_MAG_INF_02	Наносит урон всей нежити.
+MSG_MAG_INF_03	Увеличивает защиту одного союзника.
+MSG_MAG_INF_04	Увеличивает уклонение заклинателя.
+MSG_MAG_INF_05	Разгоняет тьму.
+MSG_MAG_INF_06	Накладывает немоту на всех врагов.
+MSG_MAG_INF_07	Вдвое снижает получаемый всем отрядом урон от молний.
+MSG_MAG_INF_08	Увеличивает уклонение одного союзника.
+MSG_MAG_INF_09	Восстанавливает здоровье одному союзнику.
+MSG_MAG_INF_10	Наносит урон всей нежити.
+MSG_MAG_INF_11	Вдвое снижает получаемый всем отрядом огненный урон.
+MSG_MAG_INF_12	Восстанавливает немного здоровья всему отряду.
+MSG_MAG_INF_13	Исцеляет отравление.
+MSG_MAG_INF_14	Насылает на всех врагов ужас.
+MSG_MAG_INF_15	Вдвое снижает получаемый всем отрядом ледяной урон.
+MSG_MAG_INF_16	Исцеляет немоту.
+MSG_MAG_INF_17	Восстанавливает много здоровья одному союзнику.
+MSG_MAG_INF_18	Приводит в чувство одного павшего союзника.
+MSG_MAG_INF_19	Наносит урон всей нежити.
+MSG_MAG_INF_20	Восстанавливает здоровье всему отряду.
+MSG_MAG_INF_21	Исцеляет окаменение.
+MSG_MAG_INF_22	Телепортирует отряд из подземелья.
+MSG_MAG_INF_23	Увеличивает защиту отряда.
+MSG_MAG_INF_24	Увеличивает уклонение отряда.
+MSG_MAG_INF_25	Полностью восстанавливает здоровье одному союзнику и избавляет от некоторых негативных эффектов.
+MSG_MAG_INF_26	Наносит урон всей нежити.
+MSG_MAG_INF_27	Улучшает защиту отряда от мгновенной смерти.
+MSG_MAG_INF_28	Восстанавливает много здоровья всему отряду.
+MSG_MAG_INF_29	Приводит в чувство союзника и полностью восстанавливает ему здоровье.
+MSG_MAG_INF_30	Наносит всем врагам урон божественным светом.
+MSG_MAG_INF_31	Вдвое снижает урон от заклинаний.
+MSG_MAG_INF_32	Снимает магическую защиту одного врага.
+MSG_MAG_INF_33	Наносит огненный урон одному врагу.
+MSG_MAG_INF_34	Усыпляет всех врагов.
+MSG_MAG_INF_35	Снижает уклонение одного врага.
+MSG_MAG_INF_36	Наносит урон молниями одному врагу.
+MSG_MAG_INF_37	Наносит ледяной урон одному врагу.
+MSG_MAG_INF_38	Погружает всех врагов в непроглядную тьму.
+MSG_MAG_INF_39	Увеличивает атаку одного союзника.
+MSG_MAG_INF_40	Замедляет всех врагов, снижая число их атак.
+MSG_MAG_INF_41	Наносит огненный урон всем врагам.
+MSG_MAG_INF_42	Парализует одного врага.
+MSG_MAG_INF_43	Наносит урон молниями всем врагам.
+MSG_MAG_INF_44	Снижает уклонение всех врагов.
+MSG_MAG_INF_45	Погружает в сон одного врага.
+MSG_MAG_INF_46	Ускоряет одного союзника, удваивая число его атак.
+MSG_MAG_INF_47	Заставляет врагов атаковать друг друга.
+MSG_MAG_INF_48	Наносит ледяной урон всем врагам.
+MSG_MAG_INF_49	Наносит огненный урон всем врагам.
+MSG_MAG_INF_50	Мгновенно убивает всех врагов.
+MSG_MAG_INF_51	Переносит отряд на предыдущий этаж.
+MSG_MAG_INF_52	Замедляет одного врага, снижая число его атак.
+MSG_MAG_INF_53	Наносит урон молниями всем врагам.
+MSG_MAG_INF_54	Мгновенно убивает одного врага.
+MSG_MAG_INF_55	Вызывает землетрясение, которое поглощает врагов.
+MSG_MAG_INF_56	Парализует одного врага.
+MSG_MAG_INF_57	Наносит ледяной урон всем врагам.
+MSG_MAG_INF_58	Превращает одного врага в камень.
+MSG_MAG_INF_59	Увеличивает атаку и точность заклинателя.
+MSG_MAG_INF_60	Погружает одного врага в непроглядную тьму.
+MSG_MAG_INF_61	Атакует всех врагов волной света и жара.
+MSG_MAG_INF_62	Останавливает время и парализует всех врагов.
+MSG_MAG_INF_63	Выталкивает всех врагов в другое измерение.
+MSG_MAG_INF_64	Мгновенно убивает одного врага.
+MSG_ITEM_NAME_01	<IC_DRAG>Зелье
+MSG_ITEM_NAME_02	<IC_BAG>Противоядие
+MSG_ITEM_NAME_03	<IC_BAG>Золотая игла
+MSG_ITEM_NAME_04	<IC_TENTO>Спальный мешок
+MSG_ITEM_NAME_05	<IC_TENTO>Палатка
+MSG_ITEM_NAME_06	<IC_TENTO>Дом
+MSG_ITEM_NAME_07	<IC_DRAG>Ультразелье
+MSG_ITEM_NAME_08	<IC_DRAG>Зелье Х
+MSG_ITEM_NAME_09	<IC_DRAG>Эфир
+MSG_ITEM_NAME_11	<IC_DRAG>Сухой эфир
+MSG_ITEM_NAME_12	<IC_DRAG>Эликсир
+MSG_ITEM_NAME_14	<IC_BAG>Пух феникса
+MSG_ITEM_NAME_15	<IC_BAG>Панацея
+MSG_ITEM_NAME_16	<IC_BAG>Капли для глаз
+MSG_ITEM_NAME_17	<IC_BAG>Эхо-трава
+MSG_ITEM_NAME_39	<IC_BAG>Тоник силы
+MSG_ITEM_NAME_40	<IC_BAG>Тоник великана
+MSG_ITEM_NAME_42	<IC_BAG>Напиток защиты
+MSG_ITEM_NAME_43	<IC_BAG>Напиток скорости
+MSG_ITEM_INF_01	Восстанавливает 50 ОЗ.
+MSG_ITEM_INF_02	Исцеляет отравление.
+MSG_ITEM_INF_03	Исцеляет окаменение.
+MSG_ITEM_INF_04	Частично восстанавливает ОЗ отряда.\nИспользуется только в дороге.
+MSG_ITEM_INF_05	Частично восстанавливает ОЗ и ОМ отряда.\nИспользуется только в дороге.
+MSG_ITEM_INF_06	Полностью восстанавливает ОЗ и ОМ отряда.\nИспользуется только в дороге.
+MSG_ITEM_INF_07	Восстанавливает 150 ОЗ.
+MSG_ITEM_INF_08	Полностью восстанавливает ОЗ.
+MSG_ITEM_INF_09	Восстанавливает 1 ОМ за каждый уровень магии.
+MSG_ITEM_INF_11	Восстанавливает 5 ОМ за каждый уровень магии.
+MSG_ITEM_INF_12	Полностью восстанавливает ОЗ и ОМ.
+MSG_ITEM_INF_14	Приводит в чувство одного павшего союзника.
+MSG_ITEM_INF_15	Исцеляет негативные эффекты, кроме окаменения и потери сознания.
+MSG_ITEM_INF_16	Разгоняет тьму.
+MSG_ITEM_INF_17	Исцеляет немоту.
+MSG_ITEM_INF_39	Временно увеличивает атаку.
+MSG_ITEM_INF_40	Временно увеличивает максимальное количество ОЗ.
+MSG_ITEM_INF_42	Временно увеличивает защиту.
+MSG_ITEM_INF_43	Временно увеличивает ловкость.
+MSG_WEAPON_NAME_01	<IC_NIF>Нож
+MSG_WEAPON_NAME_02	<IC_WND>Посох
+MSG_WEAPON_NAME_03	<IC_WND>Посох исцеления
+MSG_WEAPON_NAME_04	<IC_NIF>Кинжал
+MSG_WEAPON_NAME_05	<IC_HMR>Молот
+MSG_WEAPON_NAME_06	<IC_SRD>Рапира
+MSG_WEAPON_NAME_07	<IC_KTN>Скимитар
+MSG_WEAPON_NAME_08	<IC_NIF>Мифриловый нож
+MSG_WEAPON_NAME_09	<IC_NCK>Нунчаки
+MSG_WEAPON_NAME_10	<IC_WND>Посох силы
+MSG_WEAPON_NAME_11	<IC_HMR>Мифриловый молот
+MSG_WEAPON_NAME_12	<IC_WND>Посох мага
+MSG_WEAPON_NAME_13	<IC_SRD>Сабля
+MSG_WEAPON_NAME_14	<IC_WND>Патерисса
+MSG_WEAPON_NAME_15	<IC_KTN>Фальшион
+MSG_WEAPON_NAME_16	<IC_SRD>Палаш
+MSG_WEAPON_NAME_17	<IC_WND>Посох волшебника
+MSG_WEAPON_NAME_18	<IC_NCK>Железные нунчаки
+MSG_WEAPON_NAME_19	<IC_AX>Боевой топор
+MSG_WEAPON_NAME_20	<IC_SRD>Рунный клинок
+MSG_WEAPON_NAME_21	<IC_SRD>Волкобой
+MSG_WEAPON_NAME_22	<IC_HMR>Молот Тора
+MSG_WEAPON_NAME_23	<IC_SRD>Убийца змеев
+MSG_WEAPON_NAME_24	<IC_SRD>Коралловый меч
+MSG_WEAPON_NAME_25	<IC_SRD>Полуторный меч
+MSG_WEAPON_NAME_26	<IC_SRD>Двуручный меч
+MSG_WEAPON_NAME_27	<IC_AX>Большой топор
+MSG_WEAPON_NAME_28	<IC_SRD>Ядовитый меч
+MSG_WEAPON_NAME_29	<IC_CLW>Кошачьи когти
+MSG_WEAPON_NAME_30	<IC_SRD>Мифриловый меч
+MSG_WEAPON_NAME_31	<IC_SRD>Разящий меч
+MSG_WEAPON_NAME_32	<IC_AX>Мифриловый топор
+MSG_WEAPON_NAME_33	<IC_SRD>Пламенный меч
+MSG_WEAPON_NAME_34	<IC_AX>Топор Света
+MSG_WEAPON_NAME_35	<IC_SRD>Ледяной меч
+MSG_WEAPON_NAME_36	<IC_SRD>Заступник
+MSG_WEAPON_NAME_37	<IC_SRD>Солнечный клинок
+MSG_WEAPON_NAME_38	<IC_KTN>Клинок Саске
+MSG_WEAPON_NAME_39	<IC_SRD>Экскалибур
+MSG_WEAPON_NAME_40	<IC_KTN>Масамунэ
+MSG_WEAPON_INF_01	Маленький нож.
+MSG_WEAPON_INF_02	Деревянный посох.
+MSG_WEAPON_INF_03	Посох, позволяющий использовать заклинание Лечение.
+MSG_WEAPON_INF_04	Большой нож.
+MSG_WEAPON_INF_05	Молот, выкованный для битвы.
+MSG_WEAPON_INF_06	Меч с тонким клинком.
+MSG_WEAPON_INF_07	Меч с изогнутым клинком.
+MSG_WEAPON_INF_08	Нож, выкованный из мифрила.
+MSG_WEAPON_INF_09	Деревянные нунчаки.
+MSG_WEAPON_INF_10	Посох с внушительной силой атаки.
+MSG_WEAPON_INF_11	Молот, выкованный из мифрила.
+MSG_WEAPON_INF_12	Посох, позволяющий использовать заклинание Пламя.
+MSG_WEAPON_INF_13	Длинный меч для нанесения колющих ударов.
+MSG_WEAPON_INF_14	Посох, увенчанный железным кольцом.
+MSG_WEAPON_INF_15	Меч с расширяющимся к концу клинком.
+MSG_WEAPON_INF_16	Меч с широким обоюдоострым клинком.
+MSG_WEAPON_INF_17	Посох, позволяющий использовать заклинание Замешательство.
+MSG_WEAPON_INF_18	Железные нунчаки.
+MSG_WEAPON_INF_19	Топор, выкованный для битвы.
+MSG_WEAPON_INF_20	Меч, который пригодится в бою против магов.
+MSG_WEAPON_INF_21	Меч, который пригодится в бою против чудовищ.
+MSG_WEAPON_INF_22	Молот, позволяющий использовать заклинание Молния.
+MSG_WEAPON_INF_23	Меч, который пригодится в бою против драконов.
+MSG_WEAPON_INF_24	Меч, который пригодится в бою против водных врагов.
+MSG_WEAPON_INF_25	Большой меч с обоюдоострым клинком.
+MSG_WEAPON_INF_26	Меч, который пригодится в бою против великанов.
+MSG_WEAPON_INF_27	Большой топор, выкованный для битвы.
+MSG_WEAPON_INF_28	Сабля, позволяющая использовать заклинание Кара.
+MSG_WEAPON_INF_29	Оружие с острыми как бритва клинками.
+MSG_WEAPON_INF_30	Меч, выкованный из мифрила.
+MSG_WEAPON_INF_31	Остро заточенный серповидный клинок.
+MSG_WEAPON_INF_32	Топор, выкованный из мифрила.
+MSG_WEAPON_INF_33	Меч, наделенный силой огня.
+MSG_WEAPON_INF_34	Топор, который пригодится в бою против нежити; позволяет использовать заклинание Диа 1.
+MSG_WEAPON_INF_35	Меч, наделенный силой льда.
+MSG_WEAPON_INF_36	Меч, позволяющий использовать заклинание Мерцание.
+MSG_WEAPON_INF_37	Меч, который пригодится в бою против нежити.
+MSG_WEAPON_INF_38	Небольшая катана ниндзя.
+MSG_WEAPON_INF_39	Меч, изготовленный из легендарного металла. Хорош против любых противников.
+MSG_WEAPON_INF_40	Легендарная катана, равных которой нет.
+MSG_ARMOR_NAME_01	<IC_CLTH>Одежда
+MSG_ARMOR_NAME_02	<IC_ARMOR>Кожаные доспехи
+MSG_ARMOR_NAME_03	<IC_RING>Медный браслет
+MSG_ARMOR_NAME_04	<IC_ARMOR>Кольчуга
+MSG_ARMOR_NAME_05	<IC_RING>Серебряный браслет
+MSG_ARMOR_NAME_06	<IC_ARMOR>Мифриловая кольчуга
+MSG_ARMOR_NAME_07	<IC_ARMOR>Железные доспехи
+MSG_ARMOR_NAME_08	<IC_CLTH>Белое одеяние
+MSG_ARMOR_NAME_09	<IC_CLTH>Черное одеяние
+MSG_ARMOR_NAME_10	<IC_RING>Рубиновый браслет
+MSG_ARMOR_NAME_11	<IC_ARMOR>Рыцарские доспехи
+MSG_ARMOR_NAME_12	<IC_ARMOR>Пламенная кольчуга
+MSG_ARMOR_NAME_13	<IC_ARMOR>Ледяные доспехи
+MSG_ARMOR_NAME_14	<IC_RING>Алмазный браслет
+MSG_ARMOR_NAME_15	<IC_ARMOR>Алмазные доспехи
+MSG_ARMOR_NAME_16	<IC_ARMOR>Драконья кольчуга
+MSG_ARMOR_NAME_17	<IC_SHIELD>Кожаный щит
+MSG_ARMOR_NAME_18	<IC_SHIELD>Баклер
+MSG_ARMOR_NAME_19	<IC_SHIELD>Железный щит
+MSG_ARMOR_NAME_20	<IC_SHIELD>Защитный плащ
+MSG_ARMOR_NAME_21	<IC_SHIELD>Мифриловый щит
+MSG_ARMOR_NAME_22	<IC_SHIELD>Пламенный щит
+MSG_ARMOR_NAME_23	<IC_SHIELD>Ледяной щит
+MSG_ARMOR_NAME_24	<IC_SHIELD>Алмазный щит
+MSG_ARMOR_NAME_25	<IC_SHIELD>Эгида
+MSG_ARMOR_NAME_26	<IC_GLOV>Кожаные перчатки
+MSG_ARMOR_NAME_27	<IC_GLOV>Бронзовые перчатки
+MSG_ARMOR_NAME_28	<IC_GLOV>Стальные перчатки
+MSG_ARMOR_NAME_29	<IC_GLOV>Мифриловые перчатки
+MSG_ARMOR_NAME_30	<IC_GLOV>Рукавицы
+MSG_ARMOR_NAME_31	<IC_GLOV>Перчатки великана
+MSG_ARMOR_NAME_32	<IC_GLOV>Алмазные перчатки
+MSG_ARMOR_NAME_33	<IC_GLOV>Кольцо защиты
+MSG_ARMOR_NAME_34	<IC_HEAD>Кожаная шапка
+MSG_ARMOR_NAME_35	<IC_HEAD>Ленточка
+MSG_ARMOR_NAME_36	<IC_HEAD>Шлем
+MSG_ARMOR_NAME_37	<IC_HEAD>Большой шлем
+MSG_ARMOR_NAME_38	<IC_HEAD>Мифриловый шлем
+MSG_ARMOR_NAME_39	<IC_HEAD>Шлем исцеления
+MSG_ARMOR_NAME_40	<IC_HEAD>Алмазный шлем
+MSG_ARMOR_INF_01	Обычная одежда.
+MSG_ARMOR_INF_02	Доспехи из дубленой кожи.
+MSG_ARMOR_INF_03	Браслет из меди.
+MSG_ARMOR_INF_04	Сплетенная из звеньев кольчуга.
+MSG_ARMOR_INF_05	Браслет из кованого серебра.
+MSG_ARMOR_INF_06	Кольчуга, выкованная из мифрила.
+MSG_ARMOR_INF_07	Доспехи из тонкого кованого железа.
+MSG_ARMOR_INF_08	Одеяние, которое защищает от огня и мгновенной смерти; позволяет использовать заклинание Невидимость 1.
+MSG_ARMOR_INF_09	Одеяние, которое защищает от льда и перебоев во времени; позволяет использовать заклинание Буран.
+MSG_ARMOR_INF_10	Браслет, инкрустированный рубинами.
+MSG_ARMOR_INF_11	Доспехи, выкованные из стальных пластин.
+MSG_ARMOR_INF_12	Кольчуга, наделенная силой огня; защищает от льда.
+MSG_ARMOR_INF_13	Доспехи, наделенные силой льда; защищают от огня.
+MSG_ARMOR_INF_14	Браслет, украшенный алмазами.
+MSG_ARMOR_INF_15	Доспехи, выкованные из алмаза; защищают от молнии.
+MSG_ARMOR_INF_16	Кольчуга из драконьей чешуи; защищает от огня и льда.
+MSG_ARMOR_INF_17	Щит, изготовленный из дубленой кожи.
+MSG_ARMOR_INF_18	Небольшой щит.
+MSG_ARMOR_INF_19	Щит, выкованный из железа.
+MSG_ARMOR_INF_20	Плащ, который носят поверх доспехов.
+MSG_ARMOR_INF_21	Щит, изготовленный из мифрила.
+MSG_ARMOR_INF_22	Щит, наделенный силой огня; защищает от льда.
+MSG_ARMOR_INF_23	Щит, наделенный силой льда; защищает от огня.
+MSG_ARMOR_INF_24	Щит, изготовленный из алмаза; защищает от молнии.
+MSG_ARMOR_INF_25	Щит, защищающий от окаменения и отравления.
+MSG_ARMOR_INF_26	Сшитые из кожи перчатки.
+MSG_ARMOR_INF_27	Перчатки, изготовленные из бронзы.
+MSG_ARMOR_INF_28	Перчатки, изготовленные из стали.
+MSG_ARMOR_INF_29	Перчатки, изготовленные из мифрила.
+MSG_ARMOR_INF_30	Перчатки, позволяющие использовать заклинание Молния.
+MSG_ARMOR_INF_31	Перчатки, позволяющие использовать заклинание Сабля.
+MSG_ARMOR_INF_32	Перчатки, изготовленные из алмаза.
+MSG_ARMOR_INF_33	Кольцо, защищающее от мгновенной смерти.
+MSG_ARMOR_INF_34	Сшитая из кожи шапка.
+MSG_ARMOR_INF_35	Ленточка-талисман, защищающая от стихийных атак и эффектов статуса.
+MSG_ARMOR_INF_36	Небольшой шлем.
+MSG_ARMOR_INF_37	Шлем, покрывающий всю голову.
+MSG_ARMOR_INF_38	Шлем, выкованный из мифрила.
+MSG_ARMOR_INF_39	Шлем, позволяющий использовать заклинание Лечение.
+MSG_ARMOR_INF_40	Шлем, изготовленный из алмаза.
+MSG_KEY_NAME_01	<IC_IOBJ>Лютня
+MSG_KEY_NAME_02	<IC_IOBJ>Корона
+MSG_KEY_NAME_03	<IC_IOBJ>Хрустальное око
+MSG_KEY_NAME_04	<IC_IOBJ>Тоник бодрости
+MSG_KEY_NAME_05	<IC_IOBJ>Ключ тайн
+MSG_KEY_NAME_06	<IC_IOBJ>Нитропорох
+MSG_KEY_NAME_07	<IC_IOBJ>Адамантит
+MSG_KEY_NAME_08	<IC_IOBJ>Розеттский камень
+MSG_KEY_NAME_09	<IC_IOBJ>Звездный рубин
+MSG_KEY_NAME_10	<IC_IOBJ>Посох земли
+MSG_KEY_NAME_11	<IC_IOBJ>Левикамень
+MSG_KEY_NAME_12	<IC_IOBJ>Колокольчик
+MSG_KEY_NAME_13	<IC_IOBJ>Крысиный хвост
+MSG_KEY_NAME_14	<IC_IOBJ>Куб излома
+MSG_KEY_NAME_15	<IC_IOBJ>Фея в бутылке
+MSG_KEY_NAME_16	<IC_IOBJ>Оксиаль
+MSG_KEY_NAME_17	<IC_IOBJ>Каноэ
+MSG_KEY_INF_01	Элегантный музыкальный инструмент.
+MSG_KEY_INF_02	Корона, мерцающая загадочным блеском.
+MSG_KEY_INF_03	Прозрачный хрустальный шар.
+MSG_KEY_INF_04	Сыворотка, способная вывести из самого глубокого сна.
+MSG_KEY_INF_05	Ключ, открывающий запечатанные магией двери.
+MSG_KEY_INF_06	Порох, обладающий огромной взрывной силой.
+MSG_KEY_INF_07	Легендарный металл, известный своей прочностью.
+MSG_KEY_INF_08	Табличка с древними письменами.
+MSG_KEY_INF_09	Гигантский красный самоцвет.
+MSG_KEY_INF_10	Посох, наделенный силой земли и природы.
+MSG_KEY_INF_11	Загадочный камень, который парит в воздухе.
+MSG_KEY_INF_12	Сладкозвучный луфенианский колокольчик.
+MSG_KEY_INF_13	Символ доблести и силы.
+MSG_KEY_INF_14	Куб из разноцветной субстанции.
+MSG_KEY_INF_15	Бутылка с феей внутри.
+MSG_KEY_INF_16	Странная жидкость, выделяющая воздух.
+MSG_KEY_INF_17	Небольшая лодка для переправы через озера и реки.
+MSG_MON_NAME_01	Гоблин
+MSG_MON_NAME_02	Гоблин-страж
+MSG_MON_NAME_03	Волк
+MSG_MON_NAME_04	Варг
+MSG_MON_NAME_05	Волк-оборотень
+MSG_MON_NAME_06	Зимний волк
+MSG_MON_NAME_07	Ящер
+MSG_MON_NAME_08	Огненный ящер
+MSG_MON_NAME_09	Василиск
+MSG_MON_NAME_10	Великан холмов
+MSG_MON_NAME_11	Ледяной великан
+MSG_MON_NAME_12	Огненный великан
+MSG_MON_NAME_13	Сахаджин
+MSG_MON_NAME_14	Сахаджин-вождь
+MSG_MON_NAME_15	Сахаджин-принц
+MSG_MON_NAME_16	Пират
+MSG_MON_NAME_17	Буканьер
+MSG_MON_NAME_18	Акула
+MSG_MON_NAME_19	Белая акула
+MSG_MON_NAME_20	Большеглаз
+MSG_MON_NAME_21	Глубокоглаз
+MSG_MON_NAME_22	Скелет
+MSG_MON_NAME_23	Кровавые кости
+MSG_MON_NAME_24	Гигантский червь
+MSG_MON_NAME_25	Ползун
+MSG_MON_NAME_26	Гиенодон
+MSG_MON_NAME_27	Адская гончая
+MSG_MON_NAME_28	Огр
+MSG_MON_NAME_29	Огр-вождь
+MSG_MON_NAME_30	Огр-маг
+MSG_MON_NAME_31	Кобра
+MSG_MON_NAME_32	Анаконда
+MSG_MON_NAME_33	Морской змей
+MSG_MON_NAME_34	Скорпион
+MSG_MON_NAME_35	Морской скорпион
+MSG_MON_NAME_36	Минотавр
+MSG_MON_NAME_37	Минотавр-зомби
+MSG_MON_NAME_38	Тролль
+MSG_MON_NAME_39	Морской тролль
+MSG_MON_NAME_40	Тень
+MSG_MON_NAME_41	Дух
+MSG_MON_NAME_42	Привидение
+MSG_MON_NAME_43	Призрак
+MSG_MON_NAME_44	Зомби
+MSG_MON_NAME_45	Гуль
+MSG_MON_NAME_46	Вурдалак
+MSG_MON_NAME_47	Упырь
+MSG_MON_NAME_48	Пурпурный червь
+MSG_MON_NAME_49	Песчаный червь
+MSG_MON_NAME_50	Лавовый червь
+MSG_MON_NAME_51	Злобоглаз
+MSG_MON_NAME_52	Смертоглаз
+MSG_MON_NAME_53	Медуза
+MSG_MON_NAME_54	Земляная медуза
+MSG_MON_NAME_55	Тигр-оборотень
+MSG_MON_NAME_56	Ракшаса
+MSG_MON_NAME_57	Анкхег
+MSG_MON_NAME_58	Ремораз
+MSG_MON_NAME_59	Малый тигр
+MSG_MON_NAME_60	Саблезуб
+MSG_MON_NAME_61	Вампир
+MSG_MON_NAME_62	Лорд-вампир
+MSG_MON_NAME_63	Гаргулья
+MSG_MON_NAME_64	Рогатый демон
+MSG_MON_NAME_65	Элементаль земли
+MSG_MON_NAME_66	Элементаль огня
+MSG_MON_NAME_67	Белый дракон
+MSG_MON_NAME_68	Красный дракон
+MSG_MON_NAME_69	Дракон-зомби
+MSG_MON_NAME_70	Зеленая слизь
+MSG_MON_NAME_71	Серая жижа
+MSG_MON_NAME_72	Охристая медуза
+MSG_MON_NAME_73	Черный флан
+MSG_MON_NAME_74	Черная вдова
+MSG_MON_NAME_75	Тарантул
+MSG_MON_NAME_76	Мантикора
+MSG_MON_NAME_77	Сфинкс
+MSG_MON_NAME_78	Баретта
+MSG_MON_NAME_79	Пустынная баретта
+MSG_MON_NAME_80	Мумия
+MSG_MON_NAME_81	Король мумий
+MSG_MON_NAME_82	Кокатрис
+MSG_MON_NAME_83	Пиролиск
+MSG_MON_NAME_84	Виверна
+MSG_MON_NAME_85	Змей
+MSG_MON_NAME_86	Аллозавр
+MSG_MON_NAME_87	Тираннозавр
+MSG_MON_NAME_88	Пиранья
+MSG_MON_NAME_89	Красная пиранья
+MSG_MON_NAME_90	Крокодил
+MSG_MON_NAME_91	Белый крокодил
+MSG_MON_NAME_92	Оку
+MSG_MON_NAME_93	Неоку
+MSG_MON_NAME_94	Гидра
+MSG_MON_NAME_95	Огненная гидра
+MSG_MON_NAME_96	Страж
+MSG_MON_NAME_97	Солдат
+MSG_MON_NAME_98	Элементаль воды
+MSG_MON_NAME_99	Элементаль воздуха
+MSG_MON_NAME_100	Водяная нага
+MSG_MON_NAME_101	Духовная нага
+MSG_MON_NAME_102	Химера
+MSG_MON_NAME_103	Горгимера
+MSG_MON_NAME_104	Рыбодемон
+MSG_MON_NAME_105	Свежеватель разума
+MSG_MON_NAME_106	Гарланд
+MSG_MON_NAME_107	Зеленый дракон
+MSG_MON_NAME_108	Синий дракон
+MSG_MON_NAME_109	Глиняный голем
+MSG_MON_NAME_110	Каменный голем
+MSG_MON_NAME_111	Железный голем
+MSG_MON_NAME_112	Черный рыцарь
+MSG_MON_NAME_113	Рыцарь смерти
+MSG_MON_NAME_114	Астос
+MSG_MON_NAME_115	Темный колдун
+MSG_MON_NAME_116	Темный боец
+MSG_MON_NAME_117	Безумная лошадь
+MSG_MON_NAME_118	Кошмар
+MSG_MON_NAME_119	Боевая машина
+MSG_MON_NAME_120	Лич
+MSG_MON_NAME_121	Марилит
+MSG_MON_NAME_122	Кракен
+MSG_MON_NAME_123	Тиамат
+MSG_MON_NAME_124	Хаос
+MSG_MON_ATK_01	Ледяная буря
+MSG_MON_ATK_02	Зарево
+MSG_MON_ATK_03	Взгляд
+MSG_MON_ATK_04	Взгляд
+MSG_MON_ATK_05	Вспышка
+MSG_MON_ATK_07	Землетрясение
+MSG_MON_ATK_08	Взгляд
+MSG_MON_ATK_09	Взгляд
+MSG_MON_ATK_10	Взгляд
+MSG_MON_ATK_15	Каменный газ
+MSG_MON_ATK_16	Взрыв разума
+MSG_MON_ATK_17	Ядовитый газ
+MSG_MON_ATK_18	Молния
+MSG_MON_ATK_19	Смертельный газ
+MSG_MON_ATK_20	Храп
+MSG_MON_ATK_21	Бомба
+MSG_MON_ATK_22	Чернила
+MSG_MON_ATK_23	Ядовитые дротики
+MSG_MON_ATK_24	Взгляд
+MSG_MON_ATK_25	Цунами
+MSG_MON_ATK_26	Циклон
+MSG_LOCATION_STICK	(AREA_NAME) – (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	Карта мира
+MSG_MAP_NAME_02	Эльфийский замок
+MSG_MAP_NAME_03	Эльфхейм
+MSG_MAP_NAME_04	Онрак
+MSG_MAP_NAME_05	Гайя
+MSG_MAP_NAME_06	Караван
+MSG_MAP_NAME_07	Озеро Полумесяца
+MSG_MAP_NAME_08	Замок Корнелия
+MSG_MAP_NAME_09	Корнелия
+MSG_MAP_NAME_10	Западная цитадель
+MSG_MAP_NAME_11	Правока
+MSG_MAP_NAME_12	Мелмонд
+MSG_MAP_NAME_13	Луфения
+MSG_MAP_NAME_14	Грот Земли
+MSG_MAP_NAME_15	Святилище Хаоса
+MSG_MAP_NAME_16	Пещера великана
+MSG_MAP_NAME_17	Гора Галг
+MSG_MAP_NAME_18	Пещера мудреца
+MSG_MAP_NAME_19	Ледяной грот
+MSG_MAP_NAME_20	Цитадель Испытаний
+MSG_MAP_NAME_21	Грот за водопадом
+MSG_MAP_NAME_22	Драконьи пещеры
+MSG_MAP_NAME_23	Гора Дуэргар
+MSG_MAP_NAME_24	Пещера Топи
+MSG_MAP_NAME_25	Пещера Матойи
+MSG_MAP_NAME_26	Башня Миража
+MSG_MAP_NAME_27	Затонувшее святилище
+MSG_MAP_NAME_28	Летучая крепость
+MSGARA_NAME_01	Б1
+MSGARA_NAME_02	Б2
+MSGARA_NAME_03	Б3
+MSGARA_NAME_04	Б4
+MSGARA_NAME_05	Б5
+MSGARA_NAME_06	1Э
+MSGARA_NAME_07	2Э
+MSGARA_NAME_08	3Э
+MSGARA_NAME_09	4Э
+MSGARA_NAME_10	5Э
+MSGARA_NAME_11	Трактир
+MSGARA_NAME_12	Оружие
+MSGARA_NAME_13	Доспехи
+MSGARA_NAME_14	Предметы
+MSGARA_NAME_15	Белая магия
+MSGARA_NAME_16	Черная магия
+MSG_NAME_LIST_01	Аэнис
+MSG_NAME_LIST_02	Энди
+MSG_NAME_LIST_03	Эйдани
+MSG_NAME_LIST_04	Араэль
+MSG_NAME_LIST_05	Гланс
+MSG_NAME_LIST_06	Клеони
+MSG_NAME_LIST_07	Кей
+MSG_NAME_LIST_08	Кори
+MSG_NAME_LIST_09	Селион
+MSG_NAME_LIST_10	Франки
+MSG_NAME_LIST_11	Морган
+MSG_NAME_LIST_12	Юби
+MSG_NAME_LIST_13	Райли
+MSG_NAME_LIST_14	Райко
+MSG_NAME_LIST_15	Рукко
+MSG_NAME_LIST_16	Люсиас
+MSG_NAME_LIST_17	Рэй
+MSG_NAME_LIST_18	Рион
+MSG_NAME_LIST_19	Робин
+MSG_NAME_LIST_20	Лори
+MSG_SYSTEM_001	Закрыть
+MSG_SYSTEM_002	Назад
+MSG_SYSTEM_003	Да
+MSG_SYSTEM_004	Нет
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	x
+MSG_SYSTEM_017	Нет эффекта.
+MSG_SYSTEM_018	Побег.
+MSG_SYSTEM_019	Сбежать невозможно!
+MSG_SYSTEM_020	Упреждающий удар!
+MSG_SYSTEM_021	Засада!
+MSG_SYSTEM_022	Отряд потерпел поражение.
+MSG_SYSTEM_023	Гилы
+MSG_SYSTEM_024	Опыт
+MSG_SYSTEM_025	Предметы
+MSG_SYSTEM_026	Далее
+MSG_SYSTEM_027	Закрыть
+MSG_SYSTEM_028	НОВЫЙ УР.
+MSG_SYSTEM_029	Атака
+MSG_SYSTEM_030	Защита
+MSG_SYSTEM_031	Снаряжение
+MSG_SYSTEM_032	Сбежать
+MSG_SYSTEM_033	Окаменение
+MSG_SYSTEM_034	Отравление
+MSG_SYSTEM_035	Тьма
+MSG_SYSTEM_036	Паралич
+MSG_SYSTEM_037	Сон
+MSG_SYSTEM_038	Немота
+MSG_SYSTEM_039	Без чувств
+MSG_SYSTEM_040	ПРОМАХ
+MSG_SYSTEM_041	УД.
+MSG_SYSTEM_288	УД.
+MSG_SYSTEM_042	Предметы
+MSG_SYSTEM_043	Магия
+MSG_SYSTEM_044	Снаряжение
+MSG_SYSTEM_045	Статус
+MSG_SYSTEM_046	Порядок
+MSG_SYSTEM_047	Конфигурация
+MSG_SYSTEM_048	Быстрое сохранение
+MSG_SYSTEM_049	Сохранить
+MSG_SYSTEM_050	Гилы
+MSG_SYSTEM_051	Время
+MSG_SYSTEM_052	Ур.
+MSG_SYSTEM_053	ОЗ
+MSG_SYSTEM_283	ОМ
+MSG_SYSTEM_054	Важные предметы
+MSG_SYSTEM_055	Сортировка
+MSG_SYSTEM_056	Использовать
+MSG_SYSTEM_057	(STATUS_NAME) +(VALUE_NUM)
+MSG_SYSTEM_058	(STATUS_NAME) -(VALUE_NUM)
+MSG_SYSTEM_059	(HALF_SPACE)
+MSG_SYSTEM_060	Предметов нет.
+MSG_SYSTEM_061	Важных предметов нет.
+MSG_SYSTEM_293	У вас нет предметов, которые можно применить в бою.
+MSG_SYSTEM_279	Никто в отряде не может это использовать.
+MSG_SYSTEM_063	Забыть
+MSG_SYSTEM_064	Забыть выбранное заклинание?
+MSG_SYSTEM_065	Не может использовать магию.
+MSG_SYSTEM_066	Лучшее
+MSG_SYSTEM_067	Снять
+MSG_SYSTEM_068	Снять все
+MSG_SYSTEM_069	Пусто
+MSG_SYSTEM_070	Нет
+MSG_SYSTEM_071	Оружие
+MSG_SYSTEM_072	Щит
+MSG_SYSTEM_073	Шлем
+MSG_SYSTEM_074	Доспехи
+MSG_SYSTEM_075	Перчатки
+MSG_SYSTEM_077	Опыт
+MSG_SYSTEM_078	До след. уровня
+MSG_SYSTEM_079	Сила
+MSG_SYSTEM_080	Ловкость
+MSG_SYSTEM_081	Интеллект
+MSG_SYSTEM_082	Выносливость
+MSG_SYSTEM_083	Удача
+MSG_SYSTEM_084	Атака
+MSG_SYSTEM_085	Точность
+MSG_SYSTEM_086	Защита
+MSG_SYSTEM_087	Уклонение
+MSG_SYSTEM_088	Команды
+MSG_SYSTEM_089	Файл
+MSG_SYSTEM_091	Пусто
+MSG_SYSTEM_298	dd.MM.yyyy(FULL_SPACE)H:mm
+MSG_SYSTEM_093	Выберите цель.
+MSG_SYSTEM_094	Весь отряд
+MSG_SYSTEM_095	Один союзник
+MSG_SYSTEM_096	Все враги
+MSG_SYSTEM_097	Один враг
+MSG_SYSTEM_098	Все
+MSG_SYSTEM_099	Управление
+MSG_SYSTEM_100	Другие команды
+MSG_SYSTEM_101	Сменить снаряжение
+MSG_SYSTEM_102	Предметы
+MSG_SYSTEM_103	Выбрать
+MSG_SYSTEM_104	Пролистать
+MSG_SYSTEM_105	Закрыть меню
+MSG_SYSTEM_106	Отмена
+MSG_SYSTEM_107	Показать описание
+MSG_SYSTEM_362	Высадиться
+MSG_SYSTEM_285	Приблизить
+MSG_SYSTEM_286	Отдалить
+MSG_SYSTEM_287	Перемещение
+MSG_SYSTEM_108	Свое
+MSG_SYSTEM_299	Оружие
+MSG_SYSTEM_109	Доспехи
+MSG_SYSTEM_110	Имя
+MSG_SYSTEM_111	Выбирайте и сортируйте предметы по своему усмотрению.
+MSG_SYSTEM_112	Сначала показывать расходные предметы.
+MSG_SYSTEM_113	Сначала показывать оружие.
+MSG_SYSTEM_114	Сначала показывать доспехи.
+MSG_SYSTEM_115	
+MSG_SYSTEM_116	Пауза/продолжить
+MSG_SYSTEM_118	Выбрать врага: все/один
+MSG_SYSTEM_119	Выбрать союзника: все/один
+MSG_SYSTEM_120	Список: выше
+MSG_SYSTEM_121	Список: ниже
+MSG_SYSTEM_123	Начать/остановить автобой
+MSG_SYSTEM_124	Пауза/продолжить
+MSG_SYSTEM_126	Назад/отмена
+MSG_SYSTEM_127	Переключиться на смену снаряжения
+MSG_SYSTEM_128	Переключиться на предметы
+MSG_SYSTEM_129	Выбрать всех
+MSG_SYSTEM_130	Одна цель
+MSG_SYSTEM_131	Вернуть настройки по умолчанию
+MSG_SYSTEM_133	Изменить
+MSG_SYSTEM_134	Добро пожаловать!
+MSG_SYSTEM_139	Сколько вы хотите купить?
+MSG_SYSTEM_142	Сколько вы хотите продать?
+MSG_SYSTEM_143	Спасибо!
+MSG_SYSTEM_144	Выбрали что-нибудь?
+MSG_SYSTEM_150	Благодарю.
+MSG_SYSTEM_155	Забыть (FG_MAGC_N) и выучить (LE_MAGC_N)?
+MSG_SYSTEM_156	Выучить (MAGC_N)?
+MSG_SYSTEM_157	Купить это заклинание?
+MSG_SYSTEM_158	Оружие
+MSG_SYSTEM_159	Доспехи
+MSG_SYSTEM_160	Предметы
+MSG_SYSTEM_161	Белая магия
+MSG_SYSTEM_162	Черная магия
+MSG_SYSTEM_337	Караван
+MSG_SYSTEM_163	Цена
+MSG_SYSTEM_164	Количество
+MSG_SYSTEM_165	Количество
+MSG_SYSTEM_166	Всего
+MSG_SYSTEM_167	Магия ур. (MAGC_L)
+MSG_SYSTEM_168	Выучить нельзя
+MSG_SYSTEM_169	Выучено
+MSG_SYSTEM_171	Купить
+MSG_SYSTEM_172	Продать
+MSG_SYSTEM_173	Выйти
+MSG_SYSTEM_174	В наличии
+MSG_SYSTEM_175	Исполь.
+MSG_SYSTEM_176	Вес
+MSG_SYSTEM_177	Новая игра
+MSG_SYSTEM_178	Загрузить игру
+MSG_SYSTEM_179	НАЖМИТЕ, ЧТОБЫ НАЧАТЬ
+MSG_SYSTEM_180	НАЖМИТЕ ЛЮБУЮ КНОПКУ
+MSG_SYSTEM_181	©SQUARE ENIX CO., LTD. Все права защищены.\nЛОГОТИП И ИЛЛЮСТРАЦИИ: ©YOSHITAKA AMANO
+MSG_SYSTEM_183	Выберите имя и класс каждому персонажу.
+MSG_SYSTEM_184	Подтвердить
+MSG_SYSTEM_185	Готово
+MSG_SYSTEM_187	Вы должны дать имена всем персонажам.
+MSG_SYSTEM_188	Начать новую игру этим отрядом?
+MSG_SYSTEM_190	Выберите класс персонажа.
+MSG_SYSTEM_191	Выберите имя персонажа.
+MSG_SYSTEM_281	До 6 полноширинных или 12 полуширинных букв или символов.
+MSG_SYSTEM_192	Использовать это имя?
+MSG_SYSTEM_193	Варианты имен
+MSG_SYSTEM_195	* Некоторые символы могут отображаться неправильно.
+MSG_SYSTEM_196	Вернуться на главный экран. Настройки сохранены не будут. Продолжить?
+MSG_SYSTEM_197	Класс
+MSG_SYSTEM_198	Выбор класса.
+MSG_SYSTEM_199	Выбор имени.
+MSG_SYSTEM_200	Дополнительно
+MSG_SYSTEM_201	Параметры
+MSG_SYSTEM_202	Бестиарий
+MSG_SYSTEM_203	Проигрыватель
+MSG_SYSTEM_206	Политика конфиденциальности
+MSG_SYSTEM_207	Лицензия
+MSG_SYSTEM_282	Галерея
+MSG_SYSTEM_208	Сундуки
+MSG_SYSTEM_209	Предметы
+MSG_SYSTEM_210	Уведомления
+MSG_SYSTEM_284	Режим касания
+MSG_SYSTEM_212	Сохранение завершено.
+MSG_SYSTEM_213	Перезаписать сохранение?
+MSG_SYSTEM_289	Сохраненные данные повреждены.
+MSG_SYSTEM_290	Данные не могут быть сохранены.
+MSG_SYSTEM_215	Автосохранение
+MSG_SYSTEM_216	Быстрое сохранение
+MSG_SYSTEM_295	Данные пройденной игры
+MSG_SYSTEM_217	Сохранить игру?
+MSG_SYSTEM_218	Быстрое сохранение завершено.
+MSG_SYSTEM_291	Данные быстрого сохранения повреждены.
+MSG_SYSTEM_292	Нельзя записать данные быстрого сохранения.
+MSG_SYSTEM_370	Недостаточно свободного места для игры. Пожалуйста, удалите ненужные файлы, чтобы освободить место.
+MSG_SYSTEM_219	Продолжить игру с этого сохранения?
+MSG_SYSTEM_220	Сохранить данные пройденной игры?
+MSG_SYSTEM_221	* Прогресс сохраняется до финального босса.
+MSG_SYSTEM_222	Сохранение завершено. Вернуться на главный экран?
+MSG_SYSTEM_223	Данные пройденной игры не сохранены. Вернуться на главный экран?
+MSG_SYSTEM_228	Текущая локация
+MSG_SYSTEM_229	Корабль
+MSG_SYSTEM_230	Воздушный корабль
+MSG_SYSTEM_335	Начать с последнего сохранения?
+MSG_CFG_INF_01	Система
+MSG_CFG_INF_02	Память указателя
+MSG_CFG_INF_03	Продолжить автобой
+MSG_CFG_INF_05	Языковые настройки
+MSG_CFG_INF_06	На главный экран
+MSG_CFG_INF_07	Выйти из игры
+MSG_CFG_INF_93	Настройки экрана
+MSG_CFG_INF_09	Режим
+MSG_CFG_INF_94	Разрешение
+MSG_CFG_INF_153	Графический дисплей
+MSG_CFG_INF_10	Насыщенность
+MSG_CFG_INF_11	Яркость
+MSG_CFG_INF_12	Звук
+MSG_CFG_INF_13	Общая громкость
+MSG_CFG_INF_14	Громкость музыки
+MSG_CFG_INF_15	Громкость эффектов
+MSG_CFG_INF_95	Включите или отключите запоминание положения указателя.
+MSG_CFG_INF_96	Установите для следующей битвы автобой по умолчанию.
+MSG_CFG_INF_98	Настройте насыщенность цветов.
+MSG_CFG_INF_99	Настройте яркость экрана.
+MSG_CFG_INF_100	Настройте громкость всей игры.
+MSG_CFG_INF_101	Настройте громкость фоновой музыки.
+MSG_CFG_INF_102	Настройте громкость звуковых эффектов.
+MSG_CFG_INF_104	Настройте управление для геймпада.
+MSG_CFG_INF_105	Настройте управление для клавиатуры.
+MSG_CFG_INF_106	Вернуться на главный экран. Несохраненные данные будут потеряны.
+MSG_CFG_INF_107	Выйти из игры. Несохраненные данные будут потеряны.
+MSG_CFG_INF_108	Для геймпада будет восстановлено управление по умолчанию.
+MSG_CFG_INF_109	Для клавиатуры будет восстановлено управление по умолчанию.
+MSG_CFG_INF_158	Отрегулируйте настройки графики.
+MSG_CFG_INF_18	Настройки геймпада
+MSG_CFG_INF_19	Подтвердить
+MSG_CFG_INF_21	Открыть/закрыть меню
+MSG_CFG_INF_23	Пред. страница
+MSG_CFG_INF_24	След. страница
+MSG_CFG_INF_25	Переключить члена отряда (влево)
+MSG_CFG_INF_26	Переключить члена отряда (вправо)
+MSG_CFG_INF_28	Настройки клавиатуры
+MSG_CFG_INF_29	Идти вверх
+MSG_CFG_INF_30	Идти вниз
+MSG_CFG_INF_31	Идти влево
+MSG_CFG_INF_32	Идти вправо
+MSG_CFG_INF_135	Клавиатура
+MSG_CFG_INF_136	Мышь
+MSG_CFG_INF_33	Управление для геймпада
+MSG_CFG_INF_110	Бежать (нажать и удерживать)
+MSG_CFG_INF_113	Вкл./откл. автобой
+MSG_CFG_INF_114	Открыть/закрыть карту
+MSG_CFG_INF_115	Вкл./откл. мини-карту
+MSG_CFG_INF_148	Приостановить бой
+MSG_CFG_INF_34	Управление для клавиатуры
+MSG_CFG_INF_116	Прокрутить список
+MSG_CFG_INF_117	Меню поля
+MSG_CFG_INF_118	Меню
+MSG_CFG_INF_119	Карта
+MSG_CFG_INF_120	Управление движением
+MSG_CFG_INF_121	Говорить
+MSG_CFG_INF_137	Взаимодействовать
+MSG_CFG_INF_123	Меню боя
+MSG_CFG_INF_35	Отображение меню поля
+MSG_CFG_INF_37	Отображение навигационных клавиш
+MSG_CFG_INF_38	Отображение UI в меню
+MSG_CFG_INF_39	Отображение строки меню
+MSG_CFG_INF_40	Отображение UI в бою
+MSG_CFG_INF_41	Отображение команд в бою
+MSG_CFG_INF_154	Графика
+MSG_CFG_INF_42	Управление
+MSG_CFG_INF_43	Вкл.
+MSG_CFG_INF_44	Откл.
+MSG_CFG_INF_45	Слева
+MSG_CFG_INF_46	Справа
+MSG_CFG_INF_156	По умолчанию
+MSG_CFG_INF_157	Классический режим
+MSG_CFG_INF_48	Очень медленно
+MSG_CFG_INF_49	Медленно
+MSG_CFG_INF_50	Нормально
+MSG_CFG_INF_51	Быстро
+MSG_CFG_INF_52	Очень быстро
+MSG_CFG_INF_129	Язык
+MSG_CFG_INF_53	日本語 (японский)
+MSG_CFG_INF_54	English (английский)
+MSG_CFG_INF_55	Français (французский)
+MSG_CFG_INF_56	Italiano (итальянский)
+MSG_CFG_INF_57	Deutsch (немецкий)
+MSG_CFG_INF_58	Español (испанский)
+MSG_CFG_INF_59	한국어 (корейский)
+MSG_CFG_INF_60	繁體中文 (традиционный китайский)
+MSG_CFG_INF_61	简体中文 (упрощенный китайский)
+MSG_CFG_INF_62	Русский
+MSG_CFG_INF_63	ภาษาไทย (тайский)
+MSG_CFG_INF_64	Português brasileiro (бразильский португальский)
+MSG_CFG_INF_66	Полный экран
+MSG_CFG_INF_67	Оконный режим
+MSG_CFG_INF_68	Окно без границ
+MSG_CFG_INF_69	Нет
+MSG_CFG_INF_70	Стиль 1
+MSG_CFG_INF_71	Стиль 2
+MSG_CFG_INF_72	Стиль 3
+MSG_CFG_INF_76	Сменить язык?
+MSG_CFG_INF_130	* После применения изменений игра будет перезапущена.
+MSG_CFG_INF_78	Применить эти настройки экрана?
+MSG_CFG_INF_89	Вернуться на главный экран.
+MSG_CFG_INF_131	Несохраненные настройки будут сброшены.
+MSG_CFG_INF_132	Продолжить?
+MSG_CFG_INF_155	Выберите язык.
+MSG_SYSTEM_231	Выйти из игры.
+MSG_SYSTEM_232	Выйти из игры? Игра будет сохранена автоматически.
+MSG_SYSTEM_234	???
+MSG_SYSTEM_235	Магическая защита
+MSG_SYSTEM_238	Уязвимость
+MSG_SYSTEM_239	Нет
+MSG_SYSTEM_240	Огонь
+MSG_SYSTEM_241	Лед
+MSG_SYSTEM_242	Молния
+MSG_SYSTEM_243	Диа
+MSG_SYSTEM_245	Дух
+MSG_SYSTEM_247	Земля
+MSG_SYSTEM_248	Время
+MSG_SYSTEM_301	Мгновенная смерть
+MSG_SYSTEM_302	Яд
+MSG_SYSTEM_336	Замешательство
+MSG_SYSTEM_249	Побеждено
+MSG_SYSTEM_250	Встречено
+MSG_SYSTEM_304	Отобразить карту
+MSG_SYSTEM_305	Быстрое прокручивание
+MSG_SYSTEM_357	Прокручивание
+MSG_SYSTEM_306	Сменить форму
+MSG_SYSTEM_358	Сменить карты
+MSG_SYSTEM_307	Подтвердить
+MSG_SYSTEM_308	Область обитания
+MSG_SYSTEM_309	Сопротивление
+MSG_SYSTEM_310	Тип
+MSG_SYSTEM_311	Регенерант
+MSG_SYSTEM_312	Маг
+MSG_SYSTEM_313	Водное существо
+MSG_SYSTEM_314	Чудовище
+MSG_SYSTEM_315	Нежить
+MSG_SYSTEM_316	Великан
+MSG_SYSTEM_317	Дракон
+MSG_SYSTEM_318	Магическое существо
+MSG_SYSTEM_319	Выберите изображение для просмотра.
+MSG_SYSTEM_320	Скрыть текст
+MSG_SYSTEM_321	Бой в режиме AR
+MSG_SYSTEM_361	Режим AR
+MSG_SYSTEM_322	Вкл. камеру
+MSG_SYSTEM_323	Откл. камеру
+MSG_SYSTEM_324	Переставить врагов
+MSG_SYSTEM_325	Начать бой
+MSG_SYSTEM_326	Скрыть меню
+MSG_SYSTEM_327	Разрешить FINAL FANTASY доступ к фотографиям?
+MSG_SYSTEM_328	Разрешить
+MSG_SYSTEM_329	Запретить
+MSG_SYSTEM_355	Закончить бой в режиме AR?
+MSG_SYSTEM_367	Функция AR использует камеру. Пожалуйста, разрешите приложению доступ к камере.
+MSG_SYSTEM_368	У приложения нет доступа к камере. Пожалуйста, разрешите приложению доступ к камере, чтобы использовать функцию AR.
+MSG_SYSTEM_369	Чтобы поменять настройки приложения, пожалуйста, разрешите приложению доступ к камере через настройки вашего устройства.
+MSG_SYSTEM_371	Изображения камеры будут использованы для фона во время битвы.
+MSG_SYSTEM_330	Выберите композицию.
+MSG_SYSTEM_331	Запустить
+MSG_SYSTEM_332	Пауза
+MSG_SYSTEM_333	Вкл. «Проиграть все»
+MSG_SYSTEM_334	Откл. «Проиграть все»
+MSG_SYSTEM_359	Проигр.
+MSG_SYSTEM_251	Сыграть в пятнашки?
+MSG_SYSTEM_252	Выйти
+MSG_SYSTEM_266	Покинуть пятнашки?
+MSG_SYSTEM_300	Продолжить игру в пятнашки?
+MSG_PC_KEY_CONFIG_01	Backspace
+MSG_PC_KEY_CONFIG_02	Enter
+MSG_PC_KEY_CONFIG_03	Shift (L)
+MSG_PC_KEY_CONFIG_04	Shift (R)
+MSG_PC_KEY_CONFIG_05	Alt (L)
+MSG_PC_KEY_CONFIG_06	Alt (R)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Caps Lock
+MSG_PC_KEY_CONFIG_09	Пробел
+MSG_PC_KEY_CONFIG_10	Insert
+MSG_PC_KEY_CONFIG_11	Home
+MSG_PC_KEY_CONFIG_12	Delete
+MSG_PC_KEY_CONFIG_13	Pause/Break
+MSG_PC_KEY_CONFIG_14	Scroll Lock
+MSG_PC_KEY_CONFIG_15	Num Enter
+MSG_SYSTEM_338	Сохранение в облаке
+MSG_SYSTEM_339	Сохранить
+MSG_SYSTEM_340	Загрузить
+MSG_SYSTEM_341	Локальные данные сохранения
+MSG_SYSTEM_342	Данные сохранения в облаке
+MSG_SYSTEM_356	Подробности
+MSG_SYSTEM_343	Вы можете создать резервную копию своих файлов сохранения в облаке.
+MSG_SYSTEM_344	Сохранить все локальные данные в облаке и переписать хранящиеся там данные.
+MSG_SYSTEM_345	Загрузить все данные сохранения из облака и переписать локальные данные.
+MSG_SYSTEM_346	Все данные сохранения будут скопированы в облако.
+MSG_SYSTEM_347	Все данные сохранения в облаке будут переписаны.
+MSG_SYSTEM_348	Данные сохранены в облаке.
+MSG_SYSTEM_349	Сохранение в облаке не удалось.
+MSG_SYSTEM_350	Проверьте подключение к сети.
+MSG_SYSTEM_351	Все данные сохранения будут загружены из облака.
+MSG_SYSTEM_352	Все локальные данные сохранения будут переписаны.
+MSG_SYSTEM_353	Данные загружены из облака.
+MSG_SYSTEM_354	Загрузка из облака не удалась.
+MSG_SYSTEM_363	Синхронизация...
+MSG_SYSTEM_364	Синхронизация данных не удалась.
+MSG_SYSTEM_365	Ошибка сети.
+MSG_SYSTEM_366	Попробовать снова
+MSG_SYSTEM_360	Загрузка...
+MSG_SYSTEM_372	Проверка лицензии не выполнена. Приложение будет закрыто.
+MSG_SYSTEM_373	Проверьте настройки устройства и подключение к сети, а потом перезапустите приложение.
+
