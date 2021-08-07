@@ -26,11 +26,8 @@ namespace FF1_PRR
 
 			string flags = "";
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { chkShuffleBossSpots, chkKeyItems }));
-
 			// Combo boxes time...
-			// TEMPORARY:  Keep commented for when we need to use combo boxes
-			//flags += convertIntToChar(cboStoreAvailability.SelectedIndex + (8 * cboStorePrices.SelectedIndex));
-
+			flags += convertIntToChar(cboShops.SelectedIndex); // + (8 * cboShops.SelectedIndex) <----- Keep this for now; we'll use it later for sure.
 			txtRandoFlags.Text = flags;
 
 			flags = "";
@@ -40,13 +37,13 @@ namespace FF1_PRR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && txtRandoFlags.Text.Length < 1)
-				txtRandoFlags.Text = "3";
-			else if (txtRandoFlags.Text.Length < 1)
+			if (loading && txtRandoFlags.Text.Length < 2)
+				txtRandoFlags.Text = "31";
+			else if (txtRandoFlags.Text.Length < 2)
 				return;
 
 			if (loading && txtVisualFlags.Text.Length < 1)
-				txtRandoFlags.Text = "0";
+				txtVisualFlags.Text = "0";
 			else if (txtVisualFlags.Text.Length < 1)
 				return;
 
@@ -54,12 +51,12 @@ namespace FF1_PRR
 
 			string flags = txtRandoFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkShuffleBossSpots, chkKeyItems });
+			cboShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
 
 			flags = txtVisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkCuteHats });
 
 			// TEMPORARY:  Keep commented; we will be using combo boxes eventually
-			//cboStoreAvailability.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) % 8;
 			//cboStorePrices.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) / 8;
 
 			loading = false;
@@ -116,6 +113,7 @@ namespace FF1_PRR
 			{
 				using (TextReader reader = File.OpenText("lastFF1PRR.txt"))
 				{
+					txtFF1PRFolder.Text = reader.ReadLine();
 					txtSeed.Text = reader.ReadLine();
 					txtRandoFlags.Text = reader.ReadLine();
 					txtVisualFlags.Text = reader.ReadLine();
@@ -127,7 +125,7 @@ namespace FF1_PRR
 			}
 			catch
 			{
-				txtRandoFlags.Text = "3";
+				txtRandoFlags.Text = "31";
 				txtVisualFlags.Text = "0";
 				// ignore error
 				loading = false;
@@ -143,6 +141,7 @@ namespace FF1_PRR
 
 		private void cmdRandomize_Click(object sender, EventArgs e)
 		{
+			if (cboShops.SelectedIndex > 0) randomize_shops();
 			if (chkCuteHats.Checked)
 			{
 				// neongrey says: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -150,13 +149,30 @@ namespace FF1_PRR
 			}
 		}
 
+		private void randomize_shops()
+		{
+
+		}
+
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
 		{
 			using (StreamWriter writer = File.CreateText("lastFF1PRR.txt"))
 			{
+				writer.WriteLine(txtFF1PRFolder.Text);
 				writer.WriteLine(txtSeed.Text);
 				writer.WriteLine(txtRandoFlags.Text);
 				writer.WriteLine(txtVisualFlags.Text);
+			}
+		}
+
+		private void btnBrowse_Click(object sender, EventArgs e)
+		{
+			using (var fbd = new FolderBrowserDialog())
+			{
+				DialogResult result = fbd.ShowDialog();
+
+				if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+					txtFF1PRFolder.Text = fbd.SelectedPath;
 			}
 		}
 	}

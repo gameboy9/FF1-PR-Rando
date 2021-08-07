@@ -43,6 +43,9 @@ namespace FF1_PRR
 			this.btnNew = new System.Windows.Forms.Button();
 			this.txtVisualFlags = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
+			this.btnBrowse = new System.Windows.Forms.Button();
+			this.label5 = new System.Windows.Forms.Label();
+			this.cboShops = new System.Windows.Forms.ComboBox();
 			this.SuspendLayout();
 			// 
 			// cmdRandomize
@@ -74,7 +77,7 @@ namespace FF1_PRR
 			// chkCuteHats
 			// 
 			this.chkCuteHats.AutoSize = true;
-			this.chkCuteHats.Location = new System.Drawing.Point(12, 193);
+			this.chkCuteHats.Location = new System.Drawing.Point(12, 188);
 			this.chkCuteHats.Name = "chkCuteHats";
 			this.chkCuteHats.Size = new System.Drawing.Size(95, 24);
 			this.chkCuteHats.TabIndex = 3;
@@ -85,7 +88,7 @@ namespace FF1_PRR
 			// chkShuffleBossSpots
 			// 
 			this.chkShuffleBossSpots.AutoSize = true;
-			this.chkShuffleBossSpots.Location = new System.Drawing.Point(12, 133);
+			this.chkShuffleBossSpots.Location = new System.Drawing.Point(12, 128);
 			this.chkShuffleBossSpots.Name = "chkShuffleBossSpots";
 			this.chkShuffleBossSpots.Size = new System.Drawing.Size(152, 24);
 			this.chkShuffleBossSpots.TabIndex = 4;
@@ -96,7 +99,7 @@ namespace FF1_PRR
 			// chkKeyItems
 			// 
 			this.chkKeyItems.AutoSize = true;
-			this.chkKeyItems.Location = new System.Drawing.Point(12, 163);
+			this.chkKeyItems.Location = new System.Drawing.Point(12, 158);
 			this.chkKeyItems.Name = "chkKeyItems";
 			this.chkKeyItems.Size = new System.Drawing.Size(174, 24);
 			this.chkKeyItems.TabIndex = 5;
@@ -171,11 +174,50 @@ namespace FF1_PRR
 			this.label4.TabIndex = 12;
 			this.label4.Text = "Visual Flags";
 			// 
+			// btnBrowse
+			// 
+			this.btnBrowse.Location = new System.Drawing.Point(693, 6);
+			this.btnBrowse.Name = "btnBrowse";
+			this.btnBrowse.Size = new System.Drawing.Size(95, 28);
+			this.btnBrowse.TabIndex = 14;
+			this.btnBrowse.Text = "Browse";
+			this.btnBrowse.UseVisualStyleBackColor = true;
+			this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Location = new System.Drawing.Point(12, 225);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(148, 20);
+			this.label5.TabIndex = 15;
+			this.label5.Text = "Shop Randomization";
+			// 
+			// cboShops
+			// 
+			this.cboShops.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cboShops.FormattingEnabled = true;
+			this.cboShops.Items.AddRange(new object[] {
+            "None",
+            "Standard",
+            "Deluxe",
+            "Pro",
+            "Wild",
+            "Pristine"});
+			this.cboShops.Location = new System.Drawing.Point(196, 222);
+			this.cboShops.Name = "cboShops";
+			this.cboShops.Size = new System.Drawing.Size(151, 28);
+			this.cboShops.TabIndex = 16;
+			this.cboShops.SelectedIndexChanged += new System.EventHandler(this.determineFlags);
+			// 
 			// frmFF1PRR
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.cboShops);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.btnBrowse);
 			this.Controls.Add(this.txtVisualFlags);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.btnNew);
@@ -215,6 +257,9 @@ namespace FF1_PRR
 		private System.Windows.Forms.Button btnNew;
 		private System.Windows.Forms.TextBox txtVisualFlags;
 		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Button btnBrowse;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.ComboBox cboShops;
 	}
 }
 
