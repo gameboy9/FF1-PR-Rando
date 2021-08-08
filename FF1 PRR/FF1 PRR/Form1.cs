@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FF1_PRR.Randomize;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace FF1_PRR
 	public partial class frmFF1PRR : Form
 	{
 		bool loading = true;
+		Random r1 = new Random();
 
 		public frmFF1PRR()
 		{
@@ -151,7 +153,7 @@ namespace FF1_PRR
 
 		private void randomize_shops()
 		{
-
+			Shops randoShops = new Shops(r1);
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
