@@ -153,7 +153,8 @@ namespace FF1_PRR
 
 		private void randomize_shops()
 		{
-			Shops randoShops = new Shops(r1);
+			Shops randoShops = new Shops(r1, cboShops.SelectedIndex, Path.Combine(txtFF1PRFolder.Text, 
+				"FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"));
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)

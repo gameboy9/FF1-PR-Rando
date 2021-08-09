@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static FF1_PRR.Common.Common;
 
 namespace FF1_PRR.Inventory
 {
@@ -57,5 +55,37 @@ namespace FF1_PRR.Inventory
 			  new List<int> { catClaws, vorpalSword, defender, sunBlade, lightAxe, thorHammer, mageStaff, wizardStaff },
 			  new List<int> { excalibur, masamune }
 		};
+
+		public List<int> all = new List<int>
+		{
+			knife, dagger, rapier, scimitar, nunchaku, ironNunchaku, hammer, mythrilHammer, staff,
+			mythrilKnife, saber, broadsword, falchion, powerStaff, crosier,
+			werebuster, runeblade, wyrmkiller, coralSword, longsword, greatSword, razer, mythrilSword, battleAxe, greatAxe,
+			flameSword, iceBrand, sasukeBlade, mythrilAxe, healingStaff,
+			catClaws, vorpalSword, defender, sunBlade, lightAxe, thorHammer, mageStaff, wizardStaff,
+			excalibur, masamune
+		};
+
+		public int selectItem(Random r1, int tier)
+		{
+			if (tier >= tiers.Count) tier = tiers.Count;
+			tier--;
+			return tier == 0 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
+		}
+
+		public List<int> shuffleTraditional(Random r1)
+		{
+			List<int> shuffler = new List<int> { 
+				nunchaku, knife, staff, rapier, hammer,
+				hammer, broadsword, battleAxe, scimitar,
+				ironNunchaku, dagger, crosier, saber, mythrilSword,
+				crosier, saber, longsword, falchion,
+				mythrilKnife, mythrilSword, mythrilHammer, mythrilAxe,
+				catClaws
+			};
+
+			shuffler.Shuffle(r1);
+			return shuffler;
+		}
 	}
 }

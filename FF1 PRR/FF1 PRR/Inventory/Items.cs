@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static FF1_PRR.Common.Common;
 
 namespace FF1_PRR.Inventory
 {
@@ -35,5 +33,73 @@ namespace FF1_PRR.Inventory
 			  new List<int> { phoenixDown, dryEther, xPotion },
 			  new List<int> { elixer, strengthTonic, giantTonic, protectDrink, speedDrink } 
 		};
+
+		public List<int> all = new List<int>
+		{
+			potion, antidote, sleepingBag,
+			goldNeedle, tent, cottage, eyeDrops, echoGrass,
+			hiPotion, ether, remedy,
+			phoenixDown, dryEther, xPotion,
+			elixer, strengthTonic, giantTonic, protectDrink, speedDrink
+		};
+
+		public List<List<int>> tiersTraditional = new List<List<int>>
+			{ new List<int> { potion, antidote, sleepingBag },
+			  new List<int> { goldNeedle, tent },
+			  new List<int> { cottage }
+		};
+
+		public List<int> allTraditional = new List<int>
+		{
+			potion, antidote, sleepingBag,
+			goldNeedle, tent, cottage
+		};
+
+		public int selectItem(Random r1, int tier, bool traditional)
+		{
+			if (traditional)
+			{
+				if (tier >= tiersTraditional.Count) tier = tiersTraditional.Count;
+				tier--;
+				return tier == -1 ? allTraditional[r1.Next() % all.Count] : 
+					tiersTraditional[tier][r1.Next() % tiersTraditional[tier].Count];
+			}
+			else
+			{
+				if (tier >= tiers.Count) tier = tiers.Count;
+				tier--;
+				return tier == -1 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
+			}
+		}
+
+		public List<int> shuffleTraditional(Random r1)
+		{
+			List<int> shuffler = new List<int> {
+				potion, antidote, sleepingBag,
+				potion, antidote, sleepingBag, tent,
+				potion, antidote, goldNeedle, tent, cottage,
+				potion, antidote, tent, cottage,
+				potion, antidote, goldNeedle, tent, cottage,
+				potion, antidote, tent, cottage
+			};
+
+			shuffler.Shuffle(r1);
+			return shuffler;
+		}
+
+		public List<int> shuffleModern(Random r1)
+		{
+			List<int> shuffler = new List<int> {
+				potion, antidote, sleepingBag, phoenixDown,
+				potion, ether, antidote, eyeDrops, phoenixDown,
+				potion, antidote, goldNeedle, echoGrass, tent, cottage,
+				potion, hiPotion, ether, phoenixDown, tent, cottage,
+				hiPotion, ether, remedy, goldNeedle, cottage,
+				hiPotion, ether, phoenixDown, tent, cottage
+			};
+
+			shuffler.Shuffle(r1);
+			return shuffler;
+		}
 	}
 }

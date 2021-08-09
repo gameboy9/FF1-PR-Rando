@@ -199,11 +199,10 @@ namespace FF1_PRR
 			this.cboShops.FormattingEnabled = true;
 			this.cboShops.Items.AddRange(new object[] {
             "None",
+            "Shuffle",
             "Standard",
-            "Deluxe",
             "Pro",
-            "Wild",
-            "Pristine"});
+            "Wild"});
 			this.cboShops.Location = new System.Drawing.Point(196, 222);
 			this.cboShops.Name = "cboShops";
 			this.cboShops.Size = new System.Drawing.Size(151, 28);

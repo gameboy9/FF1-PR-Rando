@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static FF1_PRR.Common.Common;
 
 namespace FF1_PRR.Inventory
 {
@@ -56,5 +54,36 @@ namespace FF1_PRR.Inventory
 			  new List<int> { iceArmor, flameMail, iceShield, flameShield, diamondShield, protectCloak, diamondHelm, mythrilGloves, protectRing },
 			  new List<int> { whiteRobe, blackRobe, diamondArmor, dragonMail, diamondArmlet, aegisShield, ribbon, healingHelm, gauntlets, giantGloves, diamondGloves }
 		};
+
+		public List<int> all = new List<int>
+		{
+			clothes, leatherArmor, chainMail, copperArmlet, leatherShield, leatherCap, helm, leatherGloves,
+			ironArmor, silverArmlet, ironShield, greatHelm, bronzeGloves,
+			mythrilMail, knightArmor, rubyArmlet, buckler, mythrilShield, mythrilHelm, steelGloves,
+			iceArmor, flameMail, iceShield, flameShield, diamondShield, protectCloak, diamondHelm, mythrilGloves, protectRing,
+			whiteRobe, blackRobe, diamondArmor, dragonMail, diamondArmlet, aegisShield, ribbon, healingHelm, gauntlets, giantGloves, diamondGloves
+		};
+
+		public int selectItem(Random r1, int tier)
+		{
+			if (tier >= tiers.Count) tier = tiers.Count;
+			tier--;
+			return tier == 0 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
+		}
+
+		public List<int> shuffleTraditional(Random r1)
+		{
+			List<int> shuffler = new List<int> {
+				clothes, leatherArmor, chainMail,
+				leatherArmor, chainMail, ironArmor, leatherShield, leatherGloves,
+				ironArmor, copperArmlet, ironShield, leatherCap, helm,
+				knightArmor, silverArmlet, greatHelm, bronzeGloves, steelGloves,
+				mythrilMail, mythrilShield, buckler, mythrilHelm, mythrilGloves,
+				rubyArmlet, protectRing
+			};
+
+			shuffler.Shuffle(r1);
+			return shuffler;
+		}
 	}
 }
