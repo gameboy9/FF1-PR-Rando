@@ -8,11 +8,6 @@ namespace FF1_PRR.Common
 {
 	static class Common
 	{
-        static Common()
-		{
-
-		}
-
         public static void Shuffle<T>(this IList<T> list, Random rng)
         {
             int n = list.Count;
@@ -24,6 +19,12 @@ namespace FF1_PRR.Common
                 list[k] = list[n];
                 list[n] = value;
             }
+        }
+
+        public static bool AreAnyDuplicates<T>(this IEnumerable<T> list)
+        {
+            var hashset = new HashSet<T>();
+            return list.Any(e => !hashset.Add(e));
         }
     }
 }

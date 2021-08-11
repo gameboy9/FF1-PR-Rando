@@ -1,9 +1,9 @@
 ﻿using FF1_PRR.Inventory;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static FF1_PRR.Common.Common;
 
 namespace FF1_PRR.Randomize
 {
@@ -24,8 +24,8 @@ namespace FF1_PRR.Randomize
 		const int aElfheim = 12;
 		const int iElfheim = 13;
 		const int mwElfheim3 = 14;
-		const int mbElfheim3 = 15;
-		const int mwElfheim4 = 16;
+		const int mbElfheim3 = 16;
+		const int mwElfheim4 = 15;
 		const int mbElfheim4 = 17;
 		const int wMelmond = 18;
 		const int aMelmond = 19;
@@ -51,11 +51,13 @@ namespace FF1_PRR.Randomize
 		const int mwGaia8 = 39;
 		const int mbGaia8 = 40;
 
-		List<int> weapons = new List<int> { wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia };
-		List<int> armor = new List<int> { aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia };
-		List<int> items = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac };
-		List<int> blackMagic = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia };
-		List<int> whiteMagic = new List<int> { mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
+		List<int> weaponStores = new List<int> { wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia };
+		List<int> armorStores = new List<int> { aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia };
+		List<int> itemStores = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac };
+		List<int> blackMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia };
+		List<int> whiteMagicStores = new List<int> { mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
+		List<int> allMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia, 
+				mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
 
 		List<int> allStores = new List<int>
 		{
@@ -75,20 +77,47 @@ namespace FF1_PRR.Randomize
 
 		List<shopItem> productList = new List<shopItem>();
 
+		private List<shopItem> determineItems(List<int> items, List<int> stores, Random r1)
+		{
+			List<shopItem> shopDB = new List<shopItem>();
+
+			List<int> storeNumItems = new List<int>();
+			bool duplicates = true;
+			while (duplicates)
+			{
+				storeNumItems.Clear();
+				for (int lnI = 0; lnI < stores.Count - 1; lnI++)
+					storeNumItems.Add(r1.Next() % items.Count);
+				storeNumItems.Add(items.Count);
+				duplicates = storeNumItems.AreAnyDuplicates();
+			}
+			storeNumItems.Sort();
+			for (int lnI = 0; lnI < items.Count; lnI++)
+			{
+				shopItem newItem = new shopItem();
+				newItem.id = 0;
+				newItem.group_id = stores[storeNumItems.Select((elem, index) => new { elem, index }).First(p => p.elem > lnI).index];
+				newItem.content_id = items[lnI];
+				shopDB.Add(newItem);
+			}
+
+			return shopDB;
+		}
+
 		public Shops(Random r1, int randoLevel, string fileName, bool traditional)
 		{
 			List<shopItem> shopDB = new List<shopItem>();
 
 			// Recreate product.csv with stuff.
-			int finalID = 0;
 			if (randoLevel == 1)
 			{
-				List<int> weapons = new Weapons().shuffleTraditional(r1);
-				List<int> armor = new Armor().shuffleTraditional(r1);
-				List<int> items = traditional ? new Items().shuffleTraditional(r1) : new Items().shuffleModern(r1);
+				shopDB.AddRange(determineItems(new Weapons().shuffleTraditional(r1), weaponStores, r1));
+				shopDB.AddRange(determineItems(new Armor().shuffleTraditional(r1), armorStores, r1));
+				shopDB.AddRange(determineItems(traditional ? new Items().shuffleTraditional(r1) : new Items().shuffleModern(r1), itemStores, r1));
 
-				// TODO:  Draw numbers at random for each store.  No duplicates.  Shuffle items from there.  Remove duplicate items.
-			} else
+				// TODO:  Remove duplicates items from stores.
+			}
+			else
 			{
 				List<int> tierLimit = new List<int>
 				{
@@ -105,8 +134,6 @@ namespace FF1_PRR.Randomize
 					{
 						shopItem newItem = new shopItem();
 						int itemPct = r1.Next() % 100;
-						finalID++;
-						newItem.id = finalID;
 						newItem.group_id = store;
 
 						// 75/95% chance to reduce tier by 1, 50/70% chance to reduce tier by 2 instead.
@@ -114,17 +141,51 @@ namespace FF1_PRR.Randomize
 							(itemPct <= (randoLevel == 2 ? 50 : 70) ? 2 : (itemPct <= (randoLevel == 2 ? 75 : 95) ? 1 : 0));
 						tier = tier == 0 ? 1 : tier;
 
-						if (weapons.Contains(store))
+						if (weaponStores.Contains(store))
 							newItem.content_id = new Weapons().selectItem(r1, randoLevel == 4 ? 0 : tier);
-						else if (armor.Contains(store))
+						else if (armorStores.Contains(store))
 							newItem.content_id = new Armor().selectItem(r1, randoLevel == 4 ? 0 : tier);
-						else if (items.Contains(store))
+						else if (itemStores.Contains(store))
 							newItem.content_id = new Items().selectItem(r1, randoLevel == 4 ? 0 : tier, traditional);
 
 						shopDB.Add(newItem);
 					}
 					storeID++;
 				}
+
+				// TODO:  Remove duplicates within each store.
+			}
+			shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 1), whiteMagicStores, r1));
+			shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 2), blackMagicStores, r1));
+
+			using (StreamWriter sw = new StreamWriter(fileName))
+			{
+				sw.WriteLine("id,content_id,group_id,coefficient,purchase_limit");
+				int finalID = 0;
+				foreach (shopItem si in shopDB)
+				{
+					finalID++;
+					sw.WriteLine(finalID + "," + si.content_id + "," + si.group_id + "," + si.coefficient + "," + si.purchase_limit);
+				}
+				finalID++;
+				sw.WriteLine("141,59,37,0,1");
+				sw.WriteLine("142,34,38,0,0");
+				sw.WriteLine("143,32,38,0,0");
+				sw.WriteLine("145,35,38,0,0");
+				sw.WriteLine("146,36,38,0,0");
+				sw.WriteLine("201,0,101,30,0");
+				sw.WriteLine("202,0,102,50,0");
+				sw.WriteLine("203,0,103,100,0");
+				sw.WriteLine("204,0,104,100,0");
+				sw.WriteLine("205,0,105,200,0");
+				sw.WriteLine("206,0,106,300,0");
+				sw.WriteLine("207,0,107,500,0");
+				sw.WriteLine("208,0,201,40,0");
+				sw.WriteLine("209,0,202,80,0");
+				sw.WriteLine("210,0,203,200,0");
+				sw.WriteLine("211,0,204,400,0");
+				sw.WriteLine("212,0,205,750,0");
+				sw.WriteLine("213,0,206,750,0");
 			}
 		}
 	}

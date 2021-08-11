@@ -68,7 +68,7 @@ namespace FF1_PRR.Inventory
 		{
 			if (tier >= tiers.Count) tier = tiers.Count;
 			tier--;
-			return tier == 0 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
+			return tier == -1 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
 		}
 
 		public List<int> shuffleTraditional(Random r1)

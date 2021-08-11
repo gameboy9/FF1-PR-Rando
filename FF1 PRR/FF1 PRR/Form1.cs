@@ -27,7 +27,7 @@ namespace FF1_PRR
 			if (loading) return;
 
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { chkShuffleBossSpots, chkKeyItems }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { chkShuffleBossSpots, chkKeyItems, chkTraditional }));
 			// Combo boxes time...
 			flags += convertIntToChar(cboShops.SelectedIndex); // + (8 * cboShops.SelectedIndex) <----- Keep this for now; we'll use it later for sure.
 			txtRandoFlags.Text = flags;
@@ -52,7 +52,7 @@ namespace FF1_PRR
 			loading = true;
 
 			string flags = txtRandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkShuffleBossSpots, chkKeyItems });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkShuffleBossSpots, chkKeyItems, chkTraditional });
 			cboShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
 
 			flags = txtVisualFlags.Text;
@@ -144,17 +144,27 @@ namespace FF1_PRR
 		private void cmdRandomize_Click(object sender, EventArgs e)
 		{
 			if (cboShops.SelectedIndex > 0) randomize_shops();
+			randomize_magic();
 			if (chkCuteHats.Checked)
 			{
 				// neongrey says: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 				// Demerine says: eeeeeeeee
 			}
+
+			lblNewChecksum.Text = "COMPLETE";
 		}
 
 		private void randomize_shops()
 		{
-			Shops randoShops = new Shops(r1, cboShops.SelectedIndex, Path.Combine(txtFF1PRFolder.Text, 
-				"FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"));
+			Shops randoShops = new Shops(r1, cboShops.SelectedIndex, 
+				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
+				chkTraditional.Checked);
+		}
+
+		private void randomize_magic()
+		{
+			new Inventory.Magic().shuffleMagic(r1,
+				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
