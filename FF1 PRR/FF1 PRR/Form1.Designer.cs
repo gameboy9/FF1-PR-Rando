@@ -46,6 +46,7 @@ namespace FF1_PRR
 			this.btnBrowse = new System.Windows.Forms.Button();
 			this.label5 = new System.Windows.Forms.Label();
 			this.cboShops = new System.Windows.Forms.ComboBox();
+			this.chkTraditional = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
 			// 
 			// cmdRandomize
@@ -199,22 +200,33 @@ namespace FF1_PRR
 			this.cboShops.FormattingEnabled = true;
 			this.cboShops.Items.AddRange(new object[] {
             "None",
+            "Shuffle",
             "Standard",
-            "Deluxe",
             "Pro",
-            "Wild",
-            "Pristine"});
+            "Wild"});
 			this.cboShops.Location = new System.Drawing.Point(196, 222);
 			this.cboShops.Name = "cboShops";
 			this.cboShops.Size = new System.Drawing.Size(151, 28);
 			this.cboShops.TabIndex = 16;
 			this.cboShops.SelectedIndexChanged += new System.EventHandler(this.determineFlags);
 			// 
+			// chkTraditional
+			// 
+			this.chkTraditional.AutoSize = true;
+			this.chkTraditional.Location = new System.Drawing.Point(367, 224);
+			this.chkTraditional.Name = "chkTraditional";
+			this.chkTraditional.Size = new System.Drawing.Size(102, 24);
+			this.chkTraditional.TabIndex = 17;
+			this.chkTraditional.Text = "NES Shops";
+			this.chkTraditional.UseVisualStyleBackColor = true;
+			this.chkTraditional.Click += new System.EventHandler(this.determineFlags);
+			// 
 			// frmFF1PRR
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.chkTraditional);
 			this.Controls.Add(this.cboShops);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.btnBrowse);
@@ -260,6 +272,7 @@ namespace FF1_PRR
 		private System.Windows.Forms.Button btnBrowse;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.ComboBox cboShops;
+		private System.Windows.Forms.CheckBox chkTraditional;
 	}
 }
 
