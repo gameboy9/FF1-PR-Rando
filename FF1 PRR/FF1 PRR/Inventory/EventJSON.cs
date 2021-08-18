@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +9,14 @@ namespace FF1_PRR.Inventory
 {
 	public class EventJSON
 	{
-		public class Rootobject
-		{
-			public Systemflag SystemFlag { get; set; }
-			public Segment[] Segments { get; set; }
-			public string[] ScriptLocal { get; set; }
-			public int[] ScriptLocalValue { get; set; }
-			public Mnemonic[] Mnemonics { get; set; }
-			public Animation[] Animations { get; set; }
-			public string Name { get; set; }
-			public Title Title { get; set; }
-		}
+		public Systemflag SystemFlag { get; set; }
+		public Segment[] Segments { get; set; }
+		public string[] ScriptLocal { get; set; }
+		public int[] ScriptLocalValue { get; set; }
+		public Mnemonic[] Mnemonics { get; set; }
+		public Animation[] Animations { get; set; }
+		public string Name { get; set; }
+		public Title1 Title { get; set; }
 
 		public class Systemflag
 		{
@@ -28,7 +26,7 @@ namespace FF1_PRR.Inventory
 			public int RidingVehicle { get; set; }
 		}
 
-		public class Title
+		public class Title1
 		{
 			public string main { get; set; }
 			public string sub { get; set; }

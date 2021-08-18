@@ -1,5 +1,0 @@
-id,transportation_group_id,landing_group_id,asset_id,release_flag,bgm_id,se_id,type_id,encounter_flag,message_id,start_takeoff,end_landing,start_landing,transition_inboard,up_script,down_script,confirm_landing_foot_id
-1,1,0,0,519,0,0,1,1,None,0,0,0,0,0,0,0
-2,2,0,14,516,0,0,5,1,MSG_KEY_NAME_17,0,0,0,0,0,0,0
-3,3,1,13,518,76,941,3,0,MSG_SYSTEM_230,0,0,0,0,0,0,0
-4,4,2,15,517,4,38,2,1,MSG_SYSTEM_229,0,0,0,0,0,0,0

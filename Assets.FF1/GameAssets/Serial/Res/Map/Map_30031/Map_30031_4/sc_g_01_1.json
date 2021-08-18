@@ -1,9 +1,0 @@
-{
-  "EntryPoint" : 0,
-  "Count" : 1,
-  "Mnemonics" : [
-    {"label" : "0000", "mnemonic" : "Nop", "type" : 1},
-    {"label" : "0001", "mnemonic" : "SysCall", "type" : 1, "operands" : { "sValues" : ["MapEntryRoofControl"] }, "comment":  "屋根操作"},
-    {"label" : "0002", "mnemonic" : "Exit", "type" : 1}
-  ]
-}

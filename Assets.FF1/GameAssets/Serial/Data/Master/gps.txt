@@ -1,7 +1,0 @@
-id,map_id,gps_point_group_id,asset_name,gps_overlay,gps_screen,width,height
-1,1,1,world1,gps_overlay_1,gps_screen_1,256,256
-2,1,1,world1,gps_overlay_0,gps_screen_0,256,256
-3,1,1,world1,gps_overlay_2,gps_screen_2,256,256
-4,800,1,world1,gps_overlay_1,gps_screen_1,256,256
-5,801,1,world1,gps_overlay_0,gps_screen_0,256,256
-6,802,1,world1,gps_overlay_2,gps_screen_2,256,256

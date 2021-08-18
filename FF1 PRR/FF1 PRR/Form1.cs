@@ -15,7 +15,7 @@ namespace FF1_PRR
 	public partial class frmFF1PRR : Form
 	{
 		bool loading = true;
-		Random r1 = new Random();
+		Random r1;
 
 		public frmFF1PRR()
 		{
@@ -143,8 +143,10 @@ namespace FF1_PRR
 
 		private void cmdRandomize_Click(object sender, EventArgs e)
 		{
+			r1 = new Random(Convert.ToInt32(txtSeed.Text));
 			if (cboShops.SelectedIndex > 0) randomize_shops();
 			randomize_magic();
+			randomize_keyItems();
 			if (chkCuteHats.Checked)
 			{
 				// neongrey says: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -165,6 +167,12 @@ namespace FF1_PRR
 		{
 			new Inventory.Magic().shuffleMagic(r1,
 				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
+		}
+
+		private void randomize_keyItems()
+		{
+			KeyItems randoKeyItems = new KeyItems(r1,
+				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map"));
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
