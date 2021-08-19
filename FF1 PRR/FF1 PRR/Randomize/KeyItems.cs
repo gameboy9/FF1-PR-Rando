@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -72,11 +73,10 @@ namespace FF1_PRR.Randomize
 			int[] avoids { get; set; }
 			string jsonFile { get; set; }
 
-			public locationData(int ki, int ev, int[] avoid)
+			public locationData(int ki, int ev)
 			{
 				keyItem = ki;
 				ff1Event = ev;
-				avoids = avoid;
 			}
 
 			public int determineLocation(Random r1, int[] additionalAvoid)
@@ -98,99 +98,96 @@ namespace FF1_PRR.Randomize
 
 		public KeyItems(Random r1, string directory)
 		{
-			List<int> allLocs = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26 };
-
 			List<locationData> ld = new List<locationData>();
-			ld.Add(new locationData(lute, 0, new int[] { }));
-			ld.Add(new locationData(crown, 0, new int[] { lAstos }));
-			ld.Add(new locationData(crystalEye, 0, new int[] { lMatoya }));
-			ld.Add(new locationData(joltTonic, 0, new int[] { lElfPrince }));
-			ld.Add(new locationData(mysticKey, 0, new int[] { lCoroniaTreasury }));
-			ld.Add(new locationData(nitroPowder, 0, new int[] { lDwarf }));
-			ld.Add(new locationData(canal, 0, new int[] { lVampire, lSage, lLich, lCrescentLake, lMarilith, lIceCave, lAirship, lLich, lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat }));
-			ld.Add(new locationData(starRuby, 0, new int[] { lSage }));
-			ld.Add(new locationData(rod, 0, new int[] { lLich }));
-			ld.Add(new locationData(earthCrystal, 0, new int[] { }));
-			//ld.Add(new locationData(canoe, 0, new int[] { lWaterfall }));
-			ld.Add(new locationData(fireCrystal, 0, new int[] { }));
-			ld.Add(new locationData(floater, 0, new int[] { lAirship, lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat }));
-			//ld.Add(new locationData(airship, 0, new int[] { lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat }));
-			ld.Add(new locationData(cube, 0, new int[] { lAdamantite, lTiamat }));
-			ld.Add(new locationData(oxyale, 0, new int[] { lShrine5F, lKraken }));
-			ld.Add(new locationData(slab, 0, new int[] { lUnne }));
-			ld.Add(new locationData(learnLufuin, 0, new int[] { lLefein }));
-			ld.Add(new locationData(chime, 0, new int[] { lAdamantite, lTiamat }));
-			ld.Add(new locationData(waterCrystal, 0, new int[] { }));
-			ld.Add(new locationData(airCrystal, 0, new int[] { }));
-			ld.Add(new locationData(ratTail, 0, new int[] { }));
-			ld.Add(new locationData(adamantite, 0, new int[] { lExcal }));
-			ld.Add(new locationData(excalibur, 0, new int[] { }));
-
 			List<int> complete = new List<int>();
-			//int airshipLocation = ld.Where(c => c.keyItem == airship).Single().determineLocation(r1, complete.ToArray());
-			//int canoeLocation;
-			//// If the airship was placed in a canoe location, we will have to avoid lMarilith, lIceCave, lAirship, lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat.
-			//if (airshipLocation == lAirship || airshipLocation == lMarilith || airshipLocation == lIceCave)
-			//{
-			//	canoeLocation = ld.Where(c => c.keyItem == airship).Single()
-			//		.determineLocation(r1, new int[] { airshipLocation, lMarilith, lIceCave, lAirship, lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat, lExcal });
-			//}
-			//else
-			//{
-			//	canoeLocation = ld.Where(c => c.keyItem == airship).Single()
-			//		.determineLocation(r1, new int[] { airshipLocation });
-			//}
-			//// If the airship and the canoe were placed outside of the canal, the canal must stay in-bounds.
-			//List<int> inbounds = new List<int>() { lSarah, lCoroniaKing, lPirate, lMarsh, lAstos, lMatoya, lElfPrince, lCoroniaTreasury, lDwarf };
-			//if (inbounds.Contains(airshipLocation) || inbounds.Contains(canoeLocation))
-			//{
-			//	complete.Add(ld.Where(c => c.keyItem == canal).Single()
-			//		.determineLocation(r1, new int[] { airshipLocation, canoeLocation }));
-			//} else
-			//{
-			//	complete.Add(ld.Where(c => c.keyItem == canal).Single()
-			//		.determineLocation(r1, new int[] { airshipLocation, canoeLocation, lVampire, lSage, lLich, lCrescentLake, lMarilith, lIceCave, lAirship, lGaia, lWaterfall, lShrine5F, lKraken, lUnne, lLefein, lOrdeals, lAdamantite, lTiamat, lExcal }));
-			//}
-			//complete.Add(airshipLocation);
-			//complete.Add(canoeLocation);
-			// Now place the rest of the key items
-			// Start with the more restricted items...
-			complete.Add(lAirship);
-			complete.Add(lCrescentLake);
 
-			complete.Add(ld.Where(c => c.keyItem == canal).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == floater).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == chime).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == cube).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == oxyale).Single().determineLocation(r1, complete.ToArray()));
+			Process p = new Process();
+			p.StartInfo = new ProcessStartInfo(Path.Combine("clingo", "clingo"), Path.Combine("clingo", "KeyItemSolvingShip.lp") + " " + Path.Combine("clingo", "KeyItemDataShip.lp") + " --sign-def=3 --seed=" + r1.Next().ToString().Trim() + " --outf=2")
+			{
+				RedirectStandardOutput = true,
+				UseShellExecute = false
+			};
+			p.Start();
+			p.WaitForExit();
 
-			// Then only restricted at the turn-in spot...
-			complete.Add(ld.Where(c => c.keyItem == crown).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == crystalEye).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == joltTonic).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == mysticKey).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == nitroPowder).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == starRuby).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == rod).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == slab).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == learnLufuin).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == adamantite).Single().determineLocation(r1, complete.ToArray()));
+			//The output of the shell command will be in the outPut variable after the 
+			//following line is executed
+			var clingoJSON = p.StandardOutput.ReadToEnd();
 
-			// Then the un-restricted items.
-			complete.Add(ld.Where(c => c.keyItem == lute).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == earthCrystal).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == fireCrystal).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == waterCrystal).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == airCrystal).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == ratTail).Single().determineLocation(r1, complete.ToArray()));
-			complete.Add(ld.Where(c => c.keyItem == excalibur).Single().determineLocation(r1, complete.ToArray()));
+			ClingoKeyItem events = JsonConvert.DeserializeObject<ClingoKeyItem>(clingoJSON);
+			foreach (string pairValue in events.Call[0].Witnesses[0].Value)
+			{
+				string[] values = pairValue.Replace("pair(", "").Replace(")", "").Split(",");
+				int keyItem = -1;
+				int location = -1;
 
+				switch (values[0])
+				{
+					case "lute": keyItem = lute; break;
+					case "crown": keyItem = crown; break;
+					case "crystal": keyItem = crystalEye; break;
+					case "jolt_tonic": keyItem = joltTonic; break;
+					case "mystic_key": keyItem = mysticKey; break;
+					case "nitro_powder": keyItem = nitroPowder; break;
+					case "canal": keyItem = canal; break;
+					case "star_ruby": keyItem = starRuby; break;
+					case "rod": keyItem = rod; break;
+					case "levistone": keyItem = floater; break;
+					//case "gear": keyItem = gear; break;
+					case "rats_tail": keyItem = ratTail; break;
+					case "oxyale": keyItem = oxyale; break;
+					case "rosetta_stone": keyItem = slab; break;
+					case "chime": keyItem = chime; break;
+					case "warp_cube": keyItem = cube; break;
+					case "adamantite": keyItem = adamantite; break;
+					case "excalibur": keyItem = excalibur; break;
+					case "earth": keyItem = earthCrystal; break;
+					case "fire": keyItem = fireCrystal; break;
+					case "water": keyItem = waterCrystal; break;
+					case "air": keyItem = airCrystal; break;
+					case "lufienish": keyItem = learnLufuin; break;
+				}
+
+				switch (values[1])
+				{
+					case "sara": location = lSarah; break;
+					case "king": location = lCoroniaKing; break;
+					case "bikke": location = lPirate; break;
+					case "marsh": location = lMarsh; break;
+					case "astos": location = lAstos; break;
+					case "matoya": location = lMatoya; break;
+					case "elf": location = lElfPrince; break;
+					case "locked_cornelia": location = lCoroniaTreasury; break;
+					case "nerrick": location = lDwarf; break;
+					case "vampire": location = lVampire; break;
+					case "sarda": location = lSage; break;
+					case "ice": location = lIceCave; break;
+					case "citadel_of_trials": location = lOrdeals; break;
+					case "fairy": location = lGaia; break;
+					case "mermaids": location = lShrine5F; break;
+					case "lefien": location = lLefein; break;
+					case "waterfall": location = lWaterfall; break;
+					case "sky2": location = lAdamantite; break;
+					case "smyth": location = lExcal; break;
+					case "lich": location = lLich; break;
+					case "kary": location = lMarilith; break;
+					case "kraken": location = lKraken; break;
+					case "tiamat": location = lTiamat; break;
+					case "dr_unne": location = lUnne ; break;
+				}
+
+				if (keyItem != -1 && location != -1)
+				{
+					ld.Add(new locationData(keyItem, location));
+					complete.Add(location);
+				}
+			}
+
+			List<int> allLocs = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26 };
 			List<int> bad = allLocs.Except(complete).ToList();
 
 			foreach (int reallyBad in bad)
-			{
-				ld.Add(new locationData(0, reallyBad, new int[] { } ));
-			}
+				ld.Add(new locationData(0, reallyBad));
 
 			// NOW to go through the dreaded act of updating all of the JSON files..........
 			foreach (locationData loc in ld)
@@ -231,8 +228,8 @@ namespace FF1_PRR.Randomize
 				}
 
 				string json = File.ReadAllText(file);
-				EventJSON test = JsonConvert.DeserializeObject<EventJSON>(json);
-				foreach (var singleScript in test.Mnemonics)
+				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+				foreach (var singleScript in jEvents.Mnemonics)
 				{
 					if (singleScript.mnemonic == "MsgFunfare")
 						singleScript.operands.sValues[0] = "MSG_KEY_" + (loc.keyItem > 0 ? loc.keyItem.ToString() : "A1");
@@ -270,14 +267,14 @@ namespace FF1_PRR.Randomize
 				using (StreamWriter sw = new StreamWriter(file))
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{
-					serializer.Serialize(writer, test);
+					serializer.Serialize(writer, jEvents);
 				}
 
 				if (file2 != "")
 				{
 					json = File.ReadAllText(file2);
-					test = JsonConvert.DeserializeObject<EventJSON>(json);
-					foreach (var singleScript in test.Mnemonics)
+					jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+					foreach (var singleScript in jEvents.Mnemonics)
 					{
 						if (singleScript.mnemonic == "MsgFunfare" && singleScript.operands.iValues[1] >= 0)
 							singleScript.operands.sValues[0] = "MSG_KEY_" + (loc.keyItem > 0 ? loc.keyItem.ToString() : "A1");
@@ -312,7 +309,7 @@ namespace FF1_PRR.Randomize
 					using (StreamWriter sw = new StreamWriter(file2))
 					using (JsonWriter writer = new JsonTextWriter(sw))
 					{
-						serializer.Serialize(writer, test);
+						serializer.Serialize(writer, jEvents);
 					}
 				}
 			}
