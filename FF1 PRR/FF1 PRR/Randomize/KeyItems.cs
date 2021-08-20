@@ -258,7 +258,7 @@ namespace FF1_PRR.Randomize
 						singleScript.operands.iValues[0] = keyItem;
 						singleScript.operands.iValues[1] = keyItem == 2 ? 0 : 1;
 					}
-					if (singleScript.mnemonic == "SetFlag" && singleScript.operands.iValues[0] < 100)
+					if (singleScript.mnemonic == "SetFlag" && singleScript.operands.iValues[0] < 100 && singleScript.operands.sValues[0] == "ScenarioFlag1")
 						singleScript.operands.iValues[0] = loc.keyItem > 0 ? loc.keyItem : 0;
 				}
 
