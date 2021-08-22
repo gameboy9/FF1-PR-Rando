@@ -1,4 +1,5 @@
 ﻿using FF1_PRR.Randomize;
+using FF1_PRR.Inventory;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,51 +13,51 @@ using System.Windows.Forms;
 
 namespace FF1_PRR
 {
-	public partial class frmFF1PRR : Form
+	public partial class FF1PRR : Form
 	{
 		bool loading = true;
 		Random r1;
 
-		public frmFF1PRR()
+		public FF1PRR()
 		{
 			InitializeComponent();
 		}
 
-		public void determineFlags(object sender, EventArgs e)
+		public void DetermineFlags(object sender, EventArgs e)
 		{
 			if (loading) return;
 
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { chkShuffleBossSpots, chkKeyItems, chkTraditional }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional }));
 			// Combo boxes time...
-			flags += convertIntToChar(cboShops.SelectedIndex); // + (8 * cboShops.SelectedIndex) <----- Keep this for now; we'll use it later for sure.
-			txtRandoFlags.Text = flags;
+			flags += convertIntToChar(RandoShop.SelectedIndex); // + (8 * cboShops.SelectedIndex) <----- Keep this for now; we'll use it later for sure.
+			RandoFlags.Text = flags;
 
 			flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { chkCuteHats }));
-			txtVisualFlags.Text = flags;
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { CuteHats }));
+			VisualFlags.Text = flags;
 		}
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && txtRandoFlags.Text.Length < 2)
-				txtRandoFlags.Text = "31";
-			else if (txtRandoFlags.Text.Length < 2)
+			if (loading && RandoFlags.Text.Length < 2)
+				RandoFlags.Text = "31";
+			else if (RandoFlags.Text.Length < 2)
 				return;
 
-			if (loading && txtVisualFlags.Text.Length < 1)
-				txtVisualFlags.Text = "0";
-			else if (txtVisualFlags.Text.Length < 1)
+			if (loading && VisualFlags.Text.Length < 1)
+				VisualFlags.Text = "0";
+			else if (VisualFlags.Text.Length < 1)
 				return;
 
 			loading = true;
 
-			string flags = txtRandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkShuffleBossSpots, chkKeyItems, chkTraditional });
-			cboShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
+			string flags = RandoFlags.Text;
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional });
+			RandoShop.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
 
-			flags = txtVisualFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { chkCuteHats });
+			flags = VisualFlags.Text;
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
 
 			// TEMPORARY:  Keep commented; we will be using combo boxes eventually
 			//cboStorePrices.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) / 8;
@@ -107,18 +108,18 @@ namespace FF1_PRR
 			return 0;
 		}
 
-		private void frmFF1PRR_Load(object sender, EventArgs e)
+		private void FF1PRR_Load(object sender, EventArgs e)
 		{
-			txtSeed.Text = (DateTime.Now.Ticks % 2147483647).ToString();
+			RandoSeed.Text = (DateTime.Now.Ticks % 2147483647).ToString();
 
 			try
 			{
 				using (TextReader reader = File.OpenText("lastFF1PRR.txt"))
 				{
-					txtFF1PRFolder.Text = reader.ReadLine();
-					txtSeed.Text = reader.ReadLine();
-					txtRandoFlags.Text = reader.ReadLine();
-					txtVisualFlags.Text = reader.ReadLine();
+					FF1PRFolder.Text = reader.ReadLine();
+					RandoSeed.Text = reader.ReadLine();
+					RandoFlags.Text = reader.ReadLine();
+					VisualFlags.Text = reader.ReadLine();
 					determineChecks(null, null);
 
 					//runChecksum();
@@ -127,8 +128,8 @@ namespace FF1_PRR
 			}
 			catch
 			{
-				txtRandoFlags.Text = "31";
-				txtVisualFlags.Text = "0";
+				RandoFlags.Text = "31";
+				VisualFlags.Text = "0";
 				// ignore error
 				loading = false;
 				determineChecks(null, null);
@@ -136,53 +137,59 @@ namespace FF1_PRR
 
 		}
 
-		private void btnNew_Click(object sender, EventArgs e)
+		private void NewSeed_Click(object sender, EventArgs e)
 		{
-			txtSeed.Text = (DateTime.Now.Ticks % 2147483647).ToString();
+			RandoSeed.Text = (DateTime.Now.Ticks % 2147483647).ToString();
 		}
 
-		private void cmdRandomize_Click(object sender, EventArgs e)
+		private void Randomize_Click(object sender, EventArgs e)
 		{
-			r1 = new Random(Convert.ToInt32(txtSeed.Text));
-			if (cboShops.SelectedIndex > 0) randomize_shops();
-			randomize_magic();
-			randomize_keyItems();
-			if (chkCuteHats.Checked)
+			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
+			if (RandoShop.SelectedIndex > 0) randomizeShops();
+			randomizeMagic();
+			randomizeKeyItems();
+			monsterBoost();
+			if (CuteHats.Checked)
 			{
 				// neongrey says: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 				// Demerine says: eeeeeeeee
 			}
 
-			lblNewChecksum.Text = "COMPLETE";
+			NewChecksum.Text = "COMPLETE";
 		}
 
-		private void randomize_shops()
+		private void randomizeShops()
 		{
-			Shops randoShops = new Shops(r1, cboShops.SelectedIndex, 
-				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
-				chkTraditional.Checked);
+			Shops randoShops = new Shops(r1, RandoShop.SelectedIndex, 
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
+				Traditional.Checked);
 		}
 
-		private void randomize_magic()
+		private void randomizeMagic()
 		{
 			new Inventory.Magic().shuffleMagic(r1,
-				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
 		}
 
-		private void randomize_keyItems()
+		private void randomizeKeyItems()
 		{
 			KeyItems randoKeyItems = new KeyItems(r1,
-				Path.Combine(txtFF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map"));
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map"));
+		}
+
+		private void monsterBoost()
+		{
+			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), 5, 500, 5, 500);
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
 		{
 			using (StreamWriter writer = File.CreateText("lastFF1PRR.txt"))
 			{
-				writer.WriteLine(txtFF1PRFolder.Text);
-				writer.WriteLine(txtSeed.Text);
-				writer.WriteLine(txtRandoFlags.Text);
-				writer.WriteLine(txtVisualFlags.Text);
+				writer.WriteLine(FF1PRFolder.Text);
+				writer.WriteLine(RandoSeed.Text);
+				writer.WriteLine(RandoFlags.Text);
+				writer.WriteLine(VisualFlags.Text);
 			}
 		}
 
@@ -193,7 +200,7 @@ namespace FF1_PRR
 				DialogResult result = fbd.ShowDialog();
 
 				if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
-					txtFF1PRFolder.Text = fbd.SelectedPath;
+					FF1PRFolder.Text = fbd.SelectedPath;
 			}
 		}
 	}

@@ -189,26 +189,26 @@ namespace FF1_PRR.Inventory
 		{
 			List<ability> records;
 
-				// Shuffle levels and price between the white spells and then the black spells.
+			// Shuffle levels and price between the white spells and then the black spells.
 			List<int> wMagic = new List<int> {
-				5, 6, 7, 8,
-				13, 14, 15, 16,
-				21, 22, 23, 24,
-				29, 30, 31, 32,
-				37, 38, 39, 40,
-				45, 46, 47, 48,
-				53, 54, 55, 56,
-				61, 62, 63, 64
+				4, 5, 6, 7,
+				12, 13, 14, 15,
+				20, 21, 22, 23,
+				28, 29, 30, 31,
+				36, 37, 38, 39,
+				44, 45, 46, 47,
+				52, 53, 54, 55,
+				60, 61, 62, 63
 			};
 			List<int> bMagic = new List<int> {
-				9, 10, 11, 12,
-				17, 18, 19, 20,
-				25, 26, 27, 28,
-				33, 34, 35, 36,
-				41, 42, 43, 44,
-				49, 50, 51, 52,
-				57, 58, 59, 60,
-				65, 66, 67, 68
+				8, 9, 10, 11,
+				16, 17, 18, 19,
+				24, 25, 26, 27,
+				32, 33, 34, 35,
+				40, 41, 42, 43,
+				48, 49, 50, 51,
+				56, 57, 58, 59,
+				64, 65, 66, 67
 			};
 
 			using (StreamReader reader = new StreamReader(Path.Combine("csv", "ability.csv")))
@@ -252,7 +252,7 @@ namespace FF1_PRR.Inventory
 				22, 22, 22, 22
 			};
 
-			int lnJ = 1;
+			int lnJ = 0;
 			for (int lnI = 1; lnI <= 8; lnI++)
 			{
 				foreach (int wm in wMagic)
