@@ -9,131 +9,81 @@ namespace FF1_PRR.Inventory
 {
 	public class Magic
 	{
-		public const int wCure = 213;
-		public const int wProtect = 214;
-		public const int wDia = 215;
-		public const int wBlink = 216;
-		public const int wInvis = 221;
-		public const int wSilence = 222;
-		public const int wBlindna = 223;
-		public const int wNulShock = 224;
-		public const int wCura = 229;
-		public const int wNulBlaze = 230;
-		public const int wDiara = 231;
-		public const int wHeal = 232;
-		public const int wPoisona = 237;
-		public const int wNulFrost = 238;
-		public const int wFear = 239;
-		public const int wVox = 240;
-		public const int wCuraga = 245;
-		public const int wDiaga = 246;
-		public const int wLife = 247;
-		public const int wHealara = 248;
-		public const int wStona = 253;
-		public const int wProtera = 254;
-		public const int wExit = 255;
-		public const int wInvisira = 256;
-		public const int wCuraja = 261;
-		public const int wNulDeath = 262;
-		public const int wDiaja = 263;
-		public const int wHealaga = 264;
-		public const int wFullLife = 269;
-		public const int wNulAll = 270;
-		public const int wHoly = 271;
-		public const int wDispel = 272;
-
-		public const int bFire = 217;
-		public const int bFocus = 218;
-		public const int bSleep = 219;
-		public const int bThunder = 220;
-		public const int bBlizzard = 225;
-		public const int bTemper = 226;
-		public const int bDark = 227;
-		public const int bSlow = 228;
-		public const int bFira = 233;
-		public const int bThundara = 234;
-		public const int bHold = 235;
-		public const int bFocara = 236;
-		public const int bSleepra = 241;
-		public const int bConfuse = 242;
-		public const int bHaste = 243;
-		public const int bBlizzara = 244;
-		public const int bFiraga = 249;
-		public const int bTeleport = 250;
-		public const int bScourge = 251;
-		public const int bSlowra = 252;
-		public const int bThundaga = 257;
-		public const int bQuake = 258;
-		public const int bDeath = 259;
-		public const int bStun = 260;
-		public const int bBlizzaga = 265;
-		public const int bSaber = 266;
-		public const int bBreak = 267;
-		public const int bBlind = 268;
-		public const int bFlare = 273;
-		public const int bWarp = 274;
-		public const int bStop = 275;
-		public const int bKill = 276;
-
-		//public List<List<int>> tiers = new List<List<int>>
-		//	{ new List<int> { clothes, leatherArmor, chainMail, copperArmlet, leatherShield, leatherCap, helm, leatherGloves },
-		//	  new List<int> { ironArmor, silverArmlet, ironShield, greatHelm, bronzeGloves },
-		//	  new List<int> { mythrilMail, knightArmor, rubyArmlet, buckler, mythrilShield, mythrilHelm, steelGloves },
-		//	  new List<int> { iceArmor, flameMail, iceShield, flameShield, diamondShield, protectCloak, diamondHelm, mythrilGloves, protectRing },
-		//	  new List<int> { whiteRobe, blackRobe, diamondArmor, dragonMail, diamondArmlet, aegisShield, ribbon, healingHelm, gauntlets, giantGloves, diamondGloves }
-		//};
-
-		public List<int> all = new List<int>
+		enum whiteMagic
 		{
-			bFire, bFocus, bSleep, bThunder,
-			bBlizzard, bTemper, bDark, bSlow,
-			bFira, bThundara, bHold, bFocara,
-			bSleepra, bConfuse, bHaste, bBlizzara,
-			bFiraga, bTeleport, bScourge, bSlowra,
-			bThundaga, bQuake, bDeath, bStun,
-			bBlizzaga, bSaber, bBreak, bBlind,
-			bFlare, bWarp, bStop, bKill,
+			wCure = 213,
+			wProtect = 214,
+			wDia = 215,
+			wBlink = 216,
+			wInvis = 221,
+			wSilence = 222,
+			wBlindna = 223,
+			wNulShock = 224,
+			wCura = 229,
+			wNulBlaze = 230,
+			wDiara = 231,
+			wHeal = 232,
+			wPoisona = 237,
+			wNulFrost = 238,
+			wFear = 239,
+			wVox = 240,
+			wCuraga = 245,
+			wDiaga = 246,
+			wLife = 247,
+			wHealara = 248,
+			wStona = 253,
+			wProtera = 254,
+			wExit = 255,
+			wInvisira = 256,
+			wCuraja = 261,
+			wNulDeath = 262,
+			wDiaja = 263,
+			wHealaga = 264,
+			wFullLife = 269,
+			wNulAll = 270,
+			wHoly = 271,
+			wDispel = 272
+		}
 
-			wCure, wProtect, wDia, wBlink,
-			wInvis, wSilence, wBlindna, wNulShock,
-			wCura, wNulBlaze, wDiara, wHeal,
-			wPoisona, wNulFrost, wFear, wVox,
-			wCuraga, wDiaga, wLife, wHealara,
-			wStona, wProtera, wExit, wInvisira,
-			wCuraja, wNulDeath, wDiaja, wHealaga,
-			wFullLife, wNulAll, wHoly, wDispel
-		};
-
-		public List<int> bAll = new List<int>
+		enum blackMagic
 		{
-			bFire, bFocus, bSleep, bThunder,
-			bBlizzard, bTemper, bDark, bSlow,
-			bFira, bThundara, bHold, bFocara,
-			bSleepra, bConfuse, bHaste, bBlizzara,
-			bFiraga, bTeleport, bScourge, bSlowra,
-			bThundaga, bQuake, bDeath, bStun,
-			bBlizzaga, bSaber, bBreak, bBlind,
-			bFlare, bWarp, bStop, bKill
-		};
+			bFire = 217,
+			bFocus = 218,
+			bSleep = 219,
+			bThunder = 220,
+			bBlizzard = 225,
+			bTemper = 226,
+			bDark = 227,
+			bSlow = 228,
+			bFira = 233,
+			bThundara = 234,
+			bHold = 235,
+			bFocara = 236,
+			bSleepra = 241,
+			bConfuse = 242,
+			bHaste = 243,
+			bBlizzara = 244,
+			bFiraga = 249,
+			bTeleport = 250,
+			bScourge = 251,
+			bSlowra = 252,
+			bThundaga = 257,
+			bQuake = 258,
+			bDeath = 259,
+			bStun = 260,
+			bBlizzaga = 265,
+			bSaber = 266,
+			bBreak = 267,
+			bBlind = 268,
+			bFlare = 273,
+			bWarp = 274,
+			bStop = 275,
+			bKill = 276
+		}
 
-		public List<int> wAll = new List<int>
-		{
-			wCure, wProtect, wDia, wBlink,
-			wInvis, wSilence, wBlindna, wNulShock,
-			wCura, wNulBlaze, wDiara, wHeal,
-			wPoisona, wNulFrost, wFear, wVox,
-			wCuraga, wDiaga, wLife, wHealara,
-			wStona, wProtera, wExit, wInvisira,
-			wCuraja, wNulDeath, wDiaja, wHealaga,
-			wFullLife, wNulAll, wHoly, wDispel
-		};
-
-		//public int selectItem(Random r1, int tier)
-		//{
-		//	if (tier >= tiers.Count) tier = tiers.Count;
-		//	tier--;
-		//	return tier == -1 ? all[r1.Next() % all.Count] : tiers[tier][r1.Next() % tiers[tier].Count];
-		//}
+		public List<int> all = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList(); // Black magic will be added in shuffleMagic
+		public List<int> bAll = Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList();
+		public List<int> wAll = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList();
 
 		public List<int> shuffleShops(Random r1, int type)
 		{
@@ -187,6 +137,7 @@ namespace FF1_PRR.Inventory
 
 		public void shuffleMagic(Random r1, string fileName)
 		{
+			all.AddRange(Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList());
 			List<ability> records;
 
 			// Shuffle levels and price between the white spells and then the black spells.

@@ -13,86 +13,74 @@ namespace FF1_PRR.Randomize
 	public class KeyItems
 	{
 		// 24 flags
-		public const int lute = 5;
-		public const int crown = 10;
-		public const int crystalEye = 11;
-		public const int joltTonic = 12;
-		public const int mysticKey = 13;
-		public const int nitroPowder = 14;
-		public const int canal = 15;
-		public const int starRuby = 17;
-		public const int rod = 19;
-		public const int earthCrystal = 21;
-		public const int canoe = 22;
-		public const int fireCrystal = 23;
-		public const int floater = 24;
-		public const int airship = 25; // Also SysCall
-		public const int cube = 26;
-		public const int oxyale = 29;
-		public const int slab = 31;
-		public const int learnLufuin = 32;
-		public const int chime = 33;
-		public const int waterCrystal = 34;
-		public const int airCrystal = 35;
-		public const int ratTail = 45;
-		public const int adamantite = 47;
-		public const int excalibur = 48;
+		enum flags
+		{
+			lute = 5,
+			crown = 10,
+			crystalEye = 11,
+			joltTonic = 12,
+			mysticKey = 13,
+			nitroPowder = 14,
+			canal = 15,
+			starRuby = 17,
+			rod = 19,
+			earthCrystal = 21,
+			canoe = 22,
+			fireCrystal = 23,
+			floater = 24,
+			airship = 25, // Also SysCall
+			cube = 26,
+			oxyale = 29,
+			slab = 31,
+			learnLufuin = 32,
+			chime = 33,
+			waterCrystal = 34,
+			airCrystal = 35,
+			ratTail = 45,
+			adamantite = 47,
+			excalibur = 48
+		}
 
 		// 26 locations
-		public const int lSarah = 1;
-		public const int lCoroniaKing = 2;
-		public const int lPirate = 3;
-		public const int lMarsh = 4;
-		public const int lAstos = 5;
-		public const int lMatoya = 6;
-		public const int lElfPrince = 7;
-		public const int lCoroniaTreasury = 8;
-		public const int lDwarf = 9;
-		public const int lExcal = 10;
-		public const int lVampire = 11;
-		public const int lSage = 12;
-		public const int lLich = 13;
-		public const int lCrescentLake = 14;
-		public const int lMarilith = 15;
-		public const int lIceCave = 16;
-		public const int lAirship = 17;
-		public const int lGaia = 18;
-		public const int lWaterfall = 19;
-		public const int lShrine5F = 20;
-		public const int lKraken = 21;
-		public const int lUnne = 22;
-		public const int lLefein = 23;
-		public const int lOrdeals = 24;
-		public const int lAdamantite = 25;
-		public const int lTiamat = 26;
+		enum locations
+		{
+			sarah = 1,
+			coroniaKing = 2,
+			pirate = 3,
+			marsh = 4,
+			astos = 5,
+			matoya = 6,
+			elfPrince = 7,
+			coroniaTreasury = 8,
+			dwarf = 9,
+			excal = 10,
+			vampire = 11,
+			sage = 12,
+			lich = 13,
+			crescentLake = 14,
+			marilith = 15,
+			iceCave = 16,
+			airship = 17,
+			gaia = 18,
+			waterfall = 19,
+			shrine5F = 20,
+			kraken = 21,
+			unne = 22,
+			lefein = 23,
+			ordeals = 24,
+			adamantite = 25,
+			tiamat = 26
+		}
 
 		private class locationData
 		{
 			public int keyItem { get; set; }
 			public int ff1Event { get; set; }
-			int[] avoids { get; set; }
-			string jsonFile { get; set; }
 
 			public locationData(int ki, int ev)
 			{
 				keyItem = ki;
 				ff1Event = ev;
-			}
-
-			public int determineLocation(Random r1, int[] additionalAvoid)
-			{
-				bool legal = false;
-				while (!legal)
-				{
-					ff1Event = (r1.Next() % 26) + 1;
-					if (!avoids.Contains(ff1Event) && !additionalAvoid.Contains(ff1Event))
-						legal = true;
-				}
-				// If airship and canoe is found outside of the canal, canal must be awarded in lSarah, lCoroniaKing, lMarsh, lAstos, lMatoya, lElfPrince, lCoroniaTreasury, and lDwarf.
-				// If airship is found inside of canal, canal and canoe can be anywhere.
-				// If canoe is found inside of canal, canal can be expanded to the entire southern continent.
-
-				return ff1Event;
 			}
 		}
 
@@ -123,57 +111,57 @@ namespace FF1_PRR.Randomize
 
 				switch (values[0])
 				{
-					case "lute": keyItem = lute; break;
-					case "crown": keyItem = crown; break;
-					case "crystal": keyItem = crystalEye; break;
-					case "jolt_tonic": keyItem = joltTonic; break;
-					case "mystic_key": keyItem = mysticKey; break;
-					case "nitro_powder": keyItem = nitroPowder; break;
-					case "canal": keyItem = canal; break;
-					case "star_ruby": keyItem = starRuby; break;
-					case "rod": keyItem = rod; break;
-					case "levistone": keyItem = floater; break;
+					case "lute": keyItem = (int)flags.lute; break;
+					case "crown": keyItem = (int)flags.crown; break;
+					case "crystal": keyItem = (int)flags.crystalEye; break;
+					case "jolt_tonic": keyItem = (int)flags.joltTonic; break;
+					case "mystic_key": keyItem = (int)flags.mysticKey; break;
+					case "nitro_powder": keyItem = (int)flags.nitroPowder; break;
+					case "canal": keyItem = (int)flags.canal; break;
+					case "star_ruby": keyItem = (int)flags.starRuby; break;
+					case "rod": keyItem = (int)flags.rod; break;
+					case "levistone": keyItem = (int)flags.floater; break;
 					//case "gear": keyItem = gear; break;
-					case "rats_tail": keyItem = ratTail; break;
-					case "oxyale": keyItem = oxyale; break;
-					case "rosetta_stone": keyItem = slab; break;
-					case "chime": keyItem = chime; break;
-					case "warp_cube": keyItem = cube; break;
-					case "adamantite": keyItem = adamantite; break;
-					case "excalibur": keyItem = excalibur; break;
-					case "earth": keyItem = earthCrystal; break;
-					case "fire": keyItem = fireCrystal; break;
-					case "water": keyItem = waterCrystal; break;
-					case "air": keyItem = airCrystal; break;
-					case "lufienish": keyItem = learnLufuin; break;
+					case "rats_tail": keyItem = (int)flags.ratTail; break;
+					case "oxyale": keyItem = (int)flags.oxyale; break;
+					case "rosetta_stone": keyItem = (int)flags.slab; break;
+					case "chime": keyItem = (int)flags.chime; break;
+					case "warp_cube": keyItem = (int)flags.cube; break;
+					case "adamantite": keyItem = (int)flags.adamantite; break;
+					case "excalibur": keyItem = (int)flags.excalibur; break;
+					case "earth": keyItem = (int)flags.earthCrystal; break;
+					case "fire": keyItem = (int)flags.fireCrystal; break;
+					case "water": keyItem = (int)flags.waterCrystal; break;
+					case "air": keyItem = (int)flags.airCrystal; break;
+					case "lufienish": keyItem = (int)flags.learnLufuin; break;
 				}
 
 				switch (values[1])
 				{
-					case "sara": location = lSarah; break;
-					case "king": location = lCoroniaKing; break;
-					case "bikke": location = lPirate; break;
-					case "marsh": location = lMarsh; break;
-					case "astos": location = lAstos; break;
-					case "matoya": location = lMatoya; break;
-					case "elf": location = lElfPrince; break;
-					case "locked_cornelia": location = lCoroniaTreasury; break;
-					case "nerrick": location = lDwarf; break;
-					case "vampire": location = lVampire; break;
-					case "sarda": location = lSage; break;
-					case "ice": location = lIceCave; break;
-					case "citadel_of_trials": location = lOrdeals; break;
-					case "fairy": location = lGaia; break;
-					case "mermaids": location = lShrine5F; break;
-					case "lefien": location = lLefein; break;
-					case "waterfall": location = lWaterfall; break;
-					case "sky2": location = lAdamantite; break;
-					case "smyth": location = lExcal; break;
-					case "lich": location = lLich; break;
-					case "kary": location = lMarilith; break;
-					case "kraken": location = lKraken; break;
-					case "tiamat": location = lTiamat; break;
-					case "dr_unne": location = lUnne ; break;
+					case "sara": location = (int)locations.sarah; break;
+					case "king": location = (int)locations.coroniaKing; break;
+					case "bikke": location = (int)locations.pirate; break;
+					case "marsh": location = (int)locations.marsh; break;
+					case "astos": location = (int)locations.astos; break;
+					case "matoya": location = (int)locations.matoya; break;
+					case "elf": location = (int)locations.elfPrince; break;
+					case "locked_cornelia": location = (int)locations.coroniaTreasury; break;
+					case "nerrick": location = (int)locations.dwarf; break;
+					case "vampire": location = (int)locations.vampire; break;
+					case "sarda": location = (int)locations.sage; break;
+					case "ice": location = (int)locations.iceCave; break;
+					case "citadel_of_trials": location = (int)locations.ordeals; break;
+					case "fairy": location = (int)locations.gaia; break;
+					case "mermaids": location = (int)locations.shrine5F; break;
+					case "lefien": location = (int)locations.lefein; break;
+					case "waterfall": location = (int)locations.waterfall; break;
+					case "sky2": location = (int)locations.adamantite; break;
+					case "smyth": location = (int)locations.excal; break;
+					case "lich": location = (int)locations.lich; break;
+					case "kary": location = (int)locations.marilith; break;
+					case "kraken": location = (int)locations.kraken; break;
+					case "tiamat": location = (int)locations.tiamat; break;
+					case "dr_unne": location = (int)locations.unne ; break;
 				}
 
 				if (keyItem != -1 && location != -1)
@@ -196,126 +184,92 @@ namespace FF1_PRR.Randomize
 				string file2 = "";
 				switch (loc.ff1Event)
 				{
-					case lSarah:
+					case (int)locations.sarah:
 						file = Path.Combine(directory, "Map_20011", "Map_20011_2", "sc_e_0004_1.json");
 						file2 = Path.Combine(directory, "Map_20011", "Map_20011_2", "sc_e_0004_2.json");
 						break;
-					case lCoroniaKing: file = Path.Combine(directory, "Map_20011", "Map_20011_2", "sc_e_0003_3.json"); break;
-					case lPirate: file = Path.Combine(directory, "Map_20040", "Map_20040", "sc_e_0009_2.json"); break;
-					case lMarsh: file = Path.Combine(directory, "Map_30021", "Map_30021_3", "sc_e_0010_1.json"); break;
-					case lAstos: file = Path.Combine(directory, "Map_20081", "Map_20081_1", "sc_e_0011_2.json"); break;
-					case lMatoya: file = Path.Combine(directory, "Map_20031", "Map_20031_1", "sc_e_0012.json"); break;
-					case lElfPrince: file = Path.Combine(directory, "Map_20071", "Map_20071_1", "sc_e_0013.json"); break;
-					case lCoroniaTreasury: file = Path.Combine(directory, "Map_20011", "Map_20011_1", "sc_e_0014.json"); break;
-					case lDwarf: file = Path.Combine(directory, "Map_20051", "Map_20051_1", "sc_e_0015.json"); break;
-					case lExcal: file = Path.Combine(directory, "Map_20051", "Map_20051_1", "sc_e_0052.json"); break;
-					case lVampire: file = Path.Combine(directory, "Map_30031", "Map_30031_3", "sc_e_0017.json"); break;
-					case lSage: file = Path.Combine(directory, "Map_20101", "Map_20101_1", "sc_e_0019.json"); break;
-					case lLich: file = Path.Combine(directory, "Map_30031", "Map_30031_5", "sc_e_0021_2.json"); break;
-					case lCrescentLake: file = Path.Combine(directory, "Map_20110", "Map_20110", "sc_e_0022.json"); break;
-					case lMarilith: file = Path.Combine(directory, "Map_30051", "Map_30051_6", "sc_e_0023_2.json"); break;
-					case lIceCave: file = Path.Combine(directory, "Map_30061", "Map_30061_4", "sc_e_0024_2.json"); break;
-					case lAirship: file = Path.Combine(directory, "Map_10010", "Map_10010", "sc_e_0025_4.json"); break;
-					case lGaia:	file = Path.Combine(directory, "Map_20150", "Map_20150", "sc_e_0029.json");	break;
-					case lWaterfall: file = Path.Combine(directory, "Map_30091", "Map_30091_1", "sc_e_0026.json"); break;
-					case lShrine5F: file = Path.Combine(directory, "Map_30081", "Map_30081_8", "sc_e_0033.json"); break;
-					case lKraken: file = Path.Combine(directory, "Map_30081", "Map_30081_1", "sc_e_0036_2.json"); break;
-					case lUnne:	file = Path.Combine(directory, "Map_20090", "Map_20090", "sc_e_0034.json");	break;
-					case lLefein: file = Path.Combine(directory, "Map_20160", "Map_20160", "sc_e_0035.json"); break;
-					case lOrdeals: file = Path.Combine(directory, "Map_30071", "Map_30071_3", "sc_e_0047.json"); break;
-					case lAdamantite: file = Path.Combine(directory, "Map_30111", "Map_30111_2", "sc_e_0051.json"); break;
-					case lTiamat: file = Path.Combine(directory, "Map_30111", "Map_30111_5", "sc_e_0037_2.json"); break;
+					case (int)locations.coroniaKing: file = Path.Combine(directory, "Map_20011", "Map_20011_2", "sc_e_0003_3.json"); break;
+					case (int)locations.pirate: file = Path.Combine(directory, "Map_20040", "Map_20040", "sc_e_0009_2.json"); break;
+					case (int)locations.marsh: file = Path.Combine(directory, "Map_30021", "Map_30021_3", "sc_e_0010_1.json"); break;
+					case (int)locations.astos: file = Path.Combine(directory, "Map_20081", "Map_20081_1", "sc_e_0011_2.json"); break;
+					case (int)locations.matoya: file = Path.Combine(directory, "Map_20031", "Map_20031_1", "sc_e_0012.json"); break;
+					case (int)locations.elfPrince: file = Path.Combine(directory, "Map_20071", "Map_20071_1", "sc_e_0013.json"); break;
+					case (int)locations.coroniaTreasury: file = Path.Combine(directory, "Map_20011", "Map_20011_1", "sc_e_0014.json"); break;
+					case (int)locations.dwarf: file = Path.Combine(directory, "Map_20051", "Map_20051_1", "sc_e_0015.json"); break;
+					case (int)locations.excal: file = Path.Combine(directory, "Map_20051", "Map_20051_1", "sc_e_0052.json"); break;
+					case (int)locations.vampire: file = Path.Combine(directory, "Map_30031", "Map_30031_3", "sc_e_0017.json"); break;
+					case (int)locations.sage: file = Path.Combine(directory, "Map_20101", "Map_20101_1", "sc_e_0019.json"); break;
+					case (int)locations.lich: file = Path.Combine(directory, "Map_30031", "Map_30031_5", "sc_e_0021_2.json"); break;
+					case (int)locations.crescentLake: file = Path.Combine(directory, "Map_20110", "Map_20110", "sc_e_0022.json"); break;
+					case (int)locations.marilith: file = Path.Combine(directory, "Map_30051", "Map_30051_6", "sc_e_0023_2.json"); break;
+					case (int)locations.iceCave: file = Path.Combine(directory, "Map_30061", "Map_30061_4", "sc_e_0024_2.json"); break;
+					case (int)locations.airship: file = Path.Combine(directory, "Map_10010", "Map_10010", "sc_e_0025_4.json"); break;
+					case (int)locations.gaia:	file = Path.Combine(directory, "Map_20150", "Map_20150", "sc_e_0029.json");	break;
+					case (int)locations.waterfall: file = Path.Combine(directory, "Map_30091", "Map_30091_1", "sc_e_0026.json"); break;
+					case (int)locations.shrine5F: file = Path.Combine(directory, "Map_30081", "Map_30081_8", "sc_e_0033.json"); break;
+					case (int)locations.kraken: file = Path.Combine(directory, "Map_30081", "Map_30081_1", "sc_e_0036_2.json"); break;
+					case (int)locations.unne:	file = Path.Combine(directory, "Map_20090", "Map_20090", "sc_e_0034.json");	break;
+					case (int)locations.lefein: file = Path.Combine(directory, "Map_20160", "Map_20160", "sc_e_0035.json"); break;
+					case (int)locations.ordeals: file = Path.Combine(directory, "Map_30071", "Map_30071_3", "sc_e_0047.json"); break;
+					case (int)locations.adamantite: file = Path.Combine(directory, "Map_30111", "Map_30111_2", "sc_e_0051.json"); break;
+					case (int)locations.tiamat: file = Path.Combine(directory, "Map_30111", "Map_30111_5", "sc_e_0037_2.json"); break;
 				}
 
-				string json = File.ReadAllText(file);
-				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
-				foreach (var singleScript in jEvents.Mnemonics)
+				for (int i = 1; i <= 2; i++)
 				{
-					if (singleScript.mnemonic == "MsgFunfare")
-						singleScript.operands.sValues[0] = "MSG_KEY_" + (loc.keyItem > 0 ? loc.keyItem.ToString() : "A1");
-					if (singleScript.mnemonic == "GetItem" && singleScript.operands.iValues[1] >= 0)
-					{
-						int keyItem = 2;
-						switch (loc.keyItem)
-						{
-							case floater: keyItem = 55; break;
-							case chime: keyItem = 56; break;
-							case cube: keyItem = 58; break;
-							case oxyale: keyItem = 60; break;
-							case crown: keyItem = 46; break;
-							case crystalEye: keyItem = 47; break;
-							case joltTonic: keyItem = 48; break;
-							case mysticKey: keyItem = 49; break;
-							case nitroPowder: keyItem = 50; break;
-							case starRuby: keyItem = 53; break;
-							case rod: keyItem = 54; break;
-							case slab: keyItem = 52; break;
-							case adamantite: keyItem = 51; break;
-							case lute: keyItem = 45; break;
-							case ratTail: keyItem = 57; break;
-							case excalibur: keyItem = 92; break;
-						}
-						singleScript.operands.iValues[0] = keyItem;
-						singleScript.operands.iValues[1] = keyItem == 2 ? 0 : 1;
-					}
-					if (singleScript.mnemonic == "SetFlag" && singleScript.operands.iValues[0] < 100 && singleScript.operands.sValues[0] == "ScenarioFlag1")
-						singleScript.operands.iValues[0] = loc.keyItem > 0 ? loc.keyItem : 0;
-				}
-
-				JsonSerializer serializer = new JsonSerializer();
-
-				using (StreamWriter sw = new StreamWriter(file))
-				using (JsonWriter writer = new JsonTextWriter(sw))
-				{
-					serializer.Serialize(writer, jEvents);
-				}
-
-				if (file2 != "")
-				{
-					json = File.ReadAllText(file2);
-					jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
-					foreach (var singleScript in jEvents.Mnemonics)
-					{
-						if (singleScript.mnemonic == "MsgFunfare" && singleScript.operands.iValues[1] >= 0)
-							singleScript.operands.sValues[0] = "MSG_KEY_" + (loc.keyItem > 0 ? loc.keyItem.ToString() : "A1");
-						if (singleScript.mnemonic == "GetItem" && singleScript.operands.iValues[1] >= 0)
-						{
-							int keyItem = 2;
-							switch (loc.keyItem) {
-								case floater: keyItem = 55; break;
-								case chime: keyItem = 56; break;
-								case cube: keyItem = 58; break;
-								case oxyale: keyItem = 60; break;
-								case crown: keyItem = 46; break;
-								case crystalEye: keyItem = 47; break;
-								case joltTonic: keyItem = 48; break;
-								case mysticKey: keyItem = 49; break;
-								case nitroPowder: keyItem = 50; break;
-								case starRuby: keyItem = 53; break;
-								case rod: keyItem = 54; break;
-								case slab: keyItem = 52; break;
-								case adamantite: keyItem = 51; break;
-								case lute: keyItem = 45; break;
-								case ratTail: keyItem = 57; break;
-								case excalibur: keyItem = 92; break;
-							}
-							singleScript.operands.iValues[0] = keyItem;
-							singleScript.operands.iValues[1] = keyItem == 2 ? 0 : 1;
-						}
-						if (singleScript.mnemonic == "SetFlag" && singleScript.operands.iValues[0] < 100)
-							singleScript.operands.iValues[0] = loc.keyItem > 0 ? loc.keyItem : 0;
-					}
-
-					using (StreamWriter sw = new StreamWriter(file2))
-					using (JsonWriter writer = new JsonTextWriter(sw))
-					{
-						serializer.Serialize(writer, jEvents);
-					}
+					string fileToUse = (i == 1 ? file : file2 != "" ? file2 : null);
+					if (fileToUse != null)
+						JsonRewrite(fileToUse, loc);
 				}
 			}
 
 			// SetVehicle - 3/145/160 for airship.  4/145/162 for ship.
+		}
 
+		private void JsonRewrite(string fileName, locationData loc)
+		{
+			string json = File.ReadAllText(fileName);
+			EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+			foreach (var singleScript in jEvents.Mnemonics)
+			{
+				if (singleScript.mnemonic == "MsgFunfare")
+					singleScript.operands.sValues[0] = "MSG_KEY_" + (loc.keyItem > 0 ? loc.keyItem.ToString() : "A1");
+				if (singleScript.mnemonic == "GetItem" && singleScript.operands.iValues[1] >= 0)
+				{
+					int keyItem = 2;
+					switch (loc.keyItem)
+					{
+						case (int)flags.floater: keyItem = 55; break;
+						case (int)flags.chime: keyItem = 56; break;
+						case (int)flags.cube: keyItem = 58; break;
+						case (int)flags.oxyale: keyItem = 60; break;
+						case (int)flags.crown: keyItem = 46; break;
+						case (int)flags.crystalEye: keyItem = 47; break;
+						case (int)flags.joltTonic: keyItem = 48; break;
+						case (int)flags.mysticKey: keyItem = 49; break;
+						case (int)flags.nitroPowder: keyItem = 50; break;
+						case (int)flags.starRuby: keyItem = 53; break;
+						case (int)flags.rod: keyItem = 54; break;
+						case (int)flags.slab: keyItem = 52; break;
+						case (int)flags.adamantite: keyItem = 51; break;
+						case (int)flags.lute: keyItem = 45; break;
+						case (int)flags.ratTail: keyItem = 57; break;
+						case (int)flags.excalibur: keyItem = 92; break;
+					}
+					singleScript.operands.iValues[0] = keyItem;
+					singleScript.operands.iValues[1] = keyItem == 2 ? 0 : 1;
+				}
+				if (singleScript.mnemonic == "SetFlag" && singleScript.operands.iValues[0] < 100 && singleScript.operands.sValues[0] == "ScenarioFlag1")
+					singleScript.operands.iValues[0] = loc.keyItem > 0 ? loc.keyItem : 0;
+			}
+
+			JsonSerializer serializer = new JsonSerializer();
+
+			using (StreamWriter sw = new StreamWriter(fileName))
+			using (JsonWriter writer = new JsonTextWriter(sw))
+			{
+				serializer.Serialize(writer, jEvents);
+			}
 		}
 	}
 }
