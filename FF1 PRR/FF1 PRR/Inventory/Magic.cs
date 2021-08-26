@@ -135,7 +135,7 @@ namespace FF1_PRR.Inventory
 			public int data_c { get; set; }
 		}
 
-		public void shuffleMagic(Random r1, string fileName)
+		public void shuffleMagic(Random r1, bool keepPermissions, string fileName)
 		{
 			all.AddRange(Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList());
 			List<ability> records;
@@ -183,46 +183,49 @@ namespace FF1_PRR.Inventory
 				records[ln2].ability_lv = level;
 			}
 
-			List<int> permissions = new List<int> {
-				42, 42, 27, 43,
-				42, 42, 42, 42,
-				42, 42, 27, 27,
-				45, 45, 27, 46,
-				45, 27, 46, 27,
-				27, 46, 50, 46,
-				24, 46, 24, 27,
-				24, 24, 24, 24,
-
-				44, 44, 44, 44,
-				44, 44, 44, 44,
-				44, 44, 44, 44,
-				44, 44, 44, 44,
-				47, 48, 49, 47,
-				49, 29, 29, 29,
-				49, 22, 22, 29,
-				22, 22, 22, 22
-			};
-
-			int lnJ = 0;
-			for (int lnI = 1; lnI <= 8; lnI++)
+			if (!keepPermissions)
 			{
-				foreach (int wm in wMagic)
+				List<int> permissions = new List<int> {
+					42, 42, 27, 43,
+					42, 42, 42, 42,
+					42, 42, 27, 27,
+					45, 45, 27, 46,
+					45, 27, 46, 27,
+					27, 46, 50, 46,
+					24, 46, 24, 27,
+					24, 24, 24, 24,
+
+					44, 44, 44, 44,
+					44, 44, 44, 44,
+					44, 44, 44, 44,
+					44, 44, 44, 44,
+					47, 48, 49, 47,
+					49, 29, 29, 29,
+					49, 22, 22, 29,
+					22, 22, 22, 22
+				};
+
+				int lnJ = 0;
+				for (int lnI = 1; lnI <= 8; lnI++)
 				{
-					if (records[wm].ability_lv == lnI)
+					foreach (int wm in wMagic)
 					{
-						records[wm].use_job_group_id = permissions[lnJ];
-						lnJ++;
+						if (records[wm].ability_lv == lnI)
+						{
+							records[wm].use_job_group_id = permissions[lnJ];
+							lnJ++;
+						}
 					}
 				}
-			}
-			for (int lnI = 1; lnI <= 8; lnI++)
-			{
-				foreach (int bm in bMagic)
+				for (int lnI = 1; lnI <= 8; lnI++)
 				{
-					if (records[bm].ability_lv == lnI)
+					foreach (int bm in bMagic)
 					{
-						records[bm].use_job_group_id = permissions[lnJ];
-						lnJ++;
+						if (records[bm].ability_lv == lnI)
+						{
+							records[bm].use_job_group_id = permissions[lnJ];
+							lnJ++;
+						}
 					}
 				}
 			}

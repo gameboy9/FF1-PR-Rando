@@ -28,9 +28,9 @@ namespace FF1_PRR
 			if (loading) return;
 
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions }));
 			// Combo boxes time...
-			flags += convertIntToChar(RandoShop.SelectedIndex); // + (8 * cboShops.SelectedIndex) <----- Keep this for now; we'll use it later for sure.
+			flags += convertIntToChar(RandoShop.SelectedIndex + (8 * monsterXPGPBoost.SelectedIndex));
 			RandoFlags.Text = flags;
 
 			flags = "";
@@ -41,7 +41,7 @@ namespace FF1_PRR
 		private void determineChecks(object sender, EventArgs e)
 		{
 			if (loading && RandoFlags.Text.Length < 2)
-				RandoFlags.Text = "31";
+				RandoFlags.Text = "BA";
 			else if (RandoFlags.Text.Length < 2)
 				return;
 
@@ -53,14 +53,14 @@ namespace FF1_PRR
 			loading = true;
 
 			string flags = RandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions });
 			RandoShop.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
+			monsterXPGPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) / 8;
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
 
 			// TEMPORARY:  Keep commented; we will be using combo boxes eventually
-			//cboStorePrices.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) / 8;
 
 			loading = false;
 		}
@@ -128,7 +128,7 @@ namespace FF1_PRR
 			}
 			catch
 			{
-				RandoFlags.Text = "31";
+				RandoFlags.Text = "BA";
 				VisualFlags.Text = "0";
 				// ignore error
 				loading = false;
@@ -146,8 +146,8 @@ namespace FF1_PRR
 		{
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			if (RandoShop.SelectedIndex > 0) randomizeShops();
-			randomizeMagic();
-			randomizeKeyItems();
+			if (randoMagic.Checked) randomizeMagic(keepMagicPermissions.Checked);
+			if (KeyItems.Checked) randomizeKeyItems();
 			monsterBoost();
 			if (CuteHats.Checked)
 			{
@@ -165,9 +165,9 @@ namespace FF1_PRR
 				Traditional.Checked);
 		}
 
-		private void randomizeMagic()
+		private void randomizeMagic(bool keepPermissions)
 		{
-			new Inventory.Magic().shuffleMagic(r1,
+			new Inventory.Magic().shuffleMagic(r1, keepPermissions,
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
 		}
 
@@ -179,7 +179,14 @@ namespace FF1_PRR
 
 		private void monsterBoost()
 		{
-			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), 5, 500, 5, 500);
+			double xp = monsterXPGPBoost.SelectedIndex == 0 ? 0.5 :
+				monsterXPGPBoost.SelectedIndex == 1 ? 1.0 :
+				monsterXPGPBoost.SelectedIndex == 2 ? 1.5 :
+				monsterXPGPBoost.SelectedIndex == 3 ? 2.0 :
+				monsterXPGPBoost.SelectedIndex == 4 ? 3.0 :
+				monsterXPGPBoost.SelectedIndex == 5 ? 4.0 :
+				monsterXPGPBoost.SelectedIndex == 6 ? 5.0 : 10;
+			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), xp, 0, xp, 0);
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
