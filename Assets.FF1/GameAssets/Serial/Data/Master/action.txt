@@ -1,9 +1,0 @@
-id,action_name
-1,LayerChange
-2,RunScript
-3,GoToMap
-4,Talk
-5,OpenTrigger
-6,OpenTresureBox
-7,OnSavePoint
-8,Shop

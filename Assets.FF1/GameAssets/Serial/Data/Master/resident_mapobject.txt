@@ -1,5 +1,0 @@
-id,mapobject_id,entity_id,object_type
-1,125,900,5
-2,126,901,5
-3,127,902,5
-4,180,903,11

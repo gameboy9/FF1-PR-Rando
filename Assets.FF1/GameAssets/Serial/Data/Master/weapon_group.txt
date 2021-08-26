@@ -1,1 +1,0 @@
-id,group_id,weapon_id

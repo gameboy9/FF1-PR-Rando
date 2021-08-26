@@ -1,1 +1,0 @@
-id,type_id,value1,value2,job_id,content_id

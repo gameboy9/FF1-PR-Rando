@@ -1,2 +1,0 @@
-id,message_id,color_code,asset_name
-1,None,None,UI_Common_speaker_c00

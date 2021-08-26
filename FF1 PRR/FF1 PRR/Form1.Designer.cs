@@ -1,7 +1,7 @@
 ﻿
 namespace FF1_PRR
 {
-	partial class frmFF1PRR
+	partial class FF1PRR
 	{
 		/// <summary>
 		///  Required designer variable.
@@ -29,35 +29,35 @@ namespace FF1_PRR
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.cmdRandomize = new System.Windows.Forms.Button();
+			this.Randomize = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
-			this.txtFF1PRFolder = new System.Windows.Forms.TextBox();
-			this.chkCuteHats = new System.Windows.Forms.CheckBox();
-			this.chkShuffleBossSpots = new System.Windows.Forms.CheckBox();
-			this.chkKeyItems = new System.Windows.Forms.CheckBox();
+			this.FF1PRFolder = new System.Windows.Forms.TextBox();
+			this.CuteHats = new System.Windows.Forms.CheckBox();
+			this.ShuffleBossSpots = new System.Windows.Forms.CheckBox();
+			this.KeyItems = new System.Windows.Forms.CheckBox();
 			this.label2 = new System.Windows.Forms.Label();
-			this.txtRandoFlags = new System.Windows.Forms.TextBox();
-			this.lblNewChecksum = new System.Windows.Forms.Label();
-			this.txtSeed = new System.Windows.Forms.TextBox();
+			this.RandoFlags = new System.Windows.Forms.TextBox();
+			this.NewChecksum = new System.Windows.Forms.Label();
+			this.RandoSeed = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
-			this.btnNew = new System.Windows.Forms.Button();
-			this.txtVisualFlags = new System.Windows.Forms.TextBox();
+			this.NewSeed = new System.Windows.Forms.Button();
+			this.VisualFlags = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.btnBrowse = new System.Windows.Forms.Button();
+			this.BrowseForFolder = new System.Windows.Forms.Button();
 			this.label5 = new System.Windows.Forms.Label();
-			this.cboShops = new System.Windows.Forms.ComboBox();
-			this.chkTraditional = new System.Windows.Forms.CheckBox();
+			this.RandoShop = new System.Windows.Forms.ComboBox();
+			this.Traditional = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
 			// 
 			// cmdRandomize
 			// 
-			this.cmdRandomize.Location = new System.Drawing.Point(668, 409);
-			this.cmdRandomize.Name = "cmdRandomize";
-			this.cmdRandomize.Size = new System.Drawing.Size(120, 29);
-			this.cmdRandomize.TabIndex = 0;
-			this.cmdRandomize.Text = "Randomize!";
-			this.cmdRandomize.UseVisualStyleBackColor = true;
-			this.cmdRandomize.Click += new System.EventHandler(this.cmdRandomize_Click);
+			this.Randomize.Location = new System.Drawing.Point(668, 409);
+			this.Randomize.Name = "Randomize";
+			this.Randomize.Size = new System.Drawing.Size(120, 29);
+			this.Randomize.TabIndex = 0;
+			this.Randomize.Text = "Randomize!";
+			this.Randomize.UseVisualStyleBackColor = true;
+			this.Randomize.Click += new System.EventHandler(this.Randomize_Click);
 			// 
 			// label1
 			// 
@@ -70,43 +70,43 @@ namespace FF1_PRR
 			// 
 			// txtFF1PRFolder
 			// 
-			this.txtFF1PRFolder.Location = new System.Drawing.Point(116, 6);
-			this.txtFF1PRFolder.Name = "txtFF1PRFolder";
-			this.txtFF1PRFolder.Size = new System.Drawing.Size(502, 27);
-			this.txtFF1PRFolder.TabIndex = 2;
+			this.FF1PRFolder.Location = new System.Drawing.Point(116, 6);
+			this.FF1PRFolder.Name = "FF1PRFolder";
+			this.FF1PRFolder.Size = new System.Drawing.Size(502, 27);
+			this.FF1PRFolder.TabIndex = 2;
 			// 
 			// chkCuteHats
 			// 
-			this.chkCuteHats.AutoSize = true;
-			this.chkCuteHats.Location = new System.Drawing.Point(12, 188);
-			this.chkCuteHats.Name = "chkCuteHats";
-			this.chkCuteHats.Size = new System.Drawing.Size(95, 24);
-			this.chkCuteHats.TabIndex = 3;
-			this.chkCuteHats.Text = "Cute Hats";
-			this.chkCuteHats.UseVisualStyleBackColor = true;
-			this.chkCuteHats.Click += new System.EventHandler(this.determineFlags);
+			this.CuteHats.AutoSize = true;
+			this.CuteHats.Location = new System.Drawing.Point(12, 188);
+			this.CuteHats.Name = "CuteHats";
+			this.CuteHats.Size = new System.Drawing.Size(95, 24);
+			this.CuteHats.TabIndex = 3;
+			this.CuteHats.Text = "Cute Hats";
+			this.CuteHats.UseVisualStyleBackColor = true;
+			this.CuteHats.Click += new System.EventHandler(this.DetermineFlags);
 			// 
 			// chkShuffleBossSpots
 			// 
-			this.chkShuffleBossSpots.AutoSize = true;
-			this.chkShuffleBossSpots.Location = new System.Drawing.Point(12, 128);
-			this.chkShuffleBossSpots.Name = "chkShuffleBossSpots";
-			this.chkShuffleBossSpots.Size = new System.Drawing.Size(152, 24);
-			this.chkShuffleBossSpots.TabIndex = 4;
-			this.chkShuffleBossSpots.Text = "Shuffle Boss Spots";
-			this.chkShuffleBossSpots.UseVisualStyleBackColor = true;
-			this.chkShuffleBossSpots.Click += new System.EventHandler(this.determineFlags);
+			this.ShuffleBossSpots.AutoSize = true;
+			this.ShuffleBossSpots.Location = new System.Drawing.Point(12, 128);
+			this.ShuffleBossSpots.Name = "ShuffleBossSpots";
+			this.ShuffleBossSpots.Size = new System.Drawing.Size(152, 24);
+			this.ShuffleBossSpots.TabIndex = 4;
+			this.ShuffleBossSpots.Text = "Shuffle Boss Spots";
+			this.ShuffleBossSpots.UseVisualStyleBackColor = true;
+			this.ShuffleBossSpots.Click += new System.EventHandler(this.DetermineFlags);
 			// 
 			// chkKeyItems
 			// 
-			this.chkKeyItems.AutoSize = true;
-			this.chkKeyItems.Location = new System.Drawing.Point(12, 158);
-			this.chkKeyItems.Name = "chkKeyItems";
-			this.chkKeyItems.Size = new System.Drawing.Size(174, 24);
-			this.chkKeyItems.TabIndex = 5;
-			this.chkKeyItems.Text = "Randomize Key Items";
-			this.chkKeyItems.UseVisualStyleBackColor = true;
-			this.chkKeyItems.Click += new System.EventHandler(this.determineFlags);
+			this.KeyItems.AutoSize = true;
+			this.KeyItems.Location = new System.Drawing.Point(12, 158);
+			this.KeyItems.Name = "KeyItems";
+			this.KeyItems.Size = new System.Drawing.Size(174, 24);
+			this.KeyItems.TabIndex = 5;
+			this.KeyItems.Text = "Randomize Key Items";
+			this.KeyItems.UseVisualStyleBackColor = true;
+			this.KeyItems.Click += new System.EventHandler(this.DetermineFlags);
 			// 
 			// label2
 			// 
@@ -119,26 +119,26 @@ namespace FF1_PRR
 			// 
 			// txtRandoFlags
 			// 
-			this.txtRandoFlags.Location = new System.Drawing.Point(116, 47);
-			this.txtRandoFlags.Name = "txtRandoFlags";
-			this.txtRandoFlags.Size = new System.Drawing.Size(346, 27);
-			this.txtRandoFlags.TabIndex = 7;
+			this.RandoFlags.Location = new System.Drawing.Point(116, 47);
+			this.RandoFlags.Name = "RandoFlags";
+			this.RandoFlags.Size = new System.Drawing.Size(346, 27);
+			this.RandoFlags.TabIndex = 7;
 			// 
 			// lblNewChecksum
 			// 
-			this.lblNewChecksum.AutoSize = true;
-			this.lblNewChecksum.Location = new System.Drawing.Point(12, 413);
-			this.lblNewChecksum.Name = "lblNewChecksum";
-			this.lblNewChecksum.Size = new System.Drawing.Size(267, 20);
-			this.lblNewChecksum.TabIndex = 8;
-			this.lblNewChecksum.Text = "New Checksum:  (Not Randomized Yet)";
+			this.NewChecksum.AutoSize = true;
+			this.NewChecksum.Location = new System.Drawing.Point(12, 413);
+			this.NewChecksum.Name = "NewChecksum";
+			this.NewChecksum.Size = new System.Drawing.Size(267, 20);
+			this.NewChecksum.TabIndex = 8;
+			this.NewChecksum.Text = "New Checksum:  (Not Randomized Yet)";
 			// 
 			// txtSeed
 			// 
-			this.txtSeed.Location = new System.Drawing.Point(554, 44);
-			this.txtSeed.Name = "txtSeed";
-			this.txtSeed.Size = new System.Drawing.Size(160, 27);
-			this.txtSeed.TabIndex = 10;
+			this.RandoSeed.Location = new System.Drawing.Point(554, 44);
+			this.RandoSeed.Name = "RandoSeed";
+			this.RandoSeed.Size = new System.Drawing.Size(160, 27);
+			this.RandoSeed.TabIndex = 10;
 			// 
 			// label3
 			// 
@@ -151,20 +151,20 @@ namespace FF1_PRR
 			// 
 			// btnNew
 			// 
-			this.btnNew.Location = new System.Drawing.Point(729, 43);
-			this.btnNew.Name = "btnNew";
-			this.btnNew.Size = new System.Drawing.Size(59, 29);
-			this.btnNew.TabIndex = 11;
-			this.btnNew.Text = "New";
-			this.btnNew.UseVisualStyleBackColor = true;
-			this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+			this.NewSeed.Location = new System.Drawing.Point(729, 43);
+			this.NewSeed.Name = "NewSeed";
+			this.NewSeed.Size = new System.Drawing.Size(59, 29);
+			this.NewSeed.TabIndex = 11;
+			this.NewSeed.Text = "New";
+			this.NewSeed.UseVisualStyleBackColor = true;
+			this.NewSeed.Click += new System.EventHandler(this.NewSeed_Click);
 			// 
 			// txtVisualFlags
 			// 
-			this.txtVisualFlags.Location = new System.Drawing.Point(116, 84);
-			this.txtVisualFlags.Name = "txtVisualFlags";
-			this.txtVisualFlags.Size = new System.Drawing.Size(346, 27);
-			this.txtVisualFlags.TabIndex = 13;
+			this.VisualFlags.Location = new System.Drawing.Point(116, 84);
+			this.VisualFlags.Name = "VisualFlags";
+			this.VisualFlags.Size = new System.Drawing.Size(346, 27);
+			this.VisualFlags.TabIndex = 13;
 			// 
 			// label4
 			// 
@@ -177,13 +177,13 @@ namespace FF1_PRR
 			// 
 			// btnBrowse
 			// 
-			this.btnBrowse.Location = new System.Drawing.Point(693, 6);
-			this.btnBrowse.Name = "btnBrowse";
-			this.btnBrowse.Size = new System.Drawing.Size(95, 28);
-			this.btnBrowse.TabIndex = 14;
-			this.btnBrowse.Text = "Browse";
-			this.btnBrowse.UseVisualStyleBackColor = true;
-			this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+			this.BrowseForFolder.Location = new System.Drawing.Point(693, 6);
+			this.BrowseForFolder.Name = "BrowseForFolder";
+			this.BrowseForFolder.Size = new System.Drawing.Size(95, 28);
+			this.BrowseForFolder.TabIndex = 14;
+			this.BrowseForFolder.Text = "Browse";
+			this.BrowseForFolder.UseVisualStyleBackColor = true;
+			this.BrowseForFolder.Click += new System.EventHandler(this.btnBrowse_Click);
 			// 
 			// label5
 			// 
@@ -196,58 +196,58 @@ namespace FF1_PRR
 			// 
 			// cboShops
 			// 
-			this.cboShops.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboShops.FormattingEnabled = true;
-			this.cboShops.Items.AddRange(new object[] {
+			this.RandoShop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.RandoShop.FormattingEnabled = true;
+			this.RandoShop.Items.AddRange(new object[] {
             "None",
             "Shuffle",
             "Standard",
             "Pro",
             "Wild"});
-			this.cboShops.Location = new System.Drawing.Point(196, 222);
-			this.cboShops.Name = "cboShops";
-			this.cboShops.Size = new System.Drawing.Size(151, 28);
-			this.cboShops.TabIndex = 16;
-			this.cboShops.SelectedIndexChanged += new System.EventHandler(this.determineFlags);
+			this.RandoShop.Location = new System.Drawing.Point(196, 222);
+			this.RandoShop.Name = "RandoShop";
+			this.RandoShop.Size = new System.Drawing.Size(151, 28);
+			this.RandoShop.TabIndex = 16;
+			this.RandoShop.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
 			// 
 			// chkTraditional
 			// 
-			this.chkTraditional.AutoSize = true;
-			this.chkTraditional.Location = new System.Drawing.Point(367, 224);
-			this.chkTraditional.Name = "chkTraditional";
-			this.chkTraditional.Size = new System.Drawing.Size(102, 24);
-			this.chkTraditional.TabIndex = 17;
-			this.chkTraditional.Text = "NES Shops";
-			this.chkTraditional.UseVisualStyleBackColor = true;
-			this.chkTraditional.Click += new System.EventHandler(this.determineFlags);
+			this.Traditional.AutoSize = true;
+			this.Traditional.Location = new System.Drawing.Point(367, 224);
+			this.Traditional.Name = "Traditional";
+			this.Traditional.Size = new System.Drawing.Size(102, 24);
+			this.Traditional.TabIndex = 17;
+			this.Traditional.Text = "NES Shops";
+			this.Traditional.UseVisualStyleBackColor = true;
+			this.Traditional.Click += new System.EventHandler(this.DetermineFlags);
 			// 
 			// frmFF1PRR
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.chkTraditional);
-			this.Controls.Add(this.cboShops);
+			this.Controls.Add(this.Traditional);
+			this.Controls.Add(this.RandoShop);
 			this.Controls.Add(this.label5);
-			this.Controls.Add(this.btnBrowse);
-			this.Controls.Add(this.txtVisualFlags);
+			this.Controls.Add(this.BrowseForFolder);
+			this.Controls.Add(this.VisualFlags);
 			this.Controls.Add(this.label4);
-			this.Controls.Add(this.btnNew);
-			this.Controls.Add(this.txtSeed);
+			this.Controls.Add(this.NewSeed);
+			this.Controls.Add(this.RandoSeed);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.lblNewChecksum);
-			this.Controls.Add(this.txtRandoFlags);
+			this.Controls.Add(this.NewChecksum);
+			this.Controls.Add(this.RandoFlags);
 			this.Controls.Add(this.label2);
-			this.Controls.Add(this.chkKeyItems);
-			this.Controls.Add(this.chkShuffleBossSpots);
-			this.Controls.Add(this.chkCuteHats);
-			this.Controls.Add(this.txtFF1PRFolder);
+			this.Controls.Add(this.KeyItems);
+			this.Controls.Add(this.ShuffleBossSpots);
+			this.Controls.Add(this.CuteHats);
+			this.Controls.Add(this.FF1PRFolder);
 			this.Controls.Add(this.label1);
-			this.Controls.Add(this.cmdRandomize);
-			this.Name = "frmFF1PRR";
+			this.Controls.Add(this.Randomize);
+			this.Name = "FF1PRR";
 			this.Text = "Final Fantasy 1 Pixel Remaster Randomizer";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmFF1PRR_FormClosing);
-			this.Load += new System.EventHandler(this.frmFF1PRR_Load);
+			this.Load += new System.EventHandler(this.FF1PRR_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -255,24 +255,24 @@ namespace FF1_PRR
 
 		#endregion
 
-		private System.Windows.Forms.Button cmdRandomize;
+		private System.Windows.Forms.Button Randomize;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox txtFF1PRFolder;
-		private System.Windows.Forms.CheckBox chkCuteHats;
-		private System.Windows.Forms.CheckBox chkShuffleBossSpots;
-		private System.Windows.Forms.CheckBox chkKeyItems;
+		private System.Windows.Forms.TextBox FF1PRFolder;
+		private System.Windows.Forms.CheckBox CuteHats;
+		private System.Windows.Forms.CheckBox ShuffleBossSpots;
+		private System.Windows.Forms.CheckBox KeyItems;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox txtRandoFlags;
-		private System.Windows.Forms.Label lblNewChecksum;
-		private System.Windows.Forms.TextBox txtSeed;
+		private System.Windows.Forms.TextBox RandoFlags;
+		private System.Windows.Forms.Label NewChecksum;
+		private System.Windows.Forms.TextBox RandoSeed;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button btnNew;
-		private System.Windows.Forms.TextBox txtVisualFlags;
+		private System.Windows.Forms.Button NewSeed;
+		private System.Windows.Forms.TextBox VisualFlags;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Button btnBrowse;
+		private System.Windows.Forms.Button BrowseForFolder;
 		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.ComboBox cboShops;
-		private System.Windows.Forms.CheckBox chkTraditional;
+		private System.Windows.Forms.ComboBox RandoShop;
+		private System.Windows.Forms.CheckBox Traditional;
 	}
 }
 

@@ -1,2 +1,0 @@
-id,point_max,base_id
-1,33,1

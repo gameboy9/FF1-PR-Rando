@@ -17,7 +17,7 @@ namespace FF1_PRR
 			Application.SetHighDpiMode(HighDpiMode.SystemAware);
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new frmFF1PRR());
+			Application.Run(new FF1PRR());
 		}
 	}
 }
