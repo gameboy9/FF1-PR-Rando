@@ -210,5 +210,35 @@ namespace FF1_PRR
 					FF1PRFolder.Text = fbd.SelectedPath;
 			}
 		}
-	}
+
+        private void VisualFlags_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Traditional_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flagRebalanceItemPrices_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

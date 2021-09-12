@@ -1,0 +1,12 @@
+file,name,id,field,value,comment
+weapon.csv,Hammer,53,intelligence,9,
+weapon.csv,Mythril Hammer,54,intelligence,12,
+weapon.csv,Thor's Hammer,55,intelligence,18,
+weapon.csv,Staff,57,intelligence,6,
+weapon.csv,Healing Staff,58,intelligence,6,
+weapon.csv,Power Staff,59,intelligence,12,
+weapon.csv,Mage's Staff,60,intelligence,12,
+weapon.csv,Crosier,61,intelligence,14,
+weapon.csv,Wizard's Staff,62,intelligence,15,
+weapon.csv,Crosier,61,buy,1600,From 160
+weapon.csv,Crosier,61,sell,800,From 80

@@ -1,0 +1,20 @@
+file,name,id,field,value,comment
+monster.csv,Garland,106,hp,212,212
+monster.csv,Pirate,16,hp,32,24
+monster.csv,Piscodemon,104,hp,120,84
+monster.csv,Astos,114,hp,420,420
+monster.csv,Vampire (boss),129,hp,600,280
+monster.csv,Lich 1,120,hp,1200,1200
+monster.csv,Marilith 1,122,hp,1600,1440
+monster.csv,Evil Eye,51,hp,400,162
+monster.csv,Dragon Zombie,69,hp,400,268
+monster.csv,Kraken 1,124,hp,2000,1800
+monster.csv,Blue Dragon,108,hp,600,454
+monster.csv,Warmech,119,hp,4000,2000
+monster.csv,Tiamat 1,126,hp,2400,2400
+monster.csv,Death Eye,52,hp,2400,360
+monster.csv,Lich 2,121,hp,3600,2400
+monster.csv,Marilith 2,123,hp,4800,3200
+monster.csv,Kraken 2,125,hp,6000,3600
+monster.csv,Tiamat 2,127,hp,7200,5500
+monster.csv,Chaos,128,hp,9600,20000
