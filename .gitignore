@@ -653,3 +653,5 @@ fabric.properties
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,rider,visualstudio,visualstudiocode
+/Assets-original/GameAssets
+/Assets_Modified/Assets/GameAssets

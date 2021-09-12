@@ -210,5 +210,5 @@ namespace FF1_PRR
 					FF1PRFolder.Text = fbd.SelectedPath;
 			}
 		}
-	}
+    }
 }
