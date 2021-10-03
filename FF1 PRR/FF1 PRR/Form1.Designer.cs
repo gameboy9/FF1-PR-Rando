@@ -30,7 +30,7 @@ namespace FF1_PRR
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
-            this.Randomize = new System.Windows.Forms.Button();
+            this.btnRandomize = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.FF1PRFolder = new System.Windows.Forms.TextBox();
             this.CuteHats = new System.Windows.Forms.CheckBox();
@@ -62,6 +62,8 @@ namespace FF1_PRR
             this.flagWandsAddInt = new System.Windows.Forms.CheckBox();
             this.flagFiendsDropRibbons = new System.Windows.Forms.CheckBox();
             this.flagRebalanceBosses = new System.Windows.Forms.CheckBox();
+            this.btnRestoreVanilla = new System.Windows.Forms.Button();
+            this.btnChestInfo = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -72,16 +74,16 @@ namespace FF1_PRR
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Randomize
+            // btnRandomize
             // 
-            this.Randomize.Location = new System.Drawing.Point(1054, 865);
-            this.Randomize.Name = "Randomize";
-            this.Randomize.Padding = new System.Windows.Forms.Padding(5);
-            this.Randomize.Size = new System.Drawing.Size(195, 46);
-            this.Randomize.TabIndex = 0;
-            this.Randomize.Text = "Randomize!";
-            this.Randomize.UseVisualStyleBackColor = true;
-            this.Randomize.Click += new System.EventHandler(this.Randomize_Click);
+            this.btnRandomize.Location = new System.Drawing.Point(1054, 865);
+            this.btnRandomize.Name = "btnRandomize";
+            this.btnRandomize.Padding = new System.Windows.Forms.Padding(5);
+            this.btnRandomize.Size = new System.Drawing.Size(195, 46);
+            this.btnRandomize.TabIndex = 0;
+            this.btnRandomize.Text = "Randomize!";
+            this.btnRandomize.UseVisualStyleBackColor = true;
+            this.btnRandomize.Click += new System.EventHandler(this.btnRandomize_Click);
             // 
             // label1
             // 
@@ -96,7 +98,7 @@ namespace FF1_PRR
             // 
             // FF1PRFolder
             // 
-            this.FF1PRFolder.Location = new System.Drawing.Point(208, 16);
+            this.FF1PRFolder.Location = new System.Drawing.Point(208, 22);
             this.FF1PRFolder.Name = "FF1PRFolder";
             this.FF1PRFolder.Size = new System.Drawing.Size(887, 39);
             this.FF1PRFolder.TabIndex = 2;
@@ -117,6 +119,7 @@ namespace FF1_PRR
             // ShuffleBossSpots
             // 
             this.ShuffleBossSpots.AutoSize = true;
+            this.ShuffleBossSpots.Enabled = false;
             this.ShuffleBossSpots.Location = new System.Drawing.Point(8, 35);
             this.ShuffleBossSpots.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.ShuffleBossSpots.Name = "ShuffleBossSpots";
@@ -136,7 +139,7 @@ namespace FF1_PRR
             this.KeyItems.Padding = new System.Windows.Forms.Padding(5);
             this.KeyItems.Size = new System.Drawing.Size(286, 46);
             this.KeyItems.TabIndex = 5;
-            this.KeyItems.Text = "Randomize Key Items";
+            this.KeyItems.Text = "Randomize &Key Items";
             this.toolTip1.SetToolTip(this.KeyItems, "Change which key item appears at each location. All key items are guaranteed to b" +
         "e accessible.");
             this.KeyItems.UseVisualStyleBackColor = true;
@@ -149,13 +152,13 @@ namespace FF1_PRR
             this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(5);
-            this.label2.Size = new System.Drawing.Size(153, 42);
+            this.label2.Size = new System.Drawing.Size(191, 42);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Rando Flags";
+            this.label2.Text = "Gameplay Flags";
             // 
             // RandoFlags
             // 
-            this.RandoFlags.Location = new System.Drawing.Point(208, 78);
+            this.RandoFlags.Location = new System.Drawing.Point(208, 84);
             this.RandoFlags.Name = "RandoFlags";
             this.RandoFlags.Size = new System.Drawing.Size(560, 39);
             this.RandoFlags.TabIndex = 7;
@@ -173,7 +176,7 @@ namespace FF1_PRR
             // 
             // RandoSeed
             // 
-            this.RandoSeed.Location = new System.Drawing.Point(885, 78);
+            this.RandoSeed.Location = new System.Drawing.Point(880, 84);
             this.RandoSeed.Name = "RandoSeed";
             this.RandoSeed.Size = new System.Drawing.Size(248, 39);
             this.RandoSeed.TabIndex = 10;
@@ -191,7 +194,7 @@ namespace FF1_PRR
             // 
             // NewSeed
             // 
-            this.NewSeed.Location = new System.Drawing.Point(1153, 74);
+            this.NewSeed.Location = new System.Drawing.Point(1153, 80);
             this.NewSeed.Name = "NewSeed";
             this.NewSeed.Padding = new System.Windows.Forms.Padding(5);
             this.NewSeed.Size = new System.Drawing.Size(96, 46);
@@ -202,7 +205,7 @@ namespace FF1_PRR
             // 
             // VisualFlags
             // 
-            this.VisualFlags.Location = new System.Drawing.Point(208, 140);
+            this.VisualFlags.Location = new System.Drawing.Point(208, 146);
             this.VisualFlags.Name = "VisualFlags";
             this.VisualFlags.Size = new System.Drawing.Size(560, 39);
             this.VisualFlags.TabIndex = 13;
@@ -214,13 +217,13 @@ namespace FF1_PRR
             this.label4.Margin = new System.Windows.Forms.Padding(3);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(5);
-            this.label4.Size = new System.Drawing.Size(148, 42);
+            this.label4.Size = new System.Drawing.Size(183, 42);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Visual Flags";
+            this.label4.Text = "Cosmetic Flags";
             // 
             // BrowseForFolder
             // 
-            this.BrowseForFolder.Location = new System.Drawing.Point(1115, 13);
+            this.BrowseForFolder.Location = new System.Drawing.Point(1115, 19);
             this.BrowseForFolder.Name = "BrowseForFolder";
             this.BrowseForFolder.Padding = new System.Windows.Forms.Padding(5);
             this.BrowseForFolder.Size = new System.Drawing.Size(134, 45);
@@ -238,7 +241,7 @@ namespace FF1_PRR
             this.label5.Padding = new System.Windows.Forms.Padding(5);
             this.label5.Size = new System.Drawing.Size(94, 42);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Shops:";
+            this.label5.Text = "&Shops:";
             this.toolTip1.SetToolTip(this.label5, "Randomize shop contents. None: . Shuffle: . Standard: . Pro: . Wild: .");
             // 
             // RandoShop
@@ -268,7 +271,7 @@ namespace FF1_PRR
             this.Traditional.Padding = new System.Windows.Forms.Padding(5);
             this.Traditional.Size = new System.Drawing.Size(253, 46);
             this.Traditional.TabIndex = 17;
-            this.Traditional.Text = "Exclude DoS items";
+            this.Traditional.Text = "E&xclude DoS items";
             this.toolTip1.SetToolTip(this.Traditional, "Remove newer items (Ether, Phoenix Down, etc) from shops.");
             this.Traditional.UseVisualStyleBackColor = true;
             this.Traditional.Click += new System.EventHandler(this.DetermineFlags);
@@ -291,7 +294,7 @@ namespace FF1_PRR
             this.randoMagic.Padding = new System.Windows.Forms.Padding(5);
             this.randoMagic.Size = new System.Drawing.Size(247, 46);
             this.randoMagic.TabIndex = 19;
-            this.randoMagic.Text = "Randomize Magic";
+            this.randoMagic.Text = "Randomize &Magic";
             this.toolTip1.SetToolTip(this.randoMagic, "Change which spells are available at each level, and in which shops they can be p" +
         "urchased.");
             this.randoMagic.UseVisualStyleBackColor = true;
@@ -306,7 +309,7 @@ namespace FF1_PRR
             this.keepMagicPermissions.Padding = new System.Windows.Forms.Padding(5);
             this.keepMagicPermissions.Size = new System.Drawing.Size(241, 46);
             this.keepMagicPermissions.TabIndex = 20;
-            this.keepMagicPermissions.Text = "Keep Permissions";
+            this.keepMagicPermissions.Text = "&Keep Permissions";
             this.toolTip1.SetToolTip(this.keepMagicPermissions, "Preserve who may learn each spell, rather than adjusting to the spell\'s new slot." +
         " (eg, level 1 Flare can still only be learned by Black Wizard)");
             this.keepMagicPermissions.UseVisualStyleBackColor = true;
@@ -321,7 +324,7 @@ namespace FF1_PRR
             this.label7.Padding = new System.Windows.Forms.Padding(5);
             this.label7.Size = new System.Drawing.Size(155, 42);
             this.label7.TabIndex = 21;
-            this.label7.Text = "XP/Gil Boost";
+            this.label7.Text = "&XP/Gil Boost";
             this.toolTip1.SetToolTip(this.label7, "How much to increase earned XP and Gil.");
             // 
             // monsterXPGPBoost
@@ -354,7 +357,7 @@ namespace FF1_PRR
             this.label8.Padding = new System.Windows.Forms.Padding(5);
             this.label8.Size = new System.Drawing.Size(118, 42);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Treasure:";
+            this.label8.Text = "&Treasure:";
             this.toolTip1.SetToolTip(this.label8, "Randomize treasure chest contents. None: . Shuffle: . Standard: . Pro: . Wild: .");
             this.label8.Visible = false;
             // 
@@ -387,7 +390,7 @@ namespace FF1_PRR
             this.flagTraditionalTreasure.Padding = new System.Windows.Forms.Padding(5);
             this.flagTraditionalTreasure.Size = new System.Drawing.Size(253, 46);
             this.flagTraditionalTreasure.TabIndex = 20;
-            this.flagTraditionalTreasure.Text = "Exclude DoS items";
+            this.flagTraditionalTreasure.Text = "E&xclude DoS items";
             this.toolTip1.SetToolTip(this.flagTraditionalTreasure, "Remove newer items (Ether, Phoenix Down, etc) from shops.");
             this.flagTraditionalTreasure.UseVisualStyleBackColor = true;
             this.flagTraditionalTreasure.Visible = false;
@@ -395,7 +398,6 @@ namespace FF1_PRR
             // flagRebalancePrices
             // 
             this.flagRebalancePrices.AutoSize = true;
-            this.flagRebalancePrices.Enabled = false;
             this.flagRebalancePrices.Location = new System.Drawing.Point(8, 86);
             this.flagRebalancePrices.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRebalancePrices.Name = "flagRebalancePrices";
@@ -410,7 +412,6 @@ namespace FF1_PRR
             // flagRestoreCritRating
             // 
             this.flagRestoreCritRating.AutoSize = true;
-            this.flagRestoreCritRating.Enabled = false;
             this.flagRestoreCritRating.Location = new System.Drawing.Point(8, 132);
             this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRestoreCritRating.Name = "flagRestoreCritRating";
@@ -424,7 +425,6 @@ namespace FF1_PRR
             // flagWandsAddInt
             // 
             this.flagWandsAddInt.AutoSize = true;
-            this.flagWandsAddInt.Enabled = false;
             this.flagWandsAddInt.Location = new System.Drawing.Point(8, 178);
             this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagWandsAddInt.Name = "flagWandsAddInt";
@@ -438,7 +438,6 @@ namespace FF1_PRR
             // flagFiendsDropRibbons
             // 
             this.flagFiendsDropRibbons.AutoSize = true;
-            this.flagFiendsDropRibbons.Enabled = false;
             this.flagFiendsDropRibbons.Location = new System.Drawing.Point(8, 127);
             this.flagFiendsDropRibbons.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagFiendsDropRibbons.Name = "flagFiendsDropRibbons";
@@ -453,7 +452,6 @@ namespace FF1_PRR
             // flagRebalanceBosses
             // 
             this.flagRebalanceBosses.AutoSize = true;
-            this.flagRebalanceBosses.Enabled = false;
             this.flagRebalanceBosses.Location = new System.Drawing.Point(8, 81);
             this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRebalanceBosses.Name = "flagRebalanceBosses";
@@ -464,6 +462,30 @@ namespace FF1_PRR
             this.toolTip1.SetToolTip(this.flagRebalanceBosses, "Increase HP of several bosses, notably Death Eye and the Fiend refights; decrease" +
         " HP of Chaos.");
             this.flagRebalanceBosses.UseVisualStyleBackColor = true;
+            // 
+            // btnRestoreVanilla
+            // 
+            this.btnRestoreVanilla.Location = new System.Drawing.Point(1054, 813);
+            this.btnRestoreVanilla.Name = "btnRestoreVanilla";
+            this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(5);
+            this.btnRestoreVanilla.Size = new System.Drawing.Size(195, 46);
+            this.btnRestoreVanilla.TabIndex = 27;
+            this.btnRestoreVanilla.Text = "Restore vanilla";
+            this.toolTip1.SetToolTip(this.btnRestoreVanilla, "Undo previous randomization and restore files to a vanilla configuration.");
+            this.btnRestoreVanilla.UseVisualStyleBackColor = true;
+            this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
+            // 
+            // btnChestInfo
+            // 
+            this.btnChestInfo.Location = new System.Drawing.Point(1054, 758);
+            this.btnChestInfo.Name = "btnChestInfo";
+            this.btnChestInfo.Padding = new System.Windows.Forms.Padding(5);
+            this.btnChestInfo.Size = new System.Drawing.Size(195, 46);
+            this.btnChestInfo.TabIndex = 28;
+            this.btnChestInfo.Text = "dump chest info";
+            this.toolTip1.SetToolTip(this.btnChestInfo, "Searches all maps for chests and dumps info about them to a file.");
+            this.btnChestInfo.UseVisualStyleBackColor = true;
+            this.btnChestInfo.Click += new System.EventHandler(this.btnChestInfo_Click);
             // 
             // groupBox1
             // 
@@ -522,6 +544,8 @@ namespace FF1_PRR
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1268, 933);
+            this.Controls.Add(this.btnChestInfo);
+            this.Controls.Add(this.btnRestoreVanilla);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -540,7 +564,7 @@ namespace FF1_PRR
             this.Controls.Add(this.CuteHats);
             this.Controls.Add(this.FF1PRFolder);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Randomize);
+            this.Controls.Add(this.btnRandomize);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FF1PRR";
             this.Text = "Final Fantasy 1 Pixel Remaster Randomizer";
@@ -561,7 +585,7 @@ namespace FF1_PRR
 
 		#endregion
 
-		private System.Windows.Forms.Button Randomize;
+		private System.Windows.Forms.Button btnRandomize;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TextBox FF1PRFolder;
 		private System.Windows.Forms.CheckBox CuteHats;
@@ -597,6 +621,8 @@ namespace FF1_PRR
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.CheckBox flagRebalanceBosses;
         private System.Windows.Forms.CheckBox flagFiendsDropRibbons;
+        private System.Windows.Forms.Button btnRestoreVanilla;
+        private System.Windows.Forms.Button btnChestInfo;
     }
 }
 

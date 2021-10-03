@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace FF1_PRR.Inventory
 {
+	// JSON Objects for sc_e_xxxx.json files
 	public class EventJSON
 	{
 		public Systemflag SystemFlag { get; set; }
@@ -82,5 +83,56 @@ namespace FF1_PRR.Inventory
 			public float b { get; set; }
 			public float a { get; set; }
 		}
+	}
+
+	// Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
+	// JSON Objects for ev_e_xxxx.json and entity_deafult.json files 
+	public class EvProperty
+	{
+		public string name { get; set; }
+		public string type { get; set; }
+		public string value { get; set; }
+	}
+
+	public class EvObject
+	{
+		public int gid { get; set; }
+		public int height { get; set; }
+		public int id { get; set; }
+		public string name { get; set; }
+		public List<EvProperty> properties { get; set; }
+		public int rotation { get; set; }
+		public string type { get; set; }
+		public bool visible { get; set; }
+		public int width { get; set; }
+		public int x { get; set; }
+		public int y { get; set; }
+	}
+
+	public class EvLayer
+	{
+		public string draworder { get; set; }
+		public int id { get; set; }
+		public string name { get; set; }
+		public List<EvObject> objects { get; set; }
+		public double opacity { get; set; }
+		public string type { get; set; }
+		public bool visible { get; set; }
+		public int x { get; set; }
+		public int y { get; set; }
+	}
+
+	public class EvRoot
+	{
+		public int id { get; set; }
+		public List<EvLayer> layers { get; set; }
+		public string name { get; set; }
+		public double opacity { get; set; }
+		public string type { get; set; }
+		public bool visible { get; set; }
+		public int x { get; set; }
+		public int y { get; set; }
+		public int width { get; set; }
+		public int height { get; set; }
 	}
 }
