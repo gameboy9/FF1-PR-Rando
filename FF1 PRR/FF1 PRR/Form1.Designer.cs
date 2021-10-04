@@ -63,7 +63,6 @@ namespace FF1_PRR
             this.flagFiendsDropRibbons = new System.Windows.Forms.CheckBox();
             this.flagRebalanceBosses = new System.Windows.Forms.CheckBox();
             this.btnRestoreVanilla = new System.Windows.Forms.Button();
-            this.btnChestInfo = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -359,12 +358,10 @@ namespace FF1_PRR
             this.label8.TabIndex = 18;
             this.label8.Text = "&Treasure:";
             this.toolTip1.SetToolTip(this.label8, "Randomize treasure chest contents. None: . Shuffle: . Standard: . Pro: . Wild: .");
-            this.label8.Visible = false;
             // 
             // flagT
             // 
             this.flagT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.flagT.Enabled = false;
             this.flagT.FormattingEnabled = true;
             this.flagT.Items.AddRange(new object[] {
             "None",
@@ -378,7 +375,6 @@ namespace FF1_PRR
             this.flagT.Size = new System.Drawing.Size(243, 40);
             this.flagT.TabIndex = 19;
             this.toolTip1.SetToolTip(this.flagT, "Randomize treasure chest contents. None: . Shuffle: . Standard: . Pro: . Wild: .");
-            this.flagT.Visible = false;
             // 
             // flagTraditionalTreasure
             // 
@@ -393,7 +389,6 @@ namespace FF1_PRR
             this.flagTraditionalTreasure.Text = "E&xclude DoS items";
             this.toolTip1.SetToolTip(this.flagTraditionalTreasure, "Remove newer items (Ether, Phoenix Down, etc) from shops.");
             this.flagTraditionalTreasure.UseVisualStyleBackColor = true;
-            this.flagTraditionalTreasure.Visible = false;
             // 
             // flagRebalancePrices
             // 
@@ -475,18 +470,6 @@ namespace FF1_PRR
             this.btnRestoreVanilla.UseVisualStyleBackColor = true;
             this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
             // 
-            // btnChestInfo
-            // 
-            this.btnChestInfo.Location = new System.Drawing.Point(1054, 758);
-            this.btnChestInfo.Name = "btnChestInfo";
-            this.btnChestInfo.Padding = new System.Windows.Forms.Padding(5);
-            this.btnChestInfo.Size = new System.Drawing.Size(195, 46);
-            this.btnChestInfo.TabIndex = 28;
-            this.btnChestInfo.Text = "dump chest info";
-            this.toolTip1.SetToolTip(this.btnChestInfo, "Searches all maps for chests and dumps info about them to a file.");
-            this.btnChestInfo.UseVisualStyleBackColor = true;
-            this.btnChestInfo.Click += new System.EventHandler(this.btnChestInfo_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
@@ -544,7 +527,6 @@ namespace FF1_PRR
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1268, 933);
-            this.Controls.Add(this.btnChestInfo);
             this.Controls.Add(this.btnRestoreVanilla);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -622,7 +604,6 @@ namespace FF1_PRR
         private System.Windows.Forms.CheckBox flagRebalanceBosses;
         private System.Windows.Forms.CheckBox flagFiendsDropRibbons;
         private System.Windows.Forms.Button btnRestoreVanilla;
-        private System.Windows.Forms.Button btnChestInfo;
     }
 }
 
