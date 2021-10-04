@@ -223,10 +223,11 @@ namespace FF1_PRR
 			restoreVanilla();
 
 			// Copy over modded files
-			string DATA_MESSAGE_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Message");
-			string RES_MAP_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map");
-			File.Copy(Path.Combine("data", "mods", "system_en.txt"), Path.Combine(DATA_MESSAGE_PATH, "system_en.txt"), true);
-			DirectoryCopy(Path.Combine("data", "mods", "Map"), RES_MAP_PATH, true);
+			string DATA_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data");
+			string MAP_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map");
+			File.Copy(Path.Combine("data", "mods", "system_en.txt"), Path.Combine(DATA_PATH, "Message", "system_en.txt"), true);
+			File.Copy(Path.Combine("data", "mods", "product.csv"), Path.Combine(DATA_PATH, "Master", "product.csv"), true);
+			DirectoryCopy(Path.Combine("data", "mods", "Map"), MAP_PATH, true);
 
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
