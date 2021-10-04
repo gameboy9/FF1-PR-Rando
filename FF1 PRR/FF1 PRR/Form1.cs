@@ -166,7 +166,7 @@ namespace FF1_PRR
 			foreach (FileInfo file in files)
 			{
 				string tempPath = Path.Combine(destDirName, file.Name);
-				file.CopyTo(tempPath, false);
+				file.CopyTo(tempPath, true);
 			}
 
 			// If copying subdirectories, copy them and their contents to new location.
@@ -287,6 +287,14 @@ namespace FF1_PRR
 		private void btnRandomize_Click(object sender, EventArgs e)
 		{
 			restoreVanilla();
+
+			// Copy over modded files
+			string DATA_MESSAGE_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Message");
+			string RES_MAP_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map");
+			File.Copy(Path.Combine("data", "mods", "system_en.txt"), Path.Combine(DATA_MESSAGE_PATH, "system_en.txt"), true);
+			DirectoryCopy(Path.Combine("data", "mods", "Map"), RES_MAP_PATH, true);
+
+			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
 			if (RandoShop.SelectedIndex > 0) randomizeShops();
