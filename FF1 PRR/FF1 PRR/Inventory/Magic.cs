@@ -162,7 +162,7 @@ namespace FF1_PRR.Inventory
 				64, 65, 66, 67
 			};
 
-			using (StreamReader reader = new StreamReader(Path.Combine("csv", "ability.csv")))
+			using (StreamReader reader = new StreamReader(fileName))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				records = csv.GetRecords<ability>().ToList();

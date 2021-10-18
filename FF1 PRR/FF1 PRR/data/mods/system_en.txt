@@ -1,0 +1,1030 @@
+MSG_JOB_NAME_01	Warrior
+MSG_JOB_NAME_02	Thief
+MSG_JOB_NAME_03	Monk
+MSG_JOB_NAME_04	Red Mage
+MSG_JOB_NAME_05	White Mage
+MSG_JOB_NAME_06	Black Mage
+MSG_JOB_NAME_07	Knight
+MSG_JOB_NAME_08	Ninja
+MSG_JOB_NAME_09	Master
+MSG_JOB_NAME_10	Red Wizard
+MSG_JOB_NAME_11	White Wizard
+MSG_JOB_NAME_12	Black Wizard
+MSG_JOB_INF_01	Can use a wide array of weapons and armor.
+MSG_JOB_INF_02	Nimbly runs circles around opponents.
+MSG_JOB_INF_03	Specializes in bare-knuckled attacks.
+MSG_JOB_INF_04	Proficient in both black and white magic.
+MSG_JOB_INF_05	Supports the party with white magic.
+MSG_JOB_INF_06	Damages opponents with black magic.
+MSG_MAGIC_NAME_01	<IC_WMGC>Cure
+MSG_MAGIC_NAME_02	<IC_WMGC>Dia
+MSG_MAGIC_NAME_03	<IC_WMGC>Protect
+MSG_MAGIC_NAME_04	<IC_WMGC>Blink
+MSG_MAGIC_NAME_05	<IC_WMGC>Blindna
+MSG_MAGIC_NAME_06	<IC_WMGC>Silence
+MSG_MAGIC_NAME_07	<IC_WMGC>NulShock
+MSG_MAGIC_NAME_08	<IC_WMGC>Invis
+MSG_MAGIC_NAME_09	<IC_WMGC>Cura
+MSG_MAGIC_NAME_10	<IC_WMGC>Diara
+MSG_MAGIC_NAME_11	<IC_WMGC>NulBlaze
+MSG_MAGIC_NAME_12	<IC_WMGC>Heal
+MSG_MAGIC_NAME_13	<IC_WMGC>Poisona
+MSG_MAGIC_NAME_14	<IC_WMGC>Fear
+MSG_MAGIC_NAME_15	<IC_WMGC>NulFrost
+MSG_MAGIC_NAME_16	<IC_WMGC>Vox
+MSG_MAGIC_NAME_17	<IC_WMGC>Curaga
+MSG_MAGIC_NAME_18	<IC_WMGC>Life
+MSG_MAGIC_NAME_19	<IC_WMGC>Diaga
+MSG_MAGIC_NAME_20	<IC_WMGC>Healara
+MSG_MAGIC_NAME_21	<IC_WMGC>Stona
+MSG_MAGIC_NAME_22	<IC_WMGC>Exit
+MSG_MAGIC_NAME_23	<IC_WMGC>Protera
+MSG_MAGIC_NAME_24	<IC_WMGC>Invisira
+MSG_MAGIC_NAME_25	<IC_WMGC>Curaja
+MSG_MAGIC_NAME_26	<IC_WMGC>Diaja
+MSG_MAGIC_NAME_27	<IC_WMGC>NulDeath
+MSG_MAGIC_NAME_28	<IC_WMGC>Healaga
+MSG_MAGIC_NAME_29	<IC_WMGC>Full-Life
+MSG_MAGIC_NAME_30	<IC_WMGC>Holy
+MSG_MAGIC_NAME_31	<IC_WMGC>NulAll
+MSG_MAGIC_NAME_32	<IC_WMGC>Dispel
+MSG_MAGIC_NAME_33	<IC_BMGC>Fire
+MSG_MAGIC_NAME_34	<IC_BMGC>Sleep
+MSG_MAGIC_NAME_35	<IC_BMGC>Focus
+MSG_MAGIC_NAME_36	<IC_BMGC>Thunder
+MSG_MAGIC_NAME_37	<IC_BMGC>Blizzard
+MSG_MAGIC_NAME_38	<IC_BMGC>Dark
+MSG_MAGIC_NAME_39	<IC_BMGC>Temper
+MSG_MAGIC_NAME_40	<IC_BMGC>Slow
+MSG_MAGIC_NAME_41	<IC_BMGC>Fira
+MSG_MAGIC_NAME_42	<IC_BMGC>Hold
+MSG_MAGIC_NAME_43	<IC_BMGC>Thundara
+MSG_MAGIC_NAME_44	<IC_BMGC>Focara
+MSG_MAGIC_NAME_45	<IC_BMGC>Sleepra
+MSG_MAGIC_NAME_46	<IC_BMGC>Haste
+MSG_MAGIC_NAME_47	<IC_BMGC>Confuse
+MSG_MAGIC_NAME_48	<IC_BMGC>Blizzara
+MSG_MAGIC_NAME_49	<IC_BMGC>Firaga
+MSG_MAGIC_NAME_50	<IC_BMGC>Scourge
+MSG_MAGIC_NAME_51	<IC_BMGC>Teleport
+MSG_MAGIC_NAME_52	<IC_BMGC>Slowra
+MSG_MAGIC_NAME_53	<IC_BMGC>Thundaga
+MSG_MAGIC_NAME_54	<IC_BMGC>Death
+MSG_MAGIC_NAME_55	<IC_BMGC>Quake
+MSG_MAGIC_NAME_56	<IC_BMGC>Stun
+MSG_MAGIC_NAME_57	<IC_BMGC>Blizzaga
+MSG_MAGIC_NAME_58	<IC_BMGC>Break
+MSG_MAGIC_NAME_59	<IC_BMGC>Saber
+MSG_MAGIC_NAME_60	<IC_BMGC>Blind
+MSG_MAGIC_NAME_61	<IC_BMGC>Flare
+MSG_MAGIC_NAME_62	<IC_BMGC>Stop
+MSG_MAGIC_NAME_63	<IC_BMGC>Warp
+MSG_MAGIC_NAME_64	<IC_BMGC>Kill
+MSG_MAG_INF_01	Restores a little HP to one ally.
+MSG_MAG_INF_02	Deals damage to all undead enemies.
+MSG_MAG_INF_03	Raises one ally's defense.
+MSG_MAG_INF_04	Raises caster's evasion.
+MSG_MAG_INF_05	Cures darkness.
+MSG_MAG_INF_06	Casts silence on all enemies.
+MSG_MAG_INF_07	Reduces lightning damage by half for the entire party.
+MSG_MAG_INF_08	Raises one ally's evasion.
+MSG_MAG_INF_09	Restores HP to one ally.
+MSG_MAG_INF_10	Deals damage to all undead enemies.
+MSG_MAG_INF_11	Reduces fire damage by half for the entire party.
+MSG_MAG_INF_12	Restores a little HP to the entire party.
+MSG_MAG_INF_13	Cures poison.
+MSG_MAG_INF_14	Drives all enemies away in terror.
+MSG_MAG_INF_15	Reduces ice damage by half for the entire party.
+MSG_MAG_INF_16	Cures silence.
+MSG_MAG_INF_17	Restores a lot of HP to one ally.
+MSG_MAG_INF_18	Revives one KO'd ally.
+MSG_MAG_INF_19	Deals damage to all undead enemies.
+MSG_MAG_INF_20	Restores HP to the entire party.
+MSG_MAG_INF_21	Cures stone.
+MSG_MAG_INF_22	Transports the party out of dungeons.
+MSG_MAG_INF_23	Raises the party's defense.
+MSG_MAG_INF_24	Raises the party's evasion.
+MSG_MAG_INF_25	Fully restores one ally's HP and cures some status effects.
+MSG_MAG_INF_26	Deals damage to all undead enemies.
+MSG_MAG_INF_27	Enhances the party's defense against instant death.
+MSG_MAG_INF_28	Restores a lot of HP to the entire party.
+MSG_MAG_INF_29	Revives one ally and fully restores HP.
+MSG_MAG_INF_30	Damages all enemies with holy light.
+MSG_MAG_INF_31	Reduces damage from spells by half.
+MSG_MAG_INF_32	Negates one enemy's magical defenses.
+MSG_MAG_INF_33	Deals fire damage to one enemy.
+MSG_MAG_INF_34	Puts all enemies to sleep.
+MSG_MAG_INF_35	Lowers one enemy's evasion.
+MSG_MAG_INF_36	Deals lightning damage to one enemy.
+MSG_MAG_INF_37	Deals ice damage to one enemy.
+MSG_MAG_INF_38	Blinds all enemies with darkness.
+MSG_MAG_INF_39	Raises one ally's attack.
+MSG_MAG_INF_40	Reduces all enemies' number of attacks.
+MSG_MAG_INF_41	Deals fire damage to all enemies.
+MSG_MAG_INF_42	Paralyzes one enemy.
+MSG_MAG_INF_43	Deals lightning damage to all enemies.
+MSG_MAG_INF_44	Lowers evasion of all enemies.
+MSG_MAG_INF_45	Puts one enemy to sleep.
+MSG_MAG_INF_46	Doubles one ally's number of attacks.
+MSG_MAG_INF_47	Causes enemies to turn on each other.
+MSG_MAG_INF_48	Deals ice damage to all enemies.
+MSG_MAG_INF_49	Deals fire damage to all enemies.
+MSG_MAG_INF_50	Instantly kills all enemies.
+MSG_MAG_INF_51	Transports the party to the previous floor.
+MSG_MAG_INF_52	Reduces one enemy's number of attacks.
+MSG_MAG_INF_53	Deals lightning damage to all enemies.
+MSG_MAG_INF_54	Instantly kills one enemy.
+MSG_MAG_INF_55	Calls an earthquake to swallow enemies.
+MSG_MAG_INF_56	Paralyzes one enemy.
+MSG_MAG_INF_57	Deals ice damage to all enemies.
+MSG_MAG_INF_58	Petrifies one enemy.
+MSG_MAG_INF_59	Raises caster's attack and accuracy.
+MSG_MAG_INF_60	Blinds one enemy with darkness.
+MSG_MAG_INF_61	Blasts all enemies with light and heat.
+MSG_MAG_INF_62	Stops time and paralyzes all enemies.
+MSG_MAG_INF_63	Banishes enemies to another dimension.
+MSG_MAG_INF_64	Instantly kills one enemy.
+MSG_ITEM_NAME_01	<IC_DRAG>Potion
+MSG_ITEM_NAME_02	<IC_BAG>Antidote
+MSG_ITEM_NAME_03	<IC_BAG>Gold Needle
+MSG_ITEM_NAME_04	<IC_TENTO>Sleeping Bag
+MSG_ITEM_NAME_05	<IC_TENTO>Tent
+MSG_ITEM_NAME_06	<IC_TENTO>Cottage
+MSG_ITEM_NAME_07	<IC_DRAG>Hi-Potion
+MSG_ITEM_NAME_08	<IC_DRAG>X-Potion
+MSG_ITEM_NAME_09	<IC_DRAG>Ether
+MSG_ITEM_NAME_11	<IC_DRAG>Dry Ether
+MSG_ITEM_NAME_12	<IC_DRAG>Elixir
+MSG_ITEM_NAME_14	<IC_BAG>Phoenix Down
+MSG_ITEM_NAME_15	<IC_BAG>Remedy
+MSG_ITEM_NAME_16	<IC_BAG>Eye Drops
+MSG_ITEM_NAME_17	<IC_BAG>Echo Grass
+MSG_ITEM_NAME_39	<IC_BAG>Strength Tonic
+MSG_ITEM_NAME_40	<IC_BAG>Giant's Tonic
+MSG_ITEM_NAME_42	<IC_BAG>Protect Drink
+MSG_ITEM_NAME_43	<IC_BAG>Speed Drink
+MSG_ITEM_INF_01	Restores 50 HP.
+MSG_ITEM_INF_02	Cures poison.
+MSG_ITEM_INF_03	Cures stone.
+MSG_ITEM_INF_04	Partially restores the party's HP.\nCan only be used in the field.
+MSG_ITEM_INF_05	Partially restores the party's HP and MP.\nCan only be used in the field.
+MSG_ITEM_INF_06	Fully restores the party's HP and MP.\nCan only be used in the field.
+MSG_ITEM_INF_07	Restores 150 HP.
+MSG_ITEM_INF_08	Fully restores HP.
+MSG_ITEM_INF_09	Restores 1 MP for each magic level.
+MSG_ITEM_INF_11	Restores 5 MP for each magic level.
+MSG_ITEM_INF_12	Fully restores HP and MP.
+MSG_ITEM_INF_14	Revives one KO'd ally.
+MSG_ITEM_INF_15	Cures ailments except stone and KO.
+MSG_ITEM_INF_16	Cures darkness.
+MSG_ITEM_INF_17	Cures silence.
+MSG_ITEM_INF_39	Temporarily raises attack.
+MSG_ITEM_INF_40	Temporarily raises max HP.
+MSG_ITEM_INF_42	Temporarily raises defense.
+MSG_ITEM_INF_43	Temporarily raises agility.
+MSG_WEAPON_NAME_01	<IC_NIF>Knife
+MSG_WEAPON_NAME_02	<IC_WND>Staff
+MSG_WEAPON_NAME_03	<IC_WND>Healing Staff
+MSG_WEAPON_NAME_04	<IC_NIF>Dagger
+MSG_WEAPON_NAME_05	<IC_HMR>Hammer
+MSG_WEAPON_NAME_06	<IC_SRD>Rapier
+MSG_WEAPON_NAME_07	<IC_KTN>Scimitar
+MSG_WEAPON_NAME_08	<IC_NIF>Mythril Knife
+MSG_WEAPON_NAME_09	<IC_NCK>Nunchaku
+MSG_WEAPON_NAME_10	<IC_WND>Power Staff
+MSG_WEAPON_NAME_11	<IC_HMR>Mythril Hammer
+MSG_WEAPON_NAME_12	<IC_WND>Mage's Staff
+MSG_WEAPON_NAME_13	<IC_SRD>Saber
+MSG_WEAPON_NAME_14	<IC_WND>Crosier
+MSG_WEAPON_NAME_15	<IC_KTN>Falchion
+MSG_WEAPON_NAME_16	<IC_SRD>Broadsword
+MSG_WEAPON_NAME_17	<IC_WND>Wizard's Staff
+MSG_WEAPON_NAME_18	<IC_NCK>Iron Nunchaku
+MSG_WEAPON_NAME_19	<IC_AX>Battle Axe
+MSG_WEAPON_NAME_20	<IC_SRD>Rune Blade
+MSG_WEAPON_NAME_21	<IC_SRD>Werebuster
+MSG_WEAPON_NAME_22	<IC_HMR>Thor's Hammer
+MSG_WEAPON_NAME_23	<IC_SRD>Wyrmkiller
+MSG_WEAPON_NAME_24	<IC_SRD>Coral Sword
+MSG_WEAPON_NAME_25	<IC_SRD>Longsword
+MSG_WEAPON_NAME_26	<IC_SRD>Great Sword
+MSG_WEAPON_NAME_27	<IC_AX>Great Axe
+MSG_WEAPON_NAME_28	<IC_SRD>Razer
+MSG_WEAPON_NAME_29	<IC_CLW>Cat Claws
+MSG_WEAPON_NAME_30	<IC_SRD>Mythril Sword
+MSG_WEAPON_NAME_31	<IC_SRD>Vorpal Sword
+MSG_WEAPON_NAME_32	<IC_AX>Mythril Axe
+MSG_WEAPON_NAME_33	<IC_SRD>Flame Sword
+MSG_WEAPON_NAME_34	<IC_AX>Light Axe
+MSG_WEAPON_NAME_35	<IC_SRD>Ice Brand
+MSG_WEAPON_NAME_36	<IC_SRD>Defender
+MSG_WEAPON_NAME_37	<IC_SRD>Sun Blade
+MSG_WEAPON_NAME_38	<IC_KTN>Sasuke's Blade
+MSG_WEAPON_NAME_39	<IC_SRD>Excalibur
+MSG_WEAPON_NAME_40	<IC_KTN>Masamune
+MSG_WEAPON_INF_01	A small knife.
+MSG_WEAPON_INF_02	A wooden staff.
+MSG_WEAPON_INF_03	A staff that casts Heal when used.
+MSG_WEAPON_INF_04	A large knife.
+MSG_WEAPON_INF_05	A hammer made for battle.
+MSG_WEAPON_INF_06	A sword with a slender blade.
+MSG_WEAPON_INF_07	A sword with a curved blade.
+MSG_WEAPON_INF_08	A knife wrought from mythril.
+MSG_WEAPON_INF_09	Wooden nunchaku.
+MSG_WEAPON_INF_10	A staff with good attack power.
+MSG_WEAPON_INF_11	A hammer wrought from mythril.
+MSG_WEAPON_INF_12	A staff that casts Fira when used.
+MSG_WEAPON_INF_13	A long sword made for piercing.
+MSG_WEAPON_INF_14	A staff topped with an iron ring.
+MSG_WEAPON_INF_15	A sword that widens toward its tip.
+MSG_WEAPON_INF_16	A sword with a wide, double-edged blade.
+MSG_WEAPON_INF_17	A staff that casts Confuse when used.
+MSG_WEAPON_INF_18	Nunchaku made of iron.
+MSG_WEAPON_INF_19	An axe made for battle.
+MSG_WEAPON_INF_20	A sword that is effective against spellcasters.
+MSG_WEAPON_INF_21	A sword that is effective against beasts.
+MSG_WEAPON_INF_22	A hammer that casts Thundara when used.
+MSG_WEAPON_INF_23	A sword that is effective against dragons.
+MSG_WEAPON_INF_24	A sword that is effective against aquatic enemies.
+MSG_WEAPON_INF_25	A large, double-edged sword.
+MSG_WEAPON_INF_26	A sword that is effective against giants.
+MSG_WEAPON_INF_27	A large axe made for battle.
+MSG_WEAPON_INF_28	A saber that casts Scourge when used.
+MSG_WEAPON_INF_29	A weapon with razor-sharp blades.
+MSG_WEAPON_INF_30	A sword wrought from mythril.
+MSG_WEAPON_INF_31	A very sharp crescent blade.
+MSG_WEAPON_INF_32	An axe wrought from mythril.
+MSG_WEAPON_INF_33	A sword imbued with the power of fire.
+MSG_WEAPON_INF_34	An axe that is effective against the undead; casts Diara when used.
+MSG_WEAPON_INF_35	A sword imbued with the power of ice.
+MSG_WEAPON_INF_36	A sword that casts Blink when used.
+MSG_WEAPON_INF_37	A sword that is effective against the undead.
+MSG_WEAPON_INF_38	A small katana used by ninja.
+MSG_WEAPON_INF_39	A sword crafted from a legendary metal; effective against all types of enemies.
+MSG_WEAPON_INF_40	A legendary katana without match.
+MSG_ARMOR_NAME_01	<IC_CLTH>Clothes
+MSG_ARMOR_NAME_02	<IC_ARMOR>Leather Armor
+MSG_ARMOR_NAME_03	<IC_RING>Copper Armlet
+MSG_ARMOR_NAME_04	<IC_ARMOR>Chain Mail
+MSG_ARMOR_NAME_05	<IC_RING>Silver Armlet
+MSG_ARMOR_NAME_06	<IC_ARMOR>Mythril Mail
+MSG_ARMOR_NAME_07	<IC_ARMOR>Iron Armor
+MSG_ARMOR_NAME_08	<IC_CLTH>White Robe
+MSG_ARMOR_NAME_09	<IC_CLTH>Black Robe
+MSG_ARMOR_NAME_10	<IC_RING>Ruby Armlet
+MSG_ARMOR_NAME_11	<IC_ARMOR>Knight's Armor
+MSG_ARMOR_NAME_12	<IC_ARMOR>Flame Mail
+MSG_ARMOR_NAME_13	<IC_ARMOR>Ice Armor
+MSG_ARMOR_NAME_14	<IC_RING>Diamond Armlet
+MSG_ARMOR_NAME_15	<IC_ARMOR>Diamond Armor
+MSG_ARMOR_NAME_16	<IC_ARMOR>Dragon Mail
+MSG_ARMOR_NAME_17	<IC_SHIELD>Leather Shield
+MSG_ARMOR_NAME_18	<IC_SHIELD>Buckler
+MSG_ARMOR_NAME_19	<IC_SHIELD>Iron Shield
+MSG_ARMOR_NAME_20	<IC_SHIELD>Protect Cloak
+MSG_ARMOR_NAME_21	<IC_SHIELD>Mythril Shield
+MSG_ARMOR_NAME_22	<IC_SHIELD>Flame Shield
+MSG_ARMOR_NAME_23	<IC_SHIELD>Ice Shield
+MSG_ARMOR_NAME_24	<IC_SHIELD>Diamond Shield
+MSG_ARMOR_NAME_25	<IC_SHIELD>Aegis Shield
+MSG_ARMOR_NAME_26	<IC_GLOV>Leather Gloves
+MSG_ARMOR_NAME_27	<IC_GLOV>Bronze Gloves
+MSG_ARMOR_NAME_28	<IC_GLOV>Steel Gloves
+MSG_ARMOR_NAME_29	<IC_GLOV>Mythril Gloves
+MSG_ARMOR_NAME_30	<IC_GLOV>Gauntlets
+MSG_ARMOR_NAME_31	<IC_GLOV>Giant's Gloves
+MSG_ARMOR_NAME_32	<IC_GLOV>Diamond Gloves
+MSG_ARMOR_NAME_33	<IC_GLOV>Protect Ring
+MSG_ARMOR_NAME_34	<IC_HEAD>Leather Cap
+MSG_ARMOR_NAME_35	<IC_HEAD>Ribbon
+MSG_ARMOR_NAME_36	<IC_HEAD>Helm
+MSG_ARMOR_NAME_37	<IC_HEAD>Great Helm
+MSG_ARMOR_NAME_38	<IC_HEAD>Mythril Helm
+MSG_ARMOR_NAME_39	<IC_HEAD>Healing Helm
+MSG_ARMOR_NAME_40	<IC_HEAD>Diamond Helm
+MSG_ARMOR_INF_01	Ordinary clothing.
+MSG_ARMOR_INF_02	Armor made of hardened leather.
+MSG_ARMOR_INF_03	An armlet crafted from copper.
+MSG_ARMOR_INF_04	Mail of interwoven chain links.
+MSG_ARMOR_INF_05	An armlet of worked silver.
+MSG_ARMOR_INF_06	Mail crafted from mythril.
+MSG_ARMOR_INF_07	Armor made of thinly hammered iron.
+MSG_ARMOR_INF_08	A robe that guards against fire and instant death; casts Invisira when used.
+MSG_ARMOR_INF_09	A robe that guards against ice and time irregularities; casts Blizzara when used.
+MSG_ARMOR_INF_10	An armlet ornamented with rubies.
+MSG_ARMOR_INF_11	Armor crafted from steel plate.
+MSG_ARMOR_INF_12	Mail infused with the power of fire that guards against ice.
+MSG_ARMOR_INF_13	Armor infused with the power of ice that guards against fire.
+MSG_ARMOR_INF_14	An armlet adorned with diamonds.
+MSG_ARMOR_INF_15	Armor crafted from diamond that guards against lightning.
+MSG_ARMOR_INF_16	Mail fashioned from dragon scales that guards against fire and ice.
+MSG_ARMOR_INF_17	A shield made of hardened leather.
+MSG_ARMOR_INF_18	A small shield.
+MSG_ARMOR_INF_19	A shield wrought from iron.
+MSG_ARMOR_INF_20	A large cloak worn over armor.
+MSG_ARMOR_INF_21	A shield crafted from mythril.
+MSG_ARMOR_INF_22	A shield imbued with the power of fire that guards against ice.
+MSG_ARMOR_INF_23	A shield imbued with the power of ice that guards against fire.
+MSG_ARMOR_INF_24	A shield made of diamond that guards against lightning.
+MSG_ARMOR_INF_25	A shield that guards against stone and poison.
+MSG_ARMOR_INF_26	Gloves made of leather.
+MSG_ARMOR_INF_27	Gloves made of bronze.
+MSG_ARMOR_INF_28	Gloves made of steel.
+MSG_ARMOR_INF_29	Gloves made of mythril.
+MSG_ARMOR_INF_30	Gloves that cast Thundara when used.
+MSG_ARMOR_INF_31	Gloves that cast Saber when used.
+MSG_ARMOR_INF_32	Gloves made of diamond.
+MSG_ARMOR_INF_33	A ring that guards against instant death.
+MSG_ARMOR_INF_34	A cap made of leather.
+MSG_ARMOR_INF_35	A ribbon that guards against elemental attacks and status effects.
+MSG_ARMOR_INF_36	A small helm.
+MSG_ARMOR_INF_37	A helm that covers the entire head.
+MSG_ARMOR_INF_38	A helm wrought from mythril.
+MSG_ARMOR_INF_39	A helm that casts Heal when used.
+MSG_ARMOR_INF_40	A helm made of diamond.
+MSG_KEY_NAME_01	<IC_IOBJ>Lute
+MSG_KEY_NAME_02	<IC_IOBJ>Crown
+MSG_KEY_NAME_03	<IC_IOBJ>Crystal Eye
+MSG_KEY_NAME_04	<IC_IOBJ>Jolt Tonic
+MSG_KEY_NAME_05	<IC_IOBJ>Mystic Key
+MSG_KEY_NAME_06	<IC_IOBJ>Nitro Powder
+MSG_KEY_NAME_07	<IC_IOBJ>Adamantite
+MSG_KEY_NAME_08	<IC_IOBJ>Rosetta Stone
+MSG_KEY_NAME_09	<IC_IOBJ>Star Ruby
+MSG_KEY_NAME_10	<IC_IOBJ>Earth Rod
+MSG_KEY_NAME_11	<IC_IOBJ>Levistone
+MSG_KEY_NAME_12	<IC_IOBJ>Chime
+MSG_KEY_NAME_13	<IC_IOBJ>Rat's Tail
+MSG_KEY_NAME_14	<IC_IOBJ>Warp Cube
+MSG_KEY_NAME_15	<IC_IOBJ>Bottled Faerie
+MSG_KEY_NAME_16	<IC_IOBJ>Oxyale
+MSG_KEY_NAME_17	<IC_IOBJ>Canoe
+MSG_KEY_INF_01	A sonorous instrument of great beauty.
+MSG_KEY_INF_02	A crown that shimmers mysteriously.
+MSG_KEY_INF_03	A transparent orb of crystal.
+MSG_KEY_INF_04	A serum to break even the deepest sleep.
+MSG_KEY_INF_05	A key that opens magically sealed doors.
+MSG_KEY_INF_06	A powder of great explosive power.
+MSG_KEY_INF_07	Legendary metal of renowned strength.
+MSG_KEY_INF_08	A tablet inscribed with ancient writing.
+MSG_KEY_INF_09	An enormous red jewel.
+MSG_KEY_INF_10	A rod imbued with the power of earth/nature.
+MSG_KEY_INF_11	A mysterious rock that floats in the air.
+MSG_KEY_INF_12	A dulcet chime of Lufenian origin.
+MSG_KEY_INF_13	A token of valor and strength.
+MSG_KEY_INF_14	A cube made of a multi-hued substance.
+MSG_KEY_INF_15	A bottle containing a faerie.
+MSG_KEY_INF_16	A strange liquid that gushes forth air.
+MSG_KEY_INF_17	A small boat for crossing lakes and rivers.
+MSG_MON_NAME_01	Goblin
+MSG_MON_NAME_02	Goblin Guard
+MSG_MON_NAME_03	Wolf
+MSG_MON_NAME_04	Warg Wolf
+MSG_MON_NAME_05	Werewolf
+MSG_MON_NAME_06	Winter Wolf
+MSG_MON_NAME_07	Lizard
+MSG_MON_NAME_08	Fire Lizard
+MSG_MON_NAME_09	Basilisk
+MSG_MON_NAME_10	Hill Gigas
+MSG_MON_NAME_11	Ice Gigas
+MSG_MON_NAME_12	Fire Gigas
+MSG_MON_NAME_13	Sahagin
+MSG_MON_NAME_14	Sahagin Chief
+MSG_MON_NAME_15	Sahagin Prince
+MSG_MON_NAME_16	Pirate
+MSG_MON_NAME_17	Buccaneer
+MSG_MON_NAME_18	Shark
+MSG_MON_NAME_19	White Shark
+MSG_MON_NAME_20	Bigeyes
+MSG_MON_NAME_21	Deepeyes
+MSG_MON_NAME_22	Skeleton
+MSG_MON_NAME_23	Bloodbones
+MSG_MON_NAME_24	Gigas Worm
+MSG_MON_NAME_25	Crawler
+MSG_MON_NAME_26	Hyenadon
+MSG_MON_NAME_27	Hellhound
+MSG_MON_NAME_28	Ogre
+MSG_MON_NAME_29	Ogre Chief
+MSG_MON_NAME_30	Ogre Mage
+MSG_MON_NAME_31	Cobra
+MSG_MON_NAME_32	Anaconda
+MSG_MON_NAME_33	Sea Snake
+MSG_MON_NAME_34	Scorpion
+MSG_MON_NAME_35	Lobster
+MSG_MON_NAME_36	Minotaur
+MSG_MON_NAME_37	Minotaur Zombie
+MSG_MON_NAME_38	Troll
+MSG_MON_NAME_39	Sea Troll
+MSG_MON_NAME_40	Shadow
+MSG_MON_NAME_41	Wraith
+MSG_MON_NAME_42	Specter
+MSG_MON_NAME_43	Ghost
+MSG_MON_NAME_44	Zombie
+MSG_MON_NAME_45	Ghoul
+MSG_MON_NAME_46	Ghast
+MSG_MON_NAME_47	Wight
+MSG_MON_NAME_48	Purple Worm
+MSG_MON_NAME_49	Sand Worm
+MSG_MON_NAME_50	Lava Worm
+MSG_MON_NAME_51	Evil Eye
+MSG_MON_NAME_52	Death Eye
+MSG_MON_NAME_53	Medusa
+MSG_MON_NAME_54	Earth Medusa
+MSG_MON_NAME_55	Weretiger
+MSG_MON_NAME_56	Rakshasa
+MSG_MON_NAME_57	Ankheg
+MSG_MON_NAME_58	Remorazz
+MSG_MON_NAME_59	Lesser Tiger
+MSG_MON_NAME_60	Sabertooth
+MSG_MON_NAME_61	Vampire
+MSG_MON_NAME_62	Vampire Lord
+MSG_MON_NAME_63	Gargoyle
+MSG_MON_NAME_64	Horned Devil
+MSG_MON_NAME_65	Earth Elemental
+MSG_MON_NAME_66	Fire Elemental
+MSG_MON_NAME_67	White Dragon
+MSG_MON_NAME_68	Red Dragon
+MSG_MON_NAME_69	Dragon Zombie
+MSG_MON_NAME_70	Green Slime
+MSG_MON_NAME_71	Gray Ooze
+MSG_MON_NAME_72	Ochre Jelly
+MSG_MON_NAME_73	Black Flan
+MSG_MON_NAME_74	Black Widow
+MSG_MON_NAME_75	Tarantula
+MSG_MON_NAME_76	Manticore
+MSG_MON_NAME_77	Sphinx
+MSG_MON_NAME_78	Baretta
+MSG_MON_NAME_79	Desert Baretta
+MSG_MON_NAME_80	Mummy
+MSG_MON_NAME_81	King Mummy
+MSG_MON_NAME_82	Cockatrice
+MSG_MON_NAME_83	Pyrolisk
+MSG_MON_NAME_84	Wyvern
+MSG_MON_NAME_85	Wyrm
+MSG_MON_NAME_86	Allosaurus
+MSG_MON_NAME_87	Tyrannosaur
+MSG_MON_NAME_88	Piranha
+MSG_MON_NAME_89	Red Piranha
+MSG_MON_NAME_90	Crocodile
+MSG_MON_NAME_91	White Croc
+MSG_MON_NAME_92	Ochu
+MSG_MON_NAME_93	Neochu
+MSG_MON_NAME_94	Hydra
+MSG_MON_NAME_95	Fire Hydra
+MSG_MON_NAME_96	Guardian
+MSG_MON_NAME_97	Soldier
+MSG_MON_NAME_98	Water Elemental
+MSG_MON_NAME_99	Air Elemental
+MSG_MON_NAME_100	Water Naga
+MSG_MON_NAME_101	Spirit Naga
+MSG_MON_NAME_102	Chimera
+MSG_MON_NAME_103	Rhyos
+MSG_MON_NAME_104	Piscodemon
+MSG_MON_NAME_105	Mindflayer
+MSG_MON_NAME_106	Garland
+MSG_MON_NAME_107	Green Dragon
+MSG_MON_NAME_108	Blue Dragon
+MSG_MON_NAME_109	Clay Golem
+MSG_MON_NAME_110	Stone Golem
+MSG_MON_NAME_111	Iron Golem
+MSG_MON_NAME_112	Black Knight
+MSG_MON_NAME_113	Death Knight
+MSG_MON_NAME_114	Astos
+MSG_MON_NAME_115	Dark Wizard
+MSG_MON_NAME_116	Dark Fighter
+MSG_MON_NAME_117	Crazy Horse
+MSG_MON_NAME_118	Nightmare
+MSG_MON_NAME_119	Warmech
+MSG_MON_NAME_120	Lich
+MSG_MON_NAME_121	Marilith
+MSG_MON_NAME_122	Kraken
+MSG_MON_NAME_123	Tiamat
+MSG_MON_NAME_124	Chaos
+MSG_MON_ATK_01	Icestorm
+MSG_MON_ATK_02	Blaze
+MSG_MON_ATK_03	Gaze
+MSG_MON_ATK_04	Gaze
+MSG_MON_ATK_05	Flash
+MSG_MON_ATK_07	Earthquake
+MSG_MON_ATK_08	Gaze
+MSG_MON_ATK_09	Gaze
+MSG_MON_ATK_10	Gaze
+MSG_MON_ATK_15	Stone Gas
+MSG_MON_ATK_16	Mind Blast
+MSG_MON_ATK_17	Poison Gas
+MSG_MON_ATK_18	Thunderbolt
+MSG_MON_ATK_19	Deadly Gas
+MSG_MON_ATK_20	Snort
+MSG_MON_ATK_21	Nuke
+MSG_MON_ATK_22	Ink
+MSG_MON_ATK_23	Poison Darts
+MSG_MON_ATK_24	Gaze
+MSG_MON_ATK_25	Tsunami
+MSG_MON_ATK_26	Cyclone
+MSG_LOCATION_STICK	(AREA_NAME) – (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	World Map
+MSG_MAP_NAME_02	Elven Castle
+MSG_MAP_NAME_03	Elfheim
+MSG_MAP_NAME_04	Onrac
+MSG_MAP_NAME_05	Gaia
+MSG_MAP_NAME_06	Caravan
+MSG_MAP_NAME_07	Crescent Lake
+MSG_MAP_NAME_08	Castle Cornelia
+MSG_MAP_NAME_09	Cornelia
+MSG_MAP_NAME_10	Western Keep
+MSG_MAP_NAME_11	Pravoka
+MSG_MAP_NAME_12	Melmond
+MSG_MAP_NAME_13	Lufenia
+MSG_MAP_NAME_14	Cavern of Earth
+MSG_MAP_NAME_15	Chaos Shrine
+MSG_MAP_NAME_16	Giant's Cave
+MSG_MAP_NAME_17	Mount Gulg
+MSG_MAP_NAME_18	Sage's Cave
+MSG_MAP_NAME_19	Cavern of Ice
+MSG_MAP_NAME_20	Citadel of Trials
+MSG_MAP_NAME_21	Waterfall Cavern
+MSG_MAP_NAME_22	Dragon Caves
+MSG_MAP_NAME_23	Mount Duergar
+MSG_MAP_NAME_24	Marsh Cave
+MSG_MAP_NAME_25	Matoya's Cave
+MSG_MAP_NAME_26	Mirage Tower
+MSG_MAP_NAME_27	Sunken Shrine
+MSG_MAP_NAME_28	Flying Fortress
+MSGARA_NAME_01	B1
+MSGARA_NAME_02	B2
+MSGARA_NAME_03	B3
+MSGARA_NAME_04	B4
+MSGARA_NAME_05	B5
+MSGARA_NAME_06	1F
+MSGARA_NAME_07	2F
+MSGARA_NAME_08	3F
+MSGARA_NAME_09	4F
+MSGARA_NAME_10	5F
+MSGARA_NAME_11	Inn
+MSGARA_NAME_12	Weapons
+MSGARA_NAME_13	Armor
+MSGARA_NAME_14	Items
+MSGARA_NAME_15	White Magic
+MSGARA_NAME_16	Black Magic
+MSG_NAME_LIST_01	Aeneas
+MSG_NAME_LIST_02	Andii
+MSG_NAME_LIST_03	Edan
+MSG_NAME_LIST_04	Arael
+MSG_NAME_LIST_05	Glitz
+MSG_NAME_LIST_06	Clair
+MSG_NAME_LIST_07	Kaili
+MSG_NAME_LIST_08	Corrad
+MSG_NAME_LIST_09	Seren
+MSG_NAME_LIST_10	Franke
+MSG_NAME_LIST_11	Morgan
+MSG_NAME_LIST_12	Yubert
+MSG_NAME_LIST_13	Rilee
+MSG_NAME_LIST_14	Ryco
+MSG_NAME_LIST_15	Rukus
+MSG_NAME_LIST_16	Luce
+MSG_NAME_LIST_17	Rae
+MSG_NAME_LIST_18	Rion
+MSG_NAME_LIST_19	Robyn
+MSG_NAME_LIST_20	Laurus
+MSG_SYSTEM_001	Close
+MSG_SYSTEM_002	Back
+MSG_SYSTEM_003	Yes
+MSG_SYSTEM_004	No
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	x
+MSG_SYSTEM_017	No effect.
+MSG_SYSTEM_018	Escaped.
+MSG_SYSTEM_019	Can't escape!
+MSG_SYSTEM_020	Preemptive strike!
+MSG_SYSTEM_021	Ambushed!
+MSG_SYSTEM_022	The party was defeated.
+MSG_SYSTEM_023	Gil
+MSG_SYSTEM_024	EXP
+MSG_SYSTEM_025	Items
+MSG_SYSTEM_026	Next
+MSG_SYSTEM_027	Close
+MSG_SYSTEM_028	LEVEL UP
+MSG_SYSTEM_029	Attack
+MSG_SYSTEM_030	Defend
+MSG_SYSTEM_031	Equip
+MSG_SYSTEM_032	Flee
+MSG_SYSTEM_033	Stone
+MSG_SYSTEM_034	Poison
+MSG_SYSTEM_035	Darkness
+MSG_SYSTEM_036	Paralysis
+MSG_SYSTEM_037	Sleep
+MSG_SYSTEM_038	Silence
+MSG_SYSTEM_039	KO
+MSG_SYSTEM_040	MISS
+MSG_SYSTEM_041	HIT
+MSG_SYSTEM_288	HITS
+MSG_SYSTEM_042	Items
+MSG_SYSTEM_043	Magic
+MSG_SYSTEM_044	Equip
+MSG_SYSTEM_045	Status
+MSG_SYSTEM_046	Order
+MSG_SYSTEM_047	Configuration
+MSG_SYSTEM_048	Quick Save
+MSG_SYSTEM_049	Save
+MSG_SYSTEM_050	Gil
+MSG_SYSTEM_051	Time
+MSG_SYSTEM_052	Lv.
+MSG_SYSTEM_053	HP
+MSG_SYSTEM_283	MP
+MSG_SYSTEM_054	Key Items
+MSG_SYSTEM_055	Sort
+MSG_SYSTEM_056	Use
+MSG_SYSTEM_057	(STATUS_NAME) +(VALUE_NUM)
+MSG_SYSTEM_058	(STATUS_NAME) -(VALUE_NUM)
+MSG_SYSTEM_059	(HALF_SPACE)
+MSG_SYSTEM_060	No items.
+MSG_SYSTEM_061	No key items.
+MSG_SYSTEM_293	You don't have any items that can be used in battle.
+MSG_SYSTEM_279	No party members can equip this now.
+MSG_SYSTEM_063	Forget
+MSG_SYSTEM_064	Forget the selected spell?
+MSG_SYSTEM_065	Cannot use magic.
+MSG_SYSTEM_066	Optimal
+MSG_SYSTEM_067	Remove
+MSG_SYSTEM_068	Remove All
+MSG_SYSTEM_069	Empty
+MSG_SYSTEM_070	None
+MSG_SYSTEM_071	Weapon
+MSG_SYSTEM_072	Shield
+MSG_SYSTEM_073	Head
+MSG_SYSTEM_074	Body
+MSG_SYSTEM_075	Arms
+MSG_SYSTEM_077	EXP
+MSG_SYSTEM_078	Next Level in
+MSG_SYSTEM_079	Strength
+MSG_SYSTEM_080	Agility
+MSG_SYSTEM_081	Intellect
+MSG_SYSTEM_082	Stamina
+MSG_SYSTEM_083	Luck
+MSG_SYSTEM_084	Attack
+MSG_SYSTEM_085	Accuracy
+MSG_SYSTEM_086	Defense
+MSG_SYSTEM_087	Evasion
+MSG_SYSTEM_088	Commands
+MSG_SYSTEM_089	File
+MSG_SYSTEM_091	Empty
+MSG_SYSTEM_298	MM/dd/yyyy(FULL_SPACE)H:mm
+MSG_SYSTEM_093	Select target.
+MSG_SYSTEM_094	Entire party
+MSG_SYSTEM_095	One ally
+MSG_SYSTEM_096	All enemies
+MSG_SYSTEM_097	One enemy
+MSG_SYSTEM_098	All
+MSG_SYSTEM_099	Controls
+MSG_SYSTEM_100	More Commands
+MSG_SYSTEM_101	Change Equipment
+MSG_SYSTEM_102	Items
+MSG_SYSTEM_103	Select
+MSG_SYSTEM_104	Scroll Page
+MSG_SYSTEM_105	Close Menu
+MSG_SYSTEM_106	Cancel
+MSG_SYSTEM_107	View Description
+MSG_SYSTEM_362	Disembark
+MSG_SYSTEM_285	Zoom In
+MSG_SYSTEM_286	Zoom Out
+MSG_SYSTEM_287	Move
+MSG_SYSTEM_108	Custom
+MSG_SYSTEM_299	Weapons
+MSG_SYSTEM_109	Armor
+MSG_SYSTEM_110	Name
+MSG_SYSTEM_111	Select and organize items yourself.
+MSG_SYSTEM_112	Organize inventory with single-use items first.
+MSG_SYSTEM_113	Organize inventory with weapons first.
+MSG_SYSTEM_114	Organize inventory with armor first.
+MSG_SYSTEM_115	
+MSG_SYSTEM_116	Pause/Restart
+MSG_SYSTEM_118	Target Enemy: All/Single
+MSG_SYSTEM_119	Target Ally: All/Single
+MSG_SYSTEM_120	List: Page Up
+MSG_SYSTEM_121	List: Page Down
+MSG_SYSTEM_123	Start/Stop Auto-Battle
+MSG_SYSTEM_124	Pause/Restart
+MSG_SYSTEM_126	Back/Cancel
+MSG_SYSTEM_127	Switch to Change Equipment
+MSG_SYSTEM_128	Switch to Items
+MSG_SYSTEM_129	Target All
+MSG_SYSTEM_130	Single Target
+MSG_SYSTEM_131	Restore Default Settings
+MSG_SYSTEM_133	Change
+MSG_SYSTEM_134	Welcome!
+MSG_SYSTEM_139	How many would you like?
+MSG_SYSTEM_142	How many are you selling?
+MSG_SYSTEM_143	Thanks!
+MSG_SYSTEM_144	Find anything to your liking?
+MSG_SYSTEM_150	Thank you.
+MSG_SYSTEM_155	Forget (FG_MAGC_N) and learn (LE_MAGC_N)?
+MSG_SYSTEM_156	Learn (MAGC_N)?
+MSG_SYSTEM_157	Purchase this spell?
+MSG_SYSTEM_158	Weapons
+MSG_SYSTEM_159	Armor
+MSG_SYSTEM_160	Items
+MSG_SYSTEM_161	White Magic
+MSG_SYSTEM_162	Black Magic
+MSG_SYSTEM_337	Caravan
+MSG_SYSTEM_163	Cost
+MSG_SYSTEM_164	Number
+MSG_SYSTEM_165	Number
+MSG_SYSTEM_166	Total
+MSG_SYSTEM_167	Lv. (MAGC_L) Magic
+MSG_SYSTEM_168	Cannot learn
+MSG_SYSTEM_169	Learned
+MSG_SYSTEM_171	Buy
+MSG_SYSTEM_172	Sell
+MSG_SYSTEM_173	Exit
+MSG_SYSTEM_174	Stock
+MSG_SYSTEM_175	Equipped
+MSG_SYSTEM_176	Weight
+MSG_SYSTEM_177	New Game
+MSG_SYSTEM_178	Load Game
+MSG_SYSTEM_179	TAP TO START
+MSG_SYSTEM_180	PRESS ANY KEY
+MSG_SYSTEM_181	©SQUARE ENIX CO., LTD. All Rights Reserved.\nLogo & Image Illustration: ©YOSHITAKA AMANO
+MSG_SYSTEM_183	Assign each character a name and class.
+MSG_SYSTEM_184	Confirm
+MSG_SYSTEM_185	Done
+MSG_SYSTEM_187	You must name all characters.
+MSG_SYSTEM_188	Begin the game with this party?
+MSG_SYSTEM_190	Select the character's class.
+MSG_SYSTEM_191	Select a name for the character.
+MSG_SYSTEM_281	*Up to 6 full-width characters or 12 half-width characters
+MSG_SYSTEM_192	Use this name?
+MSG_SYSTEM_193	Suggested Names
+MSG_SYSTEM_195	*Some characters and symbols may not display properly.
+MSG_SYSTEM_196	Return to title screen. Settings will not be saved. Proceed?
+MSG_SYSTEM_197	Class
+MSG_SYSTEM_198	Select classes.
+MSG_SYSTEM_199	Select names.
+MSG_SYSTEM_200	Extras
+MSG_SYSTEM_201	Options
+MSG_SYSTEM_202	Bestiary
+MSG_SYSTEM_203	Music Player
+MSG_SYSTEM_206	Privacy Policy
+MSG_SYSTEM_207	License
+MSG_SYSTEM_282	Gallery
+MSG_SYSTEM_208	Chests
+MSG_SYSTEM_209	Items
+MSG_SYSTEM_210	Notifications
+MSG_SYSTEM_284	Tap Mode
+MSG_SYSTEM_212	Save complete.
+MSG_SYSTEM_213	Overwrite save data?
+MSG_SYSTEM_289	Save data is corrupted.
+MSG_SYSTEM_290	Data could not be saved.
+MSG_SYSTEM_215	Autosave
+MSG_SYSTEM_216	Quick Save
+MSG_SYSTEM_295	Completed Game Save
+MSG_SYSTEM_217	Save your progress?
+MSG_SYSTEM_218	Quick Save complete.
+MSG_SYSTEM_291	Quick Save data is corrupted.
+MSG_SYSTEM_292	Quick Save data could not be saved.
+MSG_SYSTEM_370	Not enough storage available to play the game. Please delete unnecessary files to free up storage space.
+MSG_SYSTEM_219	Start playing using this data?
+MSG_SYSTEM_220	Save Completed Game data?
+MSG_SYSTEM_221	*Data saves progress up to the final boss.
+MSG_SYSTEM_222	Save complete. Return to title screen?
+MSG_SYSTEM_223	Completed Game data has not been saved. Return to title screen?
+MSG_SYSTEM_228	Current Location
+MSG_SYSTEM_229	Ship
+MSG_SYSTEM_230	Airship
+MSG_SYSTEM_335	Start from recent save data?
+MSG_CFG_INF_01	System
+MSG_CFG_INF_02	Cursor Memory
+MSG_CFG_INF_03	Continue Auto-Battle
+MSG_CFG_INF_05	Language Settings
+MSG_CFG_INF_06	Return to Title Screen
+MSG_CFG_INF_07	Quit Game
+MSG_CFG_INF_93	Display Settings
+MSG_CFG_INF_09	Mode
+MSG_CFG_INF_94	Resolution
+MSG_CFG_INF_153	Graphic Display
+MSG_CFG_INF_10	Saturation
+MSG_CFG_INF_11	Brightness
+MSG_CFG_INF_12	Sound
+MSG_CFG_INF_13	Master Volume
+MSG_CFG_INF_14	BGM Volume
+MSG_CFG_INF_15	SFX Volume
+MSG_CFG_INF_95	Turn cursor location memory on or off.
+MSG_CFG_INF_96	Set auto-battle to remain on in the next battle.
+MSG_CFG_INF_98	Adjust the color saturation.
+MSG_CFG_INF_99	Adjust the screen brightness.
+MSG_CFG_INF_100	Adjust the volume for the entire game.
+MSG_CFG_INF_101	Adjust the volume of the background music.
+MSG_CFG_INF_102	Adjust the volume of the sound effects.
+MSG_CFG_INF_104	Set the controls on the gamepad.
+MSG_CFG_INF_105	Set the controls on the keyboard.
+MSG_CFG_INF_106	Return to title screen. Unsaved progress will be lost.
+MSG_CFG_INF_107	Quit the game. Unsaved progress will be lost.
+MSG_CFG_INF_108	Gamepad controls will return to their default settings.
+MSG_CFG_INF_109	Keyboard controls will return to their default settings.
+MSG_CFG_INF_158	Adjust the look of the on-screen graphics.
+MSG_CFG_INF_18	Gamepad Settings
+MSG_CFG_INF_19	Confirm
+MSG_CFG_INF_21	Open/Close Menu
+MSG_CFG_INF_23	Page Up
+MSG_CFG_INF_24	Page Down
+MSG_CFG_INF_25	Switch Party Member (Left)
+MSG_CFG_INF_26	Switch Party Member (Right)
+MSG_CFG_INF_28	Keyboard Settings
+MSG_CFG_INF_29	Move Up
+MSG_CFG_INF_30	Move Down
+MSG_CFG_INF_31	Move Left
+MSG_CFG_INF_32	Move Right
+MSG_CFG_INF_135	Keyboard
+MSG_CFG_INF_136	Mouse
+MSG_CFG_INF_33	Gamepad Controls
+MSG_CFG_INF_110	Run (press and hold)
+MSG_CFG_INF_113	Auto-Battle On/Off
+MSG_CFG_INF_114	Open/Close Map
+MSG_CFG_INF_115	Mini-map On/Off
+MSG_CFG_INF_148	Pause Battle
+MSG_CFG_INF_34	Keyboard Controls
+MSG_CFG_INF_116	Scroll
+MSG_CFG_INF_117	Field Menu
+MSG_CFG_INF_118	Menu
+MSG_CFG_INF_119	Map
+MSG_CFG_INF_120	Movement Controls
+MSG_CFG_INF_121	Talk
+MSG_CFG_INF_137	Interact
+MSG_CFG_INF_123	Battle menu
+MSG_CFG_INF_35	Field Menu Display
+MSG_CFG_INF_37	Directional Pad Display
+MSG_CFG_INF_38	Menu Display
+MSG_CFG_INF_39	Menu Bar Display
+MSG_CFG_INF_40	Battle UI Display
+MSG_CFG_INF_41	Battle Commands Display
+MSG_CFG_INF_154	Graphics
+MSG_CFG_INF_42	Controls
+MSG_CFG_INF_43	On
+MSG_CFG_INF_44	Off
+MSG_CFG_INF_45	Left
+MSG_CFG_INF_46	Right
+MSG_CFG_INF_156	Standard
+MSG_CFG_INF_157	Classic
+MSG_CFG_INF_48	Very Slow
+MSG_CFG_INF_49	Slow
+MSG_CFG_INF_50	Normal
+MSG_CFG_INF_51	Fast
+MSG_CFG_INF_52	Very Fast
+MSG_CFG_INF_129	Language
+MSG_CFG_INF_53	日本語 (Japanese)
+MSG_CFG_INF_54	English
+MSG_CFG_INF_55	Français (French)
+MSG_CFG_INF_56	Italiano (Italian)
+MSG_CFG_INF_57	Deutsch (German)
+MSG_CFG_INF_58	Español (Spanish)
+MSG_CFG_INF_59	한국어 (Korean)
+MSG_CFG_INF_60	繁體中文 (Traditional Chinese)
+MSG_CFG_INF_61	简体中文 (Simplified Chinese)
+MSG_CFG_INF_62	русский (Russian)
+MSG_CFG_INF_63	ภาษาไทย (Thai)
+MSG_CFG_INF_64	Português brasileiro (Brazilian Portuguese)
+MSG_CFG_INF_66	Fullscreen
+MSG_CFG_INF_67	Windowed
+MSG_CFG_INF_68	Borderless Windowed
+MSG_CFG_INF_69	None
+MSG_CFG_INF_70	Style 1
+MSG_CFG_INF_71	Style 2
+MSG_CFG_INF_72	Style 3
+MSG_CFG_INF_76	Switch to the selected language?
+MSG_CFG_INF_130	*The game will restart after changing settings.
+MSG_CFG_INF_78	Apply these display settings?
+MSG_CFG_INF_89	Return to title screen.
+MSG_CFG_INF_131	Unsaved settings will be discarded.
+MSG_CFG_INF_132	Proceed?
+MSG_CFG_INF_155	Select a language.
+MSG_SYSTEM_231	Quit the game.
+MSG_SYSTEM_232	Quit the game? Your progress will be saved automatically.
+MSG_SYSTEM_234	???
+MSG_SYSTEM_235	Magic Defense
+MSG_SYSTEM_238	Weakness
+MSG_SYSTEM_239	None
+MSG_SYSTEM_240	Fire
+MSG_SYSTEM_241	Ice
+MSG_SYSTEM_242	Lightning
+MSG_SYSTEM_243	Dia
+MSG_SYSTEM_245	Spirit
+MSG_SYSTEM_247	Earth
+MSG_SYSTEM_248	Time
+MSG_SYSTEM_301	Instant Death
+MSG_SYSTEM_302	Poison
+MSG_SYSTEM_336	Confuse
+MSG_SYSTEM_249	Defeated
+MSG_SYSTEM_250	Encountered
+MSG_SYSTEM_304	Display Map
+MSG_SYSTEM_305	Quick Scroll
+MSG_SYSTEM_357	Scroll
+MSG_SYSTEM_306	Shift Display
+MSG_SYSTEM_358	Switch Maps
+MSG_SYSTEM_307	Confirm
+MSG_SYSTEM_308	Spawn Area
+MSG_SYSTEM_309	Resistance
+MSG_SYSTEM_310	Type
+MSG_SYSTEM_311	Regenerative
+MSG_SYSTEM_312	Mage
+MSG_SYSTEM_313	Aquatic
+MSG_SYSTEM_314	Beast
+MSG_SYSTEM_315	Undead
+MSG_SYSTEM_316	Giant
+MSG_SYSTEM_317	Dragon
+MSG_SYSTEM_318	Magic
+MSG_SYSTEM_319	Select an image to view.
+MSG_SYSTEM_320	Hide Text
+MSG_SYSTEM_321	AR Battle
+MSG_SYSTEM_361	AR Mode
+MSG_SYSTEM_322	Camera On
+MSG_SYSTEM_323	Camera Off
+MSG_SYSTEM_324	Rearrange Enemies
+MSG_SYSTEM_325	Start Battle
+MSG_SYSTEM_326	Hide Menu
+MSG_SYSTEM_327	Allow FINAL FANTASY to access your photos?
+MSG_SYSTEM_328	Allow
+MSG_SYSTEM_329	Deny
+MSG_SYSTEM_355	End AR Battle?
+MSG_SYSTEM_367	The AR feature of this app uses the camera. Please allow the app access to the camera function.
+MSG_SYSTEM_368	The app currently does not have access to the camera. In order to use the AR feature, please allow the app access to the camera function.
+MSG_SYSTEM_369	If you opt to change the app's settings at a later time, please allow the app access to the camera function from the settings on your device.
+MSG_SYSTEM_371	The image from your camera will serve as the background for the battle.
+MSG_SYSTEM_330	Select a song to play.
+MSG_SYSTEM_331	Play
+MSG_SYSTEM_332	Pause
+MSG_SYSTEM_333	Play All On
+MSG_SYSTEM_334	Play All Off
+MSG_SYSTEM_359	Play All
+MSG_SYSTEM_251	Play 15 Puzzle?
+MSG_SYSTEM_252	Exit
+MSG_SYSTEM_266	Exit 15 Puzzle?
+MSG_SYSTEM_300	Continue 15 Puzzle?
+MSG_PC_KEY_CONFIG_01	Backspace
+MSG_PC_KEY_CONFIG_02	Enter
+MSG_PC_KEY_CONFIG_03	Shift (L)
+MSG_PC_KEY_CONFIG_04	Shift (R)
+MSG_PC_KEY_CONFIG_05	Alt (L)
+MSG_PC_KEY_CONFIG_06	Alt (R)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Caps Lock
+MSG_PC_KEY_CONFIG_09	Space
+MSG_PC_KEY_CONFIG_10	Insert
+MSG_PC_KEY_CONFIG_11	Home
+MSG_PC_KEY_CONFIG_12	Delete
+MSG_PC_KEY_CONFIG_13	Pause/Break
+MSG_PC_KEY_CONFIG_14	Scroll Lock
+MSG_PC_KEY_CONFIG_15	Num Enter
+MSG_SYSTEM_338	Cloud Save Function
+MSG_SYSTEM_339	Upload
+MSG_SYSTEM_340	Download
+MSG_SYSTEM_341	Local Save Files
+MSG_SYSTEM_342	Cloud Save Files
+MSG_SYSTEM_356	Details
+MSG_SYSTEM_343	You can backup your save files to the cloud.
+MSG_SYSTEM_344	Upload all local save files and overwrite the cloud data.
+MSG_SYSTEM_345	Download all cloud save files and overwrite local save data.
+MSG_SYSTEM_346	All save files will be uploaded to the cloud.
+MSG_SYSTEM_347	All cloud save files will be overwritten.
+MSG_SYSTEM_348	Upload to the cloud complete.
+MSG_SYSTEM_349	Upload to the cloud has failed.
+MSG_SYSTEM_350	Please check your internet connectivity.
+MSG_SYSTEM_351	All save files will be downloaded from the cloud.
+MSG_SYSTEM_352	All local save files will be overwritten.
+MSG_SYSTEM_353	Download from the cloud complete.
+MSG_SYSTEM_354	Download from the cloud has failed.
+MSG_SYSTEM_363	Syncing...
+MSG_SYSTEM_364	Data sync failed.
+MSG_SYSTEM_365	Network failure.
+MSG_SYSTEM_366	Retry
+MSG_SYSTEM_360	Now Loading...
+MSG_SYSTEM_372	License verification failed. The app will close.
+MSG_SYSTEM_373	Please check your device's settings and internet connection and restart the app.
+MSG_KEY_5	You get the lute.
+MSG_KEY_10	You get the crown.
+MSG_KEY_11	You get the crystal eye.
+MSG_KEY_12	You get the herb. (jolt tonic)
+MSG_KEY_13	You get the mystic key.
+MSG_KEY_14	You get the TNT. (nitro powder)
+MSG_KEY_15	The canal has been built!
+MSG_KEY_17	You get the ruby.
+MSG_KEY_19	You get the rod.
+MSG_KEY_21	You lit the earth crystal.
+MSG_KEY_22	You get the canoe.
+MSG_KEY_23	You lit the fire crystal.
+MSG_KEY_24	You get the floater.
+MSG_KEY_25	You get the airship.
+MSG_KEY_26	You get the cube.
+MSG_KEY_29	You get the oxyale.
+MSG_KEY_31	You get the slab.
+MSG_KEY_32	You learn Lufenian.
+MSG_KEY_33	You get the chime.
+MSG_KEY_34	You lit the water crystal.
+MSG_KEY_35	You lit the air crystal.
+MSG_KEY_45	You get the tail.
+MSG_KEY_47	You get the adamant.
+MSG_KEY_48	You get the item1.
+MSG_KEY_A1	You get the item2.
+MSG_KEY_A2	You get the item3.
+

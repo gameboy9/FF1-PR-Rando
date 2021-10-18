@@ -86,7 +86,7 @@ namespace FF1_PRR.Inventory
 		{
 			List<singleMonster> records;
 
-			using (StreamReader reader = new StreamReader(Path.Combine("csv", "monster.csv")))
+			using (StreamReader reader = new StreamReader(fileName))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				records = csv.GetRecords<singleMonster>().ToList();
