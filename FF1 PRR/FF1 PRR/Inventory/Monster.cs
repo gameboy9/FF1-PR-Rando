@@ -82,11 +82,11 @@ namespace FF1_PRR.Inventory
 			public int rage_ability_random_group_id { get; set; }
 		}
 
-		public Monster(Random r1, string fileName, int xpMultiplier, int xpBoost, int gpMultiplier, int gpBoost)
+		public Monster(Random r1, string fileName, double xpMultiplier, int xpBoost, double gpMultiplier, int gpBoost)
 		{
 			List<singleMonster> records;
 
-			using (StreamReader reader = new StreamReader(Path.Combine("csv", "monster.csv")))
+			using (StreamReader reader = new StreamReader(fileName))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				records = csv.GetRecords<singleMonster>().ToList();
@@ -94,9 +94,9 @@ namespace FF1_PRR.Inventory
 
 			foreach (singleMonster iMonster in records)
 			{
-				iMonster.exp *= xpMultiplier;
+				iMonster.exp = (int)(iMonster.exp * xpMultiplier);
 				iMonster.exp += xpBoost;
-				iMonster.gill *= gpMultiplier;
+				iMonster.gill = (int)(iMonster.gill * gpMultiplier);
 				iMonster.gill += gpBoost;
 			}
 
