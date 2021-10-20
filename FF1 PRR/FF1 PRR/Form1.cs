@@ -44,9 +44,9 @@ namespace FF1_PRR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 2)
-				RandoFlags.Text = "BA";
-			else if (RandoFlags.Text.Length < 2)
+			if (loading && RandoFlags.Text.Length < 4)
+				RandoFlags.Text = "BwA2";
+			else if (RandoFlags.Text.Length < 4)
 				return;
 
 			if (loading && VisualFlags.Text.Length < 1)
@@ -65,8 +65,6 @@ namespace FF1_PRR
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
-
-			// TEMPORARY:  Keep commented; we will be using combo boxes eventually
 
 			loading = false;
 		}
