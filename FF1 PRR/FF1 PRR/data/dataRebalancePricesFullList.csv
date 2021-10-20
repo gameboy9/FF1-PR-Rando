@@ -1,0 +1,201 @@
+file,name,id,field,value,comment
+item.csv,Potion,1,buy,40,40
+item.csv,Hi-Potion,2,buy,300,150
+item.csv,X-Potion,3,buy,1500,600
+item.csv,Ether,4,buy,1000,150
+item.csv,Dry Ether,6,buy,5000,1600
+item.csv,Elixir,7,buy,20000,2000
+item.csv,Phoenix Down,9,buy,1500,500
+item.csv,Antidote,10,buy,50,50
+item.csv,Eye Drops,11,buy,50,50
+item.csv,Echo Grass,12,buy,50,50
+item.csv,Gold Needle,13,buy,500,500
+item.csv,Remedy,14,buy,1500,1500
+item.csv,Sleeping Bag,16,buy,50,50
+item.csv,Tent,17,buy,250,160
+item.csv,Cottage,18,buy,2000,2000
+item.csv,Giant's Tonic,31,buy,1500,1500
+item.csv,Strength Tonic,33,buy,1000,1000
+item.csv,Protect Drink,34,buy,1000,1000
+item.csv,Speed Drink,35,buy,1000,1000
+item.csv,Potion,1,sell,20,20
+item.csv,Hi-Potion,2,sell,150,75
+item.csv,X-Potion,3,sell,750,300
+item.csv,Ether,4,sell,500,75
+item.csv,Dry Ether,6,sell,2500,800
+item.csv,Elixir,7,sell,10000,1000
+item.csv,Phoenix Down,9,sell,750,250
+item.csv,Antidote,10,sell,25,25
+item.csv,Eye Drops,11,sell,25,25
+item.csv,Echo Grass,12,sell,25,25
+item.csv,Gold Needle,13,sell,250,250
+item.csv,Remedy,14,sell,750,750
+item.csv,Sleeping Bag,16,sell,25,25
+item.csv,Tent,17,sell,125,80
+item.csv,Cottage,18,sell,1000,1000
+item.csv,Giant's Tonic,31,sell,750,750
+item.csv,Strength Tonic,33,sell,500,500
+item.csv,Protect Drink,34,sell,500,500
+item.csv,Speed Drink,35,sell,500,500
+item.csv,Bottled Faerie,58,buy,40000,40000
+item.csv,Bottled Faerie,58,sell,0,0
+weapon.csv,Knife,2,buy,4,4
+weapon.csv,Dagger,3,buy,140,140
+weapon.csv,Mythril Knife,4,buy,640,640
+weapon.csv,Cat Claws,6,buy,52000,52000
+weapon.csv,Rapier,10,buy,8,8
+weapon.csv,Saber,11,buy,360,360
+weapon.csv,Broadsword,12,buy,450,450
+weapon.csv,Werebuster,13,buy,6000,6000
+weapon.csv,Rune Blade,14,buy,5000,5000
+weapon.csv,Wyrmkiller,15,buy,8000,8000
+weapon.csv,Coral Sword,16,buy,8000,8000
+weapon.csv,Longsword,17,buy,1200,1200
+weapon.csv,Great Sword,18,buy,8000,8000
+weapon.csv,Razer,19,buy,60000,60000
+weapon.csv,Mythril Sword,20,buy,3200,3200
+weapon.csv,Vorpal Sword,21,buy,30000,30000
+weapon.csv,Flame Sword,22,buy,10000,10000
+weapon.csv,Ice Brand,25,buy,15000,15000
+weapon.csv,Defender,26,buy,40000,40000
+weapon.csv,Sun Blade,28,buy,20000,20000
+weapon.csv,Excalibur,31,buy,60000,60000
+weapon.csv,Scimitar,35,buy,160,160
+weapon.csv,Falchion,36,buy,360,360
+weapon.csv,Sasuke's Blade,39,buy,60000,60000
+weapon.csv,Masamune,42,buy,60000,60000
+weapon.csv,Nunchaku,43,buy,8,8
+weapon.csv,Iron Nunchaku,44,buy,160,160
+weapon.csv,Battle Axe,45,buy,450,450
+weapon.csv,Great Axe,46,buy,1600,1600
+weapon.csv,Mythril Axe,48,buy,3600,3600
+weapon.csv,Light Axe,49,buy,10000,10000
+weapon.csv,Hammer,53,buy,8,8
+weapon.csv,Mythril Hammer,54,buy,2000,2000
+weapon.csv,Thor's Hammer,55,buy,40000,40000
+weapon.csv,Staff,57,buy,4,4
+weapon.csv,Healing Staff,58,buy,25000,25000
+weapon.csv,Power Staff,59,buy,12345,12345
+weapon.csv,Mage's Staff,60,buy,25000,25000
+weapon.csv,Crosier,61,buy,1600,160
+weapon.csv,Wizard's Staff,62,buy,50000,50000
+weapon.csv,Knife,2,sell,2,2
+weapon.csv,Dagger,3,sell,70,70
+weapon.csv,Mythril Knife,4,sell,320,320
+weapon.csv,Cat Claws,6,sell,26000,26000
+weapon.csv,Rapier,10,sell,4,4
+weapon.csv,Saber,11,sell,180,180
+weapon.csv,Broadsword,12,sell,225,225
+weapon.csv,Werebuster,13,sell,3000,3000
+weapon.csv,Rune Blade,14,sell,2500,2500
+weapon.csv,Wyrmkiller,15,sell,4000,4000
+weapon.csv,Coral Sword,16,sell,4000,4000
+weapon.csv,Longsword,17,sell,600,600
+weapon.csv,Great Sword,18,sell,4000,4000
+weapon.csv,Razer,19,sell,30000,30000
+weapon.csv,Mythril Sword,20,sell,1600,1600
+weapon.csv,Vorpal Sword,21,sell,15000,15000
+weapon.csv,Flame Sword,22,sell,5000,5000
+weapon.csv,Ice Brand,25,sell,7500,7500
+weapon.csv,Defender,26,sell,20000,20000
+weapon.csv,Sun Blade,28,sell,10000,10000
+weapon.csv,Excalibur,31,sell,30000,30000
+weapon.csv,Scimitar,35,sell,80,80
+weapon.csv,Falchion,36,sell,180,180
+weapon.csv,Sasuke's Blade,39,sell,30000,30000
+weapon.csv,Masamune,42,sell,30000,30000
+weapon.csv,Nunchaku,43,sell,4,4
+weapon.csv,Iron Nunchaku,44,sell,80,80
+weapon.csv,Battle Axe,45,sell,225,225
+weapon.csv,Great Axe,46,sell,800,800
+weapon.csv,Mythril Axe,48,sell,1800,1800
+weapon.csv,Light Axe,49,sell,5000,5000
+weapon.csv,Hammer,53,sell,4,4
+weapon.csv,Mythril Hammer,54,sell,1000,1000
+weapon.csv,Thor's Hammer,55,sell,20000,20000
+weapon.csv,Staff,57,sell,2,2
+weapon.csv,Healing Staff,58,sell,12500,12500
+weapon.csv,Power Staff,59,sell,6172,6172
+weapon.csv,Mage's Staff,60,sell,12500,12500
+weapon.csv,Crosier,61,sell,800,80
+weapon.csv,Wizard's Staff,62,sell,25000,25000
+armor.csv,Clothes,5,buy,8,8
+armor.csv,White Robe,7,buy,25000,25000
+armor.csv,Black Robe,8,buy,25000,25000
+armor.csv,Leather Armor,16,buy,40,40
+armor.csv,Chain Mail,17,buy,65,65
+armor.csv,Mythril Mail,18,buy,6000,6000
+armor.csv,Iron Armor,19,buy,640,640
+armor.csv,Ice Armor,20,buy,30000,30000
+armor.csv,Flame Mail,21,buy,30000,30000
+armor.csv,Knight's Armor,22,buy,36000,36000
+armor.csv,Diamond Armor,24,buy,60000,60000
+armor.csv,Dragon Mail,25,buy,60000,60000
+armor.csv,Copper Armlet,27,buy,800,800
+armor.csv,Silver Armlet,28,buy,4000,4000
+armor.csv,Ruby Armlet,29,buy,40000,40000
+armor.csv,Diamond Armlet,31,buy,65000,65000
+armor.csv,Leather Shield,32,buy,12,12
+armor.csv,Buckler,33,buy,2000,2000
+armor.csv,Iron Shield,34,buy,80,80
+armor.csv,Mythril Shield,35,buy,2000,2000
+armor.csv,Ice Shield,36,buy,10000,10000
+armor.csv,Flame Shield,37,buy,10000,10000
+armor.csv,Diamond Shield,39,buy,15000,15000
+armor.csv,Aegis Shield,41,buy,40000,40000
+armor.csv,Protect Cloak,44,buy,20000,20000
+armor.csv,Leather Cap,46,buy,65,65
+armor.csv,Ribbon,54,buy,200000,2
+armor.csv,Helm,55,buy,80,80
+armor.csv,Great Helm,56,buy,360,360
+armor.csv,Healing Helm,57,buy,20000,20000
+armor.csv,Mythril Helm,58,buy,2000,2000
+armor.csv,Diamond Helm,59,buy,10000,10000
+armor.csv,Leather Gloves,62,buy,50,50
+armor.csv,Bronze Gloves,63,buy,160,160
+armor.csv,Steel Gloves,64,buy,600,600
+armor.csv,Gauntlets,65,buy,15000,15000
+armor.csv,Giant's Gloves,66,buy,10000,10000
+armor.csv,Mythril Gloves,68,buy,2000,2000
+armor.csv,Diamond Gloves,69,buy,20000,20000
+armor.csv,Protect Ring,73,buy,16000,16000
+armor.csv,Clothes,5,sell,4,4
+armor.csv,White Robe,7,sell,1,1
+armor.csv,Black Robe,8,sell,1,1
+armor.csv,Leather Armor,16,sell,20,20
+armor.csv,Chain Mail,17,sell,32,32
+armor.csv,Mythril Mail,18,sell,3000,3000
+armor.csv,Iron Armor,19,sell,320,320
+armor.csv,Ice Armor,20,sell,15000,15000
+armor.csv,Flame Mail,21,sell,15000,15000
+armor.csv,Knight's Armor,22,sell,18000,18000
+armor.csv,Diamond Armor,24,sell,30000,30000
+armor.csv,Dragon Mail,25,sell,30000,30000
+armor.csv,Copper Armlet,27,sell,400,400
+armor.csv,Silver Armlet,28,sell,2000,2000
+armor.csv,Ruby Armlet,29,sell,20000,20000
+armor.csv,Diamond Armlet,31,sell,32500,32500
+armor.csv,Leather Shield,32,sell,6,6
+armor.csv,Buckler,33,sell,1000,1000
+armor.csv,Iron Shield,34,sell,40,40
+armor.csv,Mythril Shield,35,sell,1000,1000
+armor.csv,Ice Shield,36,sell,5000,5000
+armor.csv,Flame Shield,37,sell,5000,5000
+armor.csv,Diamond Shield,39,sell,7500,7500
+armor.csv,Aegis Shield,41,sell,20000,20000
+armor.csv,Protect Cloak,44,sell,10000,10000
+armor.csv,Leather Cap,46,sell,32,32
+armor.csv,Ribbon,54,sell,1,1
+armor.csv,Helm,55,sell,40,40
+armor.csv,Great Helm,56,sell,180,180
+armor.csv,Healing Helm,57,sell,10000,10000
+armor.csv,Mythril Helm,58,sell,1000,1000
+armor.csv,Diamond Helm,59,sell,5000,5000
+armor.csv,Leather Gloves,62,sell,25,25
+armor.csv,Bronze Gloves,63,sell,80,80
+armor.csv,Steel Gloves,64,sell,300,300
+armor.csv,Gauntlets,65,sell,7500,7500
+armor.csv,Giant's Gloves,66,sell,5000,5000
+armor.csv,Mythril Gloves,68,sell,1000,1000
+armor.csv,Diamond Gloves,69,sell,10000,10000
+armor.csv,Protect Ring,73,sell,8000,8000

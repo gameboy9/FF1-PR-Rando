@@ -1,0 +1,17 @@
+file,name,id,field,value,comment
+item.csv,Hi-Potion,2,buy,300,150
+item.csv,X-Potion,3,buy,1500,600
+item.csv,Ether,4,buy,1000,150
+item.csv,Dry Ether,6,buy,5000,1600
+item.csv,Elixir,7,buy,20000,2000
+item.csv,Phoenix Down,9,buy,1500,500
+item.csv,Tent,17,buy,250,160
+item.csv,Hi-Potion,2,sell,150,75
+item.csv,X-Potion,3,sell,750,300
+item.csv,Ether,4,sell,500,75
+item.csv,Dry Ether,6,sell,2500,800
+item.csv,Elixir,7,sell,10000,1000
+item.csv,Phoenix Down,9,sell,750,250
+item.csv,Tent,17,sell,125,80
+armor.csv,Ribbon,54,buy,200000,2
+armor.csv,Ribbon,54,sell,1,1

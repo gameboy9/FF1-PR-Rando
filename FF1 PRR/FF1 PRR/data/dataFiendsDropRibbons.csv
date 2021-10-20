@@ -1,0 +1,13 @@
+file,name,id,field,value,comment
+monster.csv,Lich 1,120,drop_rate,100,
+monster.csv,Lich 1,120,drop_content_id1,183,ribbon
+monster.csv,Lich 1,120,drop_content_id1_value,1,
+monster.csv,Marilith 1,122,drop_rate,100,
+monster.csv,Marilith 1,122,drop_content_id1,183,ribbon
+monster.csv,Marilith 1,122,drop_content_id1_value,1,
+monster.csv,Kraken 1,124,drop_rate,100,
+monster.csv,Kraken 1,124,drop_content_id1,183,ribbon
+monster.csv,Kraken 1,124,drop_content_id1_value,1,
+monster.csv,Tiamat 1,126,drop_rate,100,
+monster.csv,Tiamat 1,126,drop_content_id1,183,ribbon
+monster.csv,Tiamat 1,126,drop_content_id1_value,1,

@@ -1,0 +1,8617 @@
+{
+	"SystemFlag": {
+		"SkipInitialize": 0,
+		"KeepPlayerPuppet": 0,
+		"KeepBadStatusVisual": 0,
+		"RidingVehicle": 0
+	},
+	"Segments": [
+		{
+			"Label": "Main",
+			"EntryPoint": 0,
+			"Count": 34
+		},
+		{
+			"Label": "クラーケン消去",
+			"EntryPoint": 34,
+			"Count": 7
+		},
+		{
+			"Label": "0000",
+			"EntryPoint": 41,
+			"Count": 20
+		},
+		{
+			"Label": "カメラ移動",
+			"EntryPoint": 61,
+			"Count": 7
+		},
+		{
+			"Label": "0001",
+			"EntryPoint": 68,
+			"Count": 7
+		},
+		{
+			"Label": "0002",
+			"EntryPoint": 75,
+			"Count": 27
+		},
+		{
+			"Label": "0003",
+			"EntryPoint": 102,
+			"Count": 11
+		},
+		{
+			"Label": "0004",
+			"EntryPoint": 113,
+			"Count": 7
+		},
+		{
+			"Label": "0007",
+			"EntryPoint": 120,
+			"Count": 22
+		},
+		{
+			"Label": "0008",
+			"EntryPoint": 142,
+			"Count": 18
+		},
+		{
+			"Label": "0009",
+			"EntryPoint": 160,
+			"Count": 43
+		},
+		{
+			"Label": "0010",
+			"EntryPoint": 203,
+			"Count": 18
+		},
+		{
+			"Label": "0011",
+			"EntryPoint": 221,
+			"Count": 19
+		}
+	],
+	"ScriptLocal": [],
+	"ScriptLocalValue": [],
+	"Mnemonics": [
+		{
+			"label": "Main",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SysCall",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"屋根(開く)",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					34,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					41,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "FadeIn",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					255,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					61,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					68,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					75,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					102,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlaySE",
+			"operands": {
+				"iValues": [
+					101,
+					1,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					113,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlaySE",
+			"operands": {
+				"iValues": [
+					126,
+					1,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					120,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "FadeOut",
+			"operands": {
+				"iValues": [
+					255,
+					255,
+					255,
+					255,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlaySE",
+			"operands": {
+				"iValues": [
+					127,
+					1,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					142,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "FadeIn",
+			"operands": {
+				"iValues": [
+					255,
+					255,
+					255,
+					255,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SysCall",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"青色クリスタル点灯",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					160,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					203,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayBGM",
+			"operands": {
+				"iValues": [
+					71,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Call",
+			"operands": {
+				"iValues": [
+					221,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"ev_e_0036",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "MsgFunfare",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					84,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"MSG_KEY_A1",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "GetItem",
+			"operands": {
+				"iValues": [
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetFlag",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetFlag",
+			"operands": {
+				"iValues": [
+					134,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "クラーケン消去",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					35,
+					38,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "クラーケン消去_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0000",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					48,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					38,
+					51,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					3,
+					-1001,
+					54,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					4,
+					34,
+					58,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0000_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					11,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0000_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0000_03",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					12,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0000_04",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Flash",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "カメラ移動",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					65,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "カメラ移動_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					-1001,
+					72,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0001_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0002",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					-1002,
+					81,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					-1003,
+					88,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					2,
+					-1004,
+					95,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0002_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					11,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					3,
+					1,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0002_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					11,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkR",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					1,
+					1,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkR",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0002_02",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					11,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					2,
+					1,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0003",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					26,
+					106,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0003_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					10,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"flash",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"flash",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0004",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					26,
+					117,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0004_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0007",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					58,
+					124,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0007_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					9,
+					3,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.7,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"shining_2",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0008",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					25,
+					148,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					58,
+					153,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					2,
+					34,
+					157,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0008_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPos",
+			"operands": {
+				"iValues": [
+					20,
+					7,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0008_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Show",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0008_02",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0009",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					-1001,
+					167,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					-1002,
+					176,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					2,
+					-1003,
+					185,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					3,
+					-1004,
+					194,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0009_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"right_hand_up",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0009_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"right_hand_up",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0009_02",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"right_hand_up",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0009_03",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "CueAnim",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.15,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.5,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"right_hand_up",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Wait",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.35,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"front_stop",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0010",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					-1002,
+					209,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					-1003,
+					213,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					2,
+					-1004,
+					217,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0010_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					1,
+					1,
+					6,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkB",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0010_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					3,
+					1,
+					6,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkL",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0010_02",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					0,
+					1,
+					6,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"WalkR",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0011",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					228,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					1,
+					25,
+					231,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					2,
+					60,
+					234,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetPuppet",
+			"operands": {
+				"iValues": [
+					3,
+					-1001,
+					237,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "ExecPuppet",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Return",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0011_00",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Move",
+			"operands": {
+				"iValues": [
+					2,
+					1,
+					1,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0011_01",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "PlayAnim",
+			"operands": {
+				"iValues": [
+					0,
+					-1,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					1.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"Default",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0011_02",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Hide",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "0011_03",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "LookAt",
+			"operands": {
+				"iValues": [
+					2,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 2,
+			"comment": ""
+		}
+	],
+	"Animations": [
+		{
+			"name": "blink",
+			"frames": [
+				{
+					"sprite_name": "MO_FF1_B018_C01_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_05",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.5,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_07",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_09",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_05",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_07",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_09",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.2,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_05",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_07",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.7,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "MO_FF1_B018_C01_09",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				}
+			],
+			"play_speed": 2.4,
+			"play_mode": 1,
+			"is_reverse": false,
+			"next_anim_name": ""
+		},
+		{
+			"name": "flash",
+			"frames": [
+				{
+					"sprite_name": "Default_00",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_01",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_02",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_03",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_04",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_05",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_06",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_07",
+					"offsetx": 8.0,
+					"offsety": 3.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				}
+			],
+			"play_speed": 0.8,
+			"play_mode": 1,
+			"is_reverse": false,
+			"next_anim_name": ""
+		},
+		{
+			"name": "shining_2",
+			"frames": [
+				{
+					"sprite_name": "Default_03",
+					"offsetx": 0.0,
+					"offsety": 2.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_00",
+					"offsetx": 0.0,
+					"offsety": 2.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_02",
+					"offsetx": 0.0,
+					"offsety": 2.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				}
+			],
+			"play_speed": 0.5,
+			"play_mode": 0,
+			"is_reverse": false,
+			"next_anim_name": ""
+		},
+		{
+			"name": "Flash",
+			"frames": [
+				{
+					"sprite_name": "Default_00",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_01",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.5,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_02",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_00",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_01",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_02",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.2,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_00",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_01",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_02",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 0.7,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				},
+				{
+					"sprite_name": "Default_03",
+					"offsetx": 0.0,
+					"offsety": 0.0,
+					"alpha": 1.0,
+					"rgb": {
+						"r": 1.0,
+						"g": 1.0,
+						"b": 1.0,
+						"a": 1.0
+					},
+					"flip": false
+				}
+			],
+			"play_speed": 2.4,
+			"play_mode": 1,
+			"is_reverse": false,
+			"next_anim_name": ""
+		}
+	],
+	"Name": "sc_e_0036_2",
+	"Title": {
+		"main": "クラーケンとの戦闘との戦闘",
+		"sub": ""
+	}
+}
