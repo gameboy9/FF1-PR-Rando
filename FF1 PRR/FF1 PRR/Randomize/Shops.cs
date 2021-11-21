@@ -104,7 +104,60 @@ namespace FF1_PRR.Randomize
 			return shopDB;
 		}
 
-		public Shops(Random r1, int randoLevel, string fileName, bool traditional)
+		private int determineMagicShop(int[,] magicMemory, int type, int level)
+        {
+			int[,,] spellShopLookup = {
+										{
+											{ whiteMagicStores[0], whiteMagicStores[0], whiteMagicStores[0], whiteMagicStores[0]},
+											{ whiteMagicStores[1], whiteMagicStores[1], whiteMagicStores[1], whiteMagicStores[1]},
+											{ whiteMagicStores[2], whiteMagicStores[2], whiteMagicStores[2], whiteMagicStores[2]},
+											{ whiteMagicStores[3], whiteMagicStores[3], whiteMagicStores[3], whiteMagicStores[3]},
+											{ whiteMagicStores[4], whiteMagicStores[4], whiteMagicStores[4], whiteMagicStores[4]},
+											{ whiteMagicStores[5], whiteMagicStores[5], whiteMagicStores[5], whiteMagicStores[5]},
+											{ whiteMagicStores[6], whiteMagicStores[6], whiteMagicStores[8], whiteMagicStores[8]},
+											{ whiteMagicStores[7], whiteMagicStores[7], whiteMagicStores[9], whiteMagicStores[9]}
+										},
+										{
+											{ blackMagicStores[0], blackMagicStores[0], blackMagicStores[0], blackMagicStores[0]},
+											{ blackMagicStores[1], blackMagicStores[1], blackMagicStores[1], blackMagicStores[1]},
+											{ blackMagicStores[2], blackMagicStores[2], blackMagicStores[2], blackMagicStores[2]},
+											{ blackMagicStores[3], blackMagicStores[3], blackMagicStores[3], blackMagicStores[3]},
+											{ blackMagicStores[4], blackMagicStores[4], blackMagicStores[4], blackMagicStores[4]},
+											{ blackMagicStores[5], blackMagicStores[5], blackMagicStores[5], blackMagicStores[5]},
+											{ blackMagicStores[6], blackMagicStores[6], blackMagicStores[8], blackMagicStores[8]},
+											{ blackMagicStores[7], blackMagicStores[7], blackMagicStores[9], blackMagicStores[9]}
+										}
+									};
+			return spellShopLookup[type - 1, level - 1, magicMemory[type - 1, level - 1]];
+		}
+
+		private List<shopItem> determineSpells(Magic magicData)
+        {
+			List<shopItem> shopDB = new List<shopItem>();
+			int[,] magicMemory = new int[2, 8];
+
+			foreach (Magic.ability spell in magicData.getRecords())
+            {
+				if (spell.ability_group_id == 1 && spell.id != Magic.DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
+                {
+					shopItem newItem = new shopItem();
+					newItem.id = 0;
+					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
+					if (spell.ability_lv <= 6)
+                    {
+						newItem.group_id = blackMagicStores[spell.ability_lv - 1];
+
+					}
+					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
+					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
+					shopDB.Add(newItem);
+				}
+            }
+
+			return shopDB;
+		}
+
+		public Shops(Random r1, int randoLevel, string fileName, bool traditional, Magic magicData)
 		{
 			List<shopItem> shopDB = new List<shopItem>();
 
@@ -155,8 +208,7 @@ namespace FF1_PRR.Randomize
 
 				// TODO:  Remove duplicates within each store.
 			}
-			shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 1), whiteMagicStores, r1));
-			shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 2), blackMagicStores, r1));
+			shopDB.AddRange(determineSpells(magicData));
 
 			using (StreamWriter sw = new StreamWriter(fileName))
 			{
