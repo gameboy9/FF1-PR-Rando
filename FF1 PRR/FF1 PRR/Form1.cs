@@ -233,8 +233,8 @@ namespace FF1_PRR
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
-			if (RandoShop.SelectedIndex > 0) randomizeShops();
-			if (randoMagic.Checked) randomizeMagic(keepMagicPermissions.Checked);
+			Magic magicData = randomizeMagic(randoMagic.Checked, keepMagicPermissions.Checked);
+			if (RandoShop.SelectedIndex > 0) randomizeShops(magicData);
 			if (KeyItems.Checked) randomizeKeyItems();
 			if (flagT.SelectedIndex > 0) randomizeTreasure();
 			monsterBoost();
@@ -330,17 +330,20 @@ namespace FF1_PRR
 				}
 			}
 		}
-		private void randomizeShops()
+		private void randomizeShops(Magic magicData)
 		{
 			Shops randoShops = new Shops(r1, RandoShop.SelectedIndex, 
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
-				Traditional.Checked);
+				Traditional.Checked, magicData);
 		}
 
-		private void randomizeMagic(bool keepPermissions)
+		private Magic randomizeMagic(bool randomizeMagic, bool keepPermissions)
 		{
-			new Inventory.Magic().shuffleMagic(r1, keepPermissions,
+			Magic magicData = new Inventory.Magic(
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
+			if (randomizeMagic) magicData.shuffleMagic(r1, keepPermissions);
+			magicData.writeToFile();
+			return magicData;
 		}
 
 		private void randomizeKeyItems()

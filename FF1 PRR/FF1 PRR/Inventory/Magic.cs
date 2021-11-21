@@ -85,6 +85,37 @@ namespace FF1_PRR.Inventory
 		public List<int> bAll = Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList();
 		public List<int> wAll = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList();
 
+		public static int WHITE_MAGIC = 1;
+		public static int BLACK_MAGIC = 2;
+		public static int DUPE_CURE_4 = 100;
+
+		private List<ability> records;
+		private string file;
+
+		public Magic(string fileName)
+        {
+			file = fileName;
+			using (StreamReader reader = new StreamReader(fileName))
+			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
+			{
+				records = csv.GetRecords<ability>().ToList();
+			}
+		}
+
+		public List<ability> getRecords()
+        {
+			return records;
+        }
+
+		public void writeToFile()
+        {
+			using (StreamWriter writer = new StreamWriter(file))
+			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
+			{
+				csv.WriteRecords(records);
+			}
+		}
+
 		public List<int> shuffleShops(Random r1, int type)
 		{
 			List<int> shuffler = type == 0 ? all : type == 1 ? wAll : bAll;
@@ -93,7 +124,7 @@ namespace FF1_PRR.Inventory
 			return shuffler;
 		}
 
-		private class ability
+		public class ability
 		{
 			public int id { get; set; }
 			public int sort_id { get; set; }
@@ -135,10 +166,10 @@ namespace FF1_PRR.Inventory
 			public int data_c { get; set; }
 		}
 
-		public void shuffleMagic(Random r1, bool keepPermissions, string fileName)
+		public void shuffleMagic(Random r1, bool keepPermissions)
 		{
 			all.AddRange(Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList());
-			List<ability> records;
+			
 
 			// Shuffle levels and price between the white spells and then the black spells.
 			List<int> wMagic = new List<int> {
@@ -161,12 +192,6 @@ namespace FF1_PRR.Inventory
 				56, 57, 58, 59,
 				64, 65, 66, 67
 			};
-
-			using (StreamReader reader = new StreamReader(fileName))
-			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
-			{
-				records = csv.GetRecords<ability>().ToList();
-			}
 
 			// TODO:  id + (r1.Next() % 100), sort from there.
 			for (int lnI = 0; lnI < 1280; lnI++)
@@ -228,12 +253,6 @@ namespace FF1_PRR.Inventory
 						}
 					}
 				}
-			}
-
-			using (StreamWriter writer = new StreamWriter(fileName))
-			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
-			{
-				csv.WriteRecords(records);
 			}
 		}
 	}
