@@ -31,8 +31,10 @@ namespace FF1_PRR
 
 			string flags = "";
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTraditionalTreasure, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
 			// Combo boxes time...
 			flags += convertIntToChar(RandoShop.SelectedIndex + (8 * monsterXPGPBoost.SelectedIndex));
+			flags += convertIntToChar(flagT.SelectedIndex + (8 * 0));
 			RandoFlags.Text = flags;
 
 			flags = "";
@@ -42,9 +44,9 @@ namespace FF1_PRR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 2)
-				RandoFlags.Text = "BA";
-			else if (RandoFlags.Text.Length < 2)
+			if (loading && RandoFlags.Text.Length < 4)
+				RandoFlags.Text = "BwA2";
+			else if (RandoFlags.Text.Length < 4)
 				return;
 
 			if (loading && VisualFlags.Text.Length < 1)
@@ -56,13 +58,13 @@ namespace FF1_PRR
 
 			string flags = RandoFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions });
-			RandoShop.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
-			monsterXPGPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) / 8;
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTraditionalTreasure, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
+			RandoShop.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
+			monsterXPGPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
+			flagT.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
-
-			// TEMPORARY:  Keep commented; we will be using combo boxes eventually
 
 			loading = false;
 		}
@@ -220,6 +222,9 @@ namespace FF1_PRR
 
 		private void btnRandomize_Click(object sender, EventArgs e)
 		{
+			NewChecksum.Text = "Please wait...";
+			this.Refresh();
+
 			restoreVanilla();
 
 			// Copy over modded files
@@ -233,8 +238,8 @@ namespace FF1_PRR
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
-			if (RandoShop.SelectedIndex > 0) randomizeShops();
-			if (randoMagic.Checked) randomizeMagic(keepMagicPermissions.Checked);
+			Magic magicData = randomizeMagic(randoMagic.Checked, keepMagicPermissions.Checked);
+			if (RandoShop.SelectedIndex > 0) randomizeShops(magicData);
 			if (KeyItems.Checked) randomizeKeyItems();
 			if (flagT.SelectedIndex > 0) randomizeTreasure();
 			monsterBoost();
@@ -330,17 +335,20 @@ namespace FF1_PRR
 				}
 			}
 		}
-		private void randomizeShops()
+		private void randomizeShops(Magic magicData)
 		{
 			Shops randoShops = new Shops(r1, RandoShop.SelectedIndex, 
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
-				Traditional.Checked);
+				Traditional.Checked, magicData);
 		}
 
-		private void randomizeMagic(bool keepPermissions)
+		private Magic randomizeMagic(bool randomizeMagic, bool keepPermissions)
 		{
-			new Inventory.Magic().shuffleMagic(r1, keepPermissions,
+			Magic magicData = new Inventory.Magic(
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
+			if (randomizeMagic) magicData.shuffleMagic(r1, keepPermissions);
+			magicData.writeToFile();
+			return magicData;
 		}
 
 		private void randomizeKeyItems()
