@@ -360,7 +360,7 @@ namespace FF1_PRR
         {
 			Treasure randoChests = new Treasure(r1, flagT.SelectedIndex,
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map"),
-				flagTraditionalTreasure.Checked);
+				flagTraditionalTreasure.Checked, flagFiendsDropRibbons.Checked);
 		}
 
 		private void monsterBoost()
