@@ -222,6 +222,9 @@ namespace FF1_PRR
 
 		private void btnRandomize_Click(object sender, EventArgs e)
 		{
+			NewChecksum.Text = "Please wait...";
+			this.Refresh();
+
 			restoreVanilla();
 
 			// Copy over modded files
