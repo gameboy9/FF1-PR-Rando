@@ -1,0 +1,222 @@
+id,name,type_id,type_value,rank
+1,Gil,5,1,F
+2,Potion,1,1,F
+3,Hi-Potion,1,2,D
+4,X-Potion,1,3,A
+5,Ether,1,4,C
+7,Dry Ether,1,6,A
+8,Elixir,1,7,S
+10,Phoenix Down,1,9,B
+11,Antidote,1,10,E
+12,Eye Drops,1,11,E
+13,Echo Grass,1,12,E
+14,Gold Needle,1,13,B
+15,Remedy,1,14,B
+17,Sleeping Bag,1,16,E
+18,Tent,1,17,C
+19,Cottage,1,18,B
+32,Giant's Tonic,1,31,A
+34,Strength Tonic,1,33,A
+35,Protect Drink,1,34,C
+36,Speed Drink,1,35,A
+45,Lute,1,44,X
+46,Crown,1,45,X
+47,Crystal Eye,1,46,X
+48,Jolt Tonic,1,47,X
+49,Mystic Key,1,48,X
+50,Nitro Powder,1,49,X
+51,Adamantite,1,50,X
+52,Rosetta Stone,1,51,X
+53,Star Ruby,1,52,X
+54,Earth Rod,1,53,X
+55,Levistone,1,54,X
+56,Chime,1,55,X
+57,Rat's Tail,1,56,X
+58,Warp Cube,1,57,X
+59,Bottled Faerie,1,58,X
+60,Oxyale,1,59,X
+61,Canoe,1,60,X
+62,Empty,2,1,X
+63,Knife,2,2,E
+64,Dagger,2,3,E
+65,Mythril Knife,2,4,D
+67,Cat Claws,2,6,B
+71,Rapier,2,10,E
+72,Saber,2,11,D
+73,Broadsword,2,12,D
+74,Werebuster,2,13,C
+75,Rune Blade,2,14,B
+76,Wyrmkiller,2,15,B
+77,Coral Sword,2,16,B
+78,Longsword,2,17,D
+79,Great Sword,2,18,B
+80,Razer,2,19,A
+81,Mythril Sword,2,20,B
+82,Vorpal Sword,2,21,A
+83,Flame Sword,2,22,A
+86,Ice Brand,2,25,A
+87,Defender,2,26,A
+89,Sun Blade,2,28,A
+92,Excalibur,2,31,X
+96,Scimitar,2,35,E
+97,Falchion,2,36,D
+100,Sasuke's Blade,2,39,A
+103,Masamune,2,42,X
+104,Nunchaku,2,43,E
+105,Iron Nunchaku,2,44,E
+106,Battle Axe,2,45,D
+107,Great Axe,2,46,C
+109,Mythril Axe,2,48,B
+110,Light Axe,2,49,B
+114,Hammer,2,53,E
+115,Mythril Hammer,2,54,C
+116,Thor's Hammer,2,55,A
+118,Staff,2,57,E
+119,Healing Staff,2,58,C
+120,Power Staff,2,59,D
+121,Mage's Staff,2,60,A
+122,Crosier,2,61,D
+123,Wizard's Staff,2,62,B
+130,None,3,1,X
+131,None,3,2,X
+132,None,3,3,X
+133,None,3,4,X
+134,Clothes,3,5,E
+136,White Robe,3,7,A
+137,Black Robe,3,8,A
+145,Leather Armor,3,16,E
+146,Chain Mail,3,17,D
+147,Mythril Mail,3,18,C
+148,Iron Armor,3,19,D
+149,Ice Armor,3,20,A
+150,Flame Mail,3,21,A
+151,Knight's Armor,3,22,B
+153,Diamond Armor,3,24,A
+154,Dragon Mail,3,25,S
+156,Copper Armlet,3,27,D
+157,Silver Armlet,3,28,C
+158,Ruby Armlet,3,29,B
+160,Diamond Armlet,3,31,A
+161,Leather Shield,3,32,E
+162,Buckler,3,33,C
+163,Iron Shield,3,34,E
+164,Mythril Shield,3,35,C
+165,Ice Shield,3,36,A
+166,Flame Shield,3,37,A
+168,Diamond Shield,3,39,A
+170,Aegis Shield,3,41,A
+173,Protect Cloak,3,44,B
+175,Leather Cap,3,46,E
+183,Ribbon,3,54,S
+184,Helm,3,55,E
+185,Great Helm,3,56,D
+186,Healing Helm,3,57,B
+187,Mythril Helm,3,58,C
+188,Diamond Helm,3,59,C
+191,Leather Gloves,3,62,E
+192,Bronze Gloves,3,63,E
+193,Steel Gloves,3,64,D
+194,Gauntlets,3,65,A
+195,Giant's Gloves,3,66,S
+197,Mythril Gloves,3,68,C
+198,Diamond Gloves,3,69,B
+202,Protect Ring,3,73,A
+209,Attack,4,1,X
+210,Defend,4,2,X
+211,Flee,4,3,X
+212,Back,4,4,X
+213,Cure,4,5,D
+214,Protect,4,6,B
+215,Dia,4,7,C
+216,Blink,4,8,A
+217,Fire,4,9,C
+218,Focus,4,10,D
+219,Sleep,4,11,D
+220,Thunder,4,12,C
+221,Invis,4,13,C
+222,Silence,4,14,B
+223,Blindna,4,15,D
+224,NulShock,4,16,D
+225,Blizzard,4,17,C
+226,Temper,4,18,A
+227,Dark,4,19,D
+228,Slow,4,20,C
+229,Cura,4,21,B
+230,NulBlaze,4,22,D
+231,Diara,4,23,C
+232,Heal,4,24,C
+233,Fira,4,25,B
+234,Thundara,4,26,B
+235,Hold,4,27,C
+236,Focara,4,28,C
+237,Poisona,4,29,D
+238,NulFrost,4,30,C
+239,Fear,4,31,C
+240,Vox,4,32,D
+241,Sleepra,4,33,C
+242,Confuse,4,34,C
+243,Haste,4,35,S
+244,Blizzara,4,36,B
+245,Curaga,4,37,A
+246,Diaga,4,38,B
+247,Life,4,39,A
+248,Healara,4,40,A
+249,Firaga,4,41,A
+250,Teleport,4,42,S
+251,Scourge,4,43,C
+252,Slowra,4,44,B
+253,Stona,4,45,D
+254,Protera,4,46,B
+255,Exit,4,47,S
+256,Invisira,4,48,A
+257,Thundaga,4,49,A
+258,Quake,4,50,A
+259,Death,4,51,C
+260,Stun,4,52,C
+261,Curaja,4,53,S
+262,NulDeath,4,54,C
+263,Diaja,4,55,A
+264,Healaga,4,56,S
+265,Blizzaga,4,57,A
+266,Saber,4,58,B
+267,Break,4,59,A
+268,Blind,4,60,D
+269,Full-Life,4,61,S
+270,NulAll,4,62,S
+271,Holy,4,63,S
+272,Dispel,4,64,B
+273,Flare,4,65,S
+274,Warp,4,66,A
+275,Stop,4,67,B
+276,Kill,4,68,A
+277,Icestorm,4,69,X
+278,Blaze,4,70,X
+279,Gaze,4,71,X
+280,Gaze,4,72,X
+281,Flash,4,73,X
+282,Blaze,4,74,X
+283,Earthquake,4,75,X
+284,Gaze,4,76,X
+285,Gaze,4,77,X
+286,Gaze,4,78,X
+287,Icestorm,4,79,X
+288,Blaze,4,80,X
+289,Blaze,4,81,X
+290,Blaze,4,82,X
+291,Stone Gas,4,83,X
+292,Mind Blast,4,84,X
+293,Poison Gas,4,85,X
+294,Thunderbolt,4,86,X
+295,Deadly Gas,4,87,X
+296,Snort,4,88,X
+297,Nuke,4,89,X
+298,Ink,4,90,X
+299,Poison Darts,4,91,X
+300,Gaze,4,92,X
+301,Tsunami,4,93,X
+302,Cyclone,4,94,X
+303,Flee,4,95,X
+305,Attack,4,97,X
+306,Attack,4,98,X
+307,Attack,4,99,X
+310,Curaja,4,100,X

@@ -57,7 +57,7 @@ namespace FF1_PRR.Randomize
 		List<int> itemStores = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2 };
 		List<int> blackMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia };
 		List<int> whiteMagicStores = new List<int> { mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
-		List<int> allMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia, 
+		List<int> allMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia,
 				mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
 
 		List<int> allStores = new List<int>
@@ -67,21 +67,22 @@ namespace FF1_PRR.Randomize
 			iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2
 		};
 
-		private class ShopItem 
+		private class ShopItem
 		{
-			public int id;
-			public int content_id; // Item
-			public int group_id; // Store #
-			public int coefficient = 0; // Inn/House of Healing cost
-			public int purchase_limit = 0; // 0 = unlimited
+			public int id { get; set; }
+			public int content_id { get; set; } // Item
+			public int group_id { get; set; } // Store #
+			public int coefficient { get; set; } // Inn/House of Healing cost
+			public int purchase_limit { get; set; } // 0 = unlimited
 		}
+
 		private class ItemWithRank
 		{
-			public int id; // used as the content ID in stores/chests
-			public string name; // English name
-			public int type_id; // 1=item, 2=weapon, 3=armor, 4=magic, 5=gil
-			public int type_value; // which item is it?
-			public string rank; // grade from F to S; X = exclude
+			public int id { get; set; } // used as the content ID in stores/chests
+			public string name { get; set; } // English name
+			public int type_id { get; set; } // 1=item, 2=weapon, 3=armor, 4=magic, 5=gil
+			public int type_value { get; set; } // which item is it?
+			public string rank { get; set; } // grade from F to S; X = exclude
 		}
 
 
