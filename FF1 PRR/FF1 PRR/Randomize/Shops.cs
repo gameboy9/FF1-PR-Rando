@@ -1,4 +1,5 @@
-﻿using FF1_PRR.Inventory;
+﻿using CsvHelper;
+using FF1_PRR.Inventory;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -53,7 +54,7 @@ namespace FF1_PRR.Randomize
 
 		List<int> weaponStores = new List<int> { wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia };
 		List<int> armorStores = new List<int> { aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia };
-		List<int> itemStores = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac };
+		List<int> itemStores = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2 };
 		List<int> blackMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia };
 		List<int> whiteMagicStores = new List<int> { mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
 		List<int> allMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia, 
@@ -63,10 +64,10 @@ namespace FF1_PRR.Randomize
 		{
 			wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia,
 			aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia,
-			iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac
+			iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2
 		};
 
-		private class shopItem 
+		private class ShopItem 
 		{
 			public int id;
 			public int content_id; // Item
@@ -74,12 +75,19 @@ namespace FF1_PRR.Randomize
 			public int coefficient = 0; // Inn/House of Healing cost
 			public int purchase_limit = 0; // 0 = unlimited
 		}
-
-		List<shopItem> productList = new List<shopItem>();
-
-		private List<shopItem> determineItems(List<int> items, List<int> stores, Random r1)
+		private class ItemWithRank
 		{
-			List<shopItem> shopDB = new List<shopItem>();
+			public int id; // used as the content ID in stores/chests
+			public string name; // English name
+			public int type_id; // 1=item, 2=weapon, 3=armor, 4=magic, 5=gil
+			public int type_value; // which item is it?
+			public string rank; // grade from F to S; X = exclude
+		}
+
+
+		private List<ShopItem> determineItems(List<int> items, List<int> stores, Random r1)
+		{
+			List<ShopItem> shopDB = new List<ShopItem>();
 
 			List<int> storeNumItems = new List<int>();
 			bool duplicates = true;
@@ -94,7 +102,7 @@ namespace FF1_PRR.Randomize
 			storeNumItems.Sort();
 			for (int lnI = 0; lnI < items.Count; lnI++)
 			{
-				shopItem newItem = new shopItem();
+				ShopItem newItem = new ShopItem();
 				newItem.id = 0;
 				newItem.group_id = stores[storeNumItems.Select((elem, index) => new { elem, index }).First(p => p.elem > lnI).index];
 				newItem.content_id = items[lnI];
@@ -104,6 +112,31 @@ namespace FF1_PRR.Randomize
 			return shopDB;
 		}
 
+		List<ShopItem> shopDB = new List<ShopItem>();
+		private int rankToInt(string rank)
+        {
+			switch (rank)
+            {
+				case "F":
+					return 0;
+				case "E":
+					return 1;
+				case "D":
+					return 2;
+				case "C":
+					return 3;
+				case "B":
+					return 4;
+				case "A":
+					return 5;
+				case "S":
+					return 6;
+				case "X":
+					return 7;
+				default:
+					return 7;
+            }
+        }
 		private int determineMagicShop(int[,] magicMemory, int type, int level)
         {
 			int[,,] spellShopLookup = {
@@ -131,16 +164,16 @@ namespace FF1_PRR.Randomize
 			return spellShopLookup[type - 1, level - 1, magicMemory[type - 1, level - 1]];
 		}
 
-		private List<shopItem> determineSpells(Magic magicData)
+		private List<ShopItem> determineSpells(Magic magicData)
         {
-			List<shopItem> shopDB = new List<shopItem>();
+			List<ShopItem> shopDB = new List<ShopItem>();
 			int[,] magicMemory = new int[2, 8];
 
 			foreach (Magic.ability spell in magicData.getRecords())
             {
 				if (spell.ability_group_id == 1 && spell.id != Magic.DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
                 {
-					shopItem newItem = new shopItem();
+					ShopItem newItem = new ShopItem();
 					newItem.id = 0;
 					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
 					if (spell.ability_lv <= 6)
@@ -159,23 +192,74 @@ namespace FF1_PRR.Randomize
 
 		public Shops(Random r1, int randoLevel, string fileName, bool traditional, Magic magicData)
 		{
-			List<shopItem> shopDB = new List<shopItem>();
+			using (var reader = new StreamReader(fileName))
+			using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
+			{
+				shopDB = csv.GetRecords<ShopItem>().ToList();
+			}
 
-			// Recreate product.csv with stuff.
+
+			// Shuffle existing items
 			if (randoLevel == 1)
 			{
-				shopDB.AddRange(determineItems(new Weapons().shuffleTraditional(r1), weaponStores, r1));
-				shopDB.AddRange(determineItems(new Armor().shuffleTraditional(r1), armorStores, r1));
-				shopDB.AddRange(determineItems(traditional ? new Items().shuffleTraditional(r1) : new Items().shuffleModern(r1), itemStores, r1));
+				// TODO:  Guarantee no duplicates in stores
 
-				// TODO:  Remove duplicates items from stores.
+				List<int> weaponList = new List<int>();
+				List<int> armorList = new List<int>();
+				List<int> itemList = new List<int>();
+
+				foreach (ShopItem product in shopDB)
+                {
+					if (weaponStores.Contains(product.group_id))
+					{
+						weaponList.Add(product.content_id);
+						continue;
+					}
+					else if (armorStores.Contains(product.group_id))
+					{
+						armorList.Add(product.content_id);
+						continue;
+					}
+					else if (itemStores.Contains(product.group_id))
+					{
+						itemList.Add(product.content_id);
+						continue;
+					}
+					else continue;
+				}
+				weaponList.Shuffle(r1);
+				armorList.Shuffle(r1);
+				itemList.Shuffle(r1);
+				foreach (ShopItem product in shopDB)
+				{
+					if (weaponStores.Contains(product.group_id))
+					{
+						product.content_id = weaponList[0];
+						weaponList.RemoveAt(0);
+						continue;
+					}
+					else if (armorStores.Contains(product.group_id))
+					{
+						product.content_id = armorList[0];
+						armorList.RemoveAt(0); 
+						continue;
+					}
+					else if (itemStores.Contains(product.group_id))
+					{
+						product.content_id = itemList[0];
+						itemList.RemoveAt(0); 
+						continue;
+					}
+					else continue;
+				}
 			}
-			else
+			else // Generate new shop contents
 			{
+				/*
 				List<int> tierLimit = new List<int>
 				{
-					2, 3, 3, 4, 4, 5,
-					2, 3, 3, 4, 4, 5,
+					2, 3, 3, 4, 4, 
+					5, 2, 3, 3, 4, 4, 5,
 					2, 2, 3, 3, 4, 5
 				};
 				int storeID = 0;
@@ -185,59 +269,68 @@ namespace FF1_PRR.Randomize
 					int numberOfItems = r1.Next() % 8;
 					for (int lnI = 0; lnI < numberOfItems; lnI++) 
 					{
-						shopItem newItem = new shopItem();
+						ShopItem newItem = new ShopItem();
 						int itemPct = r1.Next() % 100;
 						newItem.group_id = store;
 
 						// 75/95% chance to reduce tier by 1, 50/70% chance to reduce tier by 2 instead.
 						int tier = tierLimit[storeID] -
-							(itemPct <= (randoLevel == 2 ? 50 : 70) ? 2 : (itemPct <= (randoLevel == 2 ? 75 : 95) ? 1 : 0));
-						tier = tier == 0 ? 1 : tier;
+							(itemPct <= ((randoLevel == 2) ? 50 : 70) ? 2 : (itemPct <= ((randoLevel == 2) ? 75 : 95) ? 1 : 0));
+						tier = (tier == 0) ? 1 : tier;
 
 						if (weaponStores.Contains(store))
-							newItem.content_id = new Weapons().selectItem(r1, randoLevel == 4 ? 0 : tier);
+							newItem.content_id = new Weapons().selectItem(r1, (randoLevel == 4) ? 0 : tier);
 						else if (armorStores.Contains(store))
-							newItem.content_id = new Armor().selectItem(r1, randoLevel == 4 ? 0 : tier);
+							newItem.content_id = new Armor().selectItem(r1, (randoLevel == 4) ? 0 : tier);
 						else if (itemStores.Contains(store))
-							newItem.content_id = new Items().selectItem(r1, randoLevel == 4 ? 0 : tier, traditional);
+							newItem.content_id = new Items().selectItem(r1, (randoLevel == 4) ? 0 : tier, traditional);
 
 						shopDB.Add(newItem);
 					}
 					storeID++;
 				}
-
+				*/
 				// TODO:  Remove duplicates within each store.
 			}
 			shopDB.AddRange(determineSpells(magicData));
 
-			using (StreamWriter sw = new StreamWriter(fileName))
+			// Get all possible inventory items with rank information
+			List<ItemWithRank> contentWithRank = new List<ItemWithRank>();
+			using (var reader = new StreamReader(Path.Combine("data", "contentRank.csv")))
+			using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 			{
-				sw.WriteLine("id,content_id,group_id,coefficient,purchase_limit");
-				int finalID = 0;
-				foreach (shopItem si in shopDB)
-				{
-					finalID++;
-					sw.WriteLine(finalID + "," + si.content_id + "," + si.group_id + "," + si.coefficient + "," + si.purchase_limit);
-				}
-				finalID++;
-				sw.WriteLine("141,59,37,0,1");
-				sw.WriteLine("142,34,38,0,0");
-				sw.WriteLine("143,32,38,0,0");
-				sw.WriteLine("145,35,38,0,0");
-				sw.WriteLine("146,36,38,0,0");
-				sw.WriteLine("201,0,101,30,0");
-				sw.WriteLine("202,0,102,50,0");
-				sw.WriteLine("203,0,103,100,0");
-				sw.WriteLine("204,0,104,100,0");
-				sw.WriteLine("205,0,105,200,0");
-				sw.WriteLine("206,0,106,300,0");
-				sw.WriteLine("207,0,107,500,0");
-				sw.WriteLine("208,0,201,40,0");
-				sw.WriteLine("209,0,202,80,0");
-				sw.WriteLine("210,0,203,200,0");
-				sw.WriteLine("211,0,204,400,0");
-				sw.WriteLine("212,0,205,750,0");
-				sw.WriteLine("213,0,206,750,0");
+				contentWithRank = csv.GetRecords<ItemWithRank>().ToList();
+			}
+				
+			// split the contentWithRank into items, weapons, and armor
+			List<ItemWithRank> itemsWithRank = new List<ItemWithRank>();
+			List<ItemWithRank> weaponsWithRank = new List<ItemWithRank>();
+			List<ItemWithRank> armorWithRank = new List<ItemWithRank>();
+			foreach (ItemWithRank item in contentWithRank)
+            {
+				if (item.rank == "X") continue;
+				switch (item.type_id)
+                {
+					case 1:
+						itemsWithRank.Add(item);
+						continue;
+					case 2:
+						weaponsWithRank.Add(item);
+						continue;
+					case 3:
+						armorWithRank.Add(item);
+						continue;
+					default:
+						continue;
+                }
+            }
+			// shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 1), whiteMagicStores, r1));
+			// shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 2), blackMagicStores, r1));
+
+			using (StreamWriter writer = new StreamWriter(fileName))
+			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
+			{
+				csv.WriteRecords(shopDB);
 			}
 		}
 	}
