@@ -169,19 +169,15 @@ namespace FF1_PRR.Randomize
         {
 			List<ShopItem> shopDB = new List<ShopItem>();
 			int[,] magicMemory = new int[2, 8];
+			int productID = 250;
 
 			foreach (Magic.ability spell in magicData.getRecords())
             {
 				if (spell.ability_group_id == 1 && spell.id != Magic.DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
                 {
 					ShopItem newItem = new ShopItem();
-					newItem.id = 0;
+					newItem.id = productID++;
 					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
-					if (spell.ability_lv <= 6)
-                    {
-						newItem.group_id = blackMagicStores[spell.ability_lv - 1];
-
-					}
 					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
 					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
 					shopDB.Add(newItem);
@@ -293,6 +289,9 @@ namespace FF1_PRR.Randomize
 				*/
 				// TODO:  Remove duplicates within each store.
 			}
+
+			//clear out 
+
 			shopDB.AddRange(determineSpells(magicData));
 
 			// Get all possible inventory items with rank information
