@@ -290,7 +290,11 @@ namespace FF1_PRR.Randomize
 				// TODO:  Remove duplicates within each store.
 			}
 
-			//clear out 
+			//clear out old spell inventory
+
+			shopDB = shopDB.FindAll(x => !allMagicStores.Contains(x.group_id));
+
+			//then, add the new spell inventory
 
 			shopDB.AddRange(determineSpells(magicData));
 
