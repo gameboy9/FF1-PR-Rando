@@ -190,7 +190,8 @@ namespace FF1_PRR
 				"weapon.csv",  // used by balance flags
 				"monster.csv", // used by xp boost & monster flags
 				"item.csv",    // used by price rebalance flag
-				"armor.csv"    // used by price rebalance flag
+				"armor.csv",   // used by price rebalance flag
+				"foot_information.csv" // used by encounter rate flag
 			};
 			string[] DATA_MESSAGE =
 			{
@@ -308,14 +309,20 @@ namespace FF1_PRR
 				editsToMake.AddRange(addEdits("dataRestoreCritRating.csv"));
 			}
 			if (flagWandsAddInt.Checked)
-            {
+			{
 				// Advance the RNG
 				r1.NextBytes(new byte[16]);
 				editsToMake.AddRange(addEdits("dataWandsAddInt.csv"));
 			}
+			if (flagRestoreEncounterRate.Checked)
+			{
+				// Advance the RNG
+				r1.NextBytes(new byte[32]);
+				editsToMake.AddRange(addEdits("dataRestoreEncounterRate.csv"));
+			}
 
 			// Now apply the edits
-            foreach (var editsByFile in editsToMake.GroupBy(x => x.file))
+			foreach (var editsByFile in editsToMake.GroupBy(x => x.file))
             {
 				List<dynamic> fileToEdit;
 				using (StreamReader reader = new StreamReader(Path.Combine(dataPath, editsByFile.Key)))

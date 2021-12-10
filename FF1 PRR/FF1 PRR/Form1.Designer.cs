@@ -63,6 +63,7 @@ namespace FF1_PRR
             this.flagFiendsDropRibbons = new System.Windows.Forms.CheckBox();
             this.flagRebalanceBosses = new System.Windows.Forms.CheckBox();
             this.btnRestoreVanilla = new System.Windows.Forms.Button();
+            this.flagRestoreEncounterRate = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -77,7 +78,7 @@ namespace FF1_PRR
             // 
             this.btnRandomize.Location = new System.Drawing.Point(1055, 866);
             this.btnRandomize.Name = "btnRandomize";
-            this.btnRandomize.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnRandomize.Padding = new System.Windows.Forms.Padding(5);
             this.btnRandomize.Size = new System.Drawing.Size(195, 53);
             this.btnRandomize.TabIndex = 0;
             this.btnRandomize.Text = "Randomize!";
@@ -88,9 +89,9 @@ namespace FF1_PRR
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(20, 19);
-            this.label1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.label1.Margin = new System.Windows.Forms.Padding(3);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label1.Padding = new System.Windows.Forms.Padding(5);
             this.label1.Size = new System.Drawing.Size(169, 42);
             this.label1.TabIndex = 1;
             this.label1.Text = "FF1 PR Folder";
@@ -107,7 +108,7 @@ namespace FF1_PRR
             this.CuteHats.AutoSize = true;
             this.CuteHats.Location = new System.Drawing.Point(788, 205);
             this.CuteHats.Name = "CuteHats";
-            this.CuteHats.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.CuteHats.Padding = new System.Windows.Forms.Padding(5);
             this.CuteHats.Size = new System.Drawing.Size(160, 46);
             this.CuteHats.TabIndex = 3;
             this.CuteHats.Text = "Cute Hats";
@@ -122,7 +123,7 @@ namespace FF1_PRR
             this.ShuffleBossSpots.Location = new System.Drawing.Point(8, 35);
             this.ShuffleBossSpots.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.ShuffleBossSpots.Name = "ShuffleBossSpots";
-            this.ShuffleBossSpots.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ShuffleBossSpots.Padding = new System.Windows.Forms.Padding(5);
             this.ShuffleBossSpots.Size = new System.Drawing.Size(253, 46);
             this.ShuffleBossSpots.TabIndex = 4;
             this.ShuffleBossSpots.Text = "Shuffle Boss Spots";
@@ -135,7 +136,7 @@ namespace FF1_PRR
             this.KeyItems.AutoSize = true;
             this.KeyItems.Location = new System.Drawing.Point(20, 205);
             this.KeyItems.Name = "KeyItems";
-            this.KeyItems.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.KeyItems.Padding = new System.Windows.Forms.Padding(5);
             this.KeyItems.Size = new System.Drawing.Size(286, 46);
             this.KeyItems.TabIndex = 5;
             this.KeyItems.Text = "Randomize &Key Items";
@@ -148,9 +149,9 @@ namespace FF1_PRR
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(20, 82);
-            this.label2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label2.Padding = new System.Windows.Forms.Padding(5);
             this.label2.Size = new System.Drawing.Size(191, 42);
             this.label2.TabIndex = 6;
             this.label2.Text = "Gameplay Flags";
@@ -166,9 +167,9 @@ namespace FF1_PRR
             // 
             this.NewChecksum.AutoSize = true;
             this.NewChecksum.Location = new System.Drawing.Point(20, 872);
-            this.NewChecksum.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.NewChecksum.Margin = new System.Windows.Forms.Padding(3);
             this.NewChecksum.Name = "NewChecksum";
-            this.NewChecksum.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.NewChecksum.Padding = new System.Windows.Forms.Padding(5);
             this.NewChecksum.Size = new System.Drawing.Size(441, 42);
             this.NewChecksum.TabIndex = 8;
             this.NewChecksum.Text = "New Checksum:  (Not Randomized Yet)";
@@ -184,9 +185,9 @@ namespace FF1_PRR
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(788, 82);
-            this.label3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.label3.Margin = new System.Windows.Forms.Padding(3);
             this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label3.Padding = new System.Windows.Forms.Padding(5);
             this.label3.Size = new System.Drawing.Size(77, 42);
             this.label3.TabIndex = 9;
             this.label3.Text = "Seed";
@@ -195,7 +196,7 @@ namespace FF1_PRR
             // 
             this.NewSeed.Location = new System.Drawing.Point(1154, 80);
             this.NewSeed.Name = "NewSeed";
-            this.NewSeed.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.NewSeed.Padding = new System.Windows.Forms.Padding(5);
             this.NewSeed.Size = new System.Drawing.Size(96, 53);
             this.NewSeed.TabIndex = 11;
             this.NewSeed.Text = "New";
@@ -213,9 +214,9 @@ namespace FF1_PRR
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(20, 142);
-            this.label4.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.label4.Margin = new System.Windows.Forms.Padding(3);
             this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label4.Padding = new System.Windows.Forms.Padding(5);
             this.label4.Size = new System.Drawing.Size(183, 42);
             this.label4.TabIndex = 12;
             this.label4.Text = "Cosmetic Flags";
@@ -224,7 +225,7 @@ namespace FF1_PRR
             // 
             this.BrowseForFolder.Location = new System.Drawing.Point(1115, 19);
             this.BrowseForFolder.Name = "BrowseForFolder";
-            this.BrowseForFolder.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BrowseForFolder.Padding = new System.Windows.Forms.Padding(5);
             this.BrowseForFolder.Size = new System.Drawing.Size(133, 51);
             this.BrowseForFolder.TabIndex = 14;
             this.BrowseForFolder.Text = "Browse";
@@ -235,9 +236,9 @@ namespace FF1_PRR
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 45);
-            this.label5.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.label5.Margin = new System.Windows.Forms.Padding(10);
             this.label5.Name = "label5";
-            this.label5.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label5.Padding = new System.Windows.Forms.Padding(5);
             this.label5.Size = new System.Drawing.Size(94, 42);
             this.label5.TabIndex = 15;
             this.label5.Text = "&Shops:";
@@ -251,7 +252,7 @@ namespace FF1_PRR
             "None",
             "Shuffle"});
             this.RandoShop.Location = new System.Drawing.Point(197, 42);
-            this.RandoShop.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.RandoShop.Margin = new System.Windows.Forms.Padding(10);
             this.RandoShop.Name = "RandoShop";
             this.RandoShop.Size = new System.Drawing.Size(243, 40);
             this.RandoShop.TabIndex = 16;
@@ -262,9 +263,9 @@ namespace FF1_PRR
             // 
             this.Traditional.AutoSize = true;
             this.Traditional.Location = new System.Drawing.Point(458, 38);
-            this.Traditional.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.Traditional.Margin = new System.Windows.Forms.Padding(10);
             this.Traditional.Name = "Traditional";
-            this.Traditional.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Traditional.Padding = new System.Windows.Forms.Padding(5);
             this.Traditional.Size = new System.Drawing.Size(253, 46);
             this.Traditional.TabIndex = 17;
             this.Traditional.Text = "E&xclude DoS items";
@@ -276,7 +277,7 @@ namespace FF1_PRR
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(20, 419);
-            this.label6.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.label6.Margin = new System.Windows.Forms.Padding(3);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 32);
             this.label6.TabIndex = 18;
@@ -285,9 +286,9 @@ namespace FF1_PRR
             // 
             this.randoMagic.AutoSize = true;
             this.randoMagic.Location = new System.Drawing.Point(13, 45);
-            this.randoMagic.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.randoMagic.Margin = new System.Windows.Forms.Padding(10);
             this.randoMagic.Name = "randoMagic";
-            this.randoMagic.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.randoMagic.Padding = new System.Windows.Forms.Padding(5);
             this.randoMagic.Size = new System.Drawing.Size(247, 46);
             this.randoMagic.TabIndex = 19;
             this.randoMagic.Text = "Randomize &Magic";
@@ -300,9 +301,9 @@ namespace FF1_PRR
             // 
             this.keepMagicPermissions.AutoSize = true;
             this.keepMagicPermissions.Location = new System.Drawing.Point(280, 45);
-            this.keepMagicPermissions.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.keepMagicPermissions.Margin = new System.Windows.Forms.Padding(10);
             this.keepMagicPermissions.Name = "keepMagicPermissions";
-            this.keepMagicPermissions.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.keepMagicPermissions.Padding = new System.Windows.Forms.Padding(5);
             this.keepMagicPermissions.Size = new System.Drawing.Size(241, 46);
             this.keepMagicPermissions.TabIndex = 20;
             this.keepMagicPermissions.Text = "&Keep Permissions";
@@ -317,7 +318,7 @@ namespace FF1_PRR
             this.label7.Location = new System.Drawing.Point(8, 45);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
-            this.label7.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label7.Padding = new System.Windows.Forms.Padding(5);
             this.label7.Size = new System.Drawing.Size(155, 42);
             this.label7.TabIndex = 21;
             this.label7.Text = "&XP/Gil Boost";
@@ -348,9 +349,9 @@ namespace FF1_PRR
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(13, 107);
-            this.label8.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.label8.Margin = new System.Windows.Forms.Padding(10);
             this.label8.Name = "label8";
-            this.label8.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.label8.Padding = new System.Windows.Forms.Padding(5);
             this.label8.Size = new System.Drawing.Size(118, 42);
             this.label8.TabIndex = 18;
             this.label8.Text = "&Treasure:";
@@ -364,7 +365,7 @@ namespace FF1_PRR
             "None",
             "Shuffle"});
             this.flagT.Location = new System.Drawing.Point(197, 104);
-            this.flagT.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.flagT.Margin = new System.Windows.Forms.Padding(10);
             this.flagT.Name = "flagT";
             this.flagT.Size = new System.Drawing.Size(243, 40);
             this.flagT.TabIndex = 19;
@@ -376,9 +377,9 @@ namespace FF1_PRR
             this.flagTraditionalTreasure.AutoSize = true;
             this.flagTraditionalTreasure.Enabled = false;
             this.flagTraditionalTreasure.Location = new System.Drawing.Point(458, 101);
-            this.flagTraditionalTreasure.Margin = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.flagTraditionalTreasure.Margin = new System.Windows.Forms.Padding(10);
             this.flagTraditionalTreasure.Name = "flagTraditionalTreasure";
-            this.flagTraditionalTreasure.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagTraditionalTreasure.Padding = new System.Windows.Forms.Padding(5);
             this.flagTraditionalTreasure.Size = new System.Drawing.Size(253, 46);
             this.flagTraditionalTreasure.TabIndex = 20;
             this.flagTraditionalTreasure.Text = "E&xclude DoS items";
@@ -392,7 +393,7 @@ namespace FF1_PRR
             this.flagRebalancePrices.Location = new System.Drawing.Point(8, 86);
             this.flagRebalancePrices.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRebalancePrices.Name = "flagRebalancePrices";
-            this.flagRebalancePrices.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagRebalancePrices.Padding = new System.Windows.Forms.Padding(5);
             this.flagRebalancePrices.Size = new System.Drawing.Size(288, 46);
             this.flagRebalancePrices.TabIndex = 21;
             this.flagRebalancePrices.Text = "Rebalance item prices";
@@ -407,7 +408,7 @@ namespace FF1_PRR
             this.flagRestoreCritRating.Location = new System.Drawing.Point(8, 131);
             this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRestoreCritRating.Name = "flagRestoreCritRating";
-            this.flagRestoreCritRating.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagRestoreCritRating.Padding = new System.Windows.Forms.Padding(5);
             this.flagRestoreCritRating.Size = new System.Drawing.Size(244, 46);
             this.flagRestoreCritRating.TabIndex = 22;
             this.flagRestoreCritRating.Text = "Restore crit rating";
@@ -421,7 +422,7 @@ namespace FF1_PRR
             this.flagWandsAddInt.Location = new System.Drawing.Point(8, 178);
             this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagWandsAddInt.Name = "flagWandsAddInt";
-            this.flagWandsAddInt.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagWandsAddInt.Padding = new System.Windows.Forms.Padding(5);
             this.flagWandsAddInt.Size = new System.Drawing.Size(218, 46);
             this.flagWandsAddInt.TabIndex = 23;
             this.flagWandsAddInt.Text = "Wands add INT";
@@ -435,7 +436,7 @@ namespace FF1_PRR
             this.flagFiendsDropRibbons.Location = new System.Drawing.Point(8, 126);
             this.flagFiendsDropRibbons.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagFiendsDropRibbons.Name = "flagFiendsDropRibbons";
-            this.flagFiendsDropRibbons.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagFiendsDropRibbons.Padding = new System.Windows.Forms.Padding(5);
             this.flagFiendsDropRibbons.Size = new System.Drawing.Size(275, 46);
             this.flagFiendsDropRibbons.TabIndex = 5;
             this.flagFiendsDropRibbons.Text = "Fiends drop Ribbons";
@@ -450,7 +451,7 @@ namespace FF1_PRR
             this.flagRebalanceBosses.Location = new System.Drawing.Point(8, 82);
             this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRebalanceBosses.Name = "flagRebalanceBosses";
-            this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(5);
             this.flagRebalanceBosses.Size = new System.Drawing.Size(242, 46);
             this.flagRebalanceBosses.TabIndex = 6;
             this.flagRebalanceBosses.Text = "Rebalance bosses";
@@ -463,13 +464,27 @@ namespace FF1_PRR
             // 
             this.btnRestoreVanilla.Location = new System.Drawing.Point(1055, 813);
             this.btnRestoreVanilla.Name = "btnRestoreVanilla";
-            this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(5);
             this.btnRestoreVanilla.Size = new System.Drawing.Size(195, 53);
             this.btnRestoreVanilla.TabIndex = 27;
             this.btnRestoreVanilla.Text = "Restore vanilla";
             this.toolTip1.SetToolTip(this.btnRestoreVanilla, "Undo previous randomization and restore files to a vanilla configuration.");
             this.btnRestoreVanilla.UseVisualStyleBackColor = true;
             this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
+            // 
+            // flagRestoreEncounterRate
+            // 
+            this.flagRestoreEncounterRate.AutoSize = true;
+            this.flagRestoreEncounterRate.Location = new System.Drawing.Point(8, 224);
+            this.flagRestoreEncounterRate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.flagRestoreEncounterRate.Name = "flagRestoreEncounterRate";
+            this.flagRestoreEncounterRate.Padding = new System.Windows.Forms.Padding(5);
+            this.flagRestoreEncounterRate.Size = new System.Drawing.Size(369, 46);
+            this.flagRestoreEncounterRate.TabIndex = 24;
+            this.flagRestoreEncounterRate.Text = "Reduce ocean encounter rate";
+            this.toolTip1.SetToolTip(this.flagRestoreEncounterRate, "Alters rate of random encounters to match the Dawn of Souls release. (currently o" +
+        "nly makes ocean encounters rarer).");
+            this.flagRestoreEncounterRate.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -488,6 +503,7 @@ namespace FF1_PRR
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.flagRestoreEncounterRate);
             this.groupBox2.Controls.Add(this.flagWandsAddInt);
             this.groupBox2.Controls.Add(this.flagRebalancePrices);
             this.groupBox2.Controls.Add(this.monsterXPGPBoost);
@@ -548,7 +564,7 @@ namespace FF1_PRR
             this.Controls.Add(this.FF1PRFolder);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRandomize);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FF1PRR";
             this.Text = "Final Fantasy 1 Pixel Remaster Randomizer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmFF1PRR_FormClosing);
@@ -605,6 +621,7 @@ namespace FF1_PRR
         private System.Windows.Forms.CheckBox flagRebalanceBosses;
         private System.Windows.Forms.CheckBox flagFiendsDropRibbons;
         private System.Windows.Forms.Button btnRestoreVanilla;
+        private System.Windows.Forms.CheckBox flagRestoreEncounterRate;
     }
 }
 
