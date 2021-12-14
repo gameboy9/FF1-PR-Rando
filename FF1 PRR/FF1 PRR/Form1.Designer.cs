@@ -63,11 +63,12 @@ namespace FF1_PRR
             this.flagFiendsDropRibbons = new System.Windows.Forms.CheckBox();
             this.flagRebalanceBosses = new System.Windows.Forms.CheckBox();
             this.btnRestoreVanilla = new System.Windows.Forms.Button();
-            this.flagRestoreEncounterRate = new System.Windows.Forms.CheckBox();
+            this.flagReduceEncounterRate = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.flagReduceChaosHP = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -120,7 +121,7 @@ namespace FF1_PRR
             // 
             this.ShuffleBossSpots.AutoSize = true;
             this.ShuffleBossSpots.Enabled = false;
-            this.ShuffleBossSpots.Location = new System.Drawing.Point(8, 35);
+            this.ShuffleBossSpots.Location = new System.Drawing.Point(280, 36);
             this.ShuffleBossSpots.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.ShuffleBossSpots.Name = "ShuffleBossSpots";
             this.ShuffleBossSpots.Padding = new System.Windows.Forms.Padding(5);
@@ -129,6 +130,7 @@ namespace FF1_PRR
             this.ShuffleBossSpots.Text = "Shuffle Boss Spots";
             this.toolTip1.SetToolTip(this.ShuffleBossSpots, "Change which boss appears at which boss location.");
             this.ShuffleBossSpots.UseVisualStyleBackColor = true;
+            this.ShuffleBossSpots.Visible = false;
             this.ShuffleBossSpots.CheckedChanged += new System.EventHandler(this.DetermineFlags);
             // 
             // KeyItems
@@ -452,11 +454,10 @@ namespace FF1_PRR
             this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.flagRebalanceBosses.Name = "flagRebalanceBosses";
             this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(5);
-            this.flagRebalanceBosses.Size = new System.Drawing.Size(242, 46);
+            this.flagRebalanceBosses.Size = new System.Drawing.Size(206, 46);
             this.flagRebalanceBosses.TabIndex = 6;
-            this.flagRebalanceBosses.Text = "Rebalance bosses";
-            this.toolTip1.SetToolTip(this.flagRebalanceBosses, "Increase HP of several bosses, notably Death Eye and the Fiend refights; decrease" +
-        " HP of Chaos.");
+            this.flagRebalanceBosses.Text = "Harder bosses";
+            this.toolTip1.SetToolTip(this.flagRebalanceBosses, "Increase HP of several bosses, notably Death Eye and the Fiend refights.");
             this.flagRebalanceBosses.UseVisualStyleBackColor = true;
             this.flagRebalanceBosses.CheckedChanged += new System.EventHandler(this.DetermineFlags);
             // 
@@ -472,19 +473,19 @@ namespace FF1_PRR
             this.btnRestoreVanilla.UseVisualStyleBackColor = true;
             this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
             // 
-            // flagRestoreEncounterRate
+            // flagReduceEncounterRate
             // 
-            this.flagRestoreEncounterRate.AutoSize = true;
-            this.flagRestoreEncounterRate.Location = new System.Drawing.Point(8, 224);
-            this.flagRestoreEncounterRate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagRestoreEncounterRate.Name = "flagRestoreEncounterRate";
-            this.flagRestoreEncounterRate.Padding = new System.Windows.Forms.Padding(5);
-            this.flagRestoreEncounterRate.Size = new System.Drawing.Size(369, 46);
-            this.flagRestoreEncounterRate.TabIndex = 24;
-            this.flagRestoreEncounterRate.Text = "Reduce ocean encounter rate";
-            this.toolTip1.SetToolTip(this.flagRestoreEncounterRate, "Alters rate of random encounters to match the Dawn of Souls release. (currently o" +
-        "nly makes ocean encounters rarer).");
-            this.flagRestoreEncounterRate.UseVisualStyleBackColor = true;
+            this.flagReduceEncounterRate.AutoSize = true;
+            this.flagReduceEncounterRate.Location = new System.Drawing.Point(8, 224);
+            this.flagReduceEncounterRate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.flagReduceEncounterRate.Name = "flagReduceEncounterRate";
+            this.flagReduceEncounterRate.Padding = new System.Windows.Forms.Padding(5);
+            this.flagReduceEncounterRate.Size = new System.Drawing.Size(298, 46);
+            this.flagReduceEncounterRate.TabIndex = 24;
+            this.flagReduceEncounterRate.Text = "Reduce encounter rate";
+            this.toolTip1.SetToolTip(this.flagReduceEncounterRate, "Reduces rate of random encounters significantly on the ocean and slightly everywh" +
+        "ere else.");
+            this.flagReduceEncounterRate.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -503,7 +504,7 @@ namespace FF1_PRR
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.flagRestoreEncounterRate);
+            this.groupBox2.Controls.Add(this.flagReduceEncounterRate);
             this.groupBox2.Controls.Add(this.flagWandsAddInt);
             this.groupBox2.Controls.Add(this.flagRebalancePrices);
             this.groupBox2.Controls.Add(this.monsterXPGPBoost);
@@ -529,6 +530,7 @@ namespace FF1_PRR
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.flagReduceChaosHP);
             this.groupBox4.Controls.Add(this.flagRebalanceBosses);
             this.groupBox4.Controls.Add(this.flagFiendsDropRibbons);
             this.groupBox4.Controls.Add(this.ShuffleBossSpots);
@@ -538,6 +540,19 @@ namespace FF1_PRR
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Monsters && Bosses";
+            // 
+            // flagReduceChaosHP
+            // 
+            this.flagReduceChaosHP.AutoSize = true;
+            this.flagReduceChaosHP.Location = new System.Drawing.Point(9, 36);
+            this.flagReduceChaosHP.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.flagReduceChaosHP.Name = "flagReduceChaosHP";
+            this.flagReduceChaosHP.Padding = new System.Windows.Forms.Padding(5);
+            this.flagReduceChaosHP.Size = new System.Drawing.Size(243, 46);
+            this.flagReduceChaosHP.TabIndex = 7;
+            this.flagReduceChaosHP.Text = "Reduce Chaos HP";
+            this.toolTip1.SetToolTip(this.flagReduceChaosHP, "Decrease HP of Chaos to 9600.");
+            this.flagReduceChaosHP.UseVisualStyleBackColor = true;
             // 
             // FF1PRR
             // 
@@ -621,7 +636,8 @@ namespace FF1_PRR
         private System.Windows.Forms.CheckBox flagRebalanceBosses;
         private System.Windows.Forms.CheckBox flagFiendsDropRibbons;
         private System.Windows.Forms.Button btnRestoreVanilla;
-        private System.Windows.Forms.CheckBox flagRestoreEncounterRate;
+        private System.Windows.Forms.CheckBox flagReduceEncounterRate;
+        private System.Windows.Forms.CheckBox flagReduceChaosHP;
     }
 }
 
