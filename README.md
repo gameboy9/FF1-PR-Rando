@@ -4,7 +4,7 @@ This is a proof-of-concept key item randomizer for [Final Fantasy I (PR)](https:
 ## Installation:
 1. Install Final Fantasy Pixel Remaster from Steam.
 2. Install [Memoria](https://github.com/Albeoris/Memoria.FFPR/) and export the game data by following [these instructions](https://github.com/Albeoris/Memoria.FFPR/#export).
-3. Unpack the FF1PRR archive in the directory of your choice.
+3. Download and unpack the [FF1PRR archive](https://github.com/gameboy9/Memoria.FFPR/releases/download/0.1/FF1.PRR.zip) in the directory of your choice.
 4. Run the .exe and set the `FF1 PR Folder` to the location of your game installation (usually `C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY PR`)
 
 ## Usage:
