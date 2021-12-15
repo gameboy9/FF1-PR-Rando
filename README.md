@@ -59,4 +59,4 @@ This is a preview build of the randomizer, so there are presently several non-cr
 - Currently, only the English language is supported. A future release will allow you to play in any language.
 
 ### More information
-If you'd like to discuss the randomizer or follow its continued development, you're welcome to join the [official HMS Jayne and FF1PRR discord](https://discord.gg/kPxkH5W)!
+If you'd like to discuss the randomizer or follow its continued development, you're welcome to join the [official HMS Jayne and FF1PRR discord](https://discord.gg/QuueYMTMcS)!
