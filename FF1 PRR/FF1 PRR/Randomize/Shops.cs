@@ -165,23 +165,56 @@ namespace FF1_PRR.Randomize
 			return spellShopLookup[type - 1, level - 1, magicMemory[type - 1, level - 1]];
 		}
 
+		private void placeNextItem(ShopItem shopEntry, ref List<int> productList, ref Dictionary<int, List<int>> shopInventories, ref HashSet<ShopItem> toRemove)
+        {
+			// check if we've seen this shop before
+			if (shopInventories.TryGetValue(shopEntry.group_id, out List<int> inventory))
+			{
+				int i = 0;
+				while (i < productList.Count)
+				{
+					// check if this shop contains the next item
+					if (!inventory.Contains(productList[i]))
+					{
+						inventory.Add(productList[i]);
+						shopInventories[shopEntry.group_id] = inventory;
+						shopEntry.content_id = productList[i];
+						productList.RemoveAt(i);
+						break;
+					}
+					else
+					{
+						i++;
+						continue;
+					}
+				}
+				// if all possible items that can be placed are already in the store, remove this shop entry from the shopDB
+				if (i == productList.Count)
+				{
+					toRemove.Add(shopEntry);
+				}
+			}
+			else // this is a new store
+			{
+				shopInventories.Add(shopEntry.group_id, new List<int> { productList[0] });
+				shopEntry.content_id = productList[0];
+				productList.RemoveAt(0);
+			}
+		}
+
 		private List<ShopItem> determineSpells(Magic magicData)
         {
 			List<ShopItem> shopDB = new List<ShopItem>();
 			int[,] magicMemory = new int[2, 8];
+			int productID = 250;
 
 			foreach (Magic.ability spell in magicData.getRecords())
             {
 				if (spell.ability_group_id == 1 && spell.id != Magic.DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
                 {
 					ShopItem newItem = new ShopItem();
-					newItem.id = 0;
+					newItem.id = productID++;
 					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
-					if (spell.ability_lv <= 6)
-                    {
-						newItem.group_id = blackMagicStores[spell.ability_lv - 1];
-
-					}
 					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
 					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
 					shopDB.Add(newItem);
@@ -214,45 +247,45 @@ namespace FF1_PRR.Randomize
 					if (weaponStores.Contains(product.group_id))
 					{
 						weaponList.Add(product.content_id);
-						continue;
 					}
 					else if (armorStores.Contains(product.group_id))
 					{
 						armorList.Add(product.content_id);
-						continue;
 					}
 					else if (itemStores.Contains(product.group_id))
 					{
 						itemList.Add(product.content_id);
-						continue;
 					}
 					else continue;
 				}
 				weaponList.Shuffle(r1);
 				armorList.Shuffle(r1);
 				itemList.Shuffle(r1);
+
+				// a dictionary containing the current inventories of every shop so far
+				Dictionary<int, List<int>> shopInventories = new Dictionary<int, List<int>>();
+
+				// a list of entries to remove from the database if no item can be placed in that shop
+				var toRemove = new HashSet<ShopItem>();
+
 				foreach (ShopItem product in shopDB)
 				{
 					if (weaponStores.Contains(product.group_id))
 					{
-						product.content_id = weaponList[0];
-						weaponList.RemoveAt(0);
-						continue;
+						placeNextItem(product, ref weaponList, ref shopInventories, ref toRemove);
 					}
 					else if (armorStores.Contains(product.group_id))
 					{
-						product.content_id = armorList[0];
-						armorList.RemoveAt(0); 
-						continue;
+						placeNextItem(product, ref armorList, ref shopInventories, ref toRemove);
 					}
 					else if (itemStores.Contains(product.group_id))
 					{
-						product.content_id = itemList[0];
-						itemList.RemoveAt(0); 
-						continue;
+						placeNextItem(product, ref itemList, ref shopInventories, ref toRemove);
 					}
 					else continue;
 				}
+
+				shopDB.RemoveAll(toRemove.Contains);
 			}
 			else // Generate new shop contents
 			{
@@ -293,6 +326,13 @@ namespace FF1_PRR.Randomize
 				*/
 				// TODO:  Remove duplicates within each store.
 			}
+
+			//clear out old spell inventory
+
+			shopDB = shopDB.FindAll(x => !allMagicStores.Contains(x.group_id));
+
+			//then, add the new spell inventory
+
 			shopDB.AddRange(determineSpells(magicData));
 
 			// Get all possible inventory items with rank information

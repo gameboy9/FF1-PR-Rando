@@ -101,6 +101,7 @@ namespace FF1_PRR.Randomize
 			//The output of the shell command will be in the outPut variable after the 
 			//following line is executed
 			var clingoJSON = p.StandardOutput.ReadToEnd();
+			File.WriteAllText(@"spoiler.log", clingoJSON);
 
 			ClingoKeyItem events = JsonConvert.DeserializeObject<ClingoKeyItem>(clingoJSON);
 			foreach (string pairValue in events.Call[0].Witnesses[0].Value)
