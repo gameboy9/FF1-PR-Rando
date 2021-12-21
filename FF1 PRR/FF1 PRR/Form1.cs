@@ -30,11 +30,11 @@ namespace FF1_PRR
 			if (loading) return;
 
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions }));
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTraditionalTreasure, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, randoMagic, flagMagicKeepPermissions }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
 			// Combo boxes time...
-			flags += convertIntToChar(RandoShop.SelectedIndex + (8 * monsterXPGPBoost.SelectedIndex));
-			flags += convertIntToChar(flagT.SelectedIndex + (8 * 0));
+			flags += convertIntToChar(modeShops.SelectedIndex + (8 * modeXPBoost.SelectedIndex));
+			flags += convertIntToChar(modeTreasure.SelectedIndex + (8 * 0));
 			RandoFlags.Text = flags;
 
 			flags = "";
@@ -57,11 +57,11 @@ namespace FF1_PRR
 			loading = true;
 
 			string flags = RandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { ShuffleBossSpots, KeyItems, Traditional, randoMagic, keepMagicPermissions });
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTraditionalTreasure, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
-			RandoShop.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
-			monsterXPGPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
-			flagT.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, randoMagic, flagMagicKeepPermissions });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
+			modeShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
+			modeXPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
+			modeTreasure.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
@@ -135,6 +135,9 @@ namespace FF1_PRR
 				RandoFlags.Text = "BA";
 				VisualFlags.Text = "0";
 				// ignore error
+				modeShops.SelectedIndex = 1;
+				modeTreasure.SelectedIndex = 1;
+				modeXPBoost.SelectedIndex = 1;
 				loading = false;
 				determineChecks(null, null);
 			}
@@ -233,17 +236,17 @@ namespace FF1_PRR
 			string DATA_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data");
 			string MAP_PATH = Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map");
 			File.Copy(Path.Combine("data", "mods", "system_en.txt"), Path.Combine(DATA_PATH, "Message", "system_en.txt"), true);
-			if (Traditional.Checked) File.Copy(Path.Combine("data", "mods", "productTraditional.csv"), Path.Combine(DATA_PATH, "Master", "product.csv"), true);
+			if (flagShopsTrad.Checked) File.Copy(Path.Combine("data", "mods", "productTraditional.csv"), Path.Combine(DATA_PATH, "Master", "product.csv"), true);
 			else File.Copy(Path.Combine("data", "mods", "product.csv"), Path.Combine(DATA_PATH, "Master", "product.csv"), true);
 			DirectoryCopy(Path.Combine("data", "mods", "Map"), MAP_PATH, true);
 
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
-			Magic magicData = randomizeMagic(randoMagic.Checked, keepMagicPermissions.Checked);
-			if (RandoShop.SelectedIndex > 0) randomizeShops(magicData);
-			if (KeyItems.Checked) randomizeKeyItems();
-			if (flagT.SelectedIndex > 0) randomizeTreasure();
+			Magic magicData = randomizeMagic(randoMagic.Checked, flagMagicKeepPermissions.Checked);
+			if (modeShops.SelectedIndex > 0) randomizeShops(magicData);
+			if (flagKeyItems.Checked) randomizeKeyItems();
+			if (modeTreasure.SelectedIndex > 0) randomizeTreasure();
 			monsterBoost();
 			if (CuteHats.Checked)
 			{
@@ -351,9 +354,9 @@ namespace FF1_PRR
 		}
 		private void randomizeShops(Magic magicData)
 		{
-			Shops randoShops = new Shops(r1, RandoShop.SelectedIndex, 
+			Shops randoShops = new Shops(r1, modeShops.SelectedIndex, 
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
-				Traditional.Checked, magicData);
+				flagShopsTrad.Checked, magicData);
 		}
 
 		private Magic randomizeMagic(bool randomizeMagic, bool keepPermissions)
@@ -372,20 +375,20 @@ namespace FF1_PRR
 		}
 		private void randomizeTreasure()
         {
-			Treasure randoChests = new Treasure(r1, flagT.SelectedIndex,
+			Treasure randoChests = new Treasure(r1, modeTreasure.SelectedIndex,
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map"),
-				flagTraditionalTreasure.Checked, flagFiendsDropRibbons.Checked);
+				flagTreasureTrad.Checked, flagFiendsDropRibbons.Checked);
 		}
 
 		private void monsterBoost()
 		{
-			double xp = monsterXPGPBoost.SelectedIndex == 0 ? 0.5 :
-				monsterXPGPBoost.SelectedIndex == 1 ? 1.0 :
-				monsterXPGPBoost.SelectedIndex == 2 ? 1.5 :
-				monsterXPGPBoost.SelectedIndex == 3 ? 2.0 :
-				monsterXPGPBoost.SelectedIndex == 4 ? 3.0 :
-				monsterXPGPBoost.SelectedIndex == 5 ? 4.0 :
-				monsterXPGPBoost.SelectedIndex == 6 ? 5.0 : 10;
+			double xp = modeXPBoost.SelectedIndex == 0 ? 0.5 :
+				modeXPBoost.SelectedIndex == 1 ? 1.0 :
+				modeXPBoost.SelectedIndex == 2 ? 1.5 :
+				modeXPBoost.SelectedIndex == 3 ? 2.0 :
+				modeXPBoost.SelectedIndex == 4 ? 3.0 :
+				modeXPBoost.SelectedIndex == 5 ? 4.0 :
+				modeXPBoost.SelectedIndex == 6 ? 5.0 : 10;
 			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), xp, 0, xp, 0);
 		}
 
