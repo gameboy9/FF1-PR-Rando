@@ -64,11 +64,11 @@ namespace FF1_PRR
             this.flagRebalanceBosses = new System.Windows.Forms.CheckBox();
             this.btnRestoreVanilla = new System.Windows.Forms.Button();
             this.flagReduceEncounterRate = new System.Windows.Forms.CheckBox();
+            this.flagReduceChaosHP = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.flagReduceChaosHP = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -103,6 +103,7 @@ namespace FF1_PRR
             this.FF1PRFolder.Name = "FF1PRFolder";
             this.FF1PRFolder.Size = new System.Drawing.Size(886, 39);
             this.FF1PRFolder.TabIndex = 2;
+            this.FF1PRFolder.Text = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\FINAL FANTASY PR";
             // 
             // CuteHats
             // 
@@ -487,6 +488,19 @@ namespace FF1_PRR
         "ere else.");
             this.flagReduceEncounterRate.UseVisualStyleBackColor = true;
             // 
+            // flagReduceChaosHP
+            // 
+            this.flagReduceChaosHP.AutoSize = true;
+            this.flagReduceChaosHP.Location = new System.Drawing.Point(9, 36);
+            this.flagReduceChaosHP.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.flagReduceChaosHP.Name = "flagReduceChaosHP";
+            this.flagReduceChaosHP.Padding = new System.Windows.Forms.Padding(5);
+            this.flagReduceChaosHP.Size = new System.Drawing.Size(243, 46);
+            this.flagReduceChaosHP.TabIndex = 7;
+            this.flagReduceChaosHP.Text = "Reduce Chaos HP";
+            this.toolTip1.SetToolTip(this.flagReduceChaosHP, "Decrease HP of Chaos to 9600.");
+            this.flagReduceChaosHP.UseVisualStyleBackColor = true;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
@@ -540,19 +554,6 @@ namespace FF1_PRR
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Monsters && Bosses";
-            // 
-            // flagReduceChaosHP
-            // 
-            this.flagReduceChaosHP.AutoSize = true;
-            this.flagReduceChaosHP.Location = new System.Drawing.Point(9, 36);
-            this.flagReduceChaosHP.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagReduceChaosHP.Name = "flagReduceChaosHP";
-            this.flagReduceChaosHP.Padding = new System.Windows.Forms.Padding(5);
-            this.flagReduceChaosHP.Size = new System.Drawing.Size(243, 46);
-            this.flagReduceChaosHP.TabIndex = 7;
-            this.flagReduceChaosHP.Text = "Reduce Chaos HP";
-            this.toolTip1.SetToolTip(this.flagReduceChaosHP, "Decrease HP of Chaos to 9600.");
-            this.flagReduceChaosHP.UseVisualStyleBackColor = true;
             // 
             // FF1PRR
             // 
