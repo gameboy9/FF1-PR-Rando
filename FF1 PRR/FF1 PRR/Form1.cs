@@ -361,8 +361,9 @@ namespace FF1_PRR
 
 		private Magic randomizeMagic(bool randomizeMagic, bool keepPermissions)
 		{
-			Magic magicData = new Inventory.Magic(
-				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"));
+			Magic magicData = new Magic(
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"),
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"));
 			if (randomizeMagic) magicData.shuffleMagic(r1, keepPermissions);
 			magicData.writeToFile();
 			return magicData;

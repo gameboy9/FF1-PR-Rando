@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static FF1_PRR.Common.Common;
+using FF1_PRR.Common;
 
 namespace FF1_PRR.Randomize
 {

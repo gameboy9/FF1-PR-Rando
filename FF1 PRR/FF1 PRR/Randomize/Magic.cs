@@ -81,9 +81,9 @@ namespace FF1_PRR.Inventory
 			bKill = 276
 		}
 
-		public List<int> all = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList(); // Black magic will be added in shuffleMagic
-		public List<int> bAll = Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList();
-		public List<int> wAll = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList();
+		public static List<int> bAll = Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList();
+		public static List<int> wAll = Enum.GetValues(typeof(whiteMagic)).Cast<int>().ToList();
+		public static List<int> all = bAll.Concat(wAll).ToList();
 
 		public static int WHITE_MAGIC = 1;
 		public static int BLACK_MAGIC = 2;
@@ -91,10 +91,12 @@ namespace FF1_PRR.Inventory
 
 		private List<ability> records;
 		private string file;
+		private string productpath;
 
-		public Magic(string fileName)
+		public Magic(string fileName, string product)
         {
 			file = fileName;
+			productpath = product;
 			using (StreamReader reader = new StreamReader(fileName))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 			{
@@ -114,14 +116,6 @@ namespace FF1_PRR.Inventory
 			{
 				csv.WriteRecords(records);
 			}
-		}
-
-		public List<int> shuffleShops(Random r1, int type)
-		{
-			List<int> shuffler = type == 0 ? all : type == 1 ? wAll : bAll;
-
-			shuffler.Shuffle(r1);
-			return shuffler;
 		}
 
 		public class ability
@@ -168,9 +162,6 @@ namespace FF1_PRR.Inventory
 
 		public void shuffleMagic(Random r1, bool keepPermissions)
 		{
-			all.AddRange(Enum.GetValues(typeof(blackMagic)).Cast<int>().ToList());
-			
-
 			// Shuffle levels and price between the white spells and then the black spells.
 			List<int> wMagic = new List<int> {
 				4, 5, 6, 7,
@@ -254,6 +245,9 @@ namespace FF1_PRR.Inventory
 					}
 				}
 			}
+
 		}
+
+
 	}
 }

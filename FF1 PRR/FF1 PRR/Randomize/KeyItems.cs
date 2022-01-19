@@ -1,4 +1,5 @@
 ﻿using FF1_PRR.Inventory;
+using FF1_PRR.Common;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

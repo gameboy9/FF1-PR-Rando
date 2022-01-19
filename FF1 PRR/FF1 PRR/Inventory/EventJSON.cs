@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FF1_PRR.Inventory
+namespace FF1_PRR.Common
 {
 	// JSON Objects for sc_e_xxxx.json files
 	public class EventJSON
