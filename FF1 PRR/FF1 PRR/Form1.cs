@@ -243,8 +243,8 @@ namespace FF1_PRR
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
-			Magic magicData = randomizeMagic(randoMagic.Checked, flagMagicKeepPermissions.Checked);
-			if (modeShops.SelectedIndex > 0) randomizeShops(magicData);
+			if (randoMagic.Checked) randomizeMagic();
+			if (modeShops.SelectedIndex > 0) randomizeShops();
 			if (flagKeyItems.Checked) randomizeKeyItems();
 			if (modeTreasure.SelectedIndex > 0) randomizeTreasure();
 			monsterBoost();
@@ -352,21 +352,19 @@ namespace FF1_PRR
 				}
 			}
 		}
-		private void randomizeShops(Magic magicData)
+		private void randomizeShops()
 		{
 			Shops randoShops = new Shops(r1, modeShops.SelectedIndex, 
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"), 
-				flagShopsTrad.Checked, magicData);
+				flagShopsTrad.Checked);
 		}
 
-		private Magic randomizeMagic(bool randomizeMagic, bool keepPermissions)
+		private void randomizeMagic()
 		{
-			Magic magicData = new Magic(
+			Magic magicData = new Magic(r1, 
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"),
-				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"));
-			if (randomizeMagic) magicData.shuffleMagic(r1, keepPermissions);
-			magicData.writeToFile();
-			return magicData;
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"),
+				flagMagicKeepPermissions.Checked);
 		}
 
 		private void randomizeKeyItems()

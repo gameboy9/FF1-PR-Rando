@@ -118,7 +118,7 @@ namespace FF1_PRR.Randomize
 			return magicShopDB;
 		}
 
-		public Shops(Random r1, int randoLevel, string fileName, bool traditional, Magic magicData)
+		public Shops(Random r1, int randoLevel, string fileName, bool traditional)
 		{
 			List<ShopItem> shopDB = Product.readShopDB(fileName);
 
@@ -215,14 +215,6 @@ namespace FF1_PRR.Randomize
 				*/
 				// TODO:  Remove duplicates within each store.
 			}
-
-			//clear out old spell inventory
-
-			shopDB = shopDB.FindAll(x => !Product.allMagicStores.Contains(x.group_id));
-
-			//then, add the new spell inventory
-
-			shopDB.AddRange(determineSpells(magicData));
 
 			/*
 			// Get all possible inventory items with rank information

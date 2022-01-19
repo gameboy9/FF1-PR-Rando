@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using static FF1_PRR.Common.Common;
+using FF1_PRR.Inventory;
 
 namespace FF1_PRR.Inventory
 {
@@ -93,7 +94,7 @@ namespace FF1_PRR.Inventory
 		private string file;
 		private string productpath;
 
-		public Magic(string fileName, string product)
+		public Magic(Random r1, string fileName, string product, bool keepPermissions)
         {
 			file = fileName;
 			productpath = product;
@@ -102,6 +103,7 @@ namespace FF1_PRR.Inventory
 			{
 				records = csv.GetRecords<ability>().ToList();
 			}
+			shuffleMagic(r1, keepPermissions);
 		}
 
 		public List<ability> getRecords()
@@ -246,8 +248,56 @@ namespace FF1_PRR.Inventory
 				}
 			}
 
+			//clear out old spell inventory
+			List<ShopItem> shopDB = Product.readShopDB(productpath);
+			shopDB = shopDB.FindAll(x => !Product.allMagicStores.Contains(x.group_id));
+
+			//then, add the new spell inventory
+			shopDB.AddRange(determineSpells());
+
+			//and write out the product.csv
+			Product.writeShopDB(productpath, shopDB);
+			//and the ability.csv
+			writeToFile();
 		}
 
+		private List<ShopItem> determineSpells()
+		{
+			List<ShopItem> magicShopDB = new List<ShopItem>();
+			int[,] magicMemory = new int[2, 8];
+			int productID = 250;
+
+			foreach (ability spell in records)
+			{
+				if (spell.ability_group_id == 1 && spell.id != DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
+				{
+					ShopItem newItem = new ShopItem();
+					newItem.id = productID++;
+					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
+					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
+					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
+					magicShopDB.Add(newItem);
+				}
+			}
+
+			return magicShopDB;
+		}
+
+		private int determineMagicShop(int[,] magicMemory, int type, int level)
+		{
+			int[] spellShopLookup = {
+										0,0,0,0,
+										1,1,1,1,
+										2,2,2,2,
+										3,3,3,3,
+										4,4,4,4,
+										5,5,5,5,
+										6,6,8,8,
+										7,7,9,9
+									};
+			List<int> shop = (type == 1) ? Product.whiteMagicStores : Product.blackMagicStores;
+			return shop[spellShopLookup[(level - 1) * 4 + magicMemory[type - 1, level - 1]]];
+		}
 
 	}
 }
