@@ -94,7 +94,7 @@ namespace FF1_PRR.Inventory
 		private string file;
 		private string productpath;
 
-		public Magic(Random r1, string fileName, string product, bool keepPermissions)
+		public Magic(Random r1, int randoLevel, string fileName, string product, bool shuffleShops, bool keepPermissions)
         {
 			file = fileName;
 			productpath = product;
@@ -103,7 +103,7 @@ namespace FF1_PRR.Inventory
 			{
 				records = csv.GetRecords<ability>().ToList();
 			}
-			shuffleMagic(r1, keepPermissions);
+			shuffleMagic(r1, randoLevel, shuffleShops, keepPermissions);
 		}
 
 		public List<ability> getRecords()
@@ -162,7 +162,7 @@ namespace FF1_PRR.Inventory
 			public int data_c { get; set; }
 		}
 
-		public void shuffleMagic(Random r1, bool keepPermissions)
+		public void shuffleMagic(Random r1, int randoLevel, bool shuffleShops,  bool keepPermissions)
 		{
 			// Shuffle levels and price between the white spells and then the black spells.
 			List<int> wMagic = new List<int> {
@@ -186,19 +186,26 @@ namespace FF1_PRR.Inventory
 				64, 65, 66, 67
 			};
 
-			// TODO:  id + (r1.Next() % 100), sort from there.
-			for (int lnI = 0; lnI < 1280; lnI++)
+			if (randoLevel == 1 || randoLevel == 2) // Standard and Pro
+			{ 
+			
+			}
+			if (randoLevel == 3 || randoLevel == 4) // Wild and Chaos
 			{
-				List<int> magic = lnI < 640 ? wMagic : bMagic;
+				// just make 640 swaps per type to randomize
+				for (int lnI = 0; lnI < 1280; lnI++)
+				{
+					List<int> magic = lnI < 640 ? wMagic : bMagic; 
 
-				int ln1 = magic[r1.Next() % magic.Count];
-				int ln2 = magic[r1.Next() % magic.Count];
-				int buy = records[ln1].buy;
-				int level = records[ln1].ability_lv;
-				records[ln1].buy = records[ln2].buy;
-				records[ln1].ability_lv = records[ln2].ability_lv;
-				records[ln2].buy = buy;
-				records[ln2].ability_lv = level;
+					int ln1 = magic[r1.Next() % magic.Count];
+					int ln2 = magic[r1.Next() % magic.Count];
+					int buy = records[ln1].buy;
+					int level = records[ln1].ability_lv;
+					records[ln1].buy = records[ln2].buy;
+					records[ln1].ability_lv = records[ln2].ability_lv;
+					records[ln2].buy = buy;
+					records[ln2].ability_lv = level;
+				}
 			}
 
 			if (!keepPermissions)
@@ -253,7 +260,7 @@ namespace FF1_PRR.Inventory
 			shopDB = shopDB.FindAll(x => !Product.allMagicStores.Contains(x.group_id));
 
 			//then, add the new spell inventory
-			shopDB.AddRange(determineSpells());
+			shopDB.AddRange(determineSpells(r1, randoLevel, shuffleShops));
 
 			//and write out the product.csv
 			Product.writeShopDB(productpath, shopDB);
@@ -261,31 +268,12 @@ namespace FF1_PRR.Inventory
 			writeToFile();
 		}
 
-		private List<ShopItem> determineSpells()
+		private List<ShopItem> determineSpells(Random r1, int randoLevel, bool shuffleShops)
 		{
 			List<ShopItem> magicShopDB = new List<ShopItem>();
 			int[,] magicMemory = new int[2, 8];
 			int productID = 250;
-
-			foreach (ability spell in records)
-			{
-				if (spell.ability_group_id == 1 && spell.id != DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
-				{
-					ShopItem newItem = new ShopItem();
-					newItem.id = productID++;
-					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
-					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
-					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
-					magicShopDB.Add(newItem);
-				}
-			}
-
-			return magicShopDB;
-		}
-
-		private int determineMagicShop(int[,] magicMemory, int type, int level)
-		{
-			int[] spellShopLookup = {
+		    List<int> shopLookup = new List<int>{
 										0,0,0,0,
 										1,1,1,1,
 										2,2,2,2,
@@ -295,9 +283,43 @@ namespace FF1_PRR.Inventory
 										6,6,8,8,
 										7,7,9,9
 									};
-			List<int> shop = (type == 1) ? Product.whiteMagicStores : Product.blackMagicStores;
-			return shop[spellShopLookup[(level - 1) * 4 + magicMemory[type - 1, level - 1]]];
-		}
+		    List<int> wmShops = Product.whiteMagicStores;
+		    List<int> bmShops = Product.blackMagicStores;
+			if (shuffleShops)
+			{
+				//this is a lot of steps for something that would be one line in a real language
+				int wmHead = wmShops[0];
+				int bmHead = bmShops[0];
+				wmShops = wmShops.Skip(1).ToList();
+				bmShops = bmShops.Skip(1).ToList();
+				wmShops.Shuffle(r1);
+				bmShops.Shuffle(r1);
+				wmShops.Insert(0, wmHead);
+				bmShops.Insert(0, bmHead);
+			}
+			if (randoLevel == 4)
+            {
+				shopLookup.Shuffle(r1);
+				wmShops.Shuffle(r1);
+				bmShops.Shuffle(r1);
+            }
 
+			foreach (ability spell in records)
+			{
+				if (spell.ability_group_id == 1 && spell.id != DUPE_CURE_4) //if it's a spell and not chaos's special Cure4
+				{
+					ShopItem newItem = new ShopItem();
+					newItem.id = productID++;
+					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
+					List<int> shopType = (spell.type_id == 1) ? wmShops : bmShops;
+					newItem.group_id = shopType[shopLookup[(spell.ability_lv - 1) * 4 + magicMemory[spell.type_id - 1, spell.ability_lv - 1]]];
+						//determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
+					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
+					magicShopDB.Add(newItem);
+				}
+			}
+
+			return magicShopDB;
+		}
 	}
 }

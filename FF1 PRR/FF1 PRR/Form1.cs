@@ -30,7 +30,7 @@ namespace FF1_PRR
 			if (loading) return;
 
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, randoMagic, flagMagicKeepPermissions }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions }));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
 			// Combo boxes time...
 			flags += convertIntToChar(modeShops.SelectedIndex + (8 * modeXPBoost.SelectedIndex));
@@ -57,7 +57,7 @@ namespace FF1_PRR
 			loading = true;
 
 			string flags = RandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, randoMagic, flagMagicKeepPermissions });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions });
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
 			modeShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
 			modeXPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
@@ -137,6 +137,7 @@ namespace FF1_PRR
 				// ignore error
 				modeShops.SelectedIndex = 1;
 				modeTreasure.SelectedIndex = 1;
+				modeMagic.SelectedIndex = 1;
 				modeXPBoost.SelectedIndex = 1;
 				loading = false;
 				determineChecks(null, null);
@@ -243,7 +244,7 @@ namespace FF1_PRR
 			// Begin randomization
 			r1 = new Random(Convert.ToInt32(RandoSeed.Text));
 			doDatabaseEdits();
-			if (randoMagic.Checked) randomizeMagic();
+			if (modeMagic.SelectedIndex > 0) randomizeMagic();
 			if (modeShops.SelectedIndex > 0) randomizeShops();
 			if (flagKeyItems.Checked) randomizeKeyItems();
 			if (modeTreasure.SelectedIndex > 0) randomizeTreasure();
@@ -361,10 +362,10 @@ namespace FF1_PRR
 
 		private void randomizeMagic()
 		{
-			Magic magicData = new Magic(r1, 
+			Magic magicData = new Magic(r1, modeMagic.SelectedIndex,
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "ability.csv"),
 				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "product.csv"),
-				flagMagicKeepPermissions.Checked);
+				flagMagicShuffleShops.Checked, flagMagicKeepPermissions.Checked) ;
 		}
 
 		private void randomizeKeyItems()
