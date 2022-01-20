@@ -187,9 +187,49 @@ namespace FF1_PRR.Inventory
 			};
 
 			if (randoLevel == 1 || randoLevel == 2) // Standard and Pro
-			{ 
-			
+			{
+				List<ability> spellbook = new List<ability>();
+				List<int> levels = new List<int>();
+				List<int> prices = new List<int>();
+				// we have to go through it twice to get the level and price index in the correct order...
+				foreach (ability spell in records)
+				{
+					if (spell.ability_group_id == 1 && spell.type_id == 1 && spell.id != DUPE_CURE_4)
+					{
+						spellbook.Insert(0, spell);
+						spellbook[0].sort_id = spell.id + r1.Next(0, 100);
+						levels.Add(spell.ability_lv);
+						prices.Add(spell.buy);
+					}
+                }
+				foreach (ability spell in records)
+				{
+					if (spell.ability_group_id == 1 && spell.type_id == 2 && spell.id != DUPE_CURE_4)
+					{
+						spellbook.Insert(0, spell);
+						spellbook[0].sort_id = spell.id + r1.Next(0, 100);
+						levels.Add(spell.ability_lv);
+						prices.Add(spell.buy);
+					}
+				}
+				if (randoLevel == 2)
+                {
+					// swap items by family
+					sortByFamily(spellbook);
+                }
+				// sort by ID
+				spellbook.Sort((x, y) => x.sort_id.CompareTo(y.sort_id));
+				// and then by color
+				spellbook.Sort((x, y) => x.type_id.CompareTo(y.type_id));
+				foreach (ability spell in spellbook)
+				{
+					spell.ability_lv = levels[0];
+					spell.buy = prices[0];
+					levels.RemoveAt(0);
+					prices.RemoveAt(0);
+				}
 			}
+			
 			if (randoLevel == 3 || randoLevel == 4) // Wild and Chaos
 			{
 				// just make 640 swaps per type to randomize
@@ -267,6 +307,35 @@ namespace FF1_PRR.Inventory
 			//and the ability.csv
 			writeToFile();
 		}
+
+		private void sortByFamily(List<ability> spellbook)
+        {
+			List<List<int>> spellFamilies = new List<List<int>>()
+			{
+				new List<int>(){(int)blackMagic.bFire,    (int)blackMagic.bFira,    (int)blackMagic.bFiraga,  (int)blackMagic.bFlare},
+				new List<int>(){(int)blackMagic.bBlizzard,(int)blackMagic.bBlizzara,(int)blackMagic.bBlizzaga,(int)blackMagic.bFlare},
+				new List<int>(){(int)blackMagic.bThunder, (int)blackMagic.bThundara,(int)blackMagic.bThundaga,(int)blackMagic.bFlare},
+				new List<int>(){(int)blackMagic.bFocus,   (int)blackMagic.bFocara},
+				new List<int>(){(int)blackMagic.bSleep,   (int)blackMagic.bSleepra},
+				new List<int>(){(int)blackMagic.bDark,    (int)blackMagic.bBlind},
+				new List<int>(){(int)blackMagic.bSlow,    (int)blackMagic.bSlowra},
+				new List<int>(){(int)blackMagic.bHold,    (int)blackMagic.bStun},
+				new List<int>(){(int)blackMagic.bTeleport,(int)blackMagic.bWarp},
+				new List<int>(){(int)blackMagic.bDeath,   (int)blackMagic.bKill},
+				new List<int>(){(int)blackMagic.bStun,    (int)blackMagic.bBlind,   (int)blackMagic.bKill},
+
+				new List<int>(){(int)whiteMagic.wCure,    (int)whiteMagic.wCura,    (int)whiteMagic.wCuraga,(int)whiteMagic.wCuraja},
+				new List<int>(){(int)whiteMagic.wProtect, (int)whiteMagic.wProtera},
+				new List<int>(){(int)whiteMagic.wDia,     (int)whiteMagic.wDiara,   (int)whiteMagic.wDiaga, (int)whiteMagic.wDiaja, (int)whiteMagic.wHoly},
+				new List<int>(){(int)whiteMagic.wNulShock,(int)whiteMagic.wNulAll},
+				new List<int>(){(int)whiteMagic.wInvis,   (int)whiteMagic.wInvisira},
+				new List<int>(){(int)whiteMagic.wNulBlaze,(int)whiteMagic.wNulAll},
+				new List<int>(){(int)whiteMagic.wHeal,    (int)whiteMagic.wHealara, (int)whiteMagic.wHealaga},
+				new List<int>(){(int)whiteMagic.wNulFrost,(int)whiteMagic.wNulAll},
+				new List<int>(){(int)whiteMagic.wLife,    (int)whiteMagic.wFullLife},
+				new List<int>(){(int)whiteMagic.wNulDeath,(int)whiteMagic.wNulAll}
+			};
+        }
 
 		private List<ShopItem> determineSpells(Random r1, int randoLevel, bool shuffleShops)
 		{
