@@ -217,10 +217,16 @@ namespace FF1_PRR.Inventory
 					// swap items by family
 					sortByFamily(spellbook);
                 }
-				// sort by ID
-				spellbook.Sort((x, y) => x.sort_id.CompareTo(y.sort_id));
-				// and then by color
-				spellbook.Sort((x, y) => x.type_id.CompareTo(y.type_id));
+				// sort by school, then sort ID
+				spellbook.Sort((x, y) => {
+					int bySchool = x.type_id.CompareTo(y.type_id);
+					if (bySchool == 0)
+                    {
+						return x.sort_id.CompareTo(y.sort_id);
+					}
+					return bySchool;
+				});
+
 				foreach (ability spell in spellbook)
 				{
 					spell.ability_lv = levels[0];
@@ -335,6 +341,23 @@ namespace FF1_PRR.Inventory
 				new List<int>(){(int)whiteMagic.wLife,    (int)whiteMagic.wFullLife},
 				new List<int>(){(int)whiteMagic.wNulDeath,(int)whiteMagic.wNulAll}
 			};
+			foreach (List<int> family in spellFamilies)
+            {
+				List<int> sort_ids = new List<int>();
+				List<ability> spells = new List<ability>();
+				foreach (int index in family)
+                {
+					ability spell = spellbook.Find(x => x.id == index - 208);
+					spells.Add(spell);
+					sort_ids.Add(spell.sort_id);
+                }
+				sort_ids.Sort();
+				foreach (ability spell in spells)
+                {
+					spell.sort_id = sort_ids[0];
+					sort_ids.RemoveAt(0);
+                }
+            }
         }
 
 		private List<ShopItem> determineSpells(Random r1, int randoLevel, bool shuffleShops)
