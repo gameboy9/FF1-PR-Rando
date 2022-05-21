@@ -10,72 +10,6 @@ namespace FF1_PRR.Randomize
 {
 	public class Shops
 	{
-		// Let's const the stores
-		const int wCornelia = 1;
-		const int aCornelia = 2;
-		const int iCornelia = 3;
-		const int mwCornelia = 4;
-		const int mbCornelia = 5;
-		const int wPravoka = 6;
-		const int aPravoka = 7;
-		const int iPravoka = 8;
-		const int mwPravoka = 9;
-		const int mbPravoka = 10;
-		const int wElfheim = 11;
-		const int aElfheim = 12;
-		const int iElfheim = 13;
-		const int mwElfheim3 = 14;
-		const int mbElfheim3 = 16;
-		const int mwElfheim4 = 15;
-		const int mbElfheim4 = 17;
-		const int wMelmond = 18;
-		const int aMelmond = 19;
-		const int mwMelmond = 20;
-		const int mbMelmond = 21;
-		const int wCrescentLake = 22;
-		const int aCrescentLake = 23;
-		const int iCrescentLake = 24;
-		const int mwCrescentLake = 25;
-		const int mbCrescentLake = 26;
-		const int iGaia = 27;
-		const int mwGaia7 = 28;
-		const int mbGaia7 = 29;
-		const int wGaia = 30;
-		const int aGaia = 31;
-		const int iOnrac = 32;
-		const int mwOnrac = 33;
-		const int mbOnrac = 34;
-		const int mwLufenia = 35;
-		const int mbLufenia = 36;
-		const int caravan1 = 37;
-		const int caravan2 = 38;
-		const int mwGaia8 = 39;
-		const int mbGaia8 = 40;
-
-		List<int> weaponStores = new List<int> { wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia };
-		List<int> armorStores = new List<int> { aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia };
-		List<int> itemStores = new List<int> { iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2 };
-		List<int> blackMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia };
-		List<int> whiteMagicStores = new List<int> { mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
-		List<int> allMagicStores = new List<int> { mbCornelia, mbPravoka, mbElfheim3, mbElfheim4, mbMelmond, mbCrescentLake, mbGaia7, mbGaia8, mbOnrac, mbLufenia,
-				mwCornelia, mwPravoka, mwElfheim3, mwElfheim4, mwMelmond, mwCrescentLake, mwGaia7, mwGaia8, mwOnrac, mwLufenia };
-
-		List<int> allStores = new List<int>
-		{
-			wCornelia, wPravoka, wElfheim, wMelmond, wCrescentLake, wGaia,
-			aCornelia, aPravoka, aElfheim, aMelmond, aCrescentLake, aGaia,
-			iCornelia, iPravoka, iElfheim, iCrescentLake, iGaia, iOnrac, caravan2
-		};
-
-		private class ShopItem
-		{
-			public int id { get; set; }
-			public int content_id { get; set; } // Item
-			public int group_id { get; set; } // Store #
-			public int coefficient { get; set; } // Inn/House of Healing cost
-			public int purchase_limit { get; set; } // 0 = unlimited
-		}
-
 		private class ItemWithRank
 		{
 			public int id { get; set; } // used as the content ID in stores/chests
@@ -85,35 +19,6 @@ namespace FF1_PRR.Randomize
 			public string rank { get; set; } // grade from F to S; X = exclude
 		}
 
-
-		private List<ShopItem> determineItems(List<int> items, List<int> stores, Random r1)
-		{
-			List<ShopItem> shopDB = new List<ShopItem>();
-
-			List<int> storeNumItems = new List<int>();
-			bool duplicates = true;
-			while (duplicates)
-			{
-				storeNumItems.Clear();
-				for (int lnI = 0; lnI < stores.Count - 1; lnI++)
-					storeNumItems.Add(r1.Next() % items.Count);
-				storeNumItems.Add(items.Count);
-				duplicates = storeNumItems.AreAnyDuplicates();
-			}
-			storeNumItems.Sort();
-			for (int lnI = 0; lnI < items.Count; lnI++)
-			{
-				ShopItem newItem = new ShopItem();
-				newItem.id = 0;
-				newItem.group_id = stores[storeNumItems.Select((elem, index) => new { elem, index }).First(p => p.elem > lnI).index];
-				newItem.content_id = items[lnI];
-				shopDB.Add(newItem);
-			}
-
-			return shopDB;
-		}
-
-		List<ShopItem> shopDB = new List<ShopItem>();
 		private int rankToInt(string rank)
         {
 			switch (rank)
@@ -140,29 +45,18 @@ namespace FF1_PRR.Randomize
         }
 		private int determineMagicShop(int[,] magicMemory, int type, int level)
         {
-			int[,,] spellShopLookup = {
-										{
-											{ whiteMagicStores[0], whiteMagicStores[0], whiteMagicStores[0], whiteMagicStores[0]},
-											{ whiteMagicStores[1], whiteMagicStores[1], whiteMagicStores[1], whiteMagicStores[1]},
-											{ whiteMagicStores[2], whiteMagicStores[2], whiteMagicStores[2], whiteMagicStores[2]},
-											{ whiteMagicStores[3], whiteMagicStores[3], whiteMagicStores[3], whiteMagicStores[3]},
-											{ whiteMagicStores[4], whiteMagicStores[4], whiteMagicStores[4], whiteMagicStores[4]},
-											{ whiteMagicStores[5], whiteMagicStores[5], whiteMagicStores[5], whiteMagicStores[5]},
-											{ whiteMagicStores[6], whiteMagicStores[6], whiteMagicStores[8], whiteMagicStores[8]},
-											{ whiteMagicStores[7], whiteMagicStores[7], whiteMagicStores[9], whiteMagicStores[9]}
-										},
-										{
-											{ blackMagicStores[0], blackMagicStores[0], blackMagicStores[0], blackMagicStores[0]},
-											{ blackMagicStores[1], blackMagicStores[1], blackMagicStores[1], blackMagicStores[1]},
-											{ blackMagicStores[2], blackMagicStores[2], blackMagicStores[2], blackMagicStores[2]},
-											{ blackMagicStores[3], blackMagicStores[3], blackMagicStores[3], blackMagicStores[3]},
-											{ blackMagicStores[4], blackMagicStores[4], blackMagicStores[4], blackMagicStores[4]},
-											{ blackMagicStores[5], blackMagicStores[5], blackMagicStores[5], blackMagicStores[5]},
-											{ blackMagicStores[6], blackMagicStores[6], blackMagicStores[8], blackMagicStores[8]},
-											{ blackMagicStores[7], blackMagicStores[7], blackMagicStores[9], blackMagicStores[9]}
-										}
+			int[] spellShopLookup = {
+										0,0,0,0,
+										1,1,1,1,
+										2,2,2,2,
+										3,3,3,3,
+										4,4,4,4,
+										5,5,5,5,
+										6,6,8,8,
+										7,7,9,9
 									};
-			return spellShopLookup[type - 1, level - 1, magicMemory[type - 1, level - 1]];
+			List<int> shop = (type == 1) ? Product.whiteMagicStores : Product.blackMagicStores;
+			return shop[spellShopLookup[(level - 1)*4 + magicMemory[type - 1, level - 1]]];
 		}
 
 		private void placeNextItem(ShopItem shopEntry, ref List<int> productList, ref Dictionary<int, List<int>> shopInventories, ref HashSet<ShopItem> toRemove)
@@ -204,7 +98,7 @@ namespace FF1_PRR.Randomize
 
 		private List<ShopItem> determineSpells(Magic magicData)
         {
-			List<ShopItem> shopDB = new List<ShopItem>();
+			List<ShopItem> magicShopDB = new List<ShopItem>();
 			int[,] magicMemory = new int[2, 8];
 			int productID = 250;
 
@@ -217,21 +111,16 @@ namespace FF1_PRR.Randomize
 					newItem.content_id = spell.id + 208; //Magic Constant for Ability ID -> shop ID map
 					newItem.group_id = determineMagicShop(magicMemory, spell.type_id, spell.ability_lv);
 					magicMemory[spell.type_id - 1, spell.ability_lv - 1]++;
-					shopDB.Add(newItem);
+					magicShopDB.Add(newItem);
 				}
             }
 
-			return shopDB;
+			return magicShopDB;
 		}
 
-		public Shops(Random r1, int randoLevel, string fileName, bool traditional, Magic magicData)
+		public Shops(Random r1, int randoLevel, string fileName, bool traditional)
 		{
-			using (var reader = new StreamReader(fileName))
-			using (var csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
-			{
-				shopDB = csv.GetRecords<ShopItem>().ToList();
-			}
-
+			List<ShopItem> shopDB = Product.readShopDB(fileName);
 
 			// Shuffle existing items
 			if (randoLevel == 1)
@@ -246,15 +135,16 @@ namespace FF1_PRR.Randomize
 				foreach (ShopItem product in shopDB)
 				{
 					max_id = Math.Max(max_id, product.id + 1);
-					if (weaponStores.Contains(product.group_id))
+					if (Product.weaponStores.Contains(product.group_id))
+
 					{
 						weaponList.Add(product.content_id);
 					}
-					else if (armorStores.Contains(product.group_id))
+					else if (Product.armorStores.Contains(product.group_id))
 					{
 						armorList.Add(product.content_id);
 					}
-					else if (itemStores.Contains(product.group_id))
+					else if (Product.itemStores.Contains(product.group_id))
 					{
 						itemList.Add(product.content_id);
 					}
@@ -272,15 +162,15 @@ namespace FF1_PRR.Randomize
 
 				foreach (ShopItem product in shopDB)
 				{
-					if (weaponStores.Contains(product.group_id))
+					if (Product.weaponStores.Contains(product.group_id))
 					{
 						placeNextItem(product, ref weaponList, ref shopInventories, ref toRemove);
 					}
-					else if (armorStores.Contains(product.group_id))
+					else if (Product.armorStores.Contains(product.group_id))
 					{
 						placeNextItem(product, ref armorList, ref shopInventories, ref toRemove);
 					}
-					else if (itemStores.Contains(product.group_id))
+					else if (Product.itemStores.Contains(product.group_id))
 					{
 						placeNextItem(product, ref itemList, ref shopInventories, ref toRemove);
 					}
@@ -341,14 +231,7 @@ namespace FF1_PRR.Randomize
 				// TODO:  Remove duplicates within each store.
 			}
 
-			//clear out old spell inventory
-
-			shopDB = shopDB.FindAll(x => !allMagicStores.Contains(x.group_id));
-
-			//then, add the new spell inventory
-
-			shopDB.AddRange(determineSpells(magicData));
-
+			/*
 			// Get all possible inventory items with rank information
 			List<ItemWithRank> contentWithRank = new List<ItemWithRank>();
 			using (var reader = new StreamReader(Path.Combine("data", "contentRank.csv")))
@@ -379,14 +262,9 @@ namespace FF1_PRR.Randomize
 						continue;
                 }
             }
-			// shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 1), whiteMagicStores, r1));
-			// shopDB.AddRange(determineItems(new Magic().shuffleShops(r1, 2), blackMagicStores, r1));
+			*/
 
-			using (StreamWriter writer = new StreamWriter(fileName))
-			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
-			{
-				csv.WriteRecords(shopDB);
-			}
+			Product.writeShopDB(fileName,shopDB);
 		}
 	}
 }

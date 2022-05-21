@@ -49,7 +49,7 @@ namespace FF1_PRR
             this.modeShops = new System.Windows.Forms.ComboBox();
             this.flagShopsTrad = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.randoMagic = new System.Windows.Forms.CheckBox();
+            this.flagMagicShuffleShops = new System.Windows.Forms.CheckBox();
             this.flagMagicKeepPermissions = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.modeXPBoost = new System.Windows.Forms.ComboBox();
@@ -65,6 +65,8 @@ namespace FF1_PRR
             this.btnRestoreVanilla = new System.Windows.Forms.Button();
             this.flagReduceEncounterRate = new System.Windows.Forms.CheckBox();
             this.flagReduceChaosHP = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.modeMagic = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -287,27 +289,24 @@ namespace FF1_PRR
             this.label6.Size = new System.Drawing.Size(0, 32);
             this.label6.TabIndex = 18;
             // 
-            // randoMagic
+            // flagMagicShuffleShops
             // 
-            this.randoMagic.AutoSize = true;
-            this.randoMagic.Checked = true;
-            this.randoMagic.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.randoMagic.Location = new System.Drawing.Point(13, 45);
-            this.randoMagic.Margin = new System.Windows.Forms.Padding(10);
-            this.randoMagic.Name = "randoMagic";
-            this.randoMagic.Padding = new System.Windows.Forms.Padding(5);
-            this.randoMagic.Size = new System.Drawing.Size(247, 46);
-            this.randoMagic.TabIndex = 19;
-            this.randoMagic.Text = "Randomize &Magic";
-            this.toolTip1.SetToolTip(this.randoMagic, "Change which spells are available at each level, and in which shops they can be p" +
-        "urchased.");
-            this.randoMagic.UseVisualStyleBackColor = true;
-            this.randoMagic.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+            this.flagMagicShuffleShops.AutoSize = true;
+            this.flagMagicShuffleShops.Location = new System.Drawing.Point(13, 110);
+            this.flagMagicShuffleShops.Margin = new System.Windows.Forms.Padding(10);
+            this.flagMagicShuffleShops.Name = "flagMagicShuffleShops";
+            this.flagMagicShuffleShops.Padding = new System.Windows.Forms.Padding(5);
+            this.flagMagicShuffleShops.Size = new System.Drawing.Size(204, 46);
+            this.flagMagicShuffleShops.TabIndex = 19;
+            this.flagMagicShuffleShops.Text = "Shuffle Shops";
+            this.toolTip1.SetToolTip(this.flagMagicShuffleShops, "Change which spell level is available at each shop.");
+            this.flagMagicShuffleShops.UseVisualStyleBackColor = true;
+            this.flagMagicShuffleShops.CheckedChanged += new System.EventHandler(this.DetermineFlags);
             // 
             // flagMagicKeepPermissions
             // 
             this.flagMagicKeepPermissions.AutoSize = true;
-            this.flagMagicKeepPermissions.Location = new System.Drawing.Point(280, 45);
+            this.flagMagicKeepPermissions.Location = new System.Drawing.Point(280, 110);
             this.flagMagicKeepPermissions.Margin = new System.Windows.Forms.Padding(10);
             this.flagMagicKeepPermissions.Name = "flagMagicKeepPermissions";
             this.flagMagicKeepPermissions.Padding = new System.Windows.Forms.Padding(5);
@@ -505,6 +504,35 @@ namespace FF1_PRR
             this.toolTip1.SetToolTip(this.flagReduceChaosHP, "Decrease HP of Chaos to 9600.");
             this.flagReduceChaosHP.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 48);
+            this.label9.Margin = new System.Windows.Forms.Padding(10);
+            this.label9.Name = "label9";
+            this.label9.Padding = new System.Windows.Forms.Padding(5);
+            this.label9.Size = new System.Drawing.Size(94, 42);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "&Magic:";
+            this.toolTip1.SetToolTip(this.label9, "Randomize magic spells. None: . Standard: . Pro: . Wild: . Chaos: .");
+            // 
+            // modeMagic
+            // 
+            this.modeMagic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modeMagic.FormattingEnabled = true;
+            this.modeMagic.Items.AddRange(new object[] {
+            "None",
+            "Standard",
+            "Pro",
+            "Wild",
+            "Chaos"});
+            this.modeMagic.Location = new System.Drawing.Point(197, 45);
+            this.modeMagic.Margin = new System.Windows.Forms.Padding(10);
+            this.modeMagic.Name = "modeMagic";
+            this.modeMagic.Size = new System.Drawing.Size(243, 40);
+            this.modeMagic.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.modeMagic, "Randomize magic spells. None: . Standard: . Pro: . Wild: . Chaos: .");
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
@@ -537,11 +565,13 @@ namespace FF1_PRR
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.randoMagic);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.flagMagicShuffleShops);
+            this.groupBox3.Controls.Add(this.modeMagic);
             this.groupBox3.Controls.Add(this.flagMagicKeepPermissions);
             this.groupBox3.Location = new System.Drawing.Point(11, 464);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(756, 122);
+            this.groupBox3.Size = new System.Drawing.Size(756, 180);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Abilities";
@@ -552,7 +582,7 @@ namespace FF1_PRR
             this.groupBox4.Controls.Add(this.flagRebalanceBosses);
             this.groupBox4.Controls.Add(this.flagFiendsDropRibbons);
             this.groupBox4.Controls.Add(this.flagBossShuffle);
-            this.groupBox4.Location = new System.Drawing.Point(11, 590);
+            this.groupBox4.Location = new System.Drawing.Point(11, 650);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(756, 213);
             this.groupBox4.TabIndex = 26;
@@ -623,7 +653,7 @@ namespace FF1_PRR
 		private System.Windows.Forms.ComboBox modeShops;
 		private System.Windows.Forms.CheckBox flagShopsTrad;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.CheckBox randoMagic;
+		private System.Windows.Forms.CheckBox flagMagicShuffleShops;
 		private System.Windows.Forms.CheckBox flagMagicKeepPermissions;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.ComboBox modeXPBoost;
@@ -643,6 +673,8 @@ namespace FF1_PRR
         private System.Windows.Forms.Button btnRestoreVanilla;
         private System.Windows.Forms.CheckBox flagReduceEncounterRate;
         private System.Windows.Forms.CheckBox flagReduceChaosHP;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox modeMagic;
     }
 }
 
