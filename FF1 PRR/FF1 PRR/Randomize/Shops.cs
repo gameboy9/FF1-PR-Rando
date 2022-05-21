@@ -130,10 +130,13 @@ namespace FF1_PRR.Randomize
 				List<int> weaponList = new List<int>();
 				List<int> armorList = new List<int>();
 				List<int> itemList = new List<int>();
+				int max_id = 0;
 
 				foreach (ShopItem product in shopDB)
-                {
+				{
+					max_id = Math.Max(max_id, product.id + 1);
 					if (Product.weaponStores.Contains(product.group_id))
+
 					{
 						weaponList.Add(product.content_id);
 					}
@@ -175,6 +178,18 @@ namespace FF1_PRR.Randomize
 				}
 
 				shopDB.RemoveAll(toRemove.Contains);
+
+				ShopItem fixAntidote = new();
+				fixAntidote.id = max_id;
+				fixAntidote.content_id = Items.antidote;
+				fixAntidote.group_id = iCornelia;
+				shopDB.Add(fixAntidote);
+
+				ShopItem fixGoldNeedle = new();
+				fixGoldNeedle.id = max_id+1;
+				fixGoldNeedle.content_id = Items.goldNeedle;
+				fixGoldNeedle.group_id = iCornelia;
+				shopDB.Add(fixGoldNeedle);
 			}
 			else // Generate new shop contents
 			{
