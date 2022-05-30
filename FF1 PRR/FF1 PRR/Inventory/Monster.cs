@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FF1_PRR.Inventory
 {
@@ -82,7 +80,7 @@ namespace FF1_PRR.Inventory
 			public int rage_ability_random_group_id { get; set; }
 		}
 
-		public Monster(Random r1, string fileName, double xpMultiplier, int xpBoost, double gpMultiplier, int gpBoost)
+		public Monster(Random r1, string fileName, double xpMultiplier, int xpBoost, double gpMultiplier, int gpBoost, double minStatAdjust, double maxStatAdjust)
 		{
 			List<singleMonster> records;
 
@@ -98,6 +96,17 @@ namespace FF1_PRR.Inventory
 				iMonster.exp += xpBoost;
 				iMonster.gill = (int)(iMonster.gill * gpMultiplier);
 				iMonster.gill += gpBoost;
+
+				iMonster.hp = Common.Common.range((int)(iMonster.hp * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 2)), 1);
+				iMonster.attack_count = Common.Common.range((int)(iMonster.attack_count * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 3)), 1, 99);
+				iMonster.agility = Common.Common.range((int)(iMonster.agility * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 2)), 1, 99);
+				iMonster.intelligence = Common.Common.range((int)(iMonster.intelligence * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 2)), 1, 99);
+				iMonster.attack = Common.Common.range((int)(iMonster.attack * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 2)), 1, 255);
+				iMonster.defense = Common.Common.range((int)(iMonster.defense * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 2)), 1, 240);
+				iMonster.accuracy_rate = Common.Common.range((int)(iMonster.accuracy_rate * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 3)), 1, 255);
+				iMonster.evasion_rate = Common.Common.range((int)(iMonster.evasion_rate * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 4)), 1, 240);
+				iMonster.magic_evasion_rate = Common.Common.range((int)(iMonster.magic_evasion_rate * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 3)), 1, 240);
+				iMonster.critical_rate = Common.Common.range((int)(iMonster.critical_rate * Common.Common.statAdjust(r1, minStatAdjust, 1, maxStatAdjust, 3)), 1, 99);
 			}
 
 			using (StreamWriter writer = new StreamWriter(fileName))

@@ -13,6 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="clingo\clingo.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="clingo\KeyItemDataShip.lp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="clingo\KeyItemSolvingShip.lp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="data\assets\ability.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -22,7 +31,13 @@
     <None Update="data\assets\encount_area.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="data\assets\foot_information.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="data\assets\item.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\assets\map.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="data\assets\monster.csv">
@@ -46,6 +61,12 @@
     <None Update="data\assets\weapon.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="data\chestInfo.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\contentRank.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="data\dataFiendsDropRibbons.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -56,6 +77,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="data\dataRebalancePricesFullList.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\dataReduceChaosHP.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\dataReduceEncounterRate.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="data\dataRestoreCritRating.csv">
@@ -506,6 +533,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="data\mods\Map\Map_30111\Map_30111_5\sc_map_30111_5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\mods\product.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="data\mods\productTraditional.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="data\mods\system_en.txt">
