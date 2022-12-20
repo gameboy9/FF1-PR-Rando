@@ -19,6 +19,9 @@ namespace FF1_PRR
 	{
 		bool loading = true;
 		Random r1;
+		DateTime lastGameAssets;
+		const string defaultFlags = "BwA2";
+		const string defaultVisualFlags = "0";
 
 		public FF1PRR()
 		{
@@ -45,12 +48,12 @@ namespace FF1_PRR
 		private void determineChecks(object sender, EventArgs e)
 		{
 			if (loading && RandoFlags.Text.Length < 4)
-				RandoFlags.Text = "BwA2";
+				RandoFlags.Text = defaultFlags;
 			else if (RandoFlags.Text.Length < 4)
 				return;
 
 			if (loading && VisualFlags.Text.Length < 1)
-				VisualFlags.Text = "0";
+				VisualFlags.Text = defaultVisualFlags;
 			else if (VisualFlags.Text.Length < 1)
 				return;
 
@@ -124,6 +127,7 @@ namespace FF1_PRR
 					RandoSeed.Text = reader.ReadLine();
 					RandoFlags.Text = reader.ReadLine();
 					VisualFlags.Text = reader.ReadLine();
+					lastGameAssets = Convert.ToDateTime(reader.ReadLine());
 					determineChecks(null, null);
 
 					//runChecksum();
@@ -132,8 +136,8 @@ namespace FF1_PRR
 			}
 			catch
 			{
-				RandoFlags.Text = "BA";
-				VisualFlags.Text = "0";
+				RandoFlags.Text = defaultFlags;
+				VisualFlags.Text = defaultVisualFlags;
 				// ignore error
 				modeShops.SelectedIndex = 1;
 				modeTreasure.SelectedIndex = 1;
@@ -400,6 +404,7 @@ namespace FF1_PRR
 				writer.WriteLine(RandoSeed.Text);
 				writer.WriteLine(RandoFlags.Text);
 				writer.WriteLine(VisualFlags.Text);
+				writer.WriteLine(lastGameAssets);
 			}
 		}
 
@@ -413,5 +418,16 @@ namespace FF1_PRR
 					FF1PRFolder.Text = fbd.SelectedPath;
 			}
 		}
-    }
+
+		private void btnInstall_Click(object sender, EventArgs e)
+		{
+			if (File.Exists("BepInEx.zip") && File.Exists("GameAssets.zip"))
+			{
+				new Inventory.Updater(Path.Combine(FF1PRFolder.Text), ref lastGameAssets);
+				MessageBox.Show("Installation complete!");
+			}
+			else
+				MessageBox.Show("Unable to install; BepInEx.zip and GameAssets.zip need to be in the same folder as this randomizer.");
+		}
+	}
 }

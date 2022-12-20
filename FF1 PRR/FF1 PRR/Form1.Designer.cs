@@ -405,89 +405,90 @@ namespace FF1_PRR
             this.flagRebalancePrices.Text = "Rebalance item prices";
             this.toolTip1.SetToolTip(this.flagRebalancePrices, "Adjust item prices for a more balanced experience. Increases price of HP/MP resto" +
         "rative items and Phoenix Down.");
-            this.flagRebalancePrices.UseVisualStyleBackColor = true;
-            this.flagRebalancePrices.CheckedChanged += new System.EventHandler(this.DetermineFlags);
-            // 
-            // flagRestoreCritRating
-            // 
-            this.flagRestoreCritRating.AutoSize = true;
-            this.flagRestoreCritRating.Location = new System.Drawing.Point(8, 131);
-            this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagRestoreCritRating.Name = "flagRestoreCritRating";
-            this.flagRestoreCritRating.Padding = new System.Windows.Forms.Padding(5);
-            this.flagRestoreCritRating.Size = new System.Drawing.Size(244, 46);
-            this.flagRestoreCritRating.TabIndex = 22;
-            this.flagRestoreCritRating.Text = "Restore crit rating";
-            this.toolTip1.SetToolTip(this.flagRestoreCritRating, "Weapon critical rate changed to reflect original NES data.");
-            this.flagRestoreCritRating.UseVisualStyleBackColor = true;
-            this.flagRestoreCritRating.CheckedChanged += new System.EventHandler(this.DetermineFlags);
-            // 
-            // flagWandsAddInt
-            // 
-            this.flagWandsAddInt.AutoSize = true;
-            this.flagWandsAddInt.Location = new System.Drawing.Point(8, 178);
-            this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagWandsAddInt.Name = "flagWandsAddInt";
-            this.flagWandsAddInt.Padding = new System.Windows.Forms.Padding(5);
-            this.flagWandsAddInt.Size = new System.Drawing.Size(218, 46);
-            this.flagWandsAddInt.TabIndex = 23;
-            this.flagWandsAddInt.Text = "Wands add INT";
-            this.toolTip1.SetToolTip(this.flagWandsAddInt, "Staves and Hammers increase the user\'s Intelligence when equipped.");
-            this.flagWandsAddInt.UseVisualStyleBackColor = true;
-            this.flagWandsAddInt.CheckedChanged += new System.EventHandler(this.DetermineFlags);
-            // 
-            // flagFiendsDropRibbons
-            // 
-            this.flagFiendsDropRibbons.AutoSize = true;
-            this.flagFiendsDropRibbons.Location = new System.Drawing.Point(8, 126);
-            this.flagFiendsDropRibbons.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagFiendsDropRibbons.Name = "flagFiendsDropRibbons";
-            this.flagFiendsDropRibbons.Padding = new System.Windows.Forms.Padding(5);
-            this.flagFiendsDropRibbons.Size = new System.Drawing.Size(275, 46);
-            this.flagFiendsDropRibbons.TabIndex = 5;
-            this.flagFiendsDropRibbons.Text = "Fiends drop Ribbons";
-            this.toolTip1.SetToolTip(this.flagFiendsDropRibbons, "Receive Ribbons for defeating each elemental dungeon boss, and remove them from s" +
+			this.flagRebalancePrices.UseVisualStyleBackColor = true;
+			this.flagRebalancePrices.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// flagRestoreCritRating
+			// 
+			this.flagRestoreCritRating.AutoSize = true;
+			this.flagRestoreCritRating.Location = new System.Drawing.Point(5, 82);
+			this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagRestoreCritRating.Name = "flagRestoreCritRating";
+			this.flagRestoreCritRating.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.flagRestoreCritRating.Size = new System.Drawing.Size(155, 30);
+			this.flagRestoreCritRating.TabIndex = 22;
+			this.flagRestoreCritRating.Text = "Restore crit rating";
+			this.toolTip1.SetToolTip(this.flagRestoreCritRating, "Weapon critical rate changed to reflect original NES data.");
+			this.flagRestoreCritRating.UseVisualStyleBackColor = true;
+			this.flagRestoreCritRating.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// flagWandsAddInt
+			// 
+			this.flagWandsAddInt.AutoSize = true;
+			this.flagWandsAddInt.Location = new System.Drawing.Point(5, 111);
+			this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagWandsAddInt.Name = "flagWandsAddInt";
+			this.flagWandsAddInt.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.flagWandsAddInt.Size = new System.Drawing.Size(138, 30);
+			this.flagWandsAddInt.TabIndex = 23;
+			this.flagWandsAddInt.Text = "Wands add INT";
+			this.toolTip1.SetToolTip(this.flagWandsAddInt, "Staves and Hammers increase the user\'s Intelligence when equipped.");
+			this.flagWandsAddInt.UseVisualStyleBackColor = true;
+			this.flagWandsAddInt.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// flagFiendsDropRibbons
+			// 
+			this.flagFiendsDropRibbons.AutoSize = true;
+			this.flagFiendsDropRibbons.Location = new System.Drawing.Point(5, 79);
+			this.flagFiendsDropRibbons.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagFiendsDropRibbons.Name = "flagFiendsDropRibbons";
+			this.flagFiendsDropRibbons.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.flagFiendsDropRibbons.Size = new System.Drawing.Size(173, 30);
+			this.flagFiendsDropRibbons.TabIndex = 5;
+			this.flagFiendsDropRibbons.Text = "Fiends drop Ribbons";
+			this.toolTip1.SetToolTip(this.flagFiendsDropRibbons, "Receive Ribbons for defeating each elemental dungeon boss, and remove them from s" +
         "hops and chests.");
-            this.flagFiendsDropRibbons.UseVisualStyleBackColor = true;
-            this.flagFiendsDropRibbons.CheckedChanged += new System.EventHandler(this.DetermineFlags);
-            // 
-            // flagRebalanceBosses
-            // 
-            this.flagRebalanceBosses.AutoSize = true;
-            this.flagRebalanceBosses.Location = new System.Drawing.Point(8, 82);
-            this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagRebalanceBosses.Name = "flagRebalanceBosses";
-            this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(5);
-            this.flagRebalanceBosses.Size = new System.Drawing.Size(206, 46);
-            this.flagRebalanceBosses.TabIndex = 6;
-            this.flagRebalanceBosses.Text = "Harder bosses";
-            this.toolTip1.SetToolTip(this.flagRebalanceBosses, "Increase HP of several bosses, notably Death Eye and the Fiend refights.");
-            this.flagRebalanceBosses.UseVisualStyleBackColor = true;
-            this.flagRebalanceBosses.CheckedChanged += new System.EventHandler(this.DetermineFlags);
-            // 
-            // btnRestoreVanilla
-            // 
-            this.btnRestoreVanilla.Location = new System.Drawing.Point(1055, 813);
-            this.btnRestoreVanilla.Name = "btnRestoreVanilla";
-            this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(5);
-            this.btnRestoreVanilla.Size = new System.Drawing.Size(195, 53);
-            this.btnRestoreVanilla.TabIndex = 27;
-            this.btnRestoreVanilla.Text = "Restore vanilla";
-            this.toolTip1.SetToolTip(this.btnRestoreVanilla, "Undo previous randomization and restore files to a vanilla configuration.");
-            this.btnRestoreVanilla.UseVisualStyleBackColor = true;
-            this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
-            // 
-            // flagReduceEncounterRate
-            // 
-            this.flagReduceEncounterRate.AutoSize = true;
-            this.flagReduceEncounterRate.Location = new System.Drawing.Point(8, 224);
-            this.flagReduceEncounterRate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.flagReduceEncounterRate.Name = "flagReduceEncounterRate";
-            this.flagReduceEncounterRate.Padding = new System.Windows.Forms.Padding(5);
-            this.flagReduceEncounterRate.Size = new System.Drawing.Size(298, 46);
-            this.flagReduceEncounterRate.TabIndex = 24;
-            this.flagReduceEncounterRate.Text = "Reduce encounter rate";
-            this.toolTip1.SetToolTip(this.flagReduceEncounterRate, "Reduces rate of random encounters significantly on the ocean and slightly everywh" +
+			this.flagFiendsDropRibbons.UseVisualStyleBackColor = true;
+			this.flagFiendsDropRibbons.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// flagRebalanceBosses
+			// 
+			this.flagRebalanceBosses.AutoSize = true;
+			this.flagRebalanceBosses.Location = new System.Drawing.Point(5, 51);
+			this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagRebalanceBosses.Name = "flagRebalanceBosses";
+			this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.flagRebalanceBosses.Size = new System.Drawing.Size(131, 30);
+			this.flagRebalanceBosses.TabIndex = 6;
+			this.flagRebalanceBosses.Text = "Harder bosses";
+			this.toolTip1.SetToolTip(this.flagRebalanceBosses, "Increase HP of several bosses, notably Death Eye and the Fiend refights.");
+			this.flagRebalanceBosses.UseVisualStyleBackColor = true;
+			this.flagRebalanceBosses.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// btnRestoreVanilla
+			// 
+			this.btnRestoreVanilla.Location = new System.Drawing.Point(649, 508);
+			this.btnRestoreVanilla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.btnRestoreVanilla.Name = "btnRestoreVanilla";
+			this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.btnRestoreVanilla.Size = new System.Drawing.Size(120, 33);
+			this.btnRestoreVanilla.TabIndex = 27;
+			this.btnRestoreVanilla.Text = "Restore vanilla";
+			this.toolTip1.SetToolTip(this.btnRestoreVanilla, "Undo previous randomization and restore files to a vanilla configuration.");
+			this.btnRestoreVanilla.UseVisualStyleBackColor = true;
+			this.btnRestoreVanilla.Click += new System.EventHandler(this.btnRestoreVanilla_Click);
+			// 
+			// flagReduceEncounterRate
+			// 
+			this.flagReduceEncounterRate.AutoSize = true;
+			this.flagReduceEncounterRate.Location = new System.Drawing.Point(5, 140);
+			this.flagReduceEncounterRate.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagReduceEncounterRate.Name = "flagReduceEncounterRate";
+			this.flagReduceEncounterRate.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.flagReduceEncounterRate.Size = new System.Drawing.Size(186, 30);
+			this.flagReduceEncounterRate.TabIndex = 24;
+			this.flagReduceEncounterRate.Text = "Reduce encounter rate";
+			this.toolTip1.SetToolTip(this.flagReduceEncounterRate, "Reduces rate of random encounters significantly on the ocean and slightly everywh" +
         "ere else.");
             this.flagReduceEncounterRate.UseVisualStyleBackColor = true;
             // 
