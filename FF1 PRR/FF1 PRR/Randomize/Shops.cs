@@ -182,13 +182,13 @@ namespace FF1_PRR.Randomize
 				ShopItem fixAntidote = new();
 				fixAntidote.id = max_id;
 				fixAntidote.content_id = Items.antidote;
-				fixAntidote.group_id = iCornelia;
+				fixAntidote.group_id = 3; // Product.itemStores.iCornelia;
 				shopDB.Add(fixAntidote);
 
 				ShopItem fixGoldNeedle = new();
 				fixGoldNeedle.id = max_id+1;
 				fixGoldNeedle.content_id = Items.goldNeedle;
-				fixGoldNeedle.group_id = iCornelia;
+				fixGoldNeedle.group_id = 3; // Product.itemStores.iCornelia;
 				shopDB.Add(fixGoldNeedle);
 			}
 			else // Generate new shop contents
