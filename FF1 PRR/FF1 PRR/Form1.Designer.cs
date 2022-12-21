@@ -424,8 +424,8 @@ namespace FF1_PRR
 			// flagRestoreCritRating
 			// 
 			this.flagRestoreCritRating.AutoSize = true;
-			this.flagRestoreCritRating.Location = new System.Drawing.Point(5, 82);
-			this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagRestoreCritRating.Location = new System.Drawing.Point(3, 51);
+			this.flagRestoreCritRating.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.flagRestoreCritRating.Name = "flagRestoreCritRating";
 			this.flagRestoreCritRating.Padding = new System.Windows.Forms.Padding(3);
 			this.flagRestoreCritRating.Size = new System.Drawing.Size(155, 30);
@@ -438,8 +438,8 @@ namespace FF1_PRR
 			// flagWandsAddInt
 			// 
 			this.flagWandsAddInt.AutoSize = true;
-			this.flagWandsAddInt.Location = new System.Drawing.Point(5, 111);
-			this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagWandsAddInt.Location = new System.Drawing.Point(6, 84);
+			this.flagWandsAddInt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.flagWandsAddInt.Name = "flagWandsAddInt";
 			this.flagWandsAddInt.Padding = new System.Windows.Forms.Padding(3);
 			this.flagWandsAddInt.Size = new System.Drawing.Size(138, 30);
@@ -467,8 +467,8 @@ namespace FF1_PRR
 			// flagRebalanceBosses
 			// 
 			this.flagRebalanceBosses.AutoSize = true;
-			this.flagRebalanceBosses.Location = new System.Drawing.Point(5, 51);
-			this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagRebalanceBosses.Location = new System.Drawing.Point(7, 52);
+			this.flagRebalanceBosses.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.flagRebalanceBosses.Name = "flagRebalanceBosses";
 			this.flagRebalanceBosses.Padding = new System.Windows.Forms.Padding(3);
 			this.flagRebalanceBosses.Size = new System.Drawing.Size(131, 30);
@@ -494,8 +494,8 @@ namespace FF1_PRR
 			// flagReduceEncounterRate
 			// 
 			this.flagReduceEncounterRate.AutoSize = true;
-			this.flagReduceEncounterRate.Location = new System.Drawing.Point(5, 140);
-			this.flagReduceEncounterRate.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
+			this.flagReduceEncounterRate.Location = new System.Drawing.Point(6, 112);
+			this.flagReduceEncounterRate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.flagReduceEncounterRate.Name = "flagReduceEncounterRate";
 			this.flagReduceEncounterRate.Padding = new System.Windows.Forms.Padding(3);
 			this.flagReduceEncounterRate.Size = new System.Drawing.Size(186, 30);
