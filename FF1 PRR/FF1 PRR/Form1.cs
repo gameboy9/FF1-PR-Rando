@@ -20,8 +20,8 @@ namespace FF1_PRR
 		bool loading = true;
 		Random r1;
 		DateTime lastGameAssets;
-		const string defaultFlags = "BwA2";
 		const string defaultVisualFlags = "0";
+		const string defaultFlags = "hu4P90";
 
 		public FF1PRR()
 		{
@@ -32,12 +32,16 @@ namespace FF1_PRR
 		{
 			if (loading) return;
 
+			flagNoEscapeRandomize.Enabled = flagNoEscapeNES.Checked;
+
 			string flags = "";
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions, flagReduceEncounterRate }));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP }));
 			// Combo boxes time...
 			flags += convertIntToChar(modeShops.SelectedIndex + (8 * modeXPBoost.SelectedIndex));
-			flags += convertIntToChar(modeTreasure.SelectedIndex + (8 * 0));
+			flags += convertIntToChar(modeTreasure.SelectedIndex + (8 * modeMagic.SelectedIndex));
+			flags += convertIntToChar(modeMonsterStatAdjustment.SelectedIndex + (16 * 0));
 			RandoFlags.Text = flags;
 
 			flags = "";
@@ -47,9 +51,9 @@ namespace FF1_PRR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 4)
+			if (loading && RandoFlags.Text.Length < 6)
 				RandoFlags.Text = defaultFlags;
-			else if (RandoFlags.Text.Length < 4)
+			else if (RandoFlags.Text.Length < 6)
 				return;
 
 			if (loading && VisualFlags.Text.Length < 1)
@@ -60,14 +64,20 @@ namespace FF1_PRR
 			loading = true;
 
 			string flags = RandoFlags.Text;
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions, flagReduceEncounterRate });
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
-			modeShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
-			modeXPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
-			modeTreasure.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(2, 1))), new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP });
+			modeShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
+			modeXPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) / 8;
+			modeTreasure.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) % 8;
+			modeMagic.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) / 8;
+			modeMonsterStatAdjustment.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(5, 1))) % 16;
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
+
+			// Need to disable randomize "no escapes" if the original "no escape" is not checked.
+			flagNoEscapeRandomize.Enabled = flagNoEscapeNES.Checked;
 
 			loading = false;
 		}
@@ -139,10 +149,6 @@ namespace FF1_PRR
 				RandoFlags.Text = defaultFlags;
 				VisualFlags.Text = defaultVisualFlags;
 				// ignore error
-				modeShops.SelectedIndex = 1;
-				modeTreasure.SelectedIndex = 1;
-				modeMagic.SelectedIndex = 1;
-				modeXPBoost.SelectedIndex = 1;
 				loading = false;
 				determineChecks(null, null);
 			}
@@ -197,6 +203,7 @@ namespace FF1_PRR
 				"product.csv", // used by Shop randomization
 				"weapon.csv",  // used by balance flags
 				"monster.csv", // used by xp boost & monster flags
+				"monster_party.csv", // used by no escape flags
 				"item.csv",    // used by price rebalance flag
 				"armor.csv",   // used by price rebalance flag
 				"foot_information.csv", // used by encounter rate flag
@@ -252,6 +259,7 @@ namespace FF1_PRR
 			if (modeShops.SelectedIndex > 0) randomizeShops();
 			if (flagKeyItems.Checked) randomizeKeyItems();
 			if (modeTreasure.SelectedIndex > 0) randomizeTreasure();
+			if (flagNoEscapeNES.Checked) noEscapeAdjustment();
 			monsterBoost();
 			if (CuteHats.Checked)
 			{
@@ -393,7 +401,26 @@ namespace FF1_PRR
 				modeXPBoost.SelectedIndex == 4 ? 3.0 :
 				modeXPBoost.SelectedIndex == 5 ? 4.0 :
 				modeXPBoost.SelectedIndex == 6 ? 5.0 : 10;
-			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), xp, 0, xp, 0);
+
+			double minStatAdjustment = modeMonsterStatAdjustment.SelectedIndex == 1 ? 0.6666667 :
+				modeMonsterStatAdjustment.SelectedIndex == 2 ? 0.5 :
+				modeMonsterStatAdjustment.SelectedIndex == 3 ? 0.3333333 :
+				modeMonsterStatAdjustment.SelectedIndex == 4 ? 0.25 :
+				modeMonsterStatAdjustment.SelectedIndex == 5 ? 0.2 : 1;
+
+			double maxStatAdjustment = modeMonsterStatAdjustment.SelectedIndex == 6 ? 1.25 :
+				modeMonsterStatAdjustment.SelectedIndex == 1 || modeMonsterStatAdjustment.SelectedIndex == 7 ? 1.5 :
+				modeMonsterStatAdjustment.SelectedIndex == 2 || modeMonsterStatAdjustment.SelectedIndex == 8 ? 2 :
+				modeMonsterStatAdjustment.SelectedIndex == 3 || modeMonsterStatAdjustment.SelectedIndex == 9 ? 3 :
+				modeMonsterStatAdjustment.SelectedIndex == 4 || modeMonsterStatAdjustment.SelectedIndex == 10 ? 4 :
+				modeMonsterStatAdjustment.SelectedIndex == 5 || modeMonsterStatAdjustment.SelectedIndex == 11 ? 5 : 1;
+
+			Monster monsters = new Monster(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master", "monster.csv"), xp, 0, xp, 0, minStatAdjustment, maxStatAdjustment);
+		}
+
+		private void noEscapeAdjustment()
+		{
+			MonsterParty.mandatoryRandomEncounters(r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master"), flagNoEscapeRandomize.Checked);
 		}
 
 		private void frmFF1PRR_FormClosing(object sender, FormClosingEventArgs e)
