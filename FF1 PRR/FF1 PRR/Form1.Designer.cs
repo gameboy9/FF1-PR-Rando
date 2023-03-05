@@ -71,6 +71,11 @@ namespace FF1_PRR
 			this.flagNoEscapeRandomize = new System.Windows.Forms.CheckBox();
 			this.label10 = new System.Windows.Forms.Label();
 			this.modeMonsterStatAdjustment = new System.Windows.Forms.ComboBox();
+			this.label11 = new System.Windows.Forms.Label();
+			this.modeHeroStats = new System.Windows.Forms.ComboBox();
+			this.flagHeroStatsStandardize = new System.Windows.Forms.CheckBox();
+			this.statExplanation = new System.Windows.Forms.Button();
+			this.flagBoostPromoted = new System.Windows.Forms.CheckBox();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -83,7 +88,7 @@ namespace FF1_PRR
 			// 
 			// btnRandomize
 			// 
-			this.btnRandomize.Location = new System.Drawing.Point(649, 578);
+			this.btnRandomize.Location = new System.Drawing.Point(649, 654);
 			this.btnRandomize.Margin = new System.Windows.Forms.Padding(2);
 			this.btnRandomize.Name = "btnRandomize";
 			this.btnRandomize.Padding = new System.Windows.Forms.Padding(3);
@@ -183,7 +188,7 @@ namespace FF1_PRR
 			// NewChecksum
 			// 
 			this.NewChecksum.AutoSize = true;
-			this.NewChecksum.Location = new System.Drawing.Point(12, 582);
+			this.NewChecksum.Location = new System.Drawing.Point(12, 658);
 			this.NewChecksum.Margin = new System.Windows.Forms.Padding(2);
 			this.NewChecksum.Name = "NewChecksum";
 			this.NewChecksum.Padding = new System.Windows.Forms.Padding(3);
@@ -306,7 +311,7 @@ namespace FF1_PRR
 			// flagMagicShuffleShops
 			// 
 			this.flagMagicShuffleShops.AutoSize = true;
-			this.flagMagicShuffleShops.Location = new System.Drawing.Point(8, 69);
+			this.flagMagicShuffleShops.Location = new System.Drawing.Point(11, 60);
 			this.flagMagicShuffleShops.Margin = new System.Windows.Forms.Padding(6);
 			this.flagMagicShuffleShops.Name = "flagMagicShuffleShops";
 			this.flagMagicShuffleShops.Padding = new System.Windows.Forms.Padding(3);
@@ -320,7 +325,7 @@ namespace FF1_PRR
 			// flagMagicKeepPermissions
 			// 
 			this.flagMagicKeepPermissions.AutoSize = true;
-			this.flagMagicKeepPermissions.Location = new System.Drawing.Point(172, 69);
+			this.flagMagicKeepPermissions.Location = new System.Drawing.Point(150, 59);
 			this.flagMagicKeepPermissions.Margin = new System.Windows.Forms.Padding(6);
 			this.flagMagicKeepPermissions.Name = "flagMagicKeepPermissions";
 			this.flagMagicKeepPermissions.Padding = new System.Windows.Forms.Padding(3);
@@ -480,7 +485,7 @@ namespace FF1_PRR
 			// 
 			// btnRestoreVanilla
 			// 
-			this.btnRestoreVanilla.Location = new System.Drawing.Point(649, 545);
+			this.btnRestoreVanilla.Location = new System.Drawing.Point(649, 621);
 			this.btnRestoreVanilla.Margin = new System.Windows.Forms.Padding(2);
 			this.btnRestoreVanilla.Name = "btnRestoreVanilla";
 			this.btnRestoreVanilla.Padding = new System.Windows.Forms.Padding(3);
@@ -614,6 +619,80 @@ namespace FF1_PRR
 			this.toolTip1.SetToolTip(this.modeMonsterStatAdjustment, "Randomize magic spells. None: . Standard: . Pro: . Wild: . Chaos: .");
 			this.modeMonsterStatAdjustment.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
 			// 
+			// label11
+			// 
+			this.label11.AutoSize = true;
+			this.label11.Location = new System.Drawing.Point(6, 95);
+			this.label11.Margin = new System.Windows.Forms.Padding(6);
+			this.label11.Name = "label11";
+			this.label11.Padding = new System.Windows.Forms.Padding(3);
+			this.label11.Size = new System.Drawing.Size(87, 26);
+			this.label11.TabIndex = 23;
+			this.label11.Text = "Hero Stats:";
+			this.toolTip1.SetToolTip(this.label11, "Randomize magic spells. None: . Standard: . Pro: . Wild: . Chaos: .");
+			// 
+			// modeHeroStats
+			// 
+			this.modeHeroStats.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.modeHeroStats.FormattingEnabled = true;
+			this.modeHeroStats.Items.AddRange(new object[] {
+            "None",
+            "Shuffle",
+            "Standard",
+            "Silly",
+            "Wild",
+            "Chaos"});
+			this.modeHeroStats.Location = new System.Drawing.Point(121, 94);
+			this.modeHeroStats.Margin = new System.Windows.Forms.Padding(6);
+			this.modeHeroStats.Name = "modeHeroStats";
+			this.modeHeroStats.Size = new System.Drawing.Size(151, 28);
+			this.modeHeroStats.TabIndex = 24;
+			this.toolTip1.SetToolTip(this.modeHeroStats, "Randomize magic spells. None: . Standard: . Pro: . Wild: . Chaos: .");
+			this.modeHeroStats.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// flagHeroStatsStandardize
+			// 
+			this.flagHeroStatsStandardize.AutoSize = true;
+			this.flagHeroStatsStandardize.Location = new System.Drawing.Point(121, 131);
+			this.flagHeroStatsStandardize.Margin = new System.Windows.Forms.Padding(6);
+			this.flagHeroStatsStandardize.Name = "flagHeroStatsStandardize";
+			this.flagHeroStatsStandardize.Padding = new System.Windows.Forms.Padding(3);
+			this.flagHeroStatsStandardize.Size = new System.Drawing.Size(116, 30);
+			this.flagHeroStatsStandardize.TabIndex = 25;
+			this.flagHeroStatsStandardize.Text = "Standardize";
+			this.toolTip1.SetToolTip(this.flagHeroStatsStandardize, "Preserve who may learn each spell, rather than adjusting to the spell\'s new slot." +
+        " (eg, level 1 Flare can still only be learned by Black Wizard)");
+			this.flagHeroStatsStandardize.UseVisualStyleBackColor = true;
+			this.flagHeroStatsStandardize.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// statExplanation
+			// 
+			this.statExplanation.Location = new System.Drawing.Point(280, 93);
+			this.statExplanation.Margin = new System.Windows.Forms.Padding(2);
+			this.statExplanation.Name = "statExplanation";
+			this.statExplanation.Padding = new System.Windows.Forms.Padding(3);
+			this.statExplanation.Size = new System.Drawing.Size(28, 33);
+			this.statExplanation.TabIndex = 28;
+			this.statExplanation.Text = "?";
+			this.toolTip1.SetToolTip(this.statExplanation, "Undo previous randomization and restore files to a vanilla configuration.");
+			this.statExplanation.UseVisualStyleBackColor = true;
+			this.statExplanation.Click += new System.EventHandler(this.statExplanation_Click);
+			// 
+			// flagBoostPromoted
+			// 
+			this.flagBoostPromoted.AutoSize = true;
+			this.flagBoostPromoted.Location = new System.Drawing.Point(249, 131);
+			this.flagBoostPromoted.Margin = new System.Windows.Forms.Padding(6);
+			this.flagBoostPromoted.Name = "flagBoostPromoted";
+			this.flagBoostPromoted.Padding = new System.Windows.Forms.Padding(3);
+			this.flagBoostPromoted.Size = new System.Drawing.Size(195, 30);
+			this.flagBoostPromoted.TabIndex = 29;
+			this.flagBoostPromoted.Text = "Boost promoted classes";
+			this.toolTip1.SetToolTip(this.flagBoostPromoted, "Preserve who may learn each spell, rather than adjusting to the spell\'s new slot." +
+        " (eg, level 1 Flare can still only be learned by Black Wizard)");
+			this.flagBoostPromoted.UseVisualStyleBackColor = true;
+			this.flagBoostPromoted.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			// 
 			// groupBox1
 			// 
 			this.groupBox1.Controls.Add(this.label8);
@@ -650,6 +729,11 @@ namespace FF1_PRR
 			// 
 			// groupBox3
 			// 
+			this.groupBox3.Controls.Add(this.flagBoostPromoted);
+			this.groupBox3.Controls.Add(this.statExplanation);
+			this.groupBox3.Controls.Add(this.flagHeroStatsStandardize);
+			this.groupBox3.Controls.Add(this.modeHeroStats);
+			this.groupBox3.Controls.Add(this.label11);
 			this.groupBox3.Controls.Add(this.label9);
 			this.groupBox3.Controls.Add(this.flagMagicShuffleShops);
 			this.groupBox3.Controls.Add(this.modeMagic);
@@ -658,7 +742,7 @@ namespace FF1_PRR
 			this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-			this.groupBox3.Size = new System.Drawing.Size(465, 112);
+			this.groupBox3.Size = new System.Drawing.Size(465, 169);
 			this.groupBox3.TabIndex = 25;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Abilities";
@@ -673,7 +757,7 @@ namespace FF1_PRR
 			this.groupBox4.Controls.Add(this.flagRebalanceBosses);
 			this.groupBox4.Controls.Add(this.flagFiendsDropRibbons);
 			this.groupBox4.Controls.Add(this.flagBossShuffle);
-			this.groupBox4.Location = new System.Drawing.Point(7, 406);
+			this.groupBox4.Location = new System.Drawing.Point(7, 478);
 			this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
 			this.groupBox4.Name = "groupBox4";
 			this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
@@ -686,7 +770,7 @@ namespace FF1_PRR
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(780, 620);
+			this.ClientSize = new System.Drawing.Size(780, 694);
 			this.Controls.Add(this.btnRestoreVanilla);
 			this.Controls.Add(this.groupBox4);
 			this.Controls.Add(this.groupBox3);
@@ -771,6 +855,11 @@ namespace FF1_PRR
 		private System.Windows.Forms.CheckBox flagNoEscapeNES;
 		private System.Windows.Forms.ComboBox modeMonsterStatAdjustment;
 		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.CheckBox flagHeroStatsStandardize;
+		private System.Windows.Forms.ComboBox modeHeroStats;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Button statExplanation;
+		private System.Windows.Forms.CheckBox flagBoostPromoted;
 	}
 }
 

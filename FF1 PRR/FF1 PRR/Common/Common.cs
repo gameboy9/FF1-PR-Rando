@@ -21,7 +21,7 @@ namespace FF1_PRR.Common
             }
         }
 
-        public static bool AreAnyDuplicates<T>(this IEnumerable<T> list)
+		public static bool AreAnyDuplicates<T>(this IEnumerable<T> list)
         {
             var hashset = new HashSet<T>();
             return list.Any(e => !hashset.Add(e));
