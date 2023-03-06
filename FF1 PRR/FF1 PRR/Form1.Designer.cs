@@ -80,6 +80,7 @@ namespace FF1_PRR
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
+			this.btnInstall = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			this.groupBox3.SuspendLayout();
@@ -766,11 +767,24 @@ namespace FF1_PRR
 			this.groupBox4.TabStop = false;
 			this.groupBox4.Text = "Monsters && Bosses";
 			// 
+			// btnInstall
+			// 
+			this.btnInstall.Location = new System.Drawing.Point(649, 508);
+			this.btnInstall.Margin = new System.Windows.Forms.Padding(2);
+			this.btnInstall.Name = "btnInstall";
+			this.btnInstall.Padding = new System.Windows.Forms.Padding(3);
+			this.btnInstall.Size = new System.Drawing.Size(120, 33);
+			this.btnInstall.TabIndex = 28;
+			this.btnInstall.Text = "Install";
+			this.btnInstall.UseVisualStyleBackColor = true;
+			this.btnInstall.Click += new System.EventHandler(this.btnInstall_Click);
+			// 
 			// FF1PRR
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(780, 694);
+			this.Controls.Add(this.btnInstall);
 			this.Controls.Add(this.btnRestoreVanilla);
 			this.Controls.Add(this.groupBox4);
 			this.Controls.Add(this.groupBox3);
@@ -855,6 +869,7 @@ namespace FF1_PRR
 		private System.Windows.Forms.CheckBox flagNoEscapeNES;
 		private System.Windows.Forms.ComboBox modeMonsterStatAdjustment;
 		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Button btnInstall;
 		private System.Windows.Forms.CheckBox flagHeroStatsStandardize;
 		private System.Windows.Forms.ComboBox modeHeroStats;
 		private System.Windows.Forms.Label label11;
