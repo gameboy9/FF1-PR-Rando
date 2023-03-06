@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace FF1_PRR.Inventory
 {
-	public class Updater
+	public static class Updater
 	{
-		public Updater(string directory, ref DateTime lastGameAssets)
+		public static void install(string directory, ref DateTime lastGameAssets)
 		{
 			DateTime currentGameAssets = File.GetLastWriteTime("GameAssets.zip");
 			// Round down to prevent bad comparisons.

@@ -142,6 +142,9 @@ namespace FF1_PRR
 
 					//runChecksum();
 					loading = false;
+
+					if (lastGameAssets > DateTime.MinValue)
+						btnInstall.Text = "Uninstall";
 				}
 			}
 			catch
@@ -235,6 +238,7 @@ namespace FF1_PRR
 		private void btnRestoreVanilla_Click(object sender, EventArgs e)
 		{
 			restoreVanilla();
+			MessageBox.Show("Restoration to vanilla complete!");
 		}
 
 		private void btnRandomize_Click(object sender, EventArgs e)
@@ -448,13 +452,31 @@ namespace FF1_PRR
 
 		private void btnInstall_Click(object sender, EventArgs e)
 		{
-			if (File.Exists("BepInEx.zip") && File.Exists("GameAssets.zip"))
+			if (btnInstall.Text == "Uninstall")
 			{
-				new Inventory.Updater(Path.Combine(FF1PRFolder.Text), ref lastGameAssets);
-				MessageBox.Show("Installation complete!");
+				if (MessageBox.Show("Are you sure that you want to uninstall?", "Uninstall", MessageBoxButtons.YesNo) == DialogResult.Yes)
+				{
+					if (Path.Exists(Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets")))
+						Directory.Delete(Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets"), true);
+					if (Path.Exists(Path.Combine(FF1PRFolder.Text, "BepInEx")))
+						Directory.Delete(Path.Combine(FF1PRFolder.Text, "BepInEx"), true);
+					if (Path.Exists(Path.Combine(FF1PRFolder.Text, "mono")))
+						Directory.Delete(Path.Combine(FF1PRFolder.Text, "mono"), true);
+					lastGameAssets = DateTime.MinValue;
+					btnInstall.Text = "Install";
+					MessageBox.Show("Uninstall successful!");
+				}
+			} else
+			{
+				if (File.Exists("BepInEx.zip") && File.Exists("GameAssets.zip"))
+				{
+					Inventory.Updater.install(Path.Combine(FF1PRFolder.Text), ref lastGameAssets);
+					btnInstall.Text = "Uninstall";
+					MessageBox.Show("Installation complete!");
+				}
+				else
+					MessageBox.Show("Unable to install; BepInEx.zip and GameAssets.zip need to be in the same folder as this randomizer.");
 			}
-			else
-				MessageBox.Show("Unable to install; BepInEx.zip and GameAssets.zip need to be in the same folder as this randomizer.");
 		}
 	}
 }
