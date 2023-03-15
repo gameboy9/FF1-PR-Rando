@@ -21,7 +21,7 @@ namespace FF1_PRR
 		Random r1;
 		DateTime lastGameAssets;
 		const string defaultVisualFlags = "0";
-		const string defaultFlags = "hu4P90";
+		const string defaultFlags = "huCP900";
 
 		public FF1PRR()
 		{
@@ -37,11 +37,12 @@ namespace FF1_PRR
 			string flags = "";
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions, flagReduceEncounterRate }));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt }));
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP, flagHeroStatsStandardize, flagBoostPromoted }));
 			// Combo boxes time...
 			flags += convertIntToChar(modeShops.SelectedIndex + (8 * modeXPBoost.SelectedIndex));
 			flags += convertIntToChar(modeTreasure.SelectedIndex + (8 * modeMagic.SelectedIndex));
 			flags += convertIntToChar(modeMonsterStatAdjustment.SelectedIndex + (16 * 0));
+			flags += convertIntToChar(modeHeroStats.SelectedIndex);
 			RandoFlags.Text = flags;
 
 			flags = "";
@@ -51,9 +52,9 @@ namespace FF1_PRR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 6)
+			if (loading && RandoFlags.Text.Length < 7)
 				RandoFlags.Text = defaultFlags;
-			else if (RandoFlags.Text.Length < 6)
+			else if (RandoFlags.Text.Length < 7)
 				return;
 
 			if (loading && VisualFlags.Text.Length < 1)
@@ -66,12 +67,13 @@ namespace FF1_PRR
 			string flags = RandoFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { flagBossShuffle, flagKeyItems, flagShopsTrad, flagMagicShuffleShops, flagMagicKeepPermissions, flagReduceEncounterRate });
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(1, 1))), new CheckBox[] { flagTreasureTrad, flagRebalanceBosses, flagFiendsDropRibbons, flagRebalancePrices, flagRestoreCritRating, flagWandsAddInt });
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(2, 1))), new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(2, 1))), new CheckBox[] { flagNoEscapeNES, flagNoEscapeRandomize, flagReduceChaosHP, flagHeroStatsStandardize, flagBoostPromoted });
 			modeShops.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) % 8;
 			modeXPBoost.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(3, 1))) / 8;
 			modeTreasure.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) % 8;
 			modeMagic.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) / 8;
 			modeMonsterStatAdjustment.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(5, 1))) % 16;
+			modeHeroStats.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(6, 1))) % 8;
 
 			flags = VisualFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
@@ -210,7 +212,9 @@ namespace FF1_PRR
 				"item.csv",    // used by price rebalance flag
 				"armor.csv",   // used by price rebalance flag
 				"foot_information.csv", // used by encounter rate flag
-				"map.csv"      // used by encounter rate flag
+				"map.csv",      // used by encounter rate flag
+				"character_status.csv", // used by hero stats flags
+				"growth_curve.csv"      // used by hero stats flags
 			};
 			string[] DATA_MESSAGE =
 			{
@@ -264,6 +268,7 @@ namespace FF1_PRR
 			if (flagKeyItems.Checked) randomizeKeyItems();
 			if (modeTreasure.SelectedIndex > 0) randomizeTreasure();
 			if (flagNoEscapeNES.Checked) noEscapeAdjustment();
+			if (flagHeroStatsStandardize.Checked || modeHeroStats.SelectedIndex > 0) randomizeHeroStats();
 			monsterBoost();
 			if (CuteHats.Checked)
 			{
@@ -396,6 +401,12 @@ namespace FF1_PRR
 				flagTreasureTrad.Checked, flagFiendsDropRibbons.Checked);
 		}
 
+		private void randomizeHeroStats()
+		{
+			Stats.RandomizeStats(modeHeroStats.SelectedIndex, flagHeroStatsStandardize.Checked, flagBoostPromoted.Checked, r1, Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master"), 
+				Path.Combine(FF1PRFolder.Text, "FINAL FANTASY_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Message"));
+		}
+
 		private void monsterBoost()
 		{
 			double xp = modeXPBoost.SelectedIndex == 0 ? 0.5 :
@@ -477,6 +488,19 @@ namespace FF1_PRR
 				else
 					MessageBox.Show("Unable to install; BepInEx.zip and GameAssets.zip need to be in the same folder as this randomizer.");
 			}
+		}
+
+		private void statExplanation_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("None - Keep stats at vanilla\r\n" +
+				"Shuffle - Each character will get the same stats at level up, but when they earn them are shuffled around\r\n" +
+				"Standard - Each character will get a percentage chance of a strong level up consistent to their class\r\n" +
+				"Silly - Stat growth is randomized, but will be approx. similar to the stat gains in the base game\r\n" +
+				"Wild - Randomized stat growth.  Similar to base game stats, but can vary wildly\r\n" +
+				"Chaos - Randomized stat growth.  Characters can have any stat gain\r\n" +
+				"Standardized - For None, Shuffle, and Standard, make stat gains consistent for each play for the seed.  Great for races!\r\n" +
+				"Boost promoted classes - 25% chance of higher stats on shuffle and standard, 25%, +/-, higher stats on silly, wild, and chaos for promoted classes\r\n" +
+				"NOTE:  Accuracy and magic defense is only randomized in silly, wild, or chaos settings");
 		}
 	}
 }
